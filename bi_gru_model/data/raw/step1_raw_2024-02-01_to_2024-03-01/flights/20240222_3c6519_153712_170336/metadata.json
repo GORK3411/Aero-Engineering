@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240222_3c6519_153712_170336",
+  "icao24": "3c6519",
+  "segment_start_time": "2024-02-22T15:37:12",
+  "segment_end_time": "2024-02-22T17:03:36",
+  "gap_duration_minutes": 86.4,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "3c6519",
+    "flight_start_time": "2024-02-22T15:05:33",
+    "flight_end_time": "2024-02-23T01:14:38",
+    "callsign": "DLH542",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7457,
+    "during_count": 0,
+    "after_count": 2302,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 86.4,
+    "before_boundary_speed_kts": 484.89203844446604,
+    "after_boundary_speed_kts": 437.0467813750364,
+    "max_internal_speed_kts": 419.02561632821994,
+    "median_internal_speed_kts": 419.02561632821994
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240222_3c6519_153712_170336/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240222_3c6519_153712_170336/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240222_3c6519_153712_170336/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240222_3c6519_153712_170336/stitched_minimal.parquet"
+  }
+}

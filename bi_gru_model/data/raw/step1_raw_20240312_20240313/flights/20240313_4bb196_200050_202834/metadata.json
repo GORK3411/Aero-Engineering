@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240313_4bb196_200050_202834",
+  "icao24": "4bb196",
+  "segment_start_time": "2024-03-13T20:00:50",
+  "segment_end_time": "2024-03-13T20:28:34",
+  "gap_duration_minutes": 27.733333333333334,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "4bb196",
+    "flight_start_time": "2024-03-13T14:50:23",
+    "flight_end_time": "2024-03-14T02:30:27",
+    "callsign": "THY8DE",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": "KSEA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1369,
+    "during_count": 0,
+    "after_count": 2202,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 27.733333333333334,
+    "before_boundary_speed_kts": 490.460050462364,
+    "after_boundary_speed_kts": 472.0164426026757,
+    "max_internal_speed_kts": 467.54642006872047,
+    "median_internal_speed_kts": 467.54642006872047
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4bb196_200050_202834/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4bb196_200050_202834/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4bb196_200050_202834/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4bb196_200050_202834/stitched_minimal.parquet"
+  }
+}

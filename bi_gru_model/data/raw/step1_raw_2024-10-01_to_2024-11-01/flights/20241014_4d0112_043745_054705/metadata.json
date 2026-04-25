@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241014_4d0112_043745_054705",
+  "icao24": "4d0112",
+  "segment_start_time": "2024-10-14T04:37:45",
+  "segment_end_time": "2024-10-14T05:47:05",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "4d0112",
+    "flight_start_time": "2024-10-14T04:36:33",
+    "flight_end_time": "2024-10-14T10:49:51",
+    "callsign": "CLX57K",
+    "estdepartureairport": "KJFK",
+    "estarrivalairport": "ELLX"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2701,
+    "during_count": 0,
+    "after_count": 5723,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 601.4675835807324,
+    "after_boundary_speed_kts": 530.0441012790434,
+    "max_internal_speed_kts": 585.5202040028034,
+    "median_internal_speed_kts": 573.1736428813647
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_4d0112_043745_054705/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_4d0112_043745_054705/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_4d0112_043745_054705/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_4d0112_043745_054705/stitched_minimal.parquet"
+  }
+}

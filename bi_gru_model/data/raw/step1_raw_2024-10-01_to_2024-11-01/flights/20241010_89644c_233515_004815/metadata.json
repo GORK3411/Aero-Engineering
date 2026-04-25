@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241010_89644c_233515_004815",
+  "icao24": "89644c",
+  "segment_start_time": "2024-10-10T23:35:15",
+  "segment_end_time": "2024-10-11T00:48:15",
+  "gap_duration_minutes": 73.0,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "89644c",
+    "flight_start_time": "2024-10-10T20:46:06",
+    "flight_end_time": "2024-10-11T19:38:56",
+    "callsign": "UAE4M",
+    "estdepartureairport": "KDFW",
+    "estarrivalairport": "VGZR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1444,
+    "during_count": 0,
+    "after_count": 10142,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 73.0,
+    "before_boundary_speed_kts": 580.6635148548299,
+    "after_boundary_speed_kts": 535.3682910323403,
+    "max_internal_speed_kts": 541.4391893011114,
+    "median_internal_speed_kts": 520.3747019176071
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241010_89644c_233515_004815/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241010_89644c_233515_004815/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241010_89644c_233515_004815/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241010_89644c_233515_004815/stitched_minimal.parquet"
+  }
+}

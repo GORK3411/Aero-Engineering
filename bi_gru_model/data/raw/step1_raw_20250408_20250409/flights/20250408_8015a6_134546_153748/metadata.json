@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_8015a6_134546_153748",
+  "icao24": "8015a6",
+  "segment_start_time": "2025-04-08T13:45:46",
+  "segment_end_time": "2025-04-08T15:37:48",
+  "gap_duration_minutes": 112.03333333333333,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "8015a6",
+    "flight_start_time": "2025-04-08T12:41:18",
+    "flight_end_time": "2025-04-08T21:49:41",
+    "callsign": "AIC131",
+    "estdepartureairport": "VABB",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 809,
+    "during_count": 0,
+    "after_count": 15971,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 112.03333333333333,
+    "before_boundary_speed_kts": 482.0282463527835,
+    "after_boundary_speed_kts": 451.872832374424,
+    "max_internal_speed_kts": 482.4784235941543,
+    "median_internal_speed_kts": 465.488573637709
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_8015a6_134546_153748/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_8015a6_134546_153748/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_8015a6_134546_153748/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_8015a6_134546_153748/stitched_minimal.parquet"
+  }
+}

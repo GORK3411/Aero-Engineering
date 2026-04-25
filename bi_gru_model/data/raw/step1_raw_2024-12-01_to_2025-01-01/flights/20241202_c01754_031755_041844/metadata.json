@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241202_c01754_031755_041844",
+  "icao24": "c01754",
+  "segment_start_time": "2024-12-02T03:17:55",
+  "segment_end_time": "2024-12-02T04:18:44",
+  "gap_duration_minutes": 60.81666666666667,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "c01754",
+    "flight_start_time": "2024-12-02T02:57:06",
+    "flight_end_time": "2024-12-02T08:43:18",
+    "callsign": "ACA832",
+    "estdepartureairport": "CYUL",
+    "estarrivalairport": "EBBR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2643,
+    "during_count": 0,
+    "after_count": 5712,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 60.81666666666667,
+    "before_boundary_speed_kts": 610.9956715628456,
+    "after_boundary_speed_kts": 564.8020656096305,
+    "max_internal_speed_kts": 648.1680336725301,
+    "median_internal_speed_kts": 637.015354844089
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241202_c01754_031755_041844/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241202_c01754_031755_041844/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241202_c01754_031755_041844/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241202_c01754_031755_041844/stitched_minimal.parquet"
+  }
+}

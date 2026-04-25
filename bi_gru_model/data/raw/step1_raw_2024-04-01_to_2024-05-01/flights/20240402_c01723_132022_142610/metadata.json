@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240402_c01723_132022_142610",
+  "icao24": "c01723",
+  "segment_start_time": "2024-04-02T13:20:22",
+  "segment_end_time": "2024-04-02T14:26:10",
+  "gap_duration_minutes": 65.8,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "c01723",
+    "flight_start_time": "2024-04-02T14:15:04",
+    "flight_end_time": "2024-04-02T21:25:27",
+    "callsign": "ACA873",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6294,
+    "during_count": 0,
+    "after_count": 570,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 65.8,
+    "before_boundary_speed_kts": 512.2495253955626,
+    "after_boundary_speed_kts": 540.9445198534332,
+    "max_internal_speed_kts": 490.65498674212705,
+    "median_internal_speed_kts": 490.65498674212705
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240402_c01723_132022_142610/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240402_c01723_132022_142610/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240402_c01723_132022_142610/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240402_c01723_132022_142610/stitched_minimal.parquet"
+  }
+}

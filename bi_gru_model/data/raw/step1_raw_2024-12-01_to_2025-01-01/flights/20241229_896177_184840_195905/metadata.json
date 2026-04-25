@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241229_896177_184840_195905",
+  "icao24": "896177",
+  "segment_start_time": "2024-12-29T18:48:40",
+  "segment_end_time": "2024-12-29T19:59:05",
+  "gap_duration_minutes": 70.41666666666667,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "896177",
+    "flight_start_time": "2024-12-29T17:40:46",
+    "flight_end_time": "2024-12-30T05:19:38",
+    "callsign": "UAE244",
+    "estdepartureairport": "CYUL",
+    "estarrivalairport": "OMDB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1861,
+    "during_count": 0,
+    "after_count": 9068,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 70.41666666666667,
+    "before_boundary_speed_kts": 524.1460330491465,
+    "after_boundary_speed_kts": 583.2118299079558,
+    "max_internal_speed_kts": 558.8890430307096,
+    "median_internal_speed_kts": 537.3794211151065
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241229_896177_184840_195905/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241229_896177_184840_195905/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241229_896177_184840_195905/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241229_896177_184840_195905/stitched_minimal.parquet"
+  }
+}

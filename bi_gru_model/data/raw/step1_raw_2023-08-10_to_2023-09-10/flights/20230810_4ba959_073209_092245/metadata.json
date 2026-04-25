@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230810_4ba959_073209_092245",
+  "icao24": "4ba959",
+  "segment_start_time": "2023-08-10T07:32:09",
+  "segment_end_time": "2023-08-10T09:22:45",
+  "gap_duration_minutes": 110.6,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4ba959",
+    "flight_start_time": "2023-08-10T02:54:29",
+    "flight_end_time": "2023-08-10T16:20:59",
+    "callsign": "THY181",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "MMMX"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3399,
+    "during_count": 0,
+    "after_count": 2482,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 110.6,
+    "before_boundary_speed_kts": 579.5378873370623,
+    "after_boundary_speed_kts": 462.6413526229355,
+    "max_internal_speed_kts": 546.3966456453043,
+    "median_internal_speed_kts": 533.1667017288812
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230810_4ba959_073209_092245/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230810_4ba959_073209_092245/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230810_4ba959_073209_092245/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230810_4ba959_073209_092245/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240823_a76516_061740_074044",
+  "icao24": "a76516",
+  "segment_start_time": "2024-08-23T06:17:40",
+  "segment_end_time": "2024-08-23T07:40:44",
+  "gap_duration_minutes": 83.06666666666666,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a76516",
+    "flight_start_time": "2024-08-23T01:45:41",
+    "flight_end_time": "2024-08-23T08:59:50",
+    "callsign": "DAL108",
+    "estdepartureairport": "KATL",
+    "estarrivalairport": "LEMD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 300,
+    "during_count": 0,
+    "after_count": 3817,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 83.06666666666666,
+    "before_boundary_speed_kts": 571.4246045755303,
+    "after_boundary_speed_kts": 519.2050689049337,
+    "max_internal_speed_kts": 558.6246259369638,
+    "median_internal_speed_kts": 558.6246259369638
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240823_a76516_061740_074044/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240823_a76516_061740_074044/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240823_a76516_061740_074044/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240823_a76516_061740_074044/stitched_minimal.parquet"
+  }
+}

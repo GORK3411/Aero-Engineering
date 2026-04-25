@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240716_4079eb_115700_130847",
+  "icao24": "4079eb",
+  "segment_start_time": "2024-07-16T11:57:00",
+  "segment_end_time": "2024-07-16T13:08:47",
+  "gap_duration_minutes": 71.78333333333333,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "4079eb",
+    "flight_start_time": "2024-07-16T10:25:15",
+    "flight_end_time": "2024-07-16T17:26:47",
+    "callsign": "G0MTX",
+    "estdepartureairport": "EGLF",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5038,
+    "during_count": 0,
+    "after_count": 988,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 71.78333333333333,
+    "before_boundary_speed_kts": 777.7378487892979,
+    "after_boundary_speed_kts": 451.8508260867659,
+    "max_internal_speed_kts": 485.4783828014037,
+    "median_internal_speed_kts": 481.2854814411712
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240716_4079eb_115700_130847/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240716_4079eb_115700_130847/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240716_4079eb_115700_130847/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240716_4079eb_115700_130847/stitched_minimal.parquet"
+  }
+}

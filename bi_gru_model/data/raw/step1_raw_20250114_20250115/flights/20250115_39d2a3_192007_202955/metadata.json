@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_39d2a3_192007_202955",
+  "icao24": "39d2a3",
+  "segment_start_time": "2025-01-15T19:20:07",
+  "segment_end_time": "2025-01-15T20:29:55",
+  "gap_duration_minutes": 69.8,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "39d2a3",
+    "flight_start_time": "2025-01-15T17:36:44",
+    "flight_end_time": "2025-01-16T01:21:25",
+    "callsign": "AFR378",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KDTW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5379,
+    "during_count": 0,
+    "after_count": 6553,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.8,
+    "before_boundary_speed_kts": 460.8288532367309,
+    "after_boundary_speed_kts": 464.7346875379485,
+    "max_internal_speed_kts": 456.12926312704485,
+    "median_internal_speed_kts": 449.716512192926
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_39d2a3_192007_202955/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_39d2a3_192007_202955/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_39d2a3_192007_202955/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_39d2a3_192007_202955/stitched_minimal.parquet"
+  }
+}

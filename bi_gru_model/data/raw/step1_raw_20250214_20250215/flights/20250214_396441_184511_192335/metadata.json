@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_396441_184511_192335",
+  "icao24": "396441",
+  "segment_start_time": "2025-02-14T18:45:11",
+  "segment_end_time": "2025-02-14T19:23:35",
+  "gap_duration_minutes": 38.4,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "396441",
+    "flight_start_time": "2025-02-14T12:06:00",
+    "flight_end_time": "2025-02-14T21:08:43",
+    "callsign": "AFR194",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "VOYK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1772,
+    "during_count": 0,
+    "after_count": 5137,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 38.4,
+    "before_boundary_speed_kts": 545.5190984278778,
+    "after_boundary_speed_kts": 499.6001933558327,
+    "max_internal_speed_kts": 520.7928080874979,
+    "median_internal_speed_kts": 515.1268163345949
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_396441_184511_192335/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_396441_184511_192335/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_396441_184511_192335/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_396441_184511_192335/stitched_minimal.parquet"
+  }
+}

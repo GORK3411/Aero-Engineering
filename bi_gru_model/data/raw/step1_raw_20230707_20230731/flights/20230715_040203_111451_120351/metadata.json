@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230715_040203_111451_120351",
+  "icao24": "040203",
+  "segment_start_time": "2023-07-15T11:14:51",
+  "segment_end_time": "2023-07-15T12:03:51",
+  "gap_duration_minutes": 49.0,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "040203",
+    "flight_start_time": "2023-07-15T09:56:17",
+    "flight_end_time": "2023-07-15T16:25:28",
+    "callsign": "ETH552",
+    "estdepartureairport": "EIDW",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1202,
+    "during_count": 0,
+    "after_count": 8398,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 49.0,
+    "before_boundary_speed_kts": 482.34362874502494,
+    "after_boundary_speed_kts": 460.23377577465817,
+    "max_internal_speed_kts": 461.2851362649546,
+    "median_internal_speed_kts": 452.9204612251629
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230715_040203_111451_120351/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230715_040203_111451_120351/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230715_040203_111451_120351/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230715_040203_111451_120351/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240416_a07214_124130_135050",
+  "icao24": "a07214",
+  "segment_start_time": "2024-04-16T12:41:30",
+  "segment_end_time": "2024-04-16T13:50:50",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a07214",
+    "flight_start_time": "2024-04-16T13:23:28",
+    "flight_end_time": "2024-04-16T20:51:39",
+    "callsign": "EJM128",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KHPN"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7256,
+    "during_count": 0,
+    "after_count": 1712,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 596.4502196134316,
+    "after_boundary_speed_kts": 486.8684345704277,
+    "max_internal_speed_kts": 479.6071495309582,
+    "median_internal_speed_kts": 479.6071495309582
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_a07214_124130_135050/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_a07214_124130_135050/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_a07214_124130_135050/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_a07214_124130_135050/stitched_minimal.parquet"
+  }
+}

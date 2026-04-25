@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250702_a7f063_110454_141815",
+  "icao24": "a7f063",
+  "segment_start_time": "2025-07-02T11:04:54",
+  "segment_end_time": "2025-07-02T14:18:15",
+  "gap_duration_minutes": 193.35,
+  "adsc_point_count": 29,
+  "flight_match": {
+    "icao24": "a7f063",
+    "flight_start_time": "2025-07-02T11:39:12",
+    "flight_end_time": "2025-07-02T19:54:50",
+    "callsign": "N610SW",
+    "estdepartureairport": "LFTH",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7401,
+    "during_count": 0,
+    "after_count": 1843,
+    "adsc_point_count": 29,
+    "gap_duration_minutes": 193.35,
+    "before_boundary_speed_kts": 571.5290168957375,
+    "after_boundary_speed_kts": 465.04119186646074,
+    "max_internal_speed_kts": 495.34134087142996,
+    "median_internal_speed_kts": 480.87773749480266
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250702_a7f063_110454_141815/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250702_a7f063_110454_141815/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250702_a7f063_110454_141815/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250702_a7f063_110454_141815/stitched_minimal.parquet"
+  }
+}

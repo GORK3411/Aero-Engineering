@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250328_a178fb_145106_171824",
+  "icao24": "a178fb",
+  "segment_start_time": "2025-03-28T14:51:06",
+  "segment_end_time": "2025-03-28T17:18:24",
+  "gap_duration_minutes": 147.3,
+  "adsc_point_count": 14,
+  "flight_match": {
+    "icao24": "a178fb",
+    "flight_start_time": "2025-03-28T12:32:48",
+    "flight_end_time": "2025-03-28T21:29:59",
+    "callsign": "EJM194",
+    "estdepartureairport": "LFSG",
+    "estarrivalairport": "KCLT"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1978,
+    "during_count": 0,
+    "after_count": 2793,
+    "adsc_point_count": 14,
+    "gap_duration_minutes": 147.3,
+    "before_boundary_speed_kts": 500.7140062687611,
+    "after_boundary_speed_kts": 434.97657241308696,
+    "max_internal_speed_kts": 418.50673991648523,
+    "median_internal_speed_kts": 404.09578044561516
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_a178fb_145106_171824/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_a178fb_145106_171824/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_a178fb_145106_171824/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_a178fb_145106_171824/stitched_minimal.parquet"
+  }
+}

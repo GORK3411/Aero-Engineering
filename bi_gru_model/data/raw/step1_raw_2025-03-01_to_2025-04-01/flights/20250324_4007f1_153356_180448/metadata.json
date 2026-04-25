@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250324_4007f1_153356_180448",
+  "icao24": "4007f1",
+  "segment_start_time": "2025-03-24T15:33:56",
+  "segment_end_time": "2025-03-24T18:04:48",
+  "gap_duration_minutes": 150.86666666666667,
+  "adsc_point_count": 21,
+  "flight_match": {
+    "icao24": "4007f1",
+    "flight_start_time": "2025-03-23T18:03:24",
+    "flight_end_time": "2025-03-24T23:16:25",
+    "callsign": "BAW43C",
+    "estdepartureairport": "VTBS",
+    "estarrivalairport": "KMCO"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3056,
+    "during_count": 0,
+    "after_count": 3701,
+    "adsc_point_count": 21,
+    "gap_duration_minutes": 150.86666666666667,
+    "before_boundary_speed_kts": 689.8412104456244,
+    "after_boundary_speed_kts": 461.7148323721206,
+    "max_internal_speed_kts": 475.6849336869456,
+    "median_internal_speed_kts": 446.61487715910494
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250324_4007f1_153356_180448/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250324_4007f1_153356_180448/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250324_4007f1_153356_180448/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250324_4007f1_153356_180448/stitched_minimal.parquet"
+  }
+}

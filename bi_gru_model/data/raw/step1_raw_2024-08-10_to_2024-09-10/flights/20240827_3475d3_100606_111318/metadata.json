@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240827_3475d3_100606_111318",
+  "icao24": "3475d3",
+  "segment_start_time": "2024-08-27T10:06:06",
+  "segment_end_time": "2024-08-27T11:13:18",
+  "gap_duration_minutes": 67.2,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "3475d3",
+    "flight_start_time": "2024-08-27T06:13:15",
+    "flight_end_time": "2024-08-27T12:56:50",
+    "callsign": "IBE2626",
+    "estdepartureairport": "KBOS",
+    "estarrivalairport": "LEBL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 847,
+    "during_count": 0,
+    "after_count": 5862,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 67.2,
+    "before_boundary_speed_kts": 517.9660046596409,
+    "after_boundary_speed_kts": 502.9374441381051,
+    "max_internal_speed_kts": 521.0406752251437,
+    "median_internal_speed_kts": 501.55616108964335
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_3475d3_100606_111318/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_3475d3_100606_111318/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_3475d3_100606_111318/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_3475d3_100606_111318/stitched_minimal.parquet"
+  }
+}

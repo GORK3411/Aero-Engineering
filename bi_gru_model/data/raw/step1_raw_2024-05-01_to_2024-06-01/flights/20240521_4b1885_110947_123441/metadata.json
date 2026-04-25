@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240521_4b1885_110947_123441",
+  "icao24": "4b1885",
+  "segment_start_time": "2024-05-21T11:09:47",
+  "segment_end_time": "2024-05-21T12:34:41",
+  "gap_duration_minutes": 84.9,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "4b1885",
+    "flight_start_time": "2024-05-21T11:26:16",
+    "flight_end_time": "2024-05-21T19:32:39",
+    "callsign": "SWR16F",
+    "estdepartureairport": "LSZH",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7946,
+    "during_count": 0,
+    "after_count": 1627,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 84.9,
+    "before_boundary_speed_kts": 524.7960119126586,
+    "after_boundary_speed_kts": 423.6294823165045,
+    "max_internal_speed_kts": 439.1658165575757,
+    "median_internal_speed_kts": 430.97302516700563
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240521_4b1885_110947_123441/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240521_4b1885_110947_123441/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240521_4b1885_110947_123441/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240521_4b1885_110947_123441/stitched_minimal.parquet"
+  }
+}

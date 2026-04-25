@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240505_a75283_151413_163536",
+  "icao24": "a75283",
+  "segment_start_time": "2024-05-05T15:14:13",
+  "segment_end_time": "2024-05-05T16:35:36",
+  "gap_duration_minutes": 81.38333333333334,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "a75283",
+    "flight_start_time": "2024-05-05T14:08:30",
+    "flight_end_time": "2024-05-06T01:38:04",
+    "callsign": "DAL223",
+    "estdepartureairport": "LGAV",
+    "estarrivalairport": "KATL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9385,
+    "during_count": 0,
+    "after_count": 955,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 81.38333333333334,
+    "before_boundary_speed_kts": 587.6995194155351,
+    "after_boundary_speed_kts": 462.587652041484,
+    "max_internal_speed_kts": 467.5360600876783,
+    "median_internal_speed_kts": 455.99441268053425
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240505_a75283_151413_163536/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240505_a75283_151413_163536/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240505_a75283_151413_163536/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240505_a75283_151413_163536/stitched_minimal.parquet"
+  }
+}

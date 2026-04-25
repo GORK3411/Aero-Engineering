@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_39d2a2_162233_170409",
+  "icao24": "39d2a2",
+  "segment_start_time": "2024-03-12T16:22:33",
+  "segment_end_time": "2024-03-12T17:04:09",
+  "gap_duration_minutes": 41.6,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "39d2a2",
+    "flight_start_time": "2024-03-12T13:38:22",
+    "flight_end_time": "2024-03-12T21:07:28",
+    "callsign": "AFR062",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1854,
+    "during_count": 0,
+    "after_count": 5814,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 41.6,
+    "before_boundary_speed_kts": 438.5519718749734,
+    "after_boundary_speed_kts": 478.05773213673984,
+    "max_internal_speed_kts": 423.03128956158025,
+    "median_internal_speed_kts": 422.6452720621475
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_39d2a2_162233_170409/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_39d2a2_162233_170409/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_39d2a2_162233_170409/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_39d2a2_162233_170409/stitched_minimal.parquet"
+  }
+}

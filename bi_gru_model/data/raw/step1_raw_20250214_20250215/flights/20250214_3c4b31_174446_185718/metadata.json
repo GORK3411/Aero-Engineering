@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_3c4b31_174446_185718",
+  "icao24": "3c4b31",
+  "segment_start_time": "2025-02-14T17:44:46",
+  "segment_end_time": "2025-02-14T18:57:18",
+  "gap_duration_minutes": 72.53333333333333,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "3c4b31",
+    "flight_start_time": "2025-02-14T15:47:34",
+    "flight_end_time": "2025-02-14T23:33:48",
+    "callsign": "DLH402",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6305,
+    "during_count": 0,
+    "after_count": 6284,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 72.53333333333333,
+    "before_boundary_speed_kts": 506.7541934132923,
+    "after_boundary_speed_kts": 477.934627013553,
+    "max_internal_speed_kts": 531.2724946711544,
+    "median_internal_speed_kts": 522.9965262997459
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3c4b31_174446_185718/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3c4b31_174446_185718/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3c4b31_174446_185718/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3c4b31_174446_185718/stitched_minimal.parquet"
+  }
+}

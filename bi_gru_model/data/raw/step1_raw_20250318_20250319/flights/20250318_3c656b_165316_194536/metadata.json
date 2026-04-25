@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_3c656b_165316_194536",
+  "icao24": "3c656b",
+  "segment_start_time": "2025-03-18T16:53:16",
+  "segment_end_time": "2025-03-18T19:45:36",
+  "gap_duration_minutes": 172.33333333333334,
+  "adsc_point_count": 18,
+  "flight_match": {
+    "icao24": "3c656b",
+    "flight_start_time": "2025-03-18T14:39:31",
+    "flight_end_time": "2025-03-19T00:10:17",
+    "callsign": "OCN68",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KMCO"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6011,
+    "during_count": 0,
+    "after_count": 1400,
+    "adsc_point_count": 18,
+    "gap_duration_minutes": 172.33333333333334,
+    "before_boundary_speed_kts": 467.87283830475405,
+    "after_boundary_speed_kts": 442.7187742736467,
+    "max_internal_speed_kts": 494.6358090421987,
+    "median_internal_speed_kts": 454.27103125038906
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_3c656b_165316_194536/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_3c656b_165316_194536/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_3c656b_165316_194536/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_3c656b_165316_194536/stitched_minimal.parquet"
+  }
+}

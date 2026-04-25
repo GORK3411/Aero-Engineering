@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250315_461f06_150242_170631",
+  "icao24": "461f06",
+  "segment_start_time": "2025-03-15T15:02:42",
+  "segment_end_time": "2025-03-15T17:06:31",
+  "gap_duration_minutes": 123.81666666666666,
+  "adsc_point_count": 12,
+  "flight_match": {
+    "icao24": "461f06",
+    "flight_start_time": "2025-03-15T12:51:38",
+    "flight_end_time": "2025-03-15T23:34:25",
+    "callsign": "FIN7",
+    "estdepartureairport": "EFHK",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3068,
+    "during_count": 0,
+    "after_count": 1171,
+    "adsc_point_count": 12,
+    "gap_duration_minutes": 123.81666666666666,
+    "before_boundary_speed_kts": 647.2282460059607,
+    "after_boundary_speed_kts": 446.1971898030301,
+    "max_internal_speed_kts": 445.93739514974,
+    "median_internal_speed_kts": 426.55063003886534
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250315_461f06_150242_170631/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250315_461f06_150242_170631/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250315_461f06_150242_170631/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250315_461f06_150242_170631/stitched_minimal.parquet"
+  }
+}

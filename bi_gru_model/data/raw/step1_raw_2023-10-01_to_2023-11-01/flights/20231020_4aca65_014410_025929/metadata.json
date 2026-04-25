@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231020_4aca65_014410_025929",
+  "icao24": "4aca65",
+  "segment_start_time": "2023-10-20T01:44:10",
+  "segment_end_time": "2023-10-20T02:59:29",
+  "gap_duration_minutes": 75.31666666666666,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "4aca65",
+    "flight_start_time": "2023-10-20T00:41:13",
+    "flight_end_time": "2023-10-20T07:56:27",
+    "callsign": "SAS926",
+    "estdepartureairport": "KIAD",
+    "estarrivalairport": "EKCH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3769,
+    "during_count": 0,
+    "after_count": 4319,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 75.31666666666666,
+    "before_boundary_speed_kts": 554.4270687327202,
+    "after_boundary_speed_kts": 468.80890912955635,
+    "max_internal_speed_kts": 520.8879414664306,
+    "median_internal_speed_kts": 507.39877678622645
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231020_4aca65_014410_025929/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231020_4aca65_014410_025929/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231020_4aca65_014410_025929/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231020_4aca65_014410_025929/stitched_minimal.parquet"
+  }
+}

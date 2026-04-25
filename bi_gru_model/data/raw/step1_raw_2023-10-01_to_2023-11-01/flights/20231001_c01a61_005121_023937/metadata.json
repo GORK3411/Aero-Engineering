@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231001_c01a61_005121_023937",
+  "icao24": "c01a61",
+  "segment_start_time": "2023-10-01T00:51:21",
+  "segment_end_time": "2023-10-01T02:39:37",
+  "gap_duration_minutes": 108.26666666666667,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "c01a61",
+    "flight_start_time": "2023-10-01T01:12:21",
+    "flight_end_time": "2023-10-01T07:27:50",
+    "callsign": "ACA832",
+    "estdepartureairport": "CYUL",
+    "estarrivalairport": "EBMB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2424,
+    "during_count": 0,
+    "after_count": 5621,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 108.26666666666667,
+    "before_boundary_speed_kts": 520.0857289213459,
+    "after_boundary_speed_kts": 548.9276288151317,
+    "max_internal_speed_kts": 540.838275786145,
+    "median_internal_speed_kts": 518.0662742617154
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231001_c01a61_005121_023937/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231001_c01a61_005121_023937/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231001_c01a61_005121_023937/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231001_c01a61_005121_023937/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231109_4ca875_012924_035859",
+  "icao24": "4ca875",
+  "segment_start_time": "2023-11-09T01:29:24",
+  "segment_end_time": "2023-11-09T03:58:59",
+  "gap_duration_minutes": 149.58333333333334,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "4ca875",
+    "flight_start_time": "2023-11-09T01:34:56",
+    "flight_end_time": "2023-11-09T07:12:22",
+    "callsign": "EIWFI",
+    "estdepartureairport": "KALB",
+    "estarrivalairport": "EIDW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3226,
+    "during_count": 0,
+    "after_count": 3740,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 149.58333333333334,
+    "before_boundary_speed_kts": 509.22554532665123,
+    "after_boundary_speed_kts": 531.5428583461907,
+    "max_internal_speed_kts": 566.5823178836177,
+    "median_internal_speed_kts": 553.2404947292283
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231109_4ca875_012924_035859/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231109_4ca875_012924_035859/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231109_4ca875_012924_035859/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231109_4ca875_012924_035859/stitched_minimal.parquet"
+  }
+}

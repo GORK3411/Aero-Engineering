@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_4ba95a_192944_210820",
+  "icao24": "4ba95a",
+  "segment_start_time": "2025-03-18T19:29:44",
+  "segment_end_time": "2025-03-18T21:08:20",
+  "gap_duration_minutes": 98.6,
+  "adsc_point_count": 21,
+  "flight_match": {
+    "icao24": "4ba95a",
+    "flight_start_time": "2025-03-18T14:07:40",
+    "flight_end_time": "2025-03-19T00:15:08",
+    "callsign": "THY1",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 887,
+    "during_count": 0,
+    "after_count": 3273,
+    "adsc_point_count": 21,
+    "gap_duration_minutes": 98.6,
+    "before_boundary_speed_kts": 485.86932582278814,
+    "after_boundary_speed_kts": 446.4653921406464,
+    "max_internal_speed_kts": 467.42522948396214,
+    "median_internal_speed_kts": 445.35939117725263
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_4ba95a_192944_210820/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_4ba95a_192944_210820/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_4ba95a_192944_210820/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_4ba95a_192944_210820/stitched_minimal.parquet"
+  }
+}

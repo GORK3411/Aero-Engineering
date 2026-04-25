@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240612_710112_104433_123123",
+  "icao24": "710112",
+  "segment_start_time": "2024-06-12T10:44:33",
+  "segment_end_time": "2024-06-12T12:31:23",
+  "gap_duration_minutes": 106.83333333333333,
+  "adsc_point_count": 24,
+  "flight_match": {
+    "icao24": "710112",
+    "flight_start_time": "2024-06-12T05:01:03",
+    "flight_end_time": "2024-06-12T16:06:58",
+    "callsign": "SVA021",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2004,
+    "during_count": 0,
+    "after_count": 7206,
+    "adsc_point_count": 24,
+    "gap_duration_minutes": 106.83333333333333,
+    "before_boundary_speed_kts": 462.49868546776054,
+    "after_boundary_speed_kts": 470.66435162764316,
+    "max_internal_speed_kts": 494.5170241517526,
+    "median_internal_speed_kts": 482.72885680961826
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_710112_104433_123123/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_710112_104433_123123/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_710112_104433_123123/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_710112_104433_123123/stitched_minimal.parquet"
+  }
+}

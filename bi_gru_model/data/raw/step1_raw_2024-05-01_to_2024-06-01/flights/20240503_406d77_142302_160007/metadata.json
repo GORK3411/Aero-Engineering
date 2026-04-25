@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240503_406d77_142302_160007",
+  "icao24": "406d77",
+  "segment_start_time": "2024-05-03T14:23:02",
+  "segment_end_time": "2024-05-03T16:00:07",
+  "gap_duration_minutes": 97.08333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "406d77",
+    "flight_start_time": "2024-05-03T15:59:48",
+    "flight_end_time": "2024-05-03T23:45:14",
+    "callsign": "BAW299",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4325,
+    "during_count": 0,
+    "after_count": 2621,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 97.08333333333333,
+    "before_boundary_speed_kts": 701.3230751928041,
+    "after_boundary_speed_kts": 481.90995349948946,
+    "max_internal_speed_kts": 492.25166958653705,
+    "median_internal_speed_kts": 490.0373343382814
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240503_406d77_142302_160007/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240503_406d77_142302_160007/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240503_406d77_142302_160007/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240503_406d77_142302_160007/stitched_minimal.parquet"
+  }
+}

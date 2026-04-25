@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241017_ac142e_010305_022614",
+  "icao24": "ac142e",
+  "segment_start_time": "2024-10-17T01:03:05",
+  "segment_end_time": "2024-10-17T02:26:14",
+  "gap_duration_minutes": 83.15,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "ac142e",
+    "flight_start_time": "2024-10-16T23:29:48",
+    "flight_end_time": "2024-10-17T08:58:48",
+    "callsign": "AAL160",
+    "estdepartureairport": "KORD",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2286,
+    "during_count": 0,
+    "after_count": 10175,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 83.15,
+    "before_boundary_speed_kts": 618.0149129718452,
+    "after_boundary_speed_kts": 525.5410764529847,
+    "max_internal_speed_kts": 549.9306870832928,
+    "median_internal_speed_kts": 538.8689811350561
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241017_ac142e_010305_022614/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241017_ac142e_010305_022614/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241017_ac142e_010305_022614/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241017_ac142e_010305_022614/stitched_minimal.parquet"
+  }
+}

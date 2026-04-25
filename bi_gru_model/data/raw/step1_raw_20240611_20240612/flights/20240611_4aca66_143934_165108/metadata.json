@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_4aca66_143934_165108",
+  "icao24": "4aca66",
+  "segment_start_time": "2024-06-11T14:39:34",
+  "segment_end_time": "2024-06-11T16:51:08",
+  "gap_duration_minutes": 131.56666666666666,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4aca66",
+    "flight_start_time": "2024-06-11T13:28:34",
+    "flight_end_time": "2024-06-11T23:56:58",
+    "callsign": "SAS931",
+    "estdepartureairport": "EKCH",
+    "estarrivalairport": "KLAX"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3258,
+    "during_count": 0,
+    "after_count": 8026,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 131.56666666666666,
+    "before_boundary_speed_kts": 636.0244026173551,
+    "after_boundary_speed_kts": 482.73814509606143,
+    "max_internal_speed_kts": 460.69126148162,
+    "median_internal_speed_kts": 458.8717698023641
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_4aca66_143934_165108/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_4aca66_143934_165108/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_4aca66_143934_165108/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_4aca66_143934_165108/stitched_minimal.parquet"
+  }
+}

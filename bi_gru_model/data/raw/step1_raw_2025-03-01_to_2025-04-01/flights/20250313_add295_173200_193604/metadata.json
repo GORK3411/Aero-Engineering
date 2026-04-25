@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250313_add295_173200_193604",
+  "icao24": "add295",
+  "segment_start_time": "2025-03-13T17:32:00",
+  "segment_end_time": "2025-03-13T19:36:04",
+  "gap_duration_minutes": 124.06666666666666,
+  "adsc_point_count": 11,
+  "flight_match": {
+    "icao24": "add295",
+    "flight_start_time": "2025-03-13T15:43:52",
+    "flight_end_time": "2025-03-13T23:16:19",
+    "callsign": "N99ZM",
+    "estdepartureairport": "LFPB",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5157,
+    "during_count": 0,
+    "after_count": 3219,
+    "adsc_point_count": 11,
+    "gap_duration_minutes": 124.06666666666666,
+    "before_boundary_speed_kts": 617.1084351848003,
+    "after_boundary_speed_kts": 436.7183041554213,
+    "max_internal_speed_kts": 490.01687339402423,
+    "median_internal_speed_kts": 485.1099072091472
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_add295_173200_193604/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_add295_173200_193604/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_add295_173200_193604/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_add295_173200_193604/stitched_minimal.parquet"
+  }
+}

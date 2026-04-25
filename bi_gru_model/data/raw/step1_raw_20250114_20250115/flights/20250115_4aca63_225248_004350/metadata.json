@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_4aca63_225248_004350",
+  "icao24": "4aca63",
+  "segment_start_time": "2025-01-15T22:52:48",
+  "segment_end_time": "2025-01-16T00:43:50",
+  "gap_duration_minutes": 111.03333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4aca63",
+    "flight_start_time": "2025-01-15T18:19:22",
+    "flight_end_time": "2025-01-16T05:43:28",
+    "callsign": "SAS974",
+    "estdepartureairport": "VTBS",
+    "estarrivalairport": "EKCH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2255,
+    "during_count": 0,
+    "after_count": 13657,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 111.03333333333333,
+    "before_boundary_speed_kts": 441.13959133272743,
+    "after_boundary_speed_kts": 431.46543284665177,
+    "max_internal_speed_kts": 464.6305381600065,
+    "median_internal_speed_kts": 437.18893115857406
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4aca63_225248_004350/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4aca63_225248_004350/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4aca63_225248_004350/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4aca63_225248_004350/stitched_minimal.parquet"
+  }
+}

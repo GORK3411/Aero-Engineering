@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240516_4b187e_111548_122237",
+  "icao24": "4b187e",
+  "segment_start_time": "2024-05-16T11:15:48",
+  "segment_end_time": "2024-05-16T12:22:37",
+  "gap_duration_minutes": 66.81666666666666,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "4b187e",
+    "flight_start_time": "2024-05-16T11:00:14",
+    "flight_end_time": "2024-05-16T19:38:41",
+    "callsign": "SWR80",
+    "estdepartureairport": "LSZH",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7886,
+    "during_count": 0,
+    "after_count": 2595,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 66.81666666666666,
+    "before_boundary_speed_kts": 490.5433035335546,
+    "after_boundary_speed_kts": 433.2959801248177,
+    "max_internal_speed_kts": 425.69379294368844,
+    "median_internal_speed_kts": 425.69379294368844
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240516_4b187e_111548_122237/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240516_4b187e_111548_122237/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240516_4b187e_111548_122237/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240516_4b187e_111548_122237/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240405_c01754_151303_162700",
+  "icao24": "c01754",
+  "segment_start_time": "2024-04-05T15:13:03",
+  "segment_end_time": "2024-04-05T16:27:00",
+  "gap_duration_minutes": 73.95,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "c01754",
+    "flight_start_time": "2024-04-05T16:22:01",
+    "flight_end_time": "2024-04-05T23:04:06",
+    "callsign": "ACA865",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "CSP6"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5881,
+    "during_count": 0,
+    "after_count": 1227,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 73.95,
+    "before_boundary_speed_kts": 483.4928060289972,
+    "after_boundary_speed_kts": 465.0064486069336,
+    "max_internal_speed_kts": 471.8606936673649,
+    "median_internal_speed_kts": 471.8606936673649
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240405_c01754_151303_162700/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240405_c01754_151303_162700/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240405_c01754_151303_162700/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240405_c01754_151303_162700/stitched_minimal.parquet"
+  }
+}

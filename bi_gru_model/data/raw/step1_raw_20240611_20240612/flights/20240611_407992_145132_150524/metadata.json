@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_407992_145132_150524",
+  "icao24": "407992",
+  "segment_start_time": "2024-06-11T14:51:32",
+  "segment_end_time": "2024-06-11T15:05:24",
+  "gap_duration_minutes": 13.866666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "407992",
+    "flight_start_time": "2024-06-11T12:51:13",
+    "flight_end_time": "2024-06-11T19:41:54",
+    "callsign": "BAW7NY",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 788,
+    "during_count": 0,
+    "after_count": 5616,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 13.866666666666667,
+    "before_boundary_speed_kts": 469.68779381704894,
+    "after_boundary_speed_kts": 452.4802439268966,
+    "max_internal_speed_kts": 440.00843621998854,
+    "median_internal_speed_kts": 432.89792562881433
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_407992_145132_150524/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_407992_145132_150524/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_407992_145132_150524/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_407992_145132_150524/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_407d6c_142700_172515",
+  "icao24": "407d6c",
+  "segment_start_time": "2025-03-18T14:27:00",
+  "segment_end_time": "2025-03-18T17:25:15",
+  "gap_duration_minutes": 178.25,
+  "adsc_point_count": 25,
+  "flight_match": {
+    "icao24": "407d6c",
+    "flight_start_time": "2025-03-18T13:09:42",
+    "flight_end_time": "2025-03-18T20:02:35",
+    "callsign": "GEMLG",
+    "estdepartureairport": "EGSS",
+    "estarrivalairport": "TXKF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4392,
+    "during_count": 0,
+    "after_count": 964,
+    "adsc_point_count": 25,
+    "gap_duration_minutes": 178.25,
+    "before_boundary_speed_kts": 535.4524021210178,
+    "after_boundary_speed_kts": 447.13127731232345,
+    "max_internal_speed_kts": 513.094533886419,
+    "median_internal_speed_kts": 477.67523361175677
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_407d6c_142700_172515/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_407d6c_142700_172515/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_407d6c_142700_172515/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_407d6c_142700_172515/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230708_c00ae5_153215_160421",
+  "icao24": "c00ae5",
+  "segment_start_time": "2023-07-08T15:32:15",
+  "segment_end_time": "2023-07-08T16:04:21",
+  "gap_duration_minutes": 32.1,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "c00ae5",
+    "flight_start_time": "2023-07-08T13:23:56",
+    "flight_end_time": "2023-07-08T21:02:56",
+    "callsign": "SYB668",
+    "estdepartureairport": "LFRK",
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 987,
+    "during_count": 0,
+    "after_count": 3312,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 32.1,
+    "before_boundary_speed_kts": 502.41331660174285,
+    "after_boundary_speed_kts": 337.00402672199357,
+    "max_internal_speed_kts": 494.79970815954465,
+    "median_internal_speed_kts": 486.1298128675024
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_c00ae5_153215_160421/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_c00ae5_153215_160421/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_c00ae5_153215_160421/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_c00ae5_153215_160421/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_3c66c4_205922_213348",
+  "icao24": "3c66c4",
+  "segment_start_time": "2024-03-12T20:59:22",
+  "segment_end_time": "2024-03-12T21:33:48",
+  "gap_duration_minutes": 34.43333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "3c66c4",
+    "flight_start_time": "2024-03-12T17:45:30",
+    "flight_end_time": "2024-03-13T01:17:06",
+    "callsign": "DLH4J",
+    "estdepartureairport": "EDDM",
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3309,
+    "during_count": 0,
+    "after_count": 3296,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 34.43333333333333,
+    "before_boundary_speed_kts": 444.24845933083265,
+    "after_boundary_speed_kts": 482.8270724777075,
+    "max_internal_speed_kts": 470.82537523196794,
+    "median_internal_speed_kts": 470.82537523196794
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_3c66c4_205922_213348/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_3c66c4_205922_213348/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_3c66c4_205922_213348/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_3c66c4_205922_213348/stitched_minimal.parquet"
+  }
+}

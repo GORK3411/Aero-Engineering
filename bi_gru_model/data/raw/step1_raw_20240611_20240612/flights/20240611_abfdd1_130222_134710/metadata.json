@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_abfdd1_130222_134710",
+  "icao24": "abfdd1",
+  "segment_start_time": "2024-06-11T13:02:22",
+  "segment_end_time": "2024-06-11T13:47:10",
+  "gap_duration_minutes": 44.8,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "abfdd1",
+    "flight_start_time": "2024-06-11T11:16:31",
+    "flight_end_time": "2024-06-11T20:26:23",
+    "callsign": "AAL221",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": "KDFW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2411,
+    "during_count": 0,
+    "after_count": 11328,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 44.8,
+    "before_boundary_speed_kts": 461.7428725859729,
+    "after_boundary_speed_kts": 468.5727116619834,
+    "max_internal_speed_kts": 473.1421101850941,
+    "median_internal_speed_kts": 473.1421101850941
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_abfdd1_130222_134710/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_abfdd1_130222_134710/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_abfdd1_130222_134710/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_abfdd1_130222_134710/stitched_minimal.parquet"
+  }
+}

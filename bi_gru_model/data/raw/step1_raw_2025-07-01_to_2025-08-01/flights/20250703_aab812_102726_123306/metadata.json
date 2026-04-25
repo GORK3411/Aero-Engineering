@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250703_aab812_102726_123306",
+  "icao24": "aab812",
+  "segment_start_time": "2025-07-03T10:27:26",
+  "segment_end_time": "2025-07-03T12:33:06",
+  "gap_duration_minutes": 125.66666666666667,
+  "adsc_point_count": 23,
+  "flight_match": {
+    "icao24": "aab812",
+    "flight_start_time": "2025-07-03T11:31:00",
+    "flight_end_time": "2025-07-03T19:57:13",
+    "callsign": "AAL787",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KCLT"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5345,
+    "during_count": 0,
+    "after_count": 1495,
+    "adsc_point_count": 23,
+    "gap_duration_minutes": 125.66666666666667,
+    "before_boundary_speed_kts": 493.5806957840541,
+    "after_boundary_speed_kts": 461.8739755078004,
+    "max_internal_speed_kts": 523.3135663376382,
+    "median_internal_speed_kts": 507.66852026559854
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_aab812_102726_123306/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_aab812_102726_123306/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_aab812_102726_123306/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_aab812_102726_123306/stitched_minimal.parquet"
+  }
+}

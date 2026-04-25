@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231103_89659b_230007_000928",
+  "icao24": "89659b",
+  "segment_start_time": "2023-11-03T23:00:07",
+  "segment_end_time": "2023-11-04T00:09:28",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "89659b",
+    "flight_start_time": "2023-11-03T20:46:22",
+    "flight_end_time": "2023-11-04T08:54:15",
+    "callsign": "ETD76T",
+    "estdepartureairport": "KORD",
+    "estarrivalairport": "OMAA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2712,
+    "during_count": 0,
+    "after_count": 9444,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 627.3626489296769,
+    "after_boundary_speed_kts": 646.3323928928587,
+    "max_internal_speed_kts": 645.810165770867,
+    "median_internal_speed_kts": 633.9736884761904
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231103_89659b_230007_000928/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231103_89659b_230007_000928/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231103_89659b_230007_000928/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231103_89659b_230007_000928/stitched_minimal.parquet"
+  }
+}

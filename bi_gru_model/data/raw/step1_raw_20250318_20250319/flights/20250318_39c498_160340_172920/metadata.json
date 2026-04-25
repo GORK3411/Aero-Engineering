@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_39c498_160340_172920",
+  "icao24": "39c498",
+  "segment_start_time": "2025-03-18T16:03:40",
+  "segment_end_time": "2025-03-18T17:29:20",
+  "gap_duration_minutes": 85.66666666666667,
+  "adsc_point_count": 16,
+  "flight_match": {
+    "icao24": "39c498",
+    "flight_start_time": "2025-03-18T14:39:43",
+    "flight_end_time": "2025-03-18T23:44:32",
+    "callsign": "FBU87C",
+    "estdepartureairport": "LFPO",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4303,
+    "during_count": 0,
+    "after_count": 1906,
+    "adsc_point_count": 16,
+    "gap_duration_minutes": 85.66666666666667,
+    "before_boundary_speed_kts": 589.3374811982902,
+    "after_boundary_speed_kts": 457.60473287370553,
+    "max_internal_speed_kts": 499.2268218218882,
+    "median_internal_speed_kts": 492.4585552017295
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_39c498_160340_172920/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_39c498_160340_172920/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_39c498_160340_172920/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_39c498_160340_172920/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230903_89644c_105751_115858",
+  "icao24": "89644c",
+  "segment_start_time": "2023-09-03T10:57:51",
+  "segment_end_time": "2023-09-03T11:58:58",
+  "gap_duration_minutes": 61.11666666666667,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "89644c",
+    "flight_start_time": "2023-09-03T07:05:30",
+    "flight_end_time": "2023-09-03T15:47:58",
+    "callsign": "UAE36K",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3721,
+    "during_count": 0,
+    "after_count": 8730,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 61.11666666666667,
+    "before_boundary_speed_kts": 544.1787698440443,
+    "after_boundary_speed_kts": 586.6111598111464,
+    "max_internal_speed_kts": 601.0043380715215,
+    "median_internal_speed_kts": 591.701969322103
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230903_89644c_105751_115858/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230903_89644c_105751_115858/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230903_89644c_105751_115858/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230903_89644c_105751_115858/stitched_minimal.parquet"
+  }
+}

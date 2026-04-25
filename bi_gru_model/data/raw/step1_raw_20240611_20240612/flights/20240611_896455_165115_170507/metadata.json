@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_896455_165115_170507",
+  "icao24": "896455",
+  "segment_start_time": "2024-06-11T16:51:15",
+  "segment_end_time": "2024-06-11T17:05:07",
+  "gap_duration_minutes": 13.866666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "896455",
+    "flight_start_time": "2024-06-11T07:57:38",
+    "flight_end_time": "2024-06-11T20:56:17",
+    "callsign": "UAE62Y",
+    "estdepartureairport": "OMDB",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 299,
+    "during_count": 0,
+    "after_count": 4216,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 13.866666666666667,
+    "before_boundary_speed_kts": 506.16163021547675,
+    "after_boundary_speed_kts": 462.73831646044596,
+    "max_internal_speed_kts": 504.67454866266604,
+    "median_internal_speed_kts": 498.85876051912726
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_896455_165115_170507/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_896455_165115_170507/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_896455_165115_170507/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_896455_165115_170507/stitched_minimal.parquet"
+  }
+}

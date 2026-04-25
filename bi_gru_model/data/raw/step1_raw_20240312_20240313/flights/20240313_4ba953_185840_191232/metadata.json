@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240313_4ba953_185840_191232",
+  "icao24": "4ba953",
+  "segment_start_time": "2024-03-13T18:58:40",
+  "segment_end_time": "2024-03-13T19:12:32",
+  "gap_duration_minutes": 13.866666666666667,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "4ba953",
+    "flight_start_time": "2024-03-13T15:19:05",
+    "flight_end_time": "2024-03-14T02:18:14",
+    "callsign": "THY5",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6449,
+    "during_count": 0,
+    "after_count": 1682,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 13.866666666666667,
+    "before_boundary_speed_kts": 494.0935001758248,
+    "after_boundary_speed_kts": 459.91187426599816,
+    "max_internal_speed_kts": 490.16154910521055,
+    "median_internal_speed_kts": 490.16154910521055
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4ba953_185840_191232/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4ba953_185840_191232/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4ba953_185840_191232/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4ba953_185840_191232/stitched_minimal.parquet"
+  }
+}

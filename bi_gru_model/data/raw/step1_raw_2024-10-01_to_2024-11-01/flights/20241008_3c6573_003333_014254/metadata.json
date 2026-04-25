@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241008_3c6573_003333_014254",
+  "icao24": "3c6573",
+  "segment_start_time": "2024-10-08T00:33:33",
+  "segment_end_time": "2024-10-08T01:42:54",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "3c6573",
+    "flight_start_time": "2024-10-07T23:03:06",
+    "flight_end_time": "2024-10-08T06:55:42",
+    "callsign": "DLH409",
+    "estdepartureairport": "KRDU",
+    "estarrivalairport": "EDDF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3281,
+    "during_count": 0,
+    "after_count": 7541,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 514.3553081651999,
+    "after_boundary_speed_kts": 489.48234501824663,
+    "max_internal_speed_kts": 540.6427074045451,
+    "median_internal_speed_kts": 523.8051342731694
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241008_3c6573_003333_014254/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241008_3c6573_003333_014254/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241008_3c6573_003333_014254/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241008_3c6573_003333_014254/stitched_minimal.parquet"
+  }
+}

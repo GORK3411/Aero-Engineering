@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250322_3c6562_144736_165329",
+  "icao24": "3c6562",
+  "segment_start_time": "2025-03-22T14:47:36",
+  "segment_end_time": "2025-03-22T16:53:29",
+  "gap_duration_minutes": 125.88333333333334,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "3c6562",
+    "flight_start_time": "2025-03-22T12:10:03",
+    "flight_end_time": "2025-03-22T22:10:16",
+    "callsign": "OCN60",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KX14"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1381,
+    "during_count": 0,
+    "after_count": 3256,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 125.88333333333334,
+    "before_boundary_speed_kts": 493.9067593884638,
+    "after_boundary_speed_kts": 453.1663714970726,
+    "max_internal_speed_kts": 445.90300738670294,
+    "median_internal_speed_kts": 431.3304579751637
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_3c6562_144736_165329/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_3c6562_144736_165329/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_3c6562_144736_165329/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_3c6562_144736_165329/stitched_minimal.parquet"
+  }
+}

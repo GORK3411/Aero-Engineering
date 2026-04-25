@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250326_4007ed_150400_173415",
+  "icao24": "4007ed",
+  "segment_start_time": "2025-03-26T15:04:00",
+  "segment_end_time": "2025-03-26T17:34:15",
+  "gap_duration_minutes": 150.25,
+  "adsc_point_count": 29,
+  "flight_match": {
+    "icao24": "4007ed",
+    "flight_start_time": "2025-03-25T18:16:15",
+    "flight_end_time": "2025-03-26T23:58:42",
+    "callsign": "BAW2203",
+    "estdepartureairport": "VTBS",
+    "estarrivalairport": "MMUN"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2258,
+    "during_count": 0,
+    "after_count": 2143,
+    "adsc_point_count": 29,
+    "gap_duration_minutes": 150.25,
+    "before_boundary_speed_kts": 541.2829153308572,
+    "after_boundary_speed_kts": 426.1955715366608,
+    "max_internal_speed_kts": 482.22897082765576,
+    "median_internal_speed_kts": 461.2674572000616
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250326_4007ed_150400_173415/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250326_4007ed_150400_173415/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250326_4007ed_150400_173415/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250326_4007ed_150400_173415/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240502_06a1bb_140816_153236",
+  "icao24": "06a1bb",
+  "segment_start_time": "2024-05-02T14:08:16",
+  "segment_end_time": "2024-05-02T15:32:36",
+  "gap_duration_minutes": 84.33333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "06a1bb",
+    "flight_start_time": "2024-05-02T11:26:33",
+    "flight_end_time": "2024-05-02T23:31:23",
+    "callsign": "QTR725",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 10174,
+    "during_count": 0,
+    "after_count": 724,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 84.33333333333333,
+    "before_boundary_speed_kts": 741.5250494437516,
+    "after_boundary_speed_kts": 473.03761709644766,
+    "max_internal_speed_kts": 485.7969055234978,
+    "median_internal_speed_kts": 454.3489618158431
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240502_06a1bb_140816_153236/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240502_06a1bb_140816_153236/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240502_06a1bb_140816_153236/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240502_06a1bb_140816_153236/stitched_minimal.parquet"
+  }
+}

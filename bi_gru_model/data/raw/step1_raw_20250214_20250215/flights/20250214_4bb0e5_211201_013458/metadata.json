@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_4bb0e5_211201_013458",
+  "icao24": "4bb0e5",
+  "segment_start_time": "2025-02-14T21:12:01",
+  "segment_end_time": "2025-02-15T01:34:58",
+  "gap_duration_minutes": 262.95,
+  "adsc_point_count": 48,
+  "flight_match": {
+    "icao24": "4bb0e5",
+    "flight_start_time": "2025-02-14T19:19:34",
+    "flight_end_time": "2025-02-15T04:33:56",
+    "callsign": "THY92W",
+    "estdepartureairport": "FAOR",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1333,
+    "during_count": 0,
+    "after_count": 6271,
+    "adsc_point_count": 48,
+    "gap_duration_minutes": 262.95,
+    "before_boundary_speed_kts": 479.25442981796436,
+    "after_boundary_speed_kts": 420.24987451513755,
+    "max_internal_speed_kts": 511.31887715326616,
+    "median_internal_speed_kts": 484.9741505174471
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_4bb0e5_211201_013458/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_4bb0e5_211201_013458/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_4bb0e5_211201_013458/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_4bb0e5_211201_013458/stitched_minimal.parquet"
+  }
+}

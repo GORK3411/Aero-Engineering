@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240413_3c64ec_153609_165643",
+  "icao24": "3c64ec",
+  "segment_start_time": "2024-04-13T15:36:09",
+  "segment_end_time": "2024-04-13T16:56:43",
+  "gap_duration_minutes": 80.56666666666666,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "3c64ec",
+    "flight_start_time": "2024-04-13T15:45:44",
+    "flight_end_time": "2024-04-13T23:41:52",
+    "callsign": "DLH422",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9090,
+    "during_count": 0,
+    "after_count": 906,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 80.56666666666666,
+    "before_boundary_speed_kts": 538.8606694918201,
+    "after_boundary_speed_kts": 447.1786798302483,
+    "max_internal_speed_kts": 454.36883487694405,
+    "median_internal_speed_kts": 452.8156396291889
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240413_3c64ec_153609_165643/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240413_3c64ec_153609_165643/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240413_3c64ec_153609_165643/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240413_3c64ec_153609_165643/stitched_minimal.parquet"
+  }
+}

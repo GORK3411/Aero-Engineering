@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240408_a0752b_135117_150037",
+  "icao24": "a0752b",
+  "segment_start_time": "2024-04-08T13:51:17",
+  "segment_end_time": "2024-04-08T15:00:37",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a0752b",
+    "flight_start_time": "2024-04-08T13:41:16",
+    "flight_end_time": "2024-04-08T22:51:29",
+    "callsign": "EJM129",
+    "estdepartureairport": "LIRA",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 8259,
+    "during_count": 0,
+    "after_count": 723,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 502.4225181437497,
+    "after_boundary_speed_kts": 440.9565043353783,
+    "max_internal_speed_kts": 419.91941466498986,
+    "median_internal_speed_kts": 419.91941466498986
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_a0752b_135117_150037/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_a0752b_135117_150037/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_a0752b_135117_150037/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_a0752b_135117_150037/stitched_minimal.parquet"
+  }
+}

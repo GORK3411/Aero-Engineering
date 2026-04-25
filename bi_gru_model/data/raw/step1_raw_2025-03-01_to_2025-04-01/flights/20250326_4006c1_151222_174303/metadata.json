@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250326_4006c1_151222_174303",
+  "icao24": "4006c1",
+  "segment_start_time": "2025-03-26T15:12:22",
+  "segment_end_time": "2025-03-26T17:43:03",
+  "gap_duration_minutes": 150.68333333333334,
+  "adsc_point_count": 23,
+  "flight_match": {
+    "icao24": "4006c1",
+    "flight_start_time": "2025-03-26T13:47:21",
+    "flight_end_time": "2025-03-26T22:47:59",
+    "callsign": "BAW43C",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": "KMCO"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2017,
+    "during_count": 0,
+    "after_count": 2631,
+    "adsc_point_count": 23,
+    "gap_duration_minutes": 150.68333333333334,
+    "before_boundary_speed_kts": 538.3734772446637,
+    "after_boundary_speed_kts": 440.104887475832,
+    "max_internal_speed_kts": 492.1011361018664,
+    "median_internal_speed_kts": 477.9301498513212
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250326_4006c1_151222_174303/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250326_4006c1_151222_174303/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250326_4006c1_151222_174303/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250326_4006c1_151222_174303/stitched_minimal.parquet"
+  }
+}

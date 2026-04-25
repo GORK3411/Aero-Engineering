@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241009_a2a9c9_050849_061847",
+  "icao24": "a2a9c9",
+  "segment_start_time": "2024-10-09T05:08:49",
+  "segment_end_time": "2024-10-09T06:18:47",
+  "gap_duration_minutes": 69.96666666666667,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a2a9c9",
+    "flight_start_time": "2024-10-09T05:05:33",
+    "flight_end_time": "2024-10-09T13:16:10",
+    "callsign": "N2707",
+    "estdepartureairport": "LOWW",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9016,
+    "during_count": 0,
+    "after_count": 2518,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 69.96666666666667,
+    "before_boundary_speed_kts": 564.5220038411725,
+    "after_boundary_speed_kts": 468.38351140543944,
+    "max_internal_speed_kts": 481.6417184425528,
+    "median_internal_speed_kts": 481.6417184425528
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241009_a2a9c9_050849_061847/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241009_a2a9c9_050849_061847/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241009_a2a9c9_050849_061847/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241009_a2a9c9_050849_061847/stitched_minimal.parquet"
+  }
+}

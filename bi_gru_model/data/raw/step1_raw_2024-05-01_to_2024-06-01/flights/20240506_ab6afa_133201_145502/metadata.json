@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240506_ab6afa_133201_145502",
+  "icao24": "ab6afa",
+  "segment_start_time": "2024-05-06T13:32:01",
+  "segment_end_time": "2024-05-06T14:55:02",
+  "gap_duration_minutes": 83.01666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "ab6afa",
+    "flight_start_time": "2024-05-06T08:22:22",
+    "flight_end_time": "2024-05-06T22:24:29",
+    "callsign": "AAL121",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KPHL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9575,
+    "during_count": 0,
+    "after_count": 938,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 83.01666666666667,
+    "before_boundary_speed_kts": 538.7838669159672,
+    "after_boundary_speed_kts": 474.2102917522153,
+    "max_internal_speed_kts": 441.44954100509915,
+    "median_internal_speed_kts": 429.40192103541676
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240506_ab6afa_133201_145502/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240506_ab6afa_133201_145502/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240506_ab6afa_133201_145502/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240506_ab6afa_133201_145502/stitched_minimal.parquet"
+  }
+}

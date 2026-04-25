@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231118_3c64c8_025421_035642",
+  "icao24": "3c64c8",
+  "segment_start_time": "2023-11-18T02:54:21",
+  "segment_end_time": "2023-11-18T03:56:42",
+  "gap_duration_minutes": 62.35,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "3c64c8",
+    "flight_start_time": "2023-11-17T23:13:41",
+    "flight_end_time": "2023-11-18T08:16:26",
+    "callsign": "VJH961",
+    "estdepartureairport": "KDAL",
+    "estarrivalairport": "LFMN"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3427,
+    "during_count": 0,
+    "after_count": 6533,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 62.35,
+    "before_boundary_speed_kts": 517.7242721476479,
+    "after_boundary_speed_kts": 530.9891221572375,
+    "max_internal_speed_kts": 522.9821349465909,
+    "median_internal_speed_kts": 501.2190960701022
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_3c64c8_025421_035642/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_3c64c8_025421_035642/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_3c64c8_025421_035642/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_3c64c8_025421_035642/stitched_minimal.parquet"
+  }
+}

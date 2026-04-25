@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240731_34760a_105107_121420",
+  "icao24": "34760a",
+  "segment_start_time": "2024-07-31T10:51:07",
+  "segment_end_time": "2024-07-31T12:14:20",
+  "gap_duration_minutes": 83.21666666666667,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "34760a",
+    "flight_start_time": "2024-07-31T07:09:30",
+    "flight_end_time": "2024-07-31T14:20:14",
+    "callsign": "IBE2628",
+    "estdepartureairport": "KJFK",
+    "estarrivalairport": "LEBL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2215,
+    "during_count": 0,
+    "after_count": 5059,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 83.21666666666667,
+    "before_boundary_speed_kts": 496.6176056141409,
+    "after_boundary_speed_kts": 491.42074422851107,
+    "max_internal_speed_kts": 483.69785510645653,
+    "median_internal_speed_kts": 479.6456969254415
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240731_34760a_105107_121420/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240731_34760a_105107_121420/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240731_34760a_105107_121420/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240731_34760a_105107_121420/stitched_minimal.parquet"
+  }
+}

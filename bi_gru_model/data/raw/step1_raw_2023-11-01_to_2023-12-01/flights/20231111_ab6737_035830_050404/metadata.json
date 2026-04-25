@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231111_ab6737_035830_050404",
+  "icao24": "ab6737",
+  "segment_start_time": "2023-11-11T03:58:30",
+  "segment_end_time": "2023-11-11T05:04:04",
+  "gap_duration_minutes": 65.56666666666666,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "ab6737",
+    "flight_start_time": "2023-11-11T00:57:35",
+    "flight_end_time": "2023-11-11T08:45:58",
+    "callsign": "AAL48",
+    "estdepartureairport": "KDFW",
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2118,
+    "during_count": 0,
+    "after_count": 4945,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 65.56666666666666,
+    "before_boundary_speed_kts": 620.8223977560762,
+    "after_boundary_speed_kts": 533.0933847289238,
+    "max_internal_speed_kts": 552.2633937413801,
+    "median_internal_speed_kts": 551.0063046517075
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_ab6737_035830_050404/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_ab6737_035830_050404/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_ab6737_035830_050404/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_ab6737_035830_050404/stitched_minimal.parquet"
+  }
+}

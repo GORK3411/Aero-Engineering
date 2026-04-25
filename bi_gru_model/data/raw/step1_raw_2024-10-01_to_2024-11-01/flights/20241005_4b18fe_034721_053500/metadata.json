@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241005_4b18fe_034721_053500",
+  "icao24": "4b18fe",
+  "segment_start_time": "2024-10-05T03:47:21",
+  "segment_end_time": "2024-10-05T05:35:00",
+  "gap_duration_minutes": 107.65,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4b18fe",
+    "flight_start_time": "2024-10-05T02:33:17",
+    "flight_end_time": "2024-10-05T11:22:59",
+    "callsign": "EDW5L",
+    "estdepartureairport": "KTPA",
+    "estarrivalairport": "LSZH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3571,
+    "during_count": 0,
+    "after_count": 6974,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 107.65,
+    "before_boundary_speed_kts": 569.5488134605231,
+    "after_boundary_speed_kts": 502.60712169650844,
+    "max_internal_speed_kts": 527.3333180381003,
+    "median_internal_speed_kts": 526.4157461273418
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_4b18fe_034721_053500/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_4b18fe_034721_053500/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_4b18fe_034721_053500/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_4b18fe_034721_053500/stitched_minimal.parquet"
+  }
+}

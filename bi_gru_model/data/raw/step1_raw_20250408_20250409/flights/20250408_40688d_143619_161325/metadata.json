@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_40688d_143619_161325",
+  "icao24": "40688d",
+  "segment_start_time": "2025-04-08T14:36:19",
+  "segment_end_time": "2025-04-08T16:13:25",
+  "gap_duration_minutes": 97.1,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "40688d",
+    "flight_start_time": "2025-04-08T13:12:49",
+    "flight_end_time": "2025-04-08T23:24:55",
+    "callsign": "BAW5L",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KSFO"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2617,
+    "during_count": 0,
+    "after_count": 9899,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 97.1,
+    "before_boundary_speed_kts": 460.7850125224052,
+    "after_boundary_speed_kts": 510.50221124953697,
+    "max_internal_speed_kts": 515.4665636610965,
+    "median_internal_speed_kts": 455.41389178972156
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_40688d_143619_161325/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_40688d_143619_161325/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_40688d_143619_161325/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_40688d_143619_161325/stitched_minimal.parquet"
+  }
+}

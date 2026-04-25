@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_406947_140331_151247",
+  "icao24": "406947",
+  "segment_start_time": "2025-04-08T14:03:31",
+  "segment_end_time": "2025-04-08T15:12:47",
+  "gap_duration_minutes": 69.26666666666667,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "406947",
+    "flight_start_time": "2025-04-08T12:30:00",
+    "flight_end_time": "2025-04-08T22:37:06",
+    "callsign": "BAW283",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KLAX"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1628,
+    "during_count": 0,
+    "after_count": 5873,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 69.26666666666667,
+    "before_boundary_speed_kts": 428.03133372737784,
+    "after_boundary_speed_kts": 522.0027765403096,
+    "max_internal_speed_kts": 537.511924080398,
+    "median_internal_speed_kts": 475.106525432255
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_406947_140331_151247/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_406947_140331_151247/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_406947_140331_151247/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_406947_140331_151247/stitched_minimal.parquet"
+  }
+}

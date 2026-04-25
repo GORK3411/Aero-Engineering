@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241005_407944_063308_074242",
+  "icao24": "407944",
+  "segment_start_time": "2024-10-05T06:33:08",
+  "segment_end_time": "2024-10-05T07:42:42",
+  "gap_duration_minutes": 69.56666666666666,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "407944",
+    "flight_start_time": "2024-10-05T03:46:35",
+    "flight_end_time": "2024-10-05T12:11:29",
+    "callsign": "BAW21ML",
+    "estdepartureairport": "KDEN",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2156,
+    "during_count": 0,
+    "after_count": 4993,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 69.56666666666666,
+    "before_boundary_speed_kts": 552.6511661262726,
+    "after_boundary_speed_kts": 511.82603731040416,
+    "max_internal_speed_kts": 515.1956443987161,
+    "median_internal_speed_kts": 515.1956443987161
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_407944_063308_074242/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_407944_063308_074242/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_407944_063308_074242/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_407944_063308_074242/stitched_minimal.parquet"
+  }
+}

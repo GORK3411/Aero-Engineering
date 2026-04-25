@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231102_39cf04_034312_044505",
+  "icao24": "39cf04",
+  "segment_start_time": "2023-11-02T03:43:12",
+  "segment_end_time": "2023-11-02T04:45:05",
+  "gap_duration_minutes": 61.88333333333333,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "39cf04",
+    "flight_start_time": "2023-11-02T00:55:23",
+    "flight_end_time": "2023-11-02T08:37:44",
+    "callsign": "AFR695J",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2549,
+    "during_count": 0,
+    "after_count": 5339,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 61.88333333333333,
+    "before_boundary_speed_kts": 675.1315622172285,
+    "after_boundary_speed_kts": 549.0630524438191,
+    "max_internal_speed_kts": 587.6817076949513,
+    "median_internal_speed_kts": 570.6324220607407
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_39cf04_034312_044505/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_39cf04_034312_044505/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_39cf04_034312_044505/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_39cf04_034312_044505/stitched_minimal.parquet"
+  }
+}

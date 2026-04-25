@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241231_aa9093_215536_231511",
+  "icao24": "aa9093",
+  "segment_start_time": "2024-12-31T21:55:36",
+  "segment_end_time": "2024-12-31T23:15:11",
+  "gap_duration_minutes": 79.58333333333333,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "aa9093",
+    "flight_start_time": "2024-12-31T21:05:41",
+    "flight_end_time": "2025-01-01T04:28:14",
+    "callsign": "AAL141",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3749,
+    "during_count": 0,
+    "after_count": 1501,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 79.58333333333333,
+    "before_boundary_speed_kts": 438.94971367485215,
+    "after_boundary_speed_kts": 466.02187384749664,
+    "max_internal_speed_kts": 480.19356443561577,
+    "median_internal_speed_kts": 446.2147761560122
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241231_aa9093_215536_231511/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241231_aa9093_215536_231511/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241231_aa9093_215536_231511/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241231_aa9093_215536_231511/stitched_minimal.parquet"
+  }
+}

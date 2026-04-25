@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231106_39d2a0_011253_022214",
+  "icao24": "39d2a0",
+  "segment_start_time": "2023-11-06T01:12:53",
+  "segment_end_time": "2023-11-06T02:22:14",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "39d2a0",
+    "flight_start_time": "2023-11-06T00:05:59",
+    "flight_end_time": "2023-11-06T06:16:39",
+    "callsign": "AFR63J",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2204,
+    "during_count": 0,
+    "after_count": 4636,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 616.1230862883295,
+    "after_boundary_speed_kts": 527.8544594488644,
+    "max_internal_speed_kts": 560.7563988422853,
+    "median_internal_speed_kts": 555.6279502031557
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231106_39d2a0_011253_022214/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231106_39d2a0_011253_022214/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231106_39d2a0_011253_022214/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231106_39d2a0_011253_022214/stitched_minimal.parquet"
+  }
+}

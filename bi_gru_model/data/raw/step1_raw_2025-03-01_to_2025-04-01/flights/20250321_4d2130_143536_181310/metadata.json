@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250321_4d2130_143536_181310",
+  "icao24": "4d2130",
+  "segment_start_time": "2025-03-21T14:35:36",
+  "segment_end_time": "2025-03-21T18:13:10",
+  "gap_duration_minutes": 217.56666666666666,
+  "adsc_point_count": 12,
+  "flight_match": {
+    "icao24": "4d2130",
+    "flight_start_time": "2025-03-21T12:50:47",
+    "flight_end_time": "2025-03-21T20:56:06",
+    "callsign": "VJT946",
+    "estdepartureairport": "LEAL",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2765,
+    "during_count": 0,
+    "after_count": 3172,
+    "adsc_point_count": 12,
+    "gap_duration_minutes": 217.56666666666666,
+    "before_boundary_speed_kts": 494.0000057488348,
+    "after_boundary_speed_kts": 432.91873242080294,
+    "max_internal_speed_kts": 460.34782458407466,
+    "median_internal_speed_kts": 431.4774803263782
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_4d2130_143536_181310/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_4d2130_143536_181310/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_4d2130_143536_181310/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_4d2130_143536_181310/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240531_aa2184_134420_152126",
+  "icao24": "aa2184",
+  "segment_start_time": "2024-05-31T13:44:20",
+  "segment_end_time": "2024-05-31T15:21:26",
+  "gap_duration_minutes": 97.1,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "aa2184",
+    "flight_start_time": "2024-05-31T14:08:34",
+    "flight_end_time": "2024-05-31T21:40:28",
+    "callsign": "AAL67",
+    "estdepartureairport": "LEBL",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5475,
+    "during_count": 0,
+    "after_count": 1450,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 97.1,
+    "before_boundary_speed_kts": 517.3161911484914,
+    "after_boundary_speed_kts": 419.42462982700636,
+    "max_internal_speed_kts": 514.7945371339558,
+    "median_internal_speed_kts": 510.58737001779
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240531_aa2184_134420_152126/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240531_aa2184_134420_152126/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240531_aa2184_134420_152126/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240531_aa2184_134420_152126/stitched_minimal.parquet"
+  }
+}

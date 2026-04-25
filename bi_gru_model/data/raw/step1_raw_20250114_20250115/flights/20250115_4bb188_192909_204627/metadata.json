@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_4bb188_192909_204627",
+  "icao24": "4bb188",
+  "segment_start_time": "2025-01-15T19:29:09",
+  "segment_end_time": "2025-01-15T20:46:27",
+  "gap_duration_minutes": 77.3,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4bb188",
+    "flight_start_time": "2025-01-15T15:32:36",
+    "flight_end_time": "2025-01-16T00:33:42",
+    "callsign": "THY40Y",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6898,
+    "during_count": 0,
+    "after_count": 2543,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 77.3,
+    "before_boundary_speed_kts": 721.9884621416207,
+    "after_boundary_speed_kts": 464.49501145580604,
+    "max_internal_speed_kts": 465.8452829219165,
+    "median_internal_speed_kts": 446.4458638815581
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4bb188_192909_204627/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4bb188_192909_204627/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4bb188_192909_204627/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4bb188_192909_204627/stitched_minimal.parquet"
+  }
+}

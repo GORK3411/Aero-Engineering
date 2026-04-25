@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230824_7380cb_071248_082715",
+  "icao24": "7380cb",
+  "segment_start_time": "2023-08-24T07:12:48",
+  "segment_end_time": "2023-08-24T08:27:15",
+  "gap_duration_minutes": 74.45,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "7380cb",
+    "flight_start_time": "2023-08-24T01:31:43",
+    "flight_end_time": "2023-08-24T12:18:47",
+    "callsign": "ELY001",
+    "estdepartureairport": "LLBG",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5300,
+    "during_count": 0,
+    "after_count": 1644,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 74.45,
+    "before_boundary_speed_kts": 515.5824196176686,
+    "after_boundary_speed_kts": 465.979378394091,
+    "max_internal_speed_kts": 501.99451136351854,
+    "median_internal_speed_kts": 500.7115520349646
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230824_7380cb_071248_082715/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230824_7380cb_071248_082715/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230824_7380cb_071248_082715/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230824_7380cb_071248_082715/stitched_minimal.parquet"
+  }
+}

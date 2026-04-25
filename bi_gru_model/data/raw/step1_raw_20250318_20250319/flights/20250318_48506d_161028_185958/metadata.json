@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_48506d_161028_185958",
+  "icao24": "48506d",
+  "segment_start_time": "2025-03-18T16:10:28",
+  "segment_end_time": "2025-03-18T18:59:58",
+  "gap_duration_minutes": 169.5,
+  "adsc_point_count": 18,
+  "flight_match": {
+    "icao24": "48506d",
+    "flight_start_time": "2025-03-18T14:24:25",
+    "flight_end_time": "2025-03-18T23:02:44",
+    "callsign": "TFL351",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5551,
+    "during_count": 0,
+    "after_count": 1381,
+    "adsc_point_count": 18,
+    "gap_duration_minutes": 169.5,
+    "before_boundary_speed_kts": 499.7979921368887,
+    "after_boundary_speed_kts": 563.1042395334981,
+    "max_internal_speed_kts": 518.2306961178912,
+    "median_internal_speed_kts": 500.5015618674086
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_48506d_161028_185958/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_48506d_161028_185958/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_48506d_161028_185958/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_48506d_161028_185958/stitched_minimal.parquet"
+  }
+}

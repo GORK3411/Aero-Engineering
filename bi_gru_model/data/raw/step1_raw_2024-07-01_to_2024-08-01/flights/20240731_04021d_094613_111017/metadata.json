@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240731_04021d_094613_111017",
+  "icao24": "04021d",
+  "segment_start_time": "2024-07-31T09:46:13",
+  "segment_end_time": "2024-07-31T11:10:17",
+  "gap_duration_minutes": 84.06666666666666,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "04021d",
+    "flight_start_time": "2024-07-31T06:36:00",
+    "flight_end_time": "2024-07-31T15:36:45",
+    "callsign": "ETH500",
+    "estdepartureairport": "LIRF",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 8519,
+    "during_count": 0,
+    "after_count": 55,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 84.06666666666666,
+    "before_boundary_speed_kts": 506.56202150307985,
+    "after_boundary_speed_kts": 476.29927017665494,
+    "max_internal_speed_kts": 497.58052912209916,
+    "median_internal_speed_kts": 492.1156733298401
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240731_04021d_094613_111017/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240731_04021d_094613_111017/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240731_04021d_094613_111017/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240731_04021d_094613_111017/stitched_minimal.parquet"
+  }
+}

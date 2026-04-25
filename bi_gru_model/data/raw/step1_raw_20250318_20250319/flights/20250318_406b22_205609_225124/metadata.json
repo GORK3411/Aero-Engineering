@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_406b22_205609_225124",
+  "icao24": "406b22",
+  "segment_start_time": "2025-03-18T20:56:09",
+  "segment_end_time": "2025-03-18T22:51:24",
+  "gap_duration_minutes": 115.25,
+  "adsc_point_count": 15,
+  "flight_match": {
+    "icao24": "406b22",
+    "flight_start_time": "2025-03-18T19:46:56",
+    "flight_end_time": "2025-03-19T06:33:57",
+    "callsign": "BAW56",
+    "estdepartureairport": "FAOR",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1431,
+    "during_count": 0,
+    "after_count": 2134,
+    "adsc_point_count": 15,
+    "gap_duration_minutes": 115.25,
+    "before_boundary_speed_kts": 500.60238300063276,
+    "after_boundary_speed_kts": 474.4535694953762,
+    "max_internal_speed_kts": 493.04199835488237,
+    "median_internal_speed_kts": 483.230676912286
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_406b22_205609_225124/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_406b22_205609_225124/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_406b22_205609_225124/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_406b22_205609_225124/stitched_minimal.parquet"
+  }
+}

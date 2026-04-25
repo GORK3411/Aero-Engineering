@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_06a0fe_155254_163430",
+  "icao24": "06a0fe",
+  "segment_start_time": "2024-03-12T15:52:54",
+  "segment_end_time": "2024-03-12T16:34:30",
+  "gap_duration_minutes": 41.6,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "06a0fe",
+    "flight_start_time": "2024-03-12T00:36:52",
+    "flight_end_time": "2024-03-12T20:42:36",
+    "callsign": "QTR64C",
+    "estdepartureairport": "VIDP",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5055,
+    "during_count": 0,
+    "after_count": 4507,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 41.6,
+    "before_boundary_speed_kts": 459.9355819496098,
+    "after_boundary_speed_kts": 475.2553726827898,
+    "max_internal_speed_kts": 482.8198807181239,
+    "median_internal_speed_kts": 480.24072966013875
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_06a0fe_155254_163430/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_06a0fe_155254_163430/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_06a0fe_155254_163430/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_06a0fe_155254_163430/stitched_minimal.parquet"
+  }
+}

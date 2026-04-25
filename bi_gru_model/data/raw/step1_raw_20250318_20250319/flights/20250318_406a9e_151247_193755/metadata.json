@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_406a9e_151247_193755",
+  "icao24": "406a9e",
+  "segment_start_time": "2025-03-18T15:12:47",
+  "segment_end_time": "2025-03-18T19:37:55",
+  "gap_duration_minutes": 265.1333333333333,
+  "adsc_point_count": 24,
+  "flight_match": {
+    "icao24": "406a9e",
+    "flight_start_time": "2025-03-18T13:55:30",
+    "flight_end_time": "2025-03-19T01:33:59",
+    "callsign": "BAW241",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "SBJD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3584,
+    "during_count": 0,
+    "after_count": 5215,
+    "adsc_point_count": 24,
+    "gap_duration_minutes": 265.1333333333333,
+    "before_boundary_speed_kts": 498.77344482628433,
+    "after_boundary_speed_kts": 472.42742184065065,
+    "max_internal_speed_kts": 563.8293142183938,
+    "median_internal_speed_kts": 482.44393082951336
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_406a9e_151247_193755/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_406a9e_151247_193755/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_406a9e_151247_193755/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_406a9e_151247_193755/stitched_minimal.parquet"
+  }
+}

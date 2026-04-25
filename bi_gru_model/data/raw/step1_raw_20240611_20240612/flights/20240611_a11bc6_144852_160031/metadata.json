@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_a11bc6_144852_160031",
+  "icao24": "a11bc6",
+  "segment_start_time": "2024-06-11T14:48:52",
+  "segment_end_time": "2024-06-11T16:00:31",
+  "gap_duration_minutes": 71.65,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a11bc6",
+    "flight_start_time": "2024-06-11T11:32:32",
+    "flight_end_time": "2024-06-11T20:51:27",
+    "callsign": "UAL971",
+    "estdepartureairport": "LIRF",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2206,
+    "during_count": 0,
+    "after_count": 5131,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 71.65,
+    "before_boundary_speed_kts": 469.01173812658334,
+    "after_boundary_speed_kts": 472.0450288401064,
+    "max_internal_speed_kts": 489.4686483315498,
+    "median_internal_speed_kts": 489.4686483315498
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_a11bc6_144852_160031/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_a11bc6_144852_160031/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_a11bc6_144852_160031/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_a11bc6_144852_160031/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,27 @@
+services:
+  core:
+    build:
+      context: .
+      dockerfile: env_core/Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+      - ./models:/app/models
+    working_dir: /app
+
+  torch:
+    build:
+      context: .
+      dockerfile: env_torch/Dockerfile
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+      - ./models:/app/models
+    working_dir: /app
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

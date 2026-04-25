@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230723_040199_103554_111523",
+  "icao24": "040199",
+  "segment_start_time": "2023-07-23T10:35:54",
+  "segment_end_time": "2023-07-23T11:15:23",
+  "gap_duration_minutes": 39.483333333333334,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "040199",
+    "flight_start_time": "2023-07-23T09:31:00",
+    "flight_end_time": "2023-07-23T17:11:45",
+    "callsign": "ETH518",
+    "estdepartureairport": "EIDW",
+    "estarrivalairport": "KATL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1949,
+    "during_count": 0,
+    "after_count": 9215,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 39.483333333333334,
+    "before_boundary_speed_kts": 492.19399410971533,
+    "after_boundary_speed_kts": 474.7713775162602,
+    "max_internal_speed_kts": 497.56325968839155,
+    "median_internal_speed_kts": 496.9045209074129
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230723_040199_103554_111523/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230723_040199_103554_111523/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230723_040199_103554_111523/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230723_040199_103554_111523/stitched_minimal.parquet"
+  }
+}

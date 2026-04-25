@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231012_3c4b28_031711_042250",
+  "icao24": "3c4b28",
+  "segment_start_time": "2023-10-12T03:17:11",
+  "segment_end_time": "2023-10-12T04:22:50",
+  "gap_duration_minutes": 65.65,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "3c4b28",
+    "flight_start_time": "2023-10-12T00:52:50",
+    "flight_end_time": "2023-10-12T09:28:36",
+    "callsign": "DLH441",
+    "estdepartureairport": "KIAH",
+    "estarrivalairport": "EDDF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3332,
+    "during_count": 0,
+    "after_count": 6858,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 65.65,
+    "before_boundary_speed_kts": 562.740415377903,
+    "after_boundary_speed_kts": 528.034117760924,
+    "max_internal_speed_kts": 566.9514766592785,
+    "median_internal_speed_kts": 563.8323979091649
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231012_3c4b28_031711_042250/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231012_3c4b28_031711_042250/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231012_3c4b28_031711_042250/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231012_3c4b28_031711_042250/stitched_minimal.parquet"
+  }
+}

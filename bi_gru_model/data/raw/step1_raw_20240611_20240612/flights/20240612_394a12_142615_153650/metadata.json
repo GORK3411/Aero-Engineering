@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240612_394a12_142615_153650",
+  "icao24": "394a12",
+  "segment_start_time": "2024-06-12T14:26:15",
+  "segment_end_time": "2024-06-12T15:36:50",
+  "gap_duration_minutes": 70.58333333333333,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "394a12",
+    "flight_start_time": "2024-06-12T12:20:53",
+    "flight_end_time": "2024-06-12T19:16:44",
+    "callsign": "AFR344X",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1477,
+    "during_count": 0,
+    "after_count": 2179,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 70.58333333333333,
+    "before_boundary_speed_kts": 446.3959851182979,
+    "after_boundary_speed_kts": 455.57625646618175,
+    "max_internal_speed_kts": 480.5779954695267,
+    "median_internal_speed_kts": 475.2083138462411
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_394a12_142615_153650/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_394a12_142615_153650/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_394a12_142615_153650/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_394a12_142615_153650/stitched_minimal.parquet"
+  }
+}

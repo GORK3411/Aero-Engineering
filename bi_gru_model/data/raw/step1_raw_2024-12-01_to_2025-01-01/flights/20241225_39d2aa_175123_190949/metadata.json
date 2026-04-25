@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241225_39d2aa_175123_190949",
+  "icao24": "39d2aa",
+  "segment_start_time": "2024-12-25T17:51:23",
+  "segment_end_time": "2024-12-25T19:09:49",
+  "gap_duration_minutes": 78.43333333333334,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "39d2aa",
+    "flight_start_time": "2024-12-25T17:50:15",
+    "flight_end_time": "2024-12-26T01:47:41",
+    "callsign": "AFR378",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KDTW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5817,
+    "during_count": 0,
+    "after_count": 2395,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 78.43333333333334,
+    "before_boundary_speed_kts": 537.404758388921,
+    "after_boundary_speed_kts": 453.9746853908218,
+    "max_internal_speed_kts": 443.89103496570493,
+    "median_internal_speed_kts": 436.29437189203674
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_39d2aa_175123_190949/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_39d2aa_175123_190949/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_39d2aa_175123_190949/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_39d2aa_175123_190949/stitched_minimal.parquet"
+  }
+}

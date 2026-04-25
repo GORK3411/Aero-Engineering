@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231015_39cf13_024443_040756",
+  "icao24": "39cf13",
+  "segment_start_time": "2023-10-15T02:44:43",
+  "segment_end_time": "2023-10-15T04:07:56",
+  "gap_duration_minutes": 83.21666666666667,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "39cf13",
+    "flight_start_time": "2023-10-15T00:23:38",
+    "flight_end_time": "2023-10-15T08:48:55",
+    "callsign": "AFR639",
+    "estdepartureairport": "KIAH",
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2553,
+    "during_count": 0,
+    "after_count": 5081,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 83.21666666666667,
+    "before_boundary_speed_kts": 555.2425381691373,
+    "after_boundary_speed_kts": 515.9494398880798,
+    "max_internal_speed_kts": 550.6072937094065,
+    "median_internal_speed_kts": 534.5197643133788
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231015_39cf13_024443_040756/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231015_39cf13_024443_040756/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231015_39cf13_024443_040756/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231015_39cf13_024443_040756/stitched_minimal.parquet"
+  }
+}

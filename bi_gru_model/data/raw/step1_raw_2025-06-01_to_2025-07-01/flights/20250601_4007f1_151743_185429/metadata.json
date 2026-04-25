@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250601_4007f1_151743_185429",
+  "icao24": "4007f1",
+  "segment_start_time": "2025-06-01T15:17:43",
+  "segment_end_time": "2025-06-01T18:54:29",
+  "gap_duration_minutes": 216.76666666666668,
+  "adsc_point_count": 23,
+  "flight_match": {
+    "icao24": "4007f1",
+    "flight_start_time": "2025-06-01T16:13:35",
+    "flight_end_time": "2025-06-02T02:20:21",
+    "callsign": "BAW2203",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": "MMUN"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3860,
+    "during_count": 0,
+    "after_count": 3112,
+    "adsc_point_count": 23,
+    "gap_duration_minutes": 216.76666666666668,
+    "before_boundary_speed_kts": 482.028347686567,
+    "after_boundary_speed_kts": 445.05393320717076,
+    "max_internal_speed_kts": 502.79394816331444,
+    "median_internal_speed_kts": 477.1827324594891
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250601_4007f1_151743_185429/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250601_4007f1_151743_185429/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250601_4007f1_151743_185429/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250601_4007f1_151743_185429/stitched_minimal.parquet"
+  }
+}

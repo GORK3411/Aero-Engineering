@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250703_a1a8d3_151950_180527",
+  "icao24": "a1a8d3",
+  "segment_start_time": "2025-07-03T15:19:50",
+  "segment_end_time": "2025-07-03T18:05:27",
+  "gap_duration_minutes": 165.61666666666667,
+  "adsc_point_count": 22,
+  "flight_match": {
+    "icao24": "a1a8d3",
+    "flight_start_time": "2025-07-03T14:51:46",
+    "flight_end_time": "2025-07-03T23:55:39",
+    "callsign": "N206FJ",
+    "estdepartureairport": "LIRP",
+    "estarrivalairport": "KISP"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7785,
+    "during_count": 0,
+    "after_count": 2458,
+    "adsc_point_count": 22,
+    "gap_duration_minutes": 165.61666666666667,
+    "before_boundary_speed_kts": 482.7250324343002,
+    "after_boundary_speed_kts": 401.4968312027965,
+    "max_internal_speed_kts": 472.7573476418244,
+    "median_internal_speed_kts": 456.1875055867098
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_a1a8d3_151950_180527/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_a1a8d3_151950_180527/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_a1a8d3_151950_180527/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_a1a8d3_151950_180527/stitched_minimal.parquet"
+  }
+}

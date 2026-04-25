@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241206_4007f6_193539_210207",
+  "icao24": "4007f6",
+  "segment_start_time": "2024-12-06T19:35:39",
+  "segment_end_time": "2024-12-06T21:02:07",
+  "gap_duration_minutes": 86.46666666666667,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "4007f6",
+    "flight_start_time": "2024-12-06T04:13:20",
+    "flight_end_time": "2024-12-07T02:13:52",
+    "callsign": "BAW22B",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KBWI"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3513,
+    "during_count": 0,
+    "after_count": 3162,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 86.46666666666667,
+    "before_boundary_speed_kts": 420.9921326705389,
+    "after_boundary_speed_kts": 432.50015005665006,
+    "max_internal_speed_kts": 407.7834163486304,
+    "median_internal_speed_kts": 359.38101762168
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241206_4007f6_193539_210207/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241206_4007f6_193539_210207/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241206_4007f6_193539_210207/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241206_4007f6_193539_210207/stitched_minimal.parquet"
+  }
+}

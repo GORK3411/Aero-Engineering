@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230720_7380c7_112847_131438",
+  "icao24": "7380c7",
+  "segment_start_time": "2023-07-20T11:28:47",
+  "segment_end_time": "2023-07-20T13:14:38",
+  "gap_duration_minutes": 105.85,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "7380c7",
+    "flight_start_time": "2023-07-20T05:58:16",
+    "flight_end_time": "2023-07-20T16:56:07",
+    "callsign": "ELY015",
+    "estdepartureairport": "LLBG",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 12945,
+    "during_count": 0,
+    "after_count": 3118,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 105.85,
+    "before_boundary_speed_kts": 477.6659066335971,
+    "after_boundary_speed_kts": 482.080899196934,
+    "max_internal_speed_kts": 534.7816408013042,
+    "median_internal_speed_kts": 494.1084547588191
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230720_7380c7_112847_131438/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230720_7380c7_112847_131438/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230720_7380c7_112847_131438/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230720_7380c7_112847_131438/stitched_minimal.parquet"
+  }
+}

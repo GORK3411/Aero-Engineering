@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_3965b3_214005_014847",
+  "icao24": "3965b3",
+  "segment_start_time": "2025-02-14T21:40:05",
+  "segment_end_time": "2025-02-15T01:48:47",
+  "gap_duration_minutes": 248.7,
+  "adsc_point_count": 23,
+  "flight_match": {
+    "icao24": "3965b3",
+    "flight_start_time": "2025-02-14T20:00:44",
+    "flight_end_time": "2025-02-15T06:42:58",
+    "callsign": "AFR995",
+    "estdepartureairport": "FAOR",
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 491,
+    "during_count": 0,
+    "after_count": 7827,
+    "adsc_point_count": 23,
+    "gap_duration_minutes": 248.7,
+    "before_boundary_speed_kts": 490.45570883862496,
+    "after_boundary_speed_kts": 486.3655432668698,
+    "max_internal_speed_kts": 515.8666046561989,
+    "median_internal_speed_kts": 503.5386587584166
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3965b3_214005_014847/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3965b3_214005_014847/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3965b3_214005_014847/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3965b3_214005_014847/stitched_minimal.parquet"
+  }
+}

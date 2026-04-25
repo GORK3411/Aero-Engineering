@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240416_ab6fbf_130420_143041",
+  "icao24": "ab6fbf",
+  "segment_start_time": "2024-04-16T13:04:20",
+  "segment_end_time": "2024-04-16T14:30:41",
+  "gap_duration_minutes": 86.35,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "ab6fbf",
+    "flight_start_time": "2024-04-16T13:50:31",
+    "flight_end_time": "2024-04-16T22:03:47",
+    "callsign": "DAL99",
+    "estdepartureairport": "LSGG",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6891,
+    "during_count": 0,
+    "after_count": 1363,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 86.35,
+    "before_boundary_speed_kts": 589.2767358280255,
+    "after_boundary_speed_kts": 438.3541692847677,
+    "max_internal_speed_kts": 460.7552430681782,
+    "median_internal_speed_kts": 453.6497218351334
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_ab6fbf_130420_143041/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_ab6fbf_130420_143041/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_ab6fbf_130420_143041/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_ab6fbf_130420_143041/stitched_minimal.parquet"
+  }
+}

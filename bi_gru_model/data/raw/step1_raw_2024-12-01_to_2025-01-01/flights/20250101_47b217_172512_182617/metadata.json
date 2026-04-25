@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250101_47b217_172512_182617",
+  "icao24": "47b217",
+  "segment_start_time": "2025-01-01T17:25:12",
+  "segment_end_time": "2025-01-01T18:26:17",
+  "gap_duration_minutes": 61.083333333333336,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "47b217",
+    "flight_start_time": "2025-01-01T16:36:36",
+    "flight_end_time": "2025-01-02T03:02:20",
+    "callsign": "NBT62C",
+    "estdepartureairport": "EDDB",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7564,
+    "during_count": 0,
+    "after_count": 1344,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 61.083333333333336,
+    "before_boundary_speed_kts": 515.2272353664897,
+    "after_boundary_speed_kts": 442.10290210691653,
+    "max_internal_speed_kts": 477.5520733652332,
+    "median_internal_speed_kts": 473.7493422775314
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20250101_47b217_172512_182617/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20250101_47b217_172512_182617/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20250101_47b217_172512_182617/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20250101_47b217_172512_182617/stitched_minimal.parquet"
+  }
+}

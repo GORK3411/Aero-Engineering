@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240726_407943_084542_095547",
+  "icao24": "407943",
+  "segment_start_time": "2024-07-26T08:45:42",
+  "segment_end_time": "2024-07-26T09:55:47",
+  "gap_duration_minutes": 70.08333333333333,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "407943",
+    "flight_start_time": "2024-07-26T04:58:01",
+    "flight_end_time": "2024-07-26T11:33:07",
+    "callsign": "BAW98T",
+    "estdepartureairport": "CYYZ",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2654,
+    "during_count": 0,
+    "after_count": 5246,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 70.08333333333333,
+    "before_boundary_speed_kts": 567.6914297337696,
+    "after_boundary_speed_kts": 529.8558282303744,
+    "max_internal_speed_kts": 528.0514945783749,
+    "median_internal_speed_kts": 518.6260635058946
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_407943_084542_095547/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_407943_084542_095547/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_407943_084542_095547/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_407943_084542_095547/stitched_minimal.parquet"
+  }
+}

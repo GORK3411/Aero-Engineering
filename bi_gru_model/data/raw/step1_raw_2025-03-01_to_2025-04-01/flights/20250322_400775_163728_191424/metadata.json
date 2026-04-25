@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250322_400775_163728_191424",
+  "icao24": "400775",
+  "segment_start_time": "2025-03-22T16:37:28",
+  "segment_end_time": "2025-03-22T19:14:24",
+  "gap_duration_minutes": 156.93333333333334,
+  "adsc_point_count": 20,
+  "flight_match": {
+    "icao24": "400775",
+    "flight_start_time": "2025-03-22T15:08:46",
+    "flight_end_time": "2025-03-23T00:21:34",
+    "callsign": "BAW12J",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": "KTPA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2971,
+    "during_count": 0,
+    "after_count": 3605,
+    "adsc_point_count": 20,
+    "gap_duration_minutes": 156.93333333333334,
+    "before_boundary_speed_kts": 653.8316973456829,
+    "after_boundary_speed_kts": 463.8671334968017,
+    "max_internal_speed_kts": 471.729765791394,
+    "median_internal_speed_kts": 442.48592407401617
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_400775_163728_191424/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_400775_163728_191424/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_400775_163728_191424/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_400775_163728_191424/stitched_minimal.parquet"
+  }
+}

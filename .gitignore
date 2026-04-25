@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+bi_gru_model/data/processed/**
+bi_gru_model/data/reconstructions/**

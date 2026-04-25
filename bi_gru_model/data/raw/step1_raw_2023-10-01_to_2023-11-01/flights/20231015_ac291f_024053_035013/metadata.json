@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231015_ac291f_024053_035013",
+  "icao24": "ac291f",
+  "segment_start_time": "2023-10-15T02:40:53",
+  "segment_end_time": "2023-10-15T03:50:13",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "ac291f",
+    "flight_start_time": "2023-10-15T00:17:05",
+    "flight_end_time": "2023-10-15T09:01:40",
+    "callsign": "AAL70",
+    "estdepartureairport": "KDFW",
+    "estarrivalairport": "EDDF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3074,
+    "during_count": 0,
+    "after_count": 6795,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 525.9345478110895,
+    "after_boundary_speed_kts": 516.5361836952059,
+    "max_internal_speed_kts": 528.2954283658064,
+    "median_internal_speed_kts": 522.0210614721931
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231015_ac291f_024053_035013/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231015_ac291f_024053_035013/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231015_ac291f_024053_035013/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231015_ac291f_024053_035013/stitched_minimal.parquet"
+  }
+}

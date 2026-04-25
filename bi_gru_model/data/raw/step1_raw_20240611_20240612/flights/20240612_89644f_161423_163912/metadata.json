@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240612_89644f_161423_163912",
+  "icao24": "89644f",
+  "segment_start_time": "2024-06-12T16:14:23",
+  "segment_end_time": "2024-06-12T16:39:12",
+  "gap_duration_minutes": 24.816666666666666,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "89644f",
+    "flight_start_time": "2024-06-12T09:34:40",
+    "flight_end_time": "2024-06-12T23:43:02",
+    "callsign": "UAE3U",
+    "estdepartureairport": "OMDB",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 154,
+    "during_count": 0,
+    "after_count": 5131,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 24.816666666666666,
+    "before_boundary_speed_kts": 498.9010057276127,
+    "after_boundary_speed_kts": 470.93958754433356,
+    "max_internal_speed_kts": 490.5469964163201,
+    "median_internal_speed_kts": 489.2752565294144
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_89644f_161423_163912/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_89644f_161423_163912/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_89644f_161423_163912/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_89644f_161423_163912/stitched_minimal.parquet"
+  }
+}

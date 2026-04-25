@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231119_a105b0_040845_051322",
+  "icao24": "a105b0",
+  "segment_start_time": "2023-11-19T04:08:45",
+  "segment_end_time": "2023-11-19T05:13:22",
+  "gap_duration_minutes": 64.61666666666666,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "a105b0",
+    "flight_start_time": "2023-11-19T02:59:39",
+    "flight_end_time": "2023-11-19T09:09:23",
+    "callsign": "N165QS",
+    "estdepartureairport": "KTEB",
+    "estarrivalairport": "EHBK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3115,
+    "during_count": 0,
+    "after_count": 5370,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 64.61666666666666,
+    "before_boundary_speed_kts": 605.257266810798,
+    "after_boundary_speed_kts": 524.9452412206533,
+    "max_internal_speed_kts": 521.0773125805325,
+    "median_internal_speed_kts": 513.8553154700943
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_a105b0_040845_051322/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_a105b0_040845_051322/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_a105b0_040845_051322/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_a105b0_040845_051322/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250302_0201a4_194551_215039",
+  "icao24": "0201a4",
+  "segment_start_time": "2025-03-02T19:45:51",
+  "segment_end_time": "2025-03-02T21:50:39",
+  "gap_duration_minutes": 124.8,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "0201a4",
+    "flight_start_time": "2025-03-02T06:41:22",
+    "flight_end_time": "2025-03-03T01:48:22",
+    "callsign": "RAM208M",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2183,
+    "during_count": 0,
+    "after_count": 1137,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 124.8,
+    "before_boundary_speed_kts": 702.1535760545833,
+    "after_boundary_speed_kts": 401.6873375169353,
+    "max_internal_speed_kts": 480.92016449450057,
+    "median_internal_speed_kts": 460.55076125634287
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250302_0201a4_194551_215039/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250302_0201a4_194551_215039/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250302_0201a4_194551_215039/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250302_0201a4_194551_215039/stitched_minimal.parquet"
+  }
+}

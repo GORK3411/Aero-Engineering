@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240710_39cf03_092003_102517",
+  "icao24": "39cf03",
+  "segment_start_time": "2024-07-10T09:20:03",
+  "segment_end_time": "2024-07-10T10:25:17",
+  "gap_duration_minutes": 65.23333333333333,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "39cf03",
+    "flight_start_time": "2024-07-10T06:17:19",
+    "flight_end_time": "2024-07-10T12:20:41",
+    "callsign": "AFR321",
+    "estdepartureairport": "KBOS",
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2784,
+    "during_count": 0,
+    "after_count": 5112,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 65.23333333333333,
+    "before_boundary_speed_kts": 551.2246630062482,
+    "after_boundary_speed_kts": 517.4565618135781,
+    "max_internal_speed_kts": 508.4918370001614,
+    "median_internal_speed_kts": 500.54269277997594
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240710_39cf03_092003_102517/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240710_39cf03_092003_102517/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240710_39cf03_092003_102517/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240710_39cf03_092003_102517/stitched_minimal.parquet"
+  }
+}

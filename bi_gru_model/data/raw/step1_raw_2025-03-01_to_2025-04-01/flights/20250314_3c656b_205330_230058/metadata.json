@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250314_3c656b_205330_230058",
+  "icao24": "3c656b",
+  "segment_start_time": "2025-03-14T20:53:30",
+  "segment_end_time": "2025-03-14T23:00:58",
+  "gap_duration_minutes": 127.46666666666667,
+  "adsc_point_count": 12,
+  "flight_match": {
+    "icao24": "3c656b",
+    "flight_start_time": "2025-03-14T18:19:42",
+    "flight_end_time": "2025-03-15T04:23:09",
+    "callsign": "OCN80",
+    "estdepartureairport": "EDDM",
+    "estarrivalairport": "KMCO"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2631,
+    "during_count": 0,
+    "after_count": 907,
+    "adsc_point_count": 12,
+    "gap_duration_minutes": 127.46666666666667,
+    "before_boundary_speed_kts": 616.0578275860584,
+    "after_boundary_speed_kts": 414.188978740352,
+    "max_internal_speed_kts": 467.1552118651887,
+    "median_internal_speed_kts": 450.44163044097814
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_3c656b_205330_230058/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_3c656b_205330_230058/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_3c656b_205330_230058/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_3c656b_205330_230058/stitched_minimal.parquet"
+  }
+}

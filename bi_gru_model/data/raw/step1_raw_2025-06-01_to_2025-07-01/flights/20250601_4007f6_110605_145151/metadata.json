@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250601_4007f6_110605_145151",
+  "icao24": "4007f6",
+  "segment_start_time": "2025-06-01T11:06:05",
+  "segment_end_time": "2025-06-01T14:51:51",
+  "gap_duration_minutes": 225.76666666666668,
+  "adsc_point_count": 37,
+  "flight_match": {
+    "icao24": "4007f6",
+    "flight_start_time": "2025-06-01T12:37:33",
+    "flight_end_time": "2025-06-02T00:37:58",
+    "callsign": "BAW53M",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "MBPV"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4043,
+    "during_count": 0,
+    "after_count": 3666,
+    "adsc_point_count": 37,
+    "gap_duration_minutes": 225.76666666666668,
+    "before_boundary_speed_kts": 542.8797653486037,
+    "after_boundary_speed_kts": 470.7410304869294,
+    "max_internal_speed_kts": 508.52196428447127,
+    "median_internal_speed_kts": 494.791054347525
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250601_4007f6_110605_145151/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250601_4007f6_110605_145151/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250601_4007f6_110605_145151/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250601_4007f6_110605_145151/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_4b18fc_221405_001346",
+  "icao24": "4b18fc",
+  "segment_start_time": "2025-02-14T22:14:05",
+  "segment_end_time": "2025-02-15T00:13:46",
+  "gap_duration_minutes": 119.68333333333334,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4b18fc",
+    "flight_start_time": "2025-02-14T20:43:43",
+    "flight_end_time": "2025-02-15T07:13:56",
+    "callsign": "SWR283",
+    "estdepartureairport": "FAOR",
+    "estarrivalairport": "LSZH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 753,
+    "during_count": 0,
+    "after_count": 2280,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 119.68333333333334,
+    "before_boundary_speed_kts": 467.7208964329272,
+    "after_boundary_speed_kts": 446.54406351013824,
+    "max_internal_speed_kts": 484.33547056949,
+    "median_internal_speed_kts": 479.98292705796604
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_4b18fc_221405_001346/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_4b18fc_221405_001346/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_4b18fc_221405_001346/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_4b18fc_221405_001346/stitched_minimal.parquet"
+  }
+}

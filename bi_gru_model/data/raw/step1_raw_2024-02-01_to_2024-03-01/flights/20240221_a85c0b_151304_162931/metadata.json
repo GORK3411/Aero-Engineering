@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240221_a85c0b_151304_162931",
+  "icao24": "a85c0b",
+  "segment_start_time": "2024-02-21T15:13:04",
+  "segment_end_time": "2024-02-21T16:29:31",
+  "gap_duration_minutes": 76.45,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a85c0b",
+    "flight_start_time": "2024-02-21T15:41:20",
+    "flight_end_time": "2024-02-21T22:46:41",
+    "callsign": "N638GA",
+    "estdepartureairport": "EGGW",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4720,
+    "during_count": 0,
+    "after_count": 2205,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 76.45,
+    "before_boundary_speed_kts": 458.1890945207672,
+    "after_boundary_speed_kts": 451.07021857780325,
+    "max_internal_speed_kts": 461.4776183728818,
+    "median_internal_speed_kts": 461.4776183728818
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240221_a85c0b_151304_162931/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240221_a85c0b_151304_162931/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240221_a85c0b_151304_162931/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240221_a85c0b_151304_162931/stitched_minimal.parquet"
+  }
+}

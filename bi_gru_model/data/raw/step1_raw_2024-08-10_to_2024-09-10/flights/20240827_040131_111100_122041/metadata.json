@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240827_040131_111100_122041",
+  "icao24": "040131",
+  "segment_start_time": "2024-08-27T11:11:00",
+  "segment_end_time": "2024-08-27T12:20:41",
+  "gap_duration_minutes": 69.68333333333334,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "040131",
+    "flight_start_time": "2024-08-27T08:01:19",
+    "flight_end_time": "2024-08-27T16:26:59",
+    "callsign": "ETH552",
+    "estdepartureairport": "LIRF",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9867,
+    "during_count": 0,
+    "after_count": 2019,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 69.68333333333334,
+    "before_boundary_speed_kts": 606.7157941720141,
+    "after_boundary_speed_kts": 486.1829595108204,
+    "max_internal_speed_kts": 473.1271022759387,
+    "median_internal_speed_kts": 469.605661273363
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_040131_111100_122041/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_040131_111100_122041/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_040131_111100_122041/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_040131_111100_122041/stitched_minimal.parquet"
+  }
+}

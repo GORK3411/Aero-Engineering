@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230709_a0f427_141125_145325",
+  "icao24": "a0f427",
+  "segment_start_time": "2023-07-09T14:11:25",
+  "segment_end_time": "2023-07-09T14:53:25",
+  "gap_duration_minutes": 42.0,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "a0f427",
+    "flight_start_time": "2023-07-09T12:31:11",
+    "flight_end_time": "2023-07-09T20:16:20",
+    "callsign": "UAL973",
+    "estdepartureairport": "EBBR",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2318,
+    "during_count": 0,
+    "after_count": 5300,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 42.0,
+    "before_boundary_speed_kts": 537.5955906677927,
+    "after_boundary_speed_kts": 478.29607145549664,
+    "max_internal_speed_kts": 540.9816095120143,
+    "median_internal_speed_kts": 534.8605043753149
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_a0f427_141125_145325/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_a0f427_141125_145325/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_a0f427_141125_145325/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_a0f427_141125_145325/stitched_minimal.parquet"
+  }
+}

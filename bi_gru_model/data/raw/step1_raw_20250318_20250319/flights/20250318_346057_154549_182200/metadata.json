@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_346057_154549_182200",
+  "icao24": "346057",
+  "segment_start_time": "2025-03-18T15:45:49",
+  "segment_end_time": "2025-03-18T18:22:00",
+  "gap_duration_minutes": 156.18333333333334,
+  "adsc_point_count": 24,
+  "flight_match": {
+    "icao24": "346057",
+    "flight_start_time": "2025-03-18T13:32:41",
+    "flight_end_time": "2025-03-18T23:48:00",
+    "callsign": "IBE0271",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": "SDTB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3572,
+    "during_count": 0,
+    "after_count": 5065,
+    "adsc_point_count": 24,
+    "gap_duration_minutes": 156.18333333333334,
+    "before_boundary_speed_kts": 477.1641879337204,
+    "after_boundary_speed_kts": 478.484821298888,
+    "max_internal_speed_kts": 455.7156279812183,
+    "median_internal_speed_kts": 440.48810615551247
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_346057_154549_182200/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_346057_154549_182200/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_346057_154549_182200/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_346057_154549_182200/stitched_minimal.parquet"
+  }
+}

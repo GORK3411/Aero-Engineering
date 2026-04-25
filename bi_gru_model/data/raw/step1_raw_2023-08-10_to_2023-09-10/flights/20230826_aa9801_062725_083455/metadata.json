@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230826_aa9801_062725_083455",
+  "icao24": "aa9801",
+  "segment_start_time": "2023-08-26T06:27:25",
+  "segment_end_time": "2023-08-26T08:34:55",
+  "gap_duration_minutes": 127.5,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "aa9801",
+    "flight_start_time": "2023-08-26T00:55:46",
+    "flight_end_time": "2023-08-26T12:12:44",
+    "callsign": "AAL145",
+    "estdepartureairport": "LLBG",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3599,
+    "during_count": 0,
+    "after_count": 1471,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 127.5,
+    "before_boundary_speed_kts": 494.0021044639688,
+    "after_boundary_speed_kts": 418.37136602424584,
+    "max_internal_speed_kts": 477.252640423066,
+    "median_internal_speed_kts": 472.6507586221808
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230826_aa9801_062725_083455/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230826_aa9801_062725_083455/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230826_aa9801_062725_083455/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230826_aa9801_062725_083455/stitched_minimal.parquet"
+  }
+}

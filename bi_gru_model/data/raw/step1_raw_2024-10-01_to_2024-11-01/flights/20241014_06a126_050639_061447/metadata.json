@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241014_06a126_050639_061447",
+  "icao24": "06a126",
+  "segment_start_time": "2024-10-14T05:06:39",
+  "segment_end_time": "2024-10-14T06:14:47",
+  "gap_duration_minutes": 68.13333333333334,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "06a126",
+    "flight_start_time": "2024-10-13T04:44:27",
+    "flight_end_time": "2024-10-14T23:43:19",
+    "callsign": "QTR37U",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "VOBL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3214,
+    "during_count": 0,
+    "after_count": 9193,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 68.13333333333334,
+    "before_boundary_speed_kts": 618.0732123929415,
+    "after_boundary_speed_kts": 528.8795202331182,
+    "max_internal_speed_kts": 570.1866831017546,
+    "median_internal_speed_kts": 570.1866831017546
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_06a126_050639_061447/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_06a126_050639_061447/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_06a126_050639_061447/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_06a126_050639_061447/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240816_a67857_082331_093251",
+  "icao24": "a67857",
+  "segment_start_time": "2024-08-16T08:23:31",
+  "segment_end_time": "2024-08-16T09:32:51",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "a67857",
+    "flight_start_time": "2024-08-16T04:54:07",
+    "flight_end_time": "2024-08-16T11:10:05",
+    "callsign": "GJE2226",
+    "estdepartureairport": "KTEB",
+    "estarrivalairport": "EGLF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3287,
+    "during_count": 0,
+    "after_count": 4644,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 564.0798738757508,
+    "after_boundary_speed_kts": 534.3787365536278,
+    "max_internal_speed_kts": 545.8049352854164,
+    "median_internal_speed_kts": 544.7021439925036
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240816_a67857_082331_093251/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240816_a67857_082331_093251/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240816_a67857_082331_093251/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240816_a67857_082331_093251/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250321_a6286f_191836_214331",
+  "icao24": "a6286f",
+  "segment_start_time": "2025-03-21T19:18:36",
+  "segment_end_time": "2025-03-21T21:43:31",
+  "gap_duration_minutes": 144.91666666666666,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "a6286f",
+    "flight_start_time": "2025-03-21T17:51:46",
+    "flight_end_time": "2025-03-22T01:01:00",
+    "callsign": "N496X",
+    "estdepartureairport": "EGGW",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3035,
+    "during_count": 0,
+    "after_count": 3251,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 144.91666666666666,
+    "before_boundary_speed_kts": 724.1104637043026,
+    "after_boundary_speed_kts": 427.66618607210785,
+    "max_internal_speed_kts": 458.1733855921917,
+    "median_internal_speed_kts": 424.82200483221385
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_a6286f_191836_214331/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_a6286f_191836_214331/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_a6286f_191836_214331/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_a6286f_191836_214331/stitched_minimal.parquet"
+  }
+}

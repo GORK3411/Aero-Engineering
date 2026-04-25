@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240313_7380ca_164750_174514",
+  "icao24": "7380ca",
+  "segment_start_time": "2024-03-13T16:47:50",
+  "segment_end_time": "2024-03-13T17:45:14",
+  "gap_duration_minutes": 57.4,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "7380ca",
+    "flight_start_time": "2024-03-13T11:48:13",
+    "flight_end_time": "2024-03-13T22:22:15",
+    "callsign": "ELY084",
+    "estdepartureairport": "VTBS",
+    "estarrivalairport": "OLBA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 559,
+    "during_count": 0,
+    "after_count": 1518,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 57.4,
+    "before_boundary_speed_kts": 489.9637024113614,
+    "after_boundary_speed_kts": 380.2598541991538,
+    "max_internal_speed_kts": 491.7062334775201,
+    "median_internal_speed_kts": 484.87659027537336
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_7380ca_164750_174514/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_7380ca_164750_174514/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_7380ca_164750_174514/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_7380ca_164750_174514/stitched_minimal.parquet"
+  }
+}

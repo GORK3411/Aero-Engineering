@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_407af2_145716_160849",
+  "icao24": "407af2",
+  "segment_start_time": "2025-04-08T14:57:16",
+  "segment_end_time": "2025-04-08T16:08:49",
+  "gap_duration_minutes": 71.55,
+  "adsc_point_count": 11,
+  "flight_match": {
+    "icao24": "407af2",
+    "flight_start_time": "2025-04-08T13:23:23",
+    "flight_end_time": "2025-04-08T20:49:43",
+    "callsign": "BAW2PD",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2830,
+    "during_count": 0,
+    "after_count": 5171,
+    "adsc_point_count": 11,
+    "gap_duration_minutes": 71.55,
+    "before_boundary_speed_kts": 482.71245329397794,
+    "after_boundary_speed_kts": 498.1761583703197,
+    "max_internal_speed_kts": 535.5819178588073,
+    "median_internal_speed_kts": 522.6724947499267
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_407af2_145716_160849/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_407af2_145716_160849/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_407af2_145716_160849/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_407af2_145716_160849/stitched_minimal.parquet"
+  }
+}

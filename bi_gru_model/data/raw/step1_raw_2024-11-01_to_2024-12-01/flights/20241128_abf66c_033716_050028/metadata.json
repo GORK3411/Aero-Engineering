@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241128_abf66c_033716_050028",
+  "icao24": "abf66c",
+  "segment_start_time": "2024-11-28T03:37:16",
+  "segment_end_time": "2024-11-28T05:00:28",
+  "gap_duration_minutes": 83.2,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "abf66c",
+    "flight_start_time": "2024-11-28T02:07:41",
+    "flight_end_time": "2024-11-28T09:10:19",
+    "callsign": "AAL92",
+    "estdepartureairport": "KPHL",
+    "estarrivalairport": "LSZH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3654,
+    "during_count": 0,
+    "after_count": 7237,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 83.2,
+    "before_boundary_speed_kts": 536.0855178749239,
+    "after_boundary_speed_kts": 499.2177761326998,
+    "max_internal_speed_kts": 484.2476161778318,
+    "median_internal_speed_kts": 484.2476161778318
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241128_abf66c_033716_050028/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241128_abf66c_033716_050028/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241128_abf66c_033716_050028/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241128_abf66c_033716_050028/stitched_minimal.parquet"
+  }
+}

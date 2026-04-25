@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_aa4440_173719_180958",
+  "icao24": "aa4440",
+  "segment_start_time": "2024-03-12T17:37:19",
+  "segment_end_time": "2024-03-12T18:09:58",
+  "gap_duration_minutes": 32.65,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "aa4440",
+    "flight_start_time": "2024-03-12T14:56:56",
+    "flight_end_time": "2024-03-13T00:50:20",
+    "callsign": "UAL4",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KDWH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2031,
+    "during_count": 0,
+    "after_count": 12946,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 32.65,
+    "before_boundary_speed_kts": 448.4131562049981,
+    "after_boundary_speed_kts": 470.6987409100159,
+    "max_internal_speed_kts": 457.1716974108079,
+    "median_internal_speed_kts": 453.9609632743716
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_aa4440_173719_180958/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_aa4440_173719_180958/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_aa4440_173719_180958/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_aa4440_173719_180958/stitched_minimal.parquet"
+  }
+}

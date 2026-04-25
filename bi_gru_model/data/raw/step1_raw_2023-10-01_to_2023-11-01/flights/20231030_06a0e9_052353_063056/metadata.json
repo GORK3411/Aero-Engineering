@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231030_06a0e9_052353_063056",
+  "icao24": "06a0e9",
+  "segment_start_time": "2023-10-30T05:23:53",
+  "segment_end_time": "2023-10-30T06:30:56",
+  "gap_duration_minutes": 67.05,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "06a0e9",
+    "flight_start_time": "2023-10-30T04:32:49",
+    "flight_end_time": "2023-10-30T13:30:09",
+    "callsign": "QTR46W",
+    "estdepartureairport": "KBOS",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2486,
+    "during_count": 0,
+    "after_count": 4919,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 67.05,
+    "before_boundary_speed_kts": 612.84610162484,
+    "after_boundary_speed_kts": 553.0404260051322,
+    "max_internal_speed_kts": 548.6928731937164,
+    "median_internal_speed_kts": 526.6865249627928
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_06a0e9_052353_063056/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_06a0e9_052353_063056/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_06a0e9_052353_063056/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_06a0e9_052353_063056/stitched_minimal.parquet"
+  }
+}

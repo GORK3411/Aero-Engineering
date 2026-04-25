@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_aa2184_170310_173128",
+  "icao24": "aa2184",
+  "segment_start_time": "2024-03-12T17:03:10",
+  "segment_end_time": "2024-03-12T17:31:28",
+  "gap_duration_minutes": 28.3,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "aa2184",
+    "flight_start_time": "2024-03-12T14:21:22",
+    "flight_end_time": "2024-03-12T22:16:20",
+    "callsign": "AAL733",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KCLT"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2273,
+    "during_count": 0,
+    "after_count": 8903,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 28.3,
+    "before_boundary_speed_kts": 437.05628342547,
+    "after_boundary_speed_kts": 474.57073080240235,
+    "max_internal_speed_kts": 444.30288769114867,
+    "median_internal_speed_kts": 440.3735916473197
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_aa2184_170310_173128/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_aa2184_170310_173128/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_aa2184_170310_173128/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_aa2184_170310_173128/stitched_minimal.parquet"
+  }
+}

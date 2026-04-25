@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241215_76cce1_182444_193210",
+  "icao24": "76cce1",
+  "segment_start_time": "2024-12-15T18:24:44",
+  "segment_end_time": "2024-12-15T19:32:10",
+  "gap_duration_minutes": 67.43333333333334,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "76cce1",
+    "flight_start_time": "2024-12-15T16:41:52",
+    "flight_end_time": "2024-12-16T10:25:59",
+    "callsign": "SIA21",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3167,
+    "during_count": 0,
+    "after_count": 9954,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 67.43333333333334,
+    "before_boundary_speed_kts": 502.0649223954918,
+    "after_boundary_speed_kts": 534.604420053667,
+    "max_internal_speed_kts": 552.9884253315878,
+    "median_internal_speed_kts": 541.7335404461629
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241215_76cce1_182444_193210/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241215_76cce1_182444_193210/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241215_76cce1_182444_193210/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241215_76cce1_182444_193210/stitched_minimal.parquet"
+  }
+}

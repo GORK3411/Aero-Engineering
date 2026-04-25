@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231102_4d0107_033403_045715",
+  "icao24": "4d0107",
+  "segment_start_time": "2023-11-02T03:34:03",
+  "segment_end_time": "2023-11-02T04:57:15",
+  "gap_duration_minutes": 83.2,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "4d0107",
+    "flight_start_time": "2023-11-01T23:27:42",
+    "flight_end_time": "2023-11-02T08:29:13",
+    "callsign": "CLX5933",
+    "estdepartureairport": "MM28",
+    "estarrivalairport": "ELLX"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 629,
+    "during_count": 0,
+    "after_count": 5082,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 83.2,
+    "before_boundary_speed_kts": 627.864190446558,
+    "after_boundary_speed_kts": 561.6604800481678,
+    "max_internal_speed_kts": 618.4780781691849,
+    "median_internal_speed_kts": 597.1176770038091
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_4d0107_033403_045715/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_4d0107_033403_045715/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_4d0107_033403_045715/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_4d0107_033403_045715/stitched_minimal.parquet"
+  }
+}

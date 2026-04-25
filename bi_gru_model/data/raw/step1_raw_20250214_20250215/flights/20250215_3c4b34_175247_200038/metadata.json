@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250215_3c4b34_175247_200038",
+  "icao24": "3c4b34",
+  "segment_start_time": "2025-02-15T17:52:47",
+  "segment_end_time": "2025-02-15T20:00:38",
+  "gap_duration_minutes": 127.85,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "3c4b34",
+    "flight_start_time": "2025-02-15T15:29:26",
+    "flight_end_time": "2025-02-16T03:03:55",
+    "callsign": "DLH498",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "MMJC"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5704,
+    "during_count": 0,
+    "after_count": 3200,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 127.85,
+    "before_boundary_speed_kts": 528.0804887933457,
+    "after_boundary_speed_kts": 489.17296143104585,
+    "max_internal_speed_kts": 520.8521202031005,
+    "median_internal_speed_kts": 479.0936572140446
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_3c4b34_175247_200038/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_3c4b34_175247_200038/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_3c4b34_175247_200038/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_3c4b34_175247_200038/stitched_minimal.parquet"
+  }
+}

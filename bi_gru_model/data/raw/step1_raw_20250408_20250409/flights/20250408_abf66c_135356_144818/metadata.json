@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_abf66c_135356_144818",
+  "icao24": "abf66c",
+  "segment_start_time": "2025-04-08T13:53:56",
+  "segment_end_time": "2025-04-08T14:48:18",
+  "gap_duration_minutes": 54.36666666666667,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "abf66c",
+    "flight_start_time": "2025-04-08T12:03:13",
+    "flight_end_time": "2025-04-08T19:32:41",
+    "callsign": "AAL203",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": "KPHL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2392,
+    "during_count": 0,
+    "after_count": 6100,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 54.36666666666667,
+    "before_boundary_speed_kts": 481.89581525641347,
+    "after_boundary_speed_kts": 483.88486510320814,
+    "max_internal_speed_kts": 569.0814704523834,
+    "median_internal_speed_kts": 534.3645419056479
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_abf66c_135356_144818/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_abf66c_135356_144818/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_abf66c_135356_144818/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_abf66c_135356_144818/stitched_minimal.parquet"
+  }
+}

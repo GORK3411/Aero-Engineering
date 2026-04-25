@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240726_a75da8_065405_080325",
+  "icao24": "a75da8",
+  "segment_start_time": "2024-07-26T06:54:05",
+  "segment_end_time": "2024-07-26T08:03:25",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "a75da8",
+    "flight_start_time": "2024-07-26T02:05:15",
+    "flight_end_time": "2024-07-26T09:44:21",
+    "callsign": "DAL194",
+    "estdepartureairport": "KATL",
+    "estarrivalairport": "LEBL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1680,
+    "during_count": 0,
+    "after_count": 5851,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 585.2494333670469,
+    "after_boundary_speed_kts": 537.8191468667388,
+    "max_internal_speed_kts": 564.805613972225,
+    "median_internal_speed_kts": 558.5769144236323
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_a75da8_065405_080325/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_a75da8_065405_080325/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_a75da8_065405_080325/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_a75da8_065405_080325/stitched_minimal.parquet"
+  }
+}

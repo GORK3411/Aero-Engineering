@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230708_39c426_133135_142703",
+  "icao24": "39c426",
+  "segment_start_time": "2023-07-08T13:31:35",
+  "segment_end_time": "2023-07-08T14:27:03",
+  "gap_duration_minutes": 55.46666666666667,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "39c426",
+    "flight_start_time": "2023-07-08T11:56:30",
+    "flight_end_time": "2023-07-08T21:00:25",
+    "callsign": "AFR338",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KSEA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3421,
+    "during_count": 0,
+    "after_count": 4802,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 55.46666666666667,
+    "before_boundary_speed_kts": 668.7175934631872,
+    "after_boundary_speed_kts": 494.2860354474069,
+    "max_internal_speed_kts": 556.2882554260796,
+    "median_internal_speed_kts": 533.6535072361977
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_39c426_133135_142703/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_39c426_133135_142703/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_39c426_133135_142703/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_39c426_133135_142703/stitched_minimal.parquet"
+  }
+}

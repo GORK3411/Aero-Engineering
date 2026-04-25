@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241230_40688e_184501_195142",
+  "icao24": "40688e",
+  "segment_start_time": "2024-12-30T18:45:01",
+  "segment_end_time": "2024-12-30T19:51:42",
+  "gap_duration_minutes": 66.68333333333334,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "40688e",
+    "flight_start_time": "2024-12-30T19:11:13",
+    "flight_end_time": "2024-12-31T02:56:29",
+    "callsign": "BAW171",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "7PS7"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5189,
+    "during_count": 0,
+    "after_count": 737,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 66.68333333333334,
+    "before_boundary_speed_kts": 722.1508241248004,
+    "after_boundary_speed_kts": 432.72588006527263,
+    "max_internal_speed_kts": 439.08043669296967,
+    "median_internal_speed_kts": 438.90834472273195
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241230_40688e_184501_195142/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241230_40688e_184501_195142/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241230_40688e_184501_195142/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241230_40688e_184501_195142/stitched_minimal.parquet"
+  }
+}

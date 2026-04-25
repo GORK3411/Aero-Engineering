@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241217_89644d_193147_205423",
+  "icao24": "89644d",
+  "segment_start_time": "2024-12-17T19:31:47",
+  "segment_end_time": "2024-12-17T20:54:23",
+  "gap_duration_minutes": 82.6,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "89644d",
+    "flight_start_time": "2024-12-17T17:40:35",
+    "flight_end_time": "2024-12-18T03:54:25",
+    "callsign": "UAE1L",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 10054,
+    "during_count": 0,
+    "after_count": 420,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 82.6,
+    "before_boundary_speed_kts": 617.9816852914859,
+    "after_boundary_speed_kts": 448.6036139627769,
+    "max_internal_speed_kts": 448.5147971116931,
+    "median_internal_speed_kts": 422.0878178509132
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241217_89644d_193147_205423/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241217_89644d_193147_205423/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241217_89644d_193147_205423/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241217_89644d_193147_205423/stitched_minimal.parquet"
+  }
+}

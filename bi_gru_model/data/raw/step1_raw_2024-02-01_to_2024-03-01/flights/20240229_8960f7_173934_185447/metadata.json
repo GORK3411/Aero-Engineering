@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240229_8960f7_173934_185447",
+  "icao24": "8960f7",
+  "segment_start_time": "2024-02-29T17:39:34",
+  "segment_end_time": "2024-02-29T18:54:47",
+  "gap_duration_minutes": 75.21666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "8960f7",
+    "flight_start_time": "2024-02-29T17:13:02",
+    "flight_end_time": "2024-03-01T01:35:36",
+    "callsign": "UAE4PV",
+    "estdepartureairport": "LIMC",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7816,
+    "during_count": 0,
+    "after_count": 1728,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 75.21666666666667,
+    "before_boundary_speed_kts": 567.6175087339216,
+    "after_boundary_speed_kts": 460.3907833336999,
+    "max_internal_speed_kts": 428.0239179366208,
+    "median_internal_speed_kts": 426.82286922759306
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240229_8960f7_173934_185447/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240229_8960f7_173934_185447/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240229_8960f7_173934_185447/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240229_8960f7_173934_185447/stitched_minimal.parquet"
+  }
+}

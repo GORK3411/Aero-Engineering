@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_39c495_184139_202408",
+  "icao24": "39c495",
+  "segment_start_time": "2025-02-14T18:41:39",
+  "segment_end_time": "2025-02-14T20:24:08",
+  "gap_duration_minutes": 102.48333333333333,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "39c495",
+    "flight_start_time": "2025-02-14T16:39:25",
+    "flight_end_time": "2025-02-15T00:33:58",
+    "callsign": "FWI14J",
+    "estdepartureairport": "LFPO",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4061,
+    "during_count": 0,
+    "after_count": 85,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 102.48333333333333,
+    "before_boundary_speed_kts": 467.3752793710424,
+    "after_boundary_speed_kts": 478.50889355999095,
+    "max_internal_speed_kts": 516.5070551369772,
+    "median_internal_speed_kts": 468.93964875505503
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_39c495_184139_202408/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_39c495_184139_202408/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_39c495_184139_202408/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_39c495_184139_202408/stitched_minimal.parquet"
+  }
+}

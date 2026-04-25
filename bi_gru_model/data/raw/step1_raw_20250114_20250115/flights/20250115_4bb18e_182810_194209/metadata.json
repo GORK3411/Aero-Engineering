@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_4bb18e_182810_194209",
+  "icao24": "4bb18e",
+  "segment_start_time": "2025-01-15T18:28:10",
+  "segment_end_time": "2025-01-15T19:42:09",
+  "gap_duration_minutes": 73.98333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4bb18e",
+    "flight_start_time": "2025-01-15T14:33:33",
+    "flight_end_time": "2025-01-16T00:31:00",
+    "callsign": "THY7KG",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KDTW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6571,
+    "during_count": 0,
+    "after_count": 5528,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 73.98333333333333,
+    "before_boundary_speed_kts": 583.8902030293099,
+    "after_boundary_speed_kts": 468.1218657028196,
+    "max_internal_speed_kts": 462.7671845117549,
+    "median_internal_speed_kts": 451.184131421246
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4bb18e_182810_194209/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4bb18e_182810_194209/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4bb18e_182810_194209/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4bb18e_182810_194209/stitched_minimal.parquet"
+  }
+}

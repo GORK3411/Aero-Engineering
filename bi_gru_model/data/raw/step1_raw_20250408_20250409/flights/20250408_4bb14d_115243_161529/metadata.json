@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_4bb14d_115243_161529",
+  "icao24": "4bb14d",
+  "segment_start_time": "2025-04-08T11:52:43",
+  "segment_end_time": "2025-04-08T16:15:29",
+  "gap_duration_minutes": 262.76666666666665,
+  "adsc_point_count": 61,
+  "flight_match": {
+    "icao24": "4bb14d",
+    "flight_start_time": "2025-04-08T02:03:51",
+    "flight_end_time": "2025-04-08T18:17:25",
+    "callsign": "THY6087",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": "SBMT"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 720,
+    "during_count": 0,
+    "after_count": 4770,
+    "adsc_point_count": 61,
+    "gap_duration_minutes": 262.76666666666665,
+    "before_boundary_speed_kts": 489.63689256657455,
+    "after_boundary_speed_kts": 439.6557559646448,
+    "max_internal_speed_kts": 511.69686769975505,
+    "median_internal_speed_kts": 490.0161992971402
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4bb14d_115243_161529/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4bb14d_115243_161529/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4bb14d_115243_161529/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4bb14d_115243_161529/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240418_ac21af_123507_133901",
+  "icao24": "ac21af",
+  "segment_start_time": "2024-04-18T12:35:07",
+  "segment_end_time": "2024-04-18T13:39:01",
+  "gap_duration_minutes": 63.9,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "ac21af",
+    "flight_start_time": "2024-04-18T12:51:18",
+    "flight_end_time": "2024-04-18T22:11:33",
+    "callsign": "AAL111",
+    "estdepartureairport": "LIRF",
+    "estarrivalairport": "K06C"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9207,
+    "during_count": 0,
+    "after_count": 1129,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 63.9,
+    "before_boundary_speed_kts": 709.5893222795061,
+    "after_boundary_speed_kts": 500.09015446722003,
+    "max_internal_speed_kts": 498.3939872794694,
+    "median_internal_speed_kts": 498.3939872794694
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240418_ac21af_123507_133901/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240418_ac21af_123507_133901/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240418_ac21af_123507_133901/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240418_ac21af_123507_133901/stitched_minimal.parquet"
+  }
+}

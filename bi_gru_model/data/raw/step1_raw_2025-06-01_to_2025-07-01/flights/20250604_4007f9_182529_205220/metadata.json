@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250604_4007f9_182529_205220",
+  "icao24": "4007f9",
+  "segment_start_time": "2025-06-04T18:25:29",
+  "segment_end_time": "2025-06-04T20:52:20",
+  "gap_duration_minutes": 146.85,
+  "adsc_point_count": 22,
+  "flight_match": {
+    "icao24": "4007f9",
+    "flight_start_time": "2025-06-04T19:54:25",
+    "flight_end_time": "2025-06-05T03:32:13",
+    "callsign": "BAW99",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5034,
+    "during_count": 0,
+    "after_count": 2486,
+    "adsc_point_count": 22,
+    "gap_duration_minutes": 146.85,
+    "before_boundary_speed_kts": 750.1667313098666,
+    "after_boundary_speed_kts": 456.28739883133204,
+    "max_internal_speed_kts": 467.01479195269786,
+    "median_internal_speed_kts": 456.246819443935
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250604_4007f9_182529_205220/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250604_4007f9_182529_205220/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250604_4007f9_182529_205220/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250604_4007f9_182529_205220/stitched_minimal.parquet"
+  }
+}

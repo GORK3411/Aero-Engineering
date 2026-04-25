@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_491d87_134925_161340",
+  "icao24": "491d87",
+  "segment_start_time": "2025-04-08T13:49:25",
+  "segment_end_time": "2025-04-08T16:13:40",
+  "gap_duration_minutes": 144.25,
+  "adsc_point_count": 11,
+  "flight_match": {
+    "icao24": "491d87",
+    "flight_start_time": "2025-04-08T11:15:36",
+    "flight_end_time": "2025-04-08T19:27:23",
+    "callsign": "NJE8NJ",
+    "estdepartureairport": "LIML",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2988,
+    "during_count": 0,
+    "after_count": 15233,
+    "adsc_point_count": 11,
+    "gap_duration_minutes": 144.25,
+    "before_boundary_speed_kts": 507.11318948248373,
+    "after_boundary_speed_kts": 450.33778396653327,
+    "max_internal_speed_kts": 527.376023410756,
+    "median_internal_speed_kts": 509.55121869854725
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_491d87_134925_161340/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_491d87_134925_161340/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_491d87_134925_161340/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_491d87_134925_161340/stitched_minimal.parquet"
+  }
+}

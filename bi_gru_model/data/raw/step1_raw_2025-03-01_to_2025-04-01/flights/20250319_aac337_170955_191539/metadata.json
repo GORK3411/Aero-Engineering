@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_aac337_170955_191539",
+  "icao24": "aac337",
+  "segment_start_time": "2025-03-19T17:09:55",
+  "segment_end_time": "2025-03-19T19:15:39",
+  "gap_duration_minutes": 125.73333333333333,
+  "adsc_point_count": 11,
+  "flight_match": {
+    "icao24": "aac337",
+    "flight_start_time": "2025-03-19T15:45:37",
+    "flight_end_time": "2025-03-20T00:15:48",
+    "callsign": "AAL731",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KCLT"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3005,
+    "during_count": 0,
+    "after_count": 2423,
+    "adsc_point_count": 11,
+    "gap_duration_minutes": 125.73333333333333,
+    "before_boundary_speed_kts": 582.7613586966578,
+    "after_boundary_speed_kts": 385.7430129871902,
+    "max_internal_speed_kts": 462.67736556856045,
+    "median_internal_speed_kts": 426.96359576766656
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_aac337_170955_191539/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_aac337_170955_191539/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_aac337_170955_191539/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_aac337_170955_191539/stitched_minimal.parquet"
+  }
+}

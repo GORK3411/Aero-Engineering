@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240721_4bb0e2_085838_102835",
+  "icao24": "4bb0e2",
+  "segment_start_time": "2024-07-21T08:58:38",
+  "segment_end_time": "2024-07-21T10:28:35",
+  "gap_duration_minutes": 89.95,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "4bb0e2",
+    "flight_start_time": "2024-07-21T05:58:04",
+    "flight_end_time": "2024-07-21T14:15:28",
+    "callsign": "THY5BY",
+    "estdepartureairport": "KBOS",
+    "estarrivalairport": "LTFM"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2919,
+    "during_count": 0,
+    "after_count": 9727,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 89.95,
+    "before_boundary_speed_kts": 570.3911612005904,
+    "after_boundary_speed_kts": 523.5874748385125,
+    "max_internal_speed_kts": 551.9735800221432,
+    "median_internal_speed_kts": 544.7925614501349
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240721_4bb0e2_085838_102835/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240721_4bb0e2_085838_102835/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240721_4bb0e2_085838_102835/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240721_4bb0e2_085838_102835/stitched_minimal.parquet"
+  }
+}

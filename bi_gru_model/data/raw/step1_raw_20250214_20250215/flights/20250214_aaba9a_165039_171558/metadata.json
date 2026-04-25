@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_aaba9a_165039_171558",
+  "icao24": "aaba9a",
+  "segment_start_time": "2025-02-14T16:50:39",
+  "segment_end_time": "2025-02-14T17:15:58",
+  "gap_duration_minutes": 25.316666666666666,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "aaba9a",
+    "flight_start_time": "2025-02-14T14:41:00",
+    "flight_end_time": "2025-02-14T22:03:21",
+    "callsign": "UAL919",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3624,
+    "during_count": 0,
+    "after_count": 7656,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 25.316666666666666,
+    "before_boundary_speed_kts": 516.185438499162,
+    "after_boundary_speed_kts": 453.6034880209251,
+    "max_internal_speed_kts": 505.07904352430967,
+    "median_internal_speed_kts": 503.21308882686355
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_aaba9a_165039_171558/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_aaba9a_165039_171558/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_aaba9a_165039_171558/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_aaba9a_165039_171558/stitched_minimal.parquet"
+  }
+}

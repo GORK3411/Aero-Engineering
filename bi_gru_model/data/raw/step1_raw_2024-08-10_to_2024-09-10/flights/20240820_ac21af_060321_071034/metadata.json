@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240820_ac21af_060321_071034",
+  "icao24": "ac21af",
+  "segment_start_time": "2024-08-20T06:03:21",
+  "segment_end_time": "2024-08-20T07:10:34",
+  "gap_duration_minutes": 67.21666666666667,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "ac21af",
+    "flight_start_time": "2024-08-20T00:51:17",
+    "flight_end_time": "2024-08-20T09:10:53",
+    "callsign": "AAL112",
+    "estdepartureairport": "KMIA",
+    "estarrivalairport": "LEBL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 251,
+    "during_count": 0,
+    "after_count": 5590,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 67.21666666666667,
+    "before_boundary_speed_kts": 513.2021193040163,
+    "after_boundary_speed_kts": 537.1169265531937,
+    "max_internal_speed_kts": 517.8902132994195,
+    "median_internal_speed_kts": 500.4611636922936
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240820_ac21af_060321_071034/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240820_ac21af_060321_071034/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240820_ac21af_060321_071034/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240820_ac21af_060321_071034/stitched_minimal.parquet"
+  }
+}

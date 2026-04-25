@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_4d210b_180712_205600",
+  "icao24": "4d210b",
+  "segment_start_time": "2025-03-19T18:07:12",
+  "segment_end_time": "2025-03-19T20:56:00",
+  "gap_duration_minutes": 168.8,
+  "adsc_point_count": 19,
+  "flight_match": {
+    "icao24": "4d210b",
+    "flight_start_time": "2025-03-19T15:36:07",
+    "flight_end_time": "2025-03-19T23:48:48",
+    "callsign": "VJT904",
+    "estdepartureairport": "LFMN",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2362,
+    "during_count": 0,
+    "after_count": 4053,
+    "adsc_point_count": 19,
+    "gap_duration_minutes": 168.8,
+    "before_boundary_speed_kts": 627.8838439285026,
+    "after_boundary_speed_kts": 421.522196848408,
+    "max_internal_speed_kts": 491.39045715352063,
+    "median_internal_speed_kts": 447.70859040520395
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4d210b_180712_205600/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4d210b_180712_205600/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4d210b_180712_205600/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4d210b_180712_205600/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240823_3465c5_094525_110214",
+  "icao24": "3465c5",
+  "segment_start_time": "2024-08-23T09:45:25",
+  "segment_end_time": "2024-08-23T11:02:14",
+  "gap_duration_minutes": 76.81666666666666,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "3465c5",
+    "flight_start_time": "2024-08-23T03:52:29",
+    "flight_end_time": "2024-08-23T12:42:29",
+    "callsign": "WFL2502",
+    "estdepartureairport": "MMUN",
+    "estarrivalairport": "LEMD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1372,
+    "during_count": 0,
+    "after_count": 4016,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 76.81666666666666,
+    "before_boundary_speed_kts": 521.0299755725482,
+    "after_boundary_speed_kts": 532.0271092522036,
+    "max_internal_speed_kts": 545.7654290381904,
+    "median_internal_speed_kts": 544.5975054364189
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240823_3465c5_094525_110214/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240823_3465c5_094525_110214/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240823_3465c5_094525_110214/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240823_3465c5_094525_110214/stitched_minimal.parquet"
+  }
+}

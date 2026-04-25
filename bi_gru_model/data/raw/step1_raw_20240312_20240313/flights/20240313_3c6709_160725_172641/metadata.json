@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240313_3c6709_160725_172641",
+  "icao24": "3c6709",
+  "segment_start_time": "2024-03-13T16:07:25",
+  "segment_end_time": "2024-03-13T17:26:41",
+  "gap_duration_minutes": 79.26666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "3c6709",
+    "flight_start_time": "2024-03-13T09:45:19",
+    "flight_end_time": "2024-03-13T20:41:14",
+    "callsign": "DLH575",
+    "estdepartureairport": "FACT",
+    "estarrivalairport": "EDDM"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1622,
+    "during_count": 0,
+    "after_count": 6548,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 79.26666666666667,
+    "before_boundary_speed_kts": 513.8063927546586,
+    "after_boundary_speed_kts": 474.3146504391617,
+    "max_internal_speed_kts": 541.4560116077994,
+    "median_internal_speed_kts": 533.2235297579191
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_3c6709_160725_172641/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_3c6709_160725_172641/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_3c6709_160725_172641/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_3c6709_160725_172641/stitched_minimal.parquet"
+  }
+}

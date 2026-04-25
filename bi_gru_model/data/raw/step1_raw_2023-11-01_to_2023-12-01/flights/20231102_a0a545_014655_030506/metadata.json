@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231102_a0a545_014655_030506",
+  "icao24": "a0a545",
+  "segment_start_time": "2023-11-02T01:46:55",
+  "segment_end_time": "2023-11-02T03:05:06",
+  "gap_duration_minutes": 78.18333333333334,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "a0a545",
+    "flight_start_time": "2023-11-01T23:30:08",
+    "flight_end_time": "2023-11-02T06:49:50",
+    "callsign": "UAL944",
+    "estdepartureairport": "KORD",
+    "estarrivalairport": "EDDF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2138,
+    "during_count": 0,
+    "after_count": 5502,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 78.18333333333334,
+    "before_boundary_speed_kts": 628.2529352322556,
+    "after_boundary_speed_kts": 573.4509115661225,
+    "max_internal_speed_kts": 614.0175853502054,
+    "median_internal_speed_kts": 612.7404854319257
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_a0a545_014655_030506/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_a0a545_014655_030506/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_a0a545_014655_030506/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231102_a0a545_014655_030506/stitched_minimal.parquet"
+  }
+}

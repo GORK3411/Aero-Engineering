@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231113_600b24_024327_044036",
+  "icao24": "600b24",
+  "segment_start_time": "2023-11-13T02:43:27",
+  "segment_end_time": "2023-11-13T04:40:36",
+  "gap_duration_minutes": 117.15,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "600b24",
+    "flight_start_time": "2023-11-13T00:43:03",
+    "flight_end_time": "2023-11-13T08:17:44",
+    "callsign": "AZG1232",
+    "estdepartureairport": "KMIA",
+    "estarrivalairport": "ELLX"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 478,
+    "during_count": 0,
+    "after_count": 4764,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 117.15,
+    "before_boundary_speed_kts": 597.4423438654167,
+    "after_boundary_speed_kts": 612.5828160457174,
+    "max_internal_speed_kts": 622.4399163927337,
+    "median_internal_speed_kts": 609.5748840811477
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231113_600b24_024327_044036/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231113_600b24_024327_044036/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231113_600b24_024327_044036/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231113_600b24_024327_044036/stitched_minimal.parquet"
+  }
+}

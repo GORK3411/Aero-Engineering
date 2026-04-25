@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_34754d_123920_155647",
+  "icao24": "34754d",
+  "segment_start_time": "2025-04-08T12:39:20",
+  "segment_end_time": "2025-04-08T15:56:47",
+  "gap_duration_minutes": 197.45,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "34754d",
+    "flight_start_time": "2025-04-08T10:02:04",
+    "flight_end_time": "2025-04-08T22:12:56",
+    "callsign": "IBE0105",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": "SAEZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1074,
+    "during_count": 0,
+    "after_count": 7558,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 197.45,
+    "before_boundary_speed_kts": 442.19520631763316,
+    "after_boundary_speed_kts": 484.2367234738481,
+    "max_internal_speed_kts": 487.2304375792465,
+    "median_internal_speed_kts": 446.8927122942546
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_34754d_123920_155647/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_34754d_123920_155647/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_34754d_123920_155647/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_34754d_123920_155647/stitched_minimal.parquet"
+  }
+}

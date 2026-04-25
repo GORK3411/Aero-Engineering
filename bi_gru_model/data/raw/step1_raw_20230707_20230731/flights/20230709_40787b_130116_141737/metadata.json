@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230709_40787b_130116_141737",
+  "icao24": "40787b",
+  "segment_start_time": "2023-07-09T13:01:16",
+  "segment_end_time": "2023-07-09T14:17:37",
+  "gap_duration_minutes": 76.35,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "40787b",
+    "flight_start_time": "2023-07-09T11:44:08",
+    "flight_end_time": "2023-07-09T21:19:16",
+    "callsign": "TOM022",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": "MMUN"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3251,
+    "during_count": 0,
+    "after_count": 12106,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 76.35,
+    "before_boundary_speed_kts": 563.5579644106981,
+    "after_boundary_speed_kts": 498.12232270783136,
+    "max_internal_speed_kts": 556.2363902755362,
+    "median_internal_speed_kts": 541.4072594931232
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_40787b_130116_141737/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_40787b_130116_141737/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_40787b_130116_141737/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_40787b_130116_141737/stitched_minimal.parquet"
+  }
+}

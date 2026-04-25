@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250321_c023bd_160128_181932",
+  "icao24": "c023bd",
+  "segment_start_time": "2025-03-21T16:01:28",
+  "segment_end_time": "2025-03-21T18:19:32",
+  "gap_duration_minutes": 138.06666666666666,
+  "adsc_point_count": 12,
+  "flight_match": {
+    "icao24": "c023bd",
+    "flight_start_time": "2025-03-21T14:17:41",
+    "flight_end_time": "2025-03-21T21:16:48",
+    "callsign": "ACA871",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3033,
+    "during_count": 0,
+    "after_count": 2444,
+    "adsc_point_count": 12,
+    "gap_duration_minutes": 138.06666666666666,
+    "before_boundary_speed_kts": 729.809066115155,
+    "after_boundary_speed_kts": 439.25359873938663,
+    "max_internal_speed_kts": 461.4969694957883,
+    "median_internal_speed_kts": 437.0757930759364
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_c023bd_160128_181932/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_c023bd_160128_181932/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_c023bd_160128_181932/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250321_c023bd_160128_181932/stitched_minimal.parquet"
+  }
+}

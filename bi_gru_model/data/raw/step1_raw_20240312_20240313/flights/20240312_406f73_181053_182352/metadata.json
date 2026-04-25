@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_406f73_181053_182352",
+  "icao24": "406f73",
+  "segment_start_time": "2024-03-12T18:10:53",
+  "segment_end_time": "2024-03-12T18:23:52",
+  "gap_duration_minutes": 12.983333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "406f73",
+    "flight_start_time": "2024-03-12T15:59:14",
+    "flight_end_time": "2024-03-13T00:16:40",
+    "callsign": "BAW223N",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KBNA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3874,
+    "during_count": 0,
+    "after_count": 10906,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 12.983333333333333,
+    "before_boundary_speed_kts": 437.0755054822582,
+    "after_boundary_speed_kts": 475.82691977132396,
+    "max_internal_speed_kts": 454.2957979913452,
+    "median_internal_speed_kts": 454.2957979913452
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_406f73_181053_182352/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_406f73_181053_182352/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_406f73_181053_182352/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_406f73_181053_182352/stitched_minimal.parquet"
+  }
+}

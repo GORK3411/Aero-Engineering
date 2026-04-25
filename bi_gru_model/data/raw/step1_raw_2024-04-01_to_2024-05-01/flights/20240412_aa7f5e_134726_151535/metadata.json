@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240412_aa7f5e_134726_151535",
+  "icao24": "aa7f5e",
+  "segment_start_time": "2024-04-12T13:47:26",
+  "segment_end_time": "2024-04-12T15:15:35",
+  "gap_duration_minutes": 88.15,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "aa7f5e",
+    "flight_start_time": "2024-04-12T13:54:46",
+    "flight_end_time": "2024-04-13T00:12:12",
+    "callsign": "AAL721",
+    "estdepartureairport": "LIRF",
+    "estarrivalairport": "KRDU"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 8899,
+    "during_count": 0,
+    "after_count": 740,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 88.15,
+    "before_boundary_speed_kts": 499.4610560168997,
+    "after_boundary_speed_kts": 451.910118832452,
+    "max_internal_speed_kts": 416.71352843984624,
+    "median_internal_speed_kts": 416.71352843984624
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240412_aa7f5e_134726_151535/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240412_aa7f5e_134726_151535/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240412_aa7f5e_134726_151535/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240412_aa7f5e_134726_151535/stitched_minimal.parquet"
+  }
+}

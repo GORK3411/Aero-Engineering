@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240228_39ce24_143437_154642",
+  "icao24": "39ce24",
+  "segment_start_time": "2024-02-28T14:34:37",
+  "segment_end_time": "2024-02-28T15:46:42",
+  "gap_duration_minutes": 72.08333333333333,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "39ce24",
+    "flight_start_time": "2024-02-28T14:29:19",
+    "flight_end_time": "2024-02-29T00:17:29",
+    "callsign": "FWI648",
+    "estdepartureairport": "LFPO",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6443,
+    "during_count": 0,
+    "after_count": 674,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 72.08333333333333,
+    "before_boundary_speed_kts": 540.1932812838356,
+    "after_boundary_speed_kts": 432.4758017532729,
+    "max_internal_speed_kts": 452.62349328696416,
+    "median_internal_speed_kts": 452.3170821047418
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240228_39ce24_143437_154642/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240228_39ce24_143437_154642/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240228_39ce24_143437_154642/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240228_39ce24_143437_154642/stitched_minimal.parquet"
+  }
+}

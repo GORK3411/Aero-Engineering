@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_a29af3_122351_133351",
+  "icao24": "a29af3",
+  "segment_start_time": "2025-04-08T12:23:51",
+  "segment_end_time": "2025-04-08T13:33:51",
+  "gap_duration_minutes": 70.0,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "a29af3",
+    "flight_start_time": "2025-04-08T11:00:30",
+    "flight_end_time": "2025-04-08T18:00:11",
+    "callsign": "N267WA",
+    "estdepartureairport": "EGCC",
+    "estarrivalairport": "KSTP"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2613,
+    "during_count": 0,
+    "after_count": 2820,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 70.0,
+    "before_boundary_speed_kts": 454.2255715911106,
+    "after_boundary_speed_kts": 519.7429634551504,
+    "max_internal_speed_kts": 538.7462025956648,
+    "median_internal_speed_kts": 528.4981432204654
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a29af3_122351_133351/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a29af3_122351_133351/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a29af3_122351_133351/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a29af3_122351_133351/stitched_minimal.parquet"
+  }
+}

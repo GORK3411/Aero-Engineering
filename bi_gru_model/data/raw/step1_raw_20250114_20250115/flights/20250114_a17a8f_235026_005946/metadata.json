@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250114_a17a8f_235026_005946",
+  "icao24": "a17a8f",
+  "segment_start_time": "2025-01-14T23:50:26",
+  "segment_end_time": "2025-01-15T00:59:46",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "a17a8f",
+    "flight_start_time": "2025-01-14T20:12:23",
+    "flight_end_time": "2025-01-15T04:19:59",
+    "callsign": "TFF966",
+    "estdepartureairport": "EDDN",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2285,
+    "during_count": 0,
+    "after_count": 6139,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 435.59411368785896,
+    "after_boundary_speed_kts": 447.7384382047157,
+    "max_internal_speed_kts": 452.7873163636556,
+    "median_internal_speed_kts": 451.0092307999803
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250114_a17a8f_235026_005946/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250114_a17a8f_235026_005946/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250114_a17a8f_235026_005946/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250114_a17a8f_235026_005946/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231012_40779a_060852_071812",
+  "icao24": "40779a",
+  "segment_start_time": "2023-10-12T06:08:52",
+  "segment_end_time": "2023-10-12T07:18:12",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "40779a",
+    "flight_start_time": "2023-10-12T02:12:14",
+    "flight_end_time": "2023-10-12T11:46:26",
+    "callsign": "BAW8W",
+    "estdepartureairport": "KLAX",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2556,
+    "during_count": 0,
+    "after_count": 4572,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 544.3158067193757,
+    "after_boundary_speed_kts": 509.28084374431916,
+    "max_internal_speed_kts": 538.4368408521544,
+    "median_internal_speed_kts": 528.8326904009891
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231012_40779a_060852_071812/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231012_40779a_060852_071812/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231012_40779a_060852_071812/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231012_40779a_060852_071812/stitched_minimal.parquet"
+  }
+}

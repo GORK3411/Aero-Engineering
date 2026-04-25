@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240612_aba1c9_114715_121500",
+  "icao24": "aba1c9",
+  "segment_start_time": "2024-06-12T11:47:15",
+  "segment_end_time": "2024-06-12T12:15:00",
+  "gap_duration_minutes": 27.75,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "aba1c9",
+    "flight_start_time": "2024-06-12T09:58:02",
+    "flight_end_time": "2024-06-12T18:28:48",
+    "callsign": "FDX97",
+    "estdepartureairport": "EBLG",
+    "estarrivalairport": "KIND"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3315,
+    "during_count": 0,
+    "after_count": 7178,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 27.75,
+    "before_boundary_speed_kts": 452.9145479919862,
+    "after_boundary_speed_kts": 444.3490879304669,
+    "max_internal_speed_kts": 430.5300571366695,
+    "median_internal_speed_kts": 425.0797400692494
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_aba1c9_114715_121500/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_aba1c9_114715_121500/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_aba1c9_114715_121500/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_aba1c9_114715_121500/stitched_minimal.parquet"
+  }
+}

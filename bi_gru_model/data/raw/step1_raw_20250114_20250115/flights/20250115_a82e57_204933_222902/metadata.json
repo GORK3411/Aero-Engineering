@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_a82e57_204933_222902",
+  "icao24": "a82e57",
+  "segment_start_time": "2025-01-15T20:49:33",
+  "segment_end_time": "2025-01-15T22:29:02",
+  "gap_duration_minutes": 99.48333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "a82e57",
+    "flight_start_time": "2025-01-15T19:19:19",
+    "flight_end_time": "2025-01-16T03:52:29",
+    "callsign": "UPS216",
+    "estdepartureairport": "EDDK",
+    "estarrivalairport": "KSDF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5267,
+    "during_count": 0,
+    "after_count": 7643,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 99.48333333333333,
+    "before_boundary_speed_kts": 524.3720042836346,
+    "after_boundary_speed_kts": 467.45745717203687,
+    "max_internal_speed_kts": 441.6970781062928,
+    "median_internal_speed_kts": 440.37090461673097
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_a82e57_204933_222902/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_a82e57_204933_222902/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_a82e57_204933_222902/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_a82e57_204933_222902/stitched_minimal.parquet"
+  }
+}

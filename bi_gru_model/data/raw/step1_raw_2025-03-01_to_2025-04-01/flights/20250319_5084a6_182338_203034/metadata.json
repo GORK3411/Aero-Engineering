@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_5084a6_182338_203034",
+  "icao24": "5084a6",
+  "segment_start_time": "2025-03-19T18:23:38",
+  "segment_end_time": "2025-03-19T20:30:34",
+  "gap_duration_minutes": 126.93333333333334,
+  "adsc_point_count": 12,
+  "flight_match": {
+    "icao24": "5084a6",
+    "flight_start_time": "2025-03-19T15:26:22",
+    "flight_end_time": "2025-03-20T01:27:46",
+    "callsign": "SEU9189",
+    "estdepartureairport": "EPKT",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2871,
+    "during_count": 0,
+    "after_count": 728,
+    "adsc_point_count": 12,
+    "gap_duration_minutes": 126.93333333333334,
+    "before_boundary_speed_kts": 608.5056989504478,
+    "after_boundary_speed_kts": 434.18023313288086,
+    "max_internal_speed_kts": 468.81991579900256,
+    "median_internal_speed_kts": 449.0521283704542
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_5084a6_182338_203034/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_5084a6_182338_203034/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_5084a6_182338_203034/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_5084a6_182338_203034/stitched_minimal.parquet"
+  }
+}

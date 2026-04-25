@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_4076e8_025617_040707",
+  "icao24": "4076e8",
+  "segment_start_time": "2025-01-15T02:56:17",
+  "segment_end_time": "2025-01-15T04:07:07",
+  "gap_duration_minutes": 70.83333333333333,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4076e8",
+    "flight_start_time": "2025-01-14T23:29:29",
+    "flight_end_time": "2025-01-15T09:52:26",
+    "callsign": "BAW248",
+    "estdepartureairport": "SBGL",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3256,
+    "during_count": 0,
+    "after_count": 10243,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 70.83333333333333,
+    "before_boundary_speed_kts": 538.0217805847991,
+    "after_boundary_speed_kts": 502.4418855354034,
+    "max_internal_speed_kts": 546.2013542503014,
+    "median_internal_speed_kts": 545.9909081920982
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4076e8_025617_040707/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4076e8_025617_040707/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4076e8_025617_040707/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4076e8_025617_040707/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240408_aa6ccb_121417_135108",
+  "icao24": "aa6ccb",
+  "segment_start_time": "2024-04-08T12:14:17",
+  "segment_end_time": "2024-04-08T13:51:08",
+  "gap_duration_minutes": 96.85,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "aa6ccb",
+    "flight_start_time": "2024-04-08T13:38:30",
+    "flight_end_time": "2024-04-08T22:32:18",
+    "callsign": "AAL749",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": "KCLT"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4263,
+    "during_count": 0,
+    "after_count": 1338,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 96.85,
+    "before_boundary_speed_kts": 505.9189635447999,
+    "after_boundary_speed_kts": 403.29009816085426,
+    "max_internal_speed_kts": 371.1740702585894,
+    "median_internal_speed_kts": 366.6059403935859
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_aa6ccb_121417_135108/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_aa6ccb_121417_135108/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_aa6ccb_121417_135108/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_aa6ccb_121417_135108/stitched_minimal.parquet"
+  }
+}

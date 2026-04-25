@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241112_a88ddf_002127_012606",
+  "icao24": "a88ddf",
+  "segment_start_time": "2024-11-12T00:21:27",
+  "segment_end_time": "2024-11-12T01:26:06",
+  "gap_duration_minutes": 64.65,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a88ddf",
+    "flight_start_time": "2024-11-11T20:56:40",
+    "flight_end_time": "2024-11-12T08:02:04",
+    "callsign": "N650MT",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 8496,
+    "during_count": 0,
+    "after_count": 2321,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 64.65,
+    "before_boundary_speed_kts": 553.5335885714763,
+    "after_boundary_speed_kts": 469.47524285746533,
+    "max_internal_speed_kts": 487.7971871452503,
+    "median_internal_speed_kts": 487.7971871452503
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_a88ddf_002127_012606/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_a88ddf_002127_012606/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_a88ddf_002127_012606/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_a88ddf_002127_012606/stitched_minimal.parquet"
+  }
+}

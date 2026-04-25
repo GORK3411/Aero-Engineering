@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241129_8015a7_210632_224309",
+  "icao24": "8015a7",
+  "segment_start_time": "2024-11-29T21:06:32",
+  "segment_end_time": "2024-11-29T22:43:09",
+  "gap_duration_minutes": 96.61666666666666,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "8015a7",
+    "flight_start_time": "2024-11-29T18:56:58",
+    "flight_end_time": "2024-11-30T14:53:09",
+    "callsign": "AIC144",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": "VIDP"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 718,
+    "during_count": 0,
+    "after_count": 2091,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 96.61666666666666,
+    "before_boundary_speed_kts": 516.834350325728,
+    "after_boundary_speed_kts": 569.8266433411092,
+    "max_internal_speed_kts": 574.4274563803016,
+    "median_internal_speed_kts": 557.6502256219931
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241129_8015a7_210632_224309/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241129_8015a7_210632_224309/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241129_8015a7_210632_224309/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241129_8015a7_210632_224309/stitched_minimal.parquet"
+  }
+}

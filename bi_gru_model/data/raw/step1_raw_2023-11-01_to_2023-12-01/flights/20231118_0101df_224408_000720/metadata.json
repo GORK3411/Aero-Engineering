@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231118_0101df_224408_000720",
+  "icao24": "0101df",
+  "segment_start_time": "2023-11-18T22:44:08",
+  "segment_end_time": "2023-11-19T00:07:20",
+  "gap_duration_minutes": 83.2,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "0101df",
+    "flight_start_time": "2023-11-18T21:36:23",
+    "flight_end_time": "2023-11-19T06:25:36",
+    "callsign": "MSR988",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2012,
+    "during_count": 0,
+    "after_count": 9126,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 83.2,
+    "before_boundary_speed_kts": 589.9604035515388,
+    "after_boundary_speed_kts": 593.6188703431158,
+    "max_internal_speed_kts": 552.1586999385063,
+    "median_internal_speed_kts": 509.1264958885246
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_0101df_224408_000720/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_0101df_224408_000720/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_0101df_224408_000720/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_0101df_224408_000720/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240824_06a129_085624_100012",
+  "icao24": "06a129",
+  "segment_start_time": "2024-08-24T08:56:24",
+  "segment_end_time": "2024-08-24T10:00:12",
+  "gap_duration_minutes": 63.8,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "06a129",
+    "flight_start_time": "2024-08-24T03:29:35",
+    "flight_end_time": "2024-08-24T14:20:35",
+    "callsign": "QTR12R",
+    "estdepartureairport": "KDFW",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3427,
+    "during_count": 0,
+    "after_count": 8905,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 63.8,
+    "before_boundary_speed_kts": 610.3345011562909,
+    "after_boundary_speed_kts": 522.033885291413,
+    "max_internal_speed_kts": 586.6112799969901,
+    "median_internal_speed_kts": 567.9919638929848
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240824_06a129_085624_100012/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240824_06a129_085624_100012/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240824_06a129_085624_100012/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240824_06a129_085624_100012/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241229_89655b_201142_212232",
+  "icao24": "89655b",
+  "segment_start_time": "2024-12-29T20:11:42",
+  "segment_end_time": "2024-12-29T21:22:32",
+  "gap_duration_minutes": 70.83333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "89655b",
+    "flight_start_time": "2024-12-29T18:41:07",
+    "flight_end_time": "2024-12-30T06:36:19",
+    "callsign": "UAE5V",
+    "estdepartureairport": "KJFK",
+    "estarrivalairport": "OMDB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3342,
+    "during_count": 0,
+    "after_count": 8396,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 70.83333333333333,
+    "before_boundary_speed_kts": 544.1752621710116,
+    "after_boundary_speed_kts": 604.3826824611122,
+    "max_internal_speed_kts": 593.4303424455288,
+    "median_internal_speed_kts": 565.1360676236234
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241229_89655b_201142_212232/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241229_89655b_201142_212232/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241229_89655b_201142_212232/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241229_89655b_201142_212232/stitched_minimal.parquet"
+  }
+}

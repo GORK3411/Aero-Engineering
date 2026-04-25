@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250329_c01755_182851_204019",
+  "icao24": "c01755",
+  "segment_start_time": "2025-03-29T18:28:51",
+  "segment_end_time": "2025-03-29T20:40:19",
+  "gap_duration_minutes": 131.46666666666667,
+  "adsc_point_count": 13,
+  "flight_match": {
+    "icao24": "c01755",
+    "flight_start_time": "2025-03-29T16:46:34",
+    "flight_end_time": "2025-03-30T01:22:21",
+    "callsign": "ACA857",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1869,
+    "during_count": 0,
+    "after_count": 743,
+    "adsc_point_count": 13,
+    "gap_duration_minutes": 131.46666666666667,
+    "before_boundary_speed_kts": 480.5162682803252,
+    "after_boundary_speed_kts": 464.066156156521,
+    "max_internal_speed_kts": 480.6402047927932,
+    "median_internal_speed_kts": 429.71099129390905
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_c01755_182851_204019/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_c01755_182851_204019/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_c01755_182851_204019/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_c01755_182851_204019/stitched_minimal.parquet"
+  }
+}

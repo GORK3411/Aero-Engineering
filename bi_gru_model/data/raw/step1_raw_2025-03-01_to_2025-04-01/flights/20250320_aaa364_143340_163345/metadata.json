@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250320_aaa364_143340_163345",
+  "icao24": "aaa364",
+  "segment_start_time": "2025-03-20T14:33:40",
+  "segment_end_time": "2025-03-20T16:33:45",
+  "gap_duration_minutes": 120.08333333333333,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "aaa364",
+    "flight_start_time": "2025-03-20T13:00:08",
+    "flight_end_time": "2025-03-20T19:29:41",
+    "callsign": "N785D",
+    "estdepartureairport": "EGHH",
+    "estarrivalairport": "VT48"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2524,
+    "during_count": 0,
+    "after_count": 3131,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 120.08333333333333,
+    "before_boundary_speed_kts": 604.7340019511487,
+    "after_boundary_speed_kts": 436.9466630889295,
+    "max_internal_speed_kts": 462.1048033094555,
+    "median_internal_speed_kts": 450.2428181180283
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250320_aaa364_143340_163345/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250320_aaa364_143340_163345/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250320_aaa364_143340_163345/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250320_aaa364_143340_163345/stitched_minimal.parquet"
+  }
+}

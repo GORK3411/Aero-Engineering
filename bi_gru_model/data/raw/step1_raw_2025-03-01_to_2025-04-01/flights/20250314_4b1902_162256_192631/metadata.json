@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250314_4b1902_162256_192631",
+  "icao24": "4b1902",
+  "segment_start_time": "2025-03-14T16:22:56",
+  "segment_end_time": "2025-03-14T19:26:31",
+  "gap_duration_minutes": 183.58333333333334,
+  "adsc_point_count": 23,
+  "flight_match": {
+    "icao24": "4b1902",
+    "flight_start_time": "2025-03-14T13:56:28",
+    "flight_end_time": "2025-03-14T23:45:59",
+    "callsign": "EDW36W",
+    "estdepartureairport": "LSZH",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1840,
+    "during_count": 0,
+    "after_count": 3341,
+    "adsc_point_count": 23,
+    "gap_duration_minutes": 183.58333333333334,
+    "before_boundary_speed_kts": 569.3162456058013,
+    "after_boundary_speed_kts": 418.964550911462,
+    "max_internal_speed_kts": 495.3458766484745,
+    "median_internal_speed_kts": 460.38458408314636
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_4b1902_162256_192631/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_4b1902_162256_192631/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_4b1902_162256_192631/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_4b1902_162256_192631/stitched_minimal.parquet"
+  }
+}

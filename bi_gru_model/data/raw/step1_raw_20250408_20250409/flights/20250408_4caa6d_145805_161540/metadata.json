@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_4caa6d_145805_161540",
+  "icao24": "4caa6d",
+  "segment_start_time": "2025-04-08T14:58:05",
+  "segment_end_time": "2025-04-08T16:15:40",
+  "gap_duration_minutes": 77.58333333333333,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "4caa6d",
+    "flight_start_time": "2025-04-08T11:43:52",
+    "flight_end_time": "2025-04-08T20:26:51",
+    "callsign": "ITY614",
+    "estdepartureairport": "LIRF",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3098,
+    "during_count": 0,
+    "after_count": 5205,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 77.58333333333333,
+    "before_boundary_speed_kts": 485.04522233993384,
+    "after_boundary_speed_kts": 433.66245103785377,
+    "max_internal_speed_kts": 501.5228554574005,
+    "median_internal_speed_kts": 495.8924854062933
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4caa6d_145805_161540/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4caa6d_145805_161540/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4caa6d_145805_161540/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4caa6d_145805_161540/stitched_minimal.parquet"
+  }
+}

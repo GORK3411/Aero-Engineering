@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240313_7380c1_174733_184959",
+  "icao24": "7380c1",
+  "segment_start_time": "2024-03-13T17:47:33",
+  "segment_end_time": "2024-03-13T18:49:59",
+  "gap_duration_minutes": 62.43333333333333,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "7380c1",
+    "flight_start_time": "2024-03-13T12:23:15",
+    "flight_end_time": "2024-03-13T23:15:40",
+    "callsign": "ELY023",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5159,
+    "during_count": 0,
+    "after_count": 5718,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 62.43333333333333,
+    "before_boundary_speed_kts": 467.02206234511914,
+    "after_boundary_speed_kts": 495.6204418887621,
+    "max_internal_speed_kts": 472.58702481202954,
+    "median_internal_speed_kts": 470.0098935925123
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_7380c1_174733_184959/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_7380c1_174733_184959/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_7380c1_174733_184959/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_7380c1_174733_184959/stitched_minimal.parquet"
+  }
+}

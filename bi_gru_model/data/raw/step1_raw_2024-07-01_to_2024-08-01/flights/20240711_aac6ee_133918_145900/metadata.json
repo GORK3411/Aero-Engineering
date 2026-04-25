@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240711_aac6ee_133918_145900",
+  "icao24": "aac6ee",
+  "segment_start_time": "2024-07-11T13:39:18",
+  "segment_end_time": "2024-07-11T14:59:00",
+  "gap_duration_minutes": 79.7,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "aac6ee",
+    "flight_start_time": "2024-07-11T11:47:36",
+    "flight_end_time": "2024-07-11T19:50:27",
+    "callsign": "AAL173",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KRDU"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4344,
+    "during_count": 0,
+    "after_count": 1197,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 79.7,
+    "before_boundary_speed_kts": 478.87400827212963,
+    "after_boundary_speed_kts": 410.0307284904337,
+    "max_internal_speed_kts": 448.7779549041262,
+    "median_internal_speed_kts": 441.08782577070144
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240711_aac6ee_133918_145900/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240711_aac6ee_133918_145900/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240711_aac6ee_133918_145900/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240711_aac6ee_133918_145900/stitched_minimal.parquet"
+  }
+}

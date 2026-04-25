@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241226_4bb0ef_210250_224224",
+  "icao24": "4bb0ef",
+  "segment_start_time": "2024-12-26T21:02:50",
+  "segment_end_time": "2024-12-26T22:42:24",
+  "gap_duration_minutes": 99.56666666666666,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4bb0ef",
+    "flight_start_time": "2024-12-26T19:26:25",
+    "flight_end_time": "2024-12-27T05:11:10",
+    "callsign": "THY29M",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 10603,
+    "during_count": 0,
+    "after_count": 1639,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 99.56666666666666,
+    "before_boundary_speed_kts": 616.6411691228678,
+    "after_boundary_speed_kts": 448.6177434390285,
+    "max_internal_speed_kts": 467.221653171931,
+    "median_internal_speed_kts": 458.1190560709997
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241226_4bb0ef_210250_224224/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241226_4bb0ef_210250_224224/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241226_4bb0ef_210250_224224/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241226_4bb0ef_210250_224224/stitched_minimal.parquet"
+  }
+}

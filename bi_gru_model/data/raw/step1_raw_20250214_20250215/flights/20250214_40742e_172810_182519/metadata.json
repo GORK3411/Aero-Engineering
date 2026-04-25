@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_40742e_172810_182519",
+  "icao24": "40742e",
+  "segment_start_time": "2025-02-14T17:28:10",
+  "segment_end_time": "2025-02-14T18:25:19",
+  "gap_duration_minutes": 57.15,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "40742e",
+    "flight_start_time": "2025-02-14T16:12:22",
+    "flight_end_time": "2025-02-15T01:18:22",
+    "callsign": "UBT72C",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4348,
+    "during_count": 0,
+    "after_count": 9887,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 57.15,
+    "before_boundary_speed_kts": 536.4557891924374,
+    "after_boundary_speed_kts": 466.27244870476255,
+    "max_internal_speed_kts": 519.3970353333641,
+    "median_internal_speed_kts": 517.8974806424451
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_40742e_172810_182519/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_40742e_172810_182519/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_40742e_172810_182519/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_40742e_172810_182519/stitched_minimal.parquet"
+  }
+}

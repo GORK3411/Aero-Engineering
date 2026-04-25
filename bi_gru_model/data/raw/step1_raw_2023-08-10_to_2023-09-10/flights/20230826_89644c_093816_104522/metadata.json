@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230826_89644c_093816_104522",
+  "icao24": "89644c",
+  "segment_start_time": "2023-08-26T09:38:16",
+  "segment_end_time": "2023-08-26T10:45:22",
+  "gap_duration_minutes": 67.1,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "89644c",
+    "flight_start_time": "2023-08-26T04:18:10",
+    "flight_end_time": "2023-08-26T17:52:14",
+    "callsign": "UAE220",
+    "estdepartureairport": "KMCO",
+    "estarrivalairport": "OMDB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1781,
+    "during_count": 0,
+    "after_count": 10545,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 67.1,
+    "before_boundary_speed_kts": 567.5179877941836,
+    "after_boundary_speed_kts": 470.7397303215196,
+    "max_internal_speed_kts": 508.9401229617495,
+    "median_internal_speed_kts": 508.9401229617495
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230826_89644c_093816_104522/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230826_89644c_093816_104522/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230826_89644c_093816_104522/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230826_89644c_093816_104522/stitched_minimal.parquet"
+  }
+}

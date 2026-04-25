@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241014_a137df_024426_035138",
+  "icao24": "a137df",
+  "segment_start_time": "2024-10-14T02:44:26",
+  "segment_end_time": "2024-10-14T03:51:38",
+  "gap_duration_minutes": 67.2,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "a137df",
+    "flight_start_time": "2024-10-14T02:30:54",
+    "flight_end_time": "2024-10-14T07:54:56",
+    "callsign": "N178L",
+    "estdepartureairport": "KBOS",
+    "estarrivalairport": "LECO"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 934,
+    "during_count": 0,
+    "after_count": 2273,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 67.2,
+    "before_boundary_speed_kts": 581.8839923274509,
+    "after_boundary_speed_kts": 515.5292600942737,
+    "max_internal_speed_kts": 565.1840849506248,
+    "median_internal_speed_kts": 548.4171222484663
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_a137df_024426_035138/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_a137df_024426_035138/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_a137df_024426_035138/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241014_a137df_024426_035138/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240727_c023b7_080714_092040",
+  "icao24": "c023b7",
+  "segment_start_time": "2024-07-27T08:07:14",
+  "segment_end_time": "2024-07-27T09:20:40",
+  "gap_duration_minutes": 73.43333333333334,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "c023b7",
+    "flight_start_time": "2024-07-27T03:42:26",
+    "flight_end_time": "2024-07-27T11:06:56",
+    "callsign": "ACA820",
+    "estdepartureairport": "CYYZ",
+    "estarrivalairport": "LEBL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1781,
+    "during_count": 0,
+    "after_count": 5797,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 73.43333333333334,
+    "before_boundary_speed_kts": 576.6820088055965,
+    "after_boundary_speed_kts": 517.4860537511655,
+    "max_internal_speed_kts": 515.0336097764517,
+    "median_internal_speed_kts": 515.0336097764517
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240727_c023b7_080714_092040/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240727_c023b7_080714_092040/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240727_c023b7_080714_092040/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240727_c023b7_080714_092040/stitched_minimal.parquet"
+  }
+}

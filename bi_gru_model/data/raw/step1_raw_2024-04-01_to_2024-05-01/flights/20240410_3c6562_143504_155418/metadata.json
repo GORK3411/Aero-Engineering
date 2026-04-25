@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240410_3c6562_143504_155418",
+  "icao24": "3c6562",
+  "segment_start_time": "2024-04-10T14:35:04",
+  "segment_end_time": "2024-04-10T15:54:18",
+  "gap_duration_minutes": 79.23333333333333,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "3c6562",
+    "flight_start_time": "2024-04-10T15:01:03",
+    "flight_end_time": "2024-04-11T01:06:57",
+    "callsign": "OCN68",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KMCO"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 8696,
+    "during_count": 0,
+    "after_count": 1845,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 79.23333333333333,
+    "before_boundary_speed_kts": 651.2839813768165,
+    "after_boundary_speed_kts": 466.3265423170172,
+    "max_internal_speed_kts": 454.42427833846807,
+    "median_internal_speed_kts": 446.5491027845324
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240410_3c6562_143504_155418/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240410_3c6562_143504_155418/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240410_3c6562_143504_155418/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240410_3c6562_143504_155418/stitched_minimal.parquet"
+  }
+}

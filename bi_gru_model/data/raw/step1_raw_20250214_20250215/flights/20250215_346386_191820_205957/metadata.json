@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250215_346386_191820_205957",
+  "icao24": "346386",
+  "segment_start_time": "2025-02-15T19:18:20",
+  "segment_end_time": "2025-02-15T20:59:57",
+  "gap_duration_minutes": 101.61666666666666,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "346386",
+    "flight_start_time": "2025-02-15T17:42:00",
+    "flight_end_time": "2025-02-16T01:05:18",
+    "callsign": "IBE0325",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3688,
+    "during_count": 0,
+    "after_count": 7139,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 101.61666666666666,
+    "before_boundary_speed_kts": 477.5086215472505,
+    "after_boundary_speed_kts": 707.9818156340278,
+    "max_internal_speed_kts": 480.4138554104836,
+    "median_internal_speed_kts": 463.1740177253318
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_346386_191820_205957/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_346386_191820_205957/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_346386_191820_205957/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_346386_191820_205957/stitched_minimal.parquet"
+  }
+}

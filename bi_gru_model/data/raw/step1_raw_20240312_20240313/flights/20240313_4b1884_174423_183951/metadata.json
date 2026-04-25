@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240313_4b1884_174423_183951",
+  "icao24": "4b1884",
+  "segment_start_time": "2024-03-13T17:44:23",
+  "segment_end_time": "2024-03-13T18:39:51",
+  "gap_duration_minutes": 55.46666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "4b1884",
+    "flight_start_time": "2024-03-13T14:13:40",
+    "flight_end_time": "2024-03-13T23:46:13",
+    "callsign": "SWR8T",
+    "estdepartureairport": "LSZH",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3088,
+    "during_count": 0,
+    "after_count": 10596,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 55.46666666666667,
+    "before_boundary_speed_kts": 421.2847363693736,
+    "after_boundary_speed_kts": 472.5764150548706,
+    "max_internal_speed_kts": 446.48127252375707,
+    "median_internal_speed_kts": 443.2714834836038
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4b1884_174423_183951/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4b1884_174423_183951/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4b1884_174423_183951/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4b1884_174423_183951/stitched_minimal.parquet"
+  }
+}

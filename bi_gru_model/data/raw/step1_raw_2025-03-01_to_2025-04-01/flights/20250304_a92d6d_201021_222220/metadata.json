@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250304_a92d6d_201021_222220",
+  "icao24": "a92d6d",
+  "segment_start_time": "2025-03-04T20:10:21",
+  "segment_end_time": "2025-03-04T22:22:20",
+  "gap_duration_minutes": 131.98333333333332,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "a92d6d",
+    "flight_start_time": "2025-03-04T18:19:12",
+    "flight_end_time": "2025-03-05T02:42:59",
+    "callsign": "UAL933",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6030,
+    "during_count": 0,
+    "after_count": 3888,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 131.98333333333332,
+    "before_boundary_speed_kts": 708.8112984099363,
+    "after_boundary_speed_kts": 445.02911512388073,
+    "max_internal_speed_kts": 451.76062604092226,
+    "median_internal_speed_kts": 410.65909271278076
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250304_a92d6d_201021_222220/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250304_a92d6d_201021_222220/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250304_a92d6d_201021_222220/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250304_a92d6d_201021_222220/stitched_minimal.parquet"
+  }
+}

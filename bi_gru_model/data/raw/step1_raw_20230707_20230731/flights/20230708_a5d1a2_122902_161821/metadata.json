@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230708_a5d1a2_122902_161821",
+  "icao24": "a5d1a2",
+  "segment_start_time": "2023-07-08T12:29:02",
+  "segment_end_time": "2023-07-08T16:18:21",
+  "gap_duration_minutes": 229.31666666666666,
+  "adsc_point_count": 11,
+  "flight_match": {
+    "icao24": "a5d1a2",
+    "flight_start_time": "2023-07-08T11:15:05",
+    "flight_end_time": "2023-07-08T18:44:53",
+    "callsign": "N474TC",
+    "estdepartureairport": "ESSA",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3357,
+    "during_count": 0,
+    "after_count": 17448,
+    "adsc_point_count": 11,
+    "gap_duration_minutes": 229.31666666666666,
+    "before_boundary_speed_kts": 505.90323833166383,
+    "after_boundary_speed_kts": 452.94090836273733,
+    "max_internal_speed_kts": 524.3997904950306,
+    "median_internal_speed_kts": 505.3707270061294
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_a5d1a2_122902_161821/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_a5d1a2_122902_161821/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_a5d1a2_122902_161821/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_a5d1a2_122902_161821/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241112_a7563a_015246_030207",
+  "icao24": "a7563a",
+  "segment_start_time": "2024-11-12T01:52:46",
+  "segment_end_time": "2024-11-12T03:02:07",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "a7563a",
+    "flight_start_time": "2024-11-11T23:22:14",
+    "flight_end_time": "2024-11-12T07:11:53",
+    "callsign": "DAL82",
+    "estdepartureairport": "KATL",
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3027,
+    "during_count": 0,
+    "after_count": 6807,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 558.3222694695597,
+    "after_boundary_speed_kts": 481.88820730723785,
+    "max_internal_speed_kts": 527.8370795334926,
+    "median_internal_speed_kts": 515.0854363422153
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_a7563a_015246_030207/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_a7563a_015246_030207/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_a7563a_015246_030207/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_a7563a_015246_030207/stitched_minimal.parquet"
+  }
+}

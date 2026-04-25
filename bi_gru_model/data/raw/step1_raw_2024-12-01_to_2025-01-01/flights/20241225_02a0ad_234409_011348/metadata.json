@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241225_02a0ad_234409_011348",
+  "icao24": "02a0ad",
+  "segment_start_time": "2024-12-25T23:44:09",
+  "segment_end_time": "2024-12-26T01:13:48",
+  "gap_duration_minutes": 89.65,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "02a0ad",
+    "flight_start_time": "2024-12-25T22:04:41",
+    "flight_end_time": "2024-12-26T05:38:47",
+    "callsign": "TAR203",
+    "estdepartureairport": "CYUL",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1993,
+    "during_count": 0,
+    "after_count": 8233,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 89.65,
+    "before_boundary_speed_kts": 497.5584461345931,
+    "after_boundary_speed_kts": 457.39513326480744,
+    "max_internal_speed_kts": 506.99130870354196,
+    "median_internal_speed_kts": 482.7311333342958
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_02a0ad_234409_011348/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_02a0ad_234409_011348/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_02a0ad_234409_011348/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_02a0ad_234409_011348/stitched_minimal.parquet"
+  }
+}

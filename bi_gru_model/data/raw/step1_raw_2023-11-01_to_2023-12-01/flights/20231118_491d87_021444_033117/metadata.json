@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231118_491d87_021444_033117",
+  "icao24": "491d87",
+  "segment_start_time": "2023-11-18T02:14:44",
+  "segment_end_time": "2023-11-18T03:31:17",
+  "gap_duration_minutes": 76.55,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "491d87",
+    "flight_start_time": "2023-11-18T02:34:03",
+    "flight_end_time": "2023-11-18T14:38:59",
+    "callsign": "NJE264R",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4464,
+    "during_count": 0,
+    "after_count": 1653,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 76.55,
+    "before_boundary_speed_kts": 532.2721812085281,
+    "after_boundary_speed_kts": 447.12050095179137,
+    "max_internal_speed_kts": 464.1667975434883,
+    "median_internal_speed_kts": 443.5328771419438
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_491d87_021444_033117/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_491d87_021444_033117/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_491d87_021444_033117/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_491d87_021444_033117/stitched_minimal.parquet"
+  }
+}

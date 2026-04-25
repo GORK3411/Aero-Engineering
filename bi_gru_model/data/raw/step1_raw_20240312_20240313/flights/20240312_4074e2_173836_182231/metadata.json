@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_4074e2_173836_182231",
+  "icao24": "4074e2",
+  "segment_start_time": "2024-03-12T17:38:36",
+  "segment_end_time": "2024-03-12T18:22:31",
+  "gap_duration_minutes": 43.916666666666664,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4074e2",
+    "flight_start_time": "2024-03-12T16:01:35",
+    "flight_end_time": "2024-03-13T01:34:20",
+    "callsign": "BAW225Y",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KMSY"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4814,
+    "during_count": 0,
+    "after_count": 10622,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 43.916666666666664,
+    "before_boundary_speed_kts": 417.72604038006244,
+    "after_boundary_speed_kts": 468.0875859507576,
+    "max_internal_speed_kts": 449.1110984449261,
+    "median_internal_speed_kts": 445.17055483252676
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_4074e2_173836_182231/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_4074e2_173836_182231/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_4074e2_173836_182231/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_4074e2_173836_182231/stitched_minimal.parquet"
+  }
+}

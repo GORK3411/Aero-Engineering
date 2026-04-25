@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240422_aac6ee_111522_123212",
+  "icao24": "aac6ee",
+  "segment_start_time": "2024-04-22T11:15:22",
+  "segment_end_time": "2024-04-22T12:32:12",
+  "gap_duration_minutes": 76.83333333333333,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "aac6ee",
+    "flight_start_time": "2024-04-22T11:14:44",
+    "flight_end_time": "2024-04-22T20:06:54",
+    "callsign": "AAL69",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3658,
+    "during_count": 0,
+    "after_count": 1090,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 76.83333333333333,
+    "before_boundary_speed_kts": 458.9935250037678,
+    "after_boundary_speed_kts": 449.71110182765176,
+    "max_internal_speed_kts": 488.6348601540982,
+    "median_internal_speed_kts": 471.0613447061709
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240422_aac6ee_111522_123212/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240422_aac6ee_111522_123212/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240422_aac6ee_111522_123212/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240422_aac6ee_111522_123212/stitched_minimal.parquet"
+  }
+}

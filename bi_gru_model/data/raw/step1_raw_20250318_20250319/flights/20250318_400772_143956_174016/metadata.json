@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_400772_143956_174016",
+  "icao24": "400772",
+  "segment_start_time": "2025-03-18T14:39:56",
+  "segment_end_time": "2025-03-18T17:40:16",
+  "gap_duration_minutes": 180.33333333333334,
+  "adsc_point_count": 19,
+  "flight_match": {
+    "icao24": "400772",
+    "flight_start_time": "2025-03-18T12:49:11",
+    "flight_end_time": "2025-03-18T20:51:16",
+    "callsign": "BAW9VA",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": "TLPC"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4023,
+    "during_count": 0,
+    "after_count": 1312,
+    "adsc_point_count": 19,
+    "gap_duration_minutes": 180.33333333333334,
+    "before_boundary_speed_kts": 490.1640075245655,
+    "after_boundary_speed_kts": 441.5187286139839,
+    "max_internal_speed_kts": 513.7452782136731,
+    "median_internal_speed_kts": 493.2479261598219
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_400772_143956_174016/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_400772_143956_174016/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_400772_143956_174016/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_400772_143956_174016/stitched_minimal.parquet"
+  }
+}

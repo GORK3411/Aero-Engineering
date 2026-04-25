@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250215_407cd1_173253_182207",
+  "icao24": "407cd1",
+  "segment_start_time": "2025-02-15T17:32:53",
+  "segment_end_time": "2025-02-15T18:22:07",
+  "gap_duration_minutes": 49.233333333333334,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "407cd1",
+    "flight_start_time": "2025-02-15T15:35:35",
+    "flight_end_time": "2025-02-15T22:42:29",
+    "callsign": "BAW6RB",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "6NJ9"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4567,
+    "during_count": 0,
+    "after_count": 7724,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 49.233333333333334,
+    "before_boundary_speed_kts": 502.84202453813975,
+    "after_boundary_speed_kts": 489.46675390757355,
+    "max_internal_speed_kts": 497.1048287447044,
+    "median_internal_speed_kts": 489.07749790324067
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_407cd1_173253_182207/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_407cd1_173253_182207/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_407cd1_173253_182207/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_407cd1_173253_182207/stitched_minimal.parquet"
+  }
+}

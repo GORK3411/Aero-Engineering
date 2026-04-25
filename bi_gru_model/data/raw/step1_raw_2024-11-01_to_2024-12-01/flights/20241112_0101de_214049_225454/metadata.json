@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241112_0101de_214049_225454",
+  "icao24": "0101de",
+  "segment_start_time": "2024-11-12T21:40:49",
+  "segment_end_time": "2024-11-12T22:54:54",
+  "gap_duration_minutes": 74.08333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "0101de",
+    "flight_start_time": "2024-11-12T19:40:05",
+    "flight_end_time": "2024-11-13T05:43:57",
+    "callsign": "MSR996",
+    "estdepartureairport": "CYYZ",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 703,
+    "during_count": 0,
+    "after_count": 9146,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 74.08333333333333,
+    "before_boundary_speed_kts": 570.9903828144178,
+    "after_boundary_speed_kts": 563.935764376009,
+    "max_internal_speed_kts": 583.2265659902091,
+    "median_internal_speed_kts": 583.2265659902091
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_0101de_214049_225454/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_0101de_214049_225454/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_0101de_214049_225454/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241112_0101de_214049_225454/stitched_minimal.parquet"
+  }
+}

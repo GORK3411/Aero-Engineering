@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231110_440b9c_225312_000533",
+  "icao24": "440b9c",
+  "segment_start_time": "2023-11-10T22:53:12",
+  "segment_end_time": "2023-11-11T00:05:33",
+  "gap_duration_minutes": 72.35,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "440b9c",
+    "flight_start_time": "2023-11-10T22:39:36",
+    "flight_end_time": "2023-11-11T07:31:34",
+    "callsign": "ABB278",
+    "estdepartureairport": "EBMB",
+    "estarrivalairport": "KCVG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7277,
+    "during_count": 0,
+    "after_count": 2730,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 72.35,
+    "before_boundary_speed_kts": 562.4936502649595,
+    "after_boundary_speed_kts": 467.90597212906994,
+    "max_internal_speed_kts": 473.1715067529944,
+    "median_internal_speed_kts": 453.9867420136329
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231110_440b9c_225312_000533/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231110_440b9c_225312_000533/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231110_440b9c_225312_000533/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231110_440b9c_225312_000533/stitched_minimal.parquet"
+  }
+}

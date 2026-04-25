@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_407fcd_174207_175641",
+  "icao24": "407fcd",
+  "segment_start_time": "2024-06-11T17:42:07",
+  "segment_end_time": "2024-06-11T17:56:41",
+  "gap_duration_minutes": 14.566666666666666,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "407fcd",
+    "flight_start_time": "2024-06-11T16:08:14",
+    "flight_end_time": "2024-06-12T01:09:40",
+    "callsign": "BAW219V",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KDEN"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2480,
+    "during_count": 0,
+    "after_count": 6183,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 14.566666666666666,
+    "before_boundary_speed_kts": 453.2559849890773,
+    "after_boundary_speed_kts": 468.87017844112,
+    "max_internal_speed_kts": 459.8011711243737,
+    "median_internal_speed_kts": 455.88785843704164
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_407fcd_174207_175641/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_407fcd_174207_175641/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_407fcd_174207_175641/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_407fcd_174207_175641/stitched_minimal.parquet"
+  }
+}

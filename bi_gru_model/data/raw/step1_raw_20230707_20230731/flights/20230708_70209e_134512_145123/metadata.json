@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230708_70209e_134512_145123",
+  "icao24": "70209e",
+  "segment_start_time": "2023-07-08T13:45:12",
+  "segment_end_time": "2023-07-08T14:51:23",
+  "gap_duration_minutes": 66.18333333333334,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "70209e",
+    "flight_start_time": "2023-07-08T09:47:32",
+    "flight_end_time": "2023-07-08T19:18:55",
+    "callsign": "BBC305",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2944,
+    "during_count": 0,
+    "after_count": 6492,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 66.18333333333334,
+    "before_boundary_speed_kts": 582.7763885042906,
+    "after_boundary_speed_kts": 481.9647511077132,
+    "max_internal_speed_kts": 574.0276800261676,
+    "median_internal_speed_kts": 552.2855348052935
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_70209e_134512_145123/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_70209e_134512_145123/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_70209e_134512_145123/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_70209e_134512_145123/stitched_minimal.parquet"
+  }
+}

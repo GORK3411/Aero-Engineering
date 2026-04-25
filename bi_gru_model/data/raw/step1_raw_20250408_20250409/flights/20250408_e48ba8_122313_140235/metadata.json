@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_e48ba8_122313_140235",
+  "icao24": "e48ba8",
+  "segment_start_time": "2025-04-08T12:23:13",
+  "segment_end_time": "2025-04-08T14:02:35",
+  "gap_duration_minutes": 99.36666666666666,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "e48ba8",
+    "flight_start_time": "2025-04-08T11:50:31",
+    "flight_end_time": "2025-04-08T21:17:33",
+    "callsign": "TAM8147",
+    "estdepartureairport": "LPPT",
+    "estarrivalairport": "SBMT"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1515,
+    "during_count": 0,
+    "after_count": 3735,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 99.36666666666666,
+    "before_boundary_speed_kts": 724.2471418352736,
+    "after_boundary_speed_kts": 487.3162392926544,
+    "max_internal_speed_kts": 470.3429236968199,
+    "median_internal_speed_kts": 462.63198787019
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_e48ba8_122313_140235/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_e48ba8_122313_140235/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_e48ba8_122313_140235/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_e48ba8_122313_140235/stitched_minimal.parquet"
+  }
+}

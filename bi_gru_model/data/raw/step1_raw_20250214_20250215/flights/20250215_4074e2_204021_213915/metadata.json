@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250215_4074e2_204021_213915",
+  "icao24": "4074e2",
+  "segment_start_time": "2025-02-15T20:40:21",
+  "segment_end_time": "2025-02-15T21:39:15",
+  "gap_duration_minutes": 58.9,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "4074e2",
+    "flight_start_time": "2025-02-15T19:10:04",
+    "flight_end_time": "2025-02-16T01:40:09",
+    "callsign": "BAW6NC",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4568,
+    "during_count": 0,
+    "after_count": 3255,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 58.9,
+    "before_boundary_speed_kts": 540.5209857494254,
+    "after_boundary_speed_kts": 473.31089081066165,
+    "max_internal_speed_kts": 491.5462876814115,
+    "median_internal_speed_kts": 484.2685667353609
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_4074e2_204021_213915/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_4074e2_204021_213915/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_4074e2_204021_213915/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_4074e2_204021_213915/stitched_minimal.parquet"
+  }
+}

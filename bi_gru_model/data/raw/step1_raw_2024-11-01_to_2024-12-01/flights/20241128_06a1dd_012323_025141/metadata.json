@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241128_06a1dd_012323_025141",
+  "icao24": "06a1dd",
+  "segment_start_time": "2024-11-28T01:23:23",
+  "segment_end_time": "2024-11-28T02:51:41",
+  "gap_duration_minutes": 88.3,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "06a1dd",
+    "flight_start_time": "2024-11-27T20:19:38",
+    "flight_end_time": "2024-11-28T06:11:13",
+    "callsign": "A7CHD",
+    "estdepartureairport": "KLAX",
+    "estarrivalairport": "LEMD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3519,
+    "during_count": 0,
+    "after_count": 4548,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 88.3,
+    "before_boundary_speed_kts": 566.5717207982445,
+    "after_boundary_speed_kts": 506.11743942249365,
+    "max_internal_speed_kts": 536.9598360146105,
+    "median_internal_speed_kts": 527.0903969918388
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241128_06a1dd_012323_025141/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241128_06a1dd_012323_025141/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241128_06a1dd_012323_025141/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241128_06a1dd_012323_025141/stitched_minimal.parquet"
+  }
+}

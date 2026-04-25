@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_a901c8_190625_194801",
+  "icao24": "a901c8",
+  "segment_start_time": "2024-03-12T19:06:25",
+  "segment_end_time": "2024-03-12T19:48:01",
+  "gap_duration_minutes": 41.6,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a901c8",
+    "flight_start_time": "2024-03-12T17:15:08",
+    "flight_end_time": "2024-03-13T02:37:08",
+    "callsign": "N68KJ",
+    "estdepartureairport": "LFPB",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5845,
+    "during_count": 0,
+    "after_count": 9275,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 41.6,
+    "before_boundary_speed_kts": 420.99504743988774,
+    "after_boundary_speed_kts": 458.5869028829069,
+    "max_internal_speed_kts": 404.9865889621699,
+    "median_internal_speed_kts": 404.9865889621699
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_a901c8_190625_194801/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_a901c8_190625_194801/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_a901c8_190625_194801/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_a901c8_190625_194801/stitched_minimal.parquet"
+  }
+}

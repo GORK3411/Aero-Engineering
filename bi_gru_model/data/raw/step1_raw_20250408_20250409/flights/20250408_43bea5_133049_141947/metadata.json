@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_43bea5_133049_141947",
+  "icao24": "43bea5",
+  "segment_start_time": "2025-04-08T13:30:49",
+  "segment_end_time": "2025-04-08T14:19:47",
+  "gap_duration_minutes": 48.96666666666667,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "43bea5",
+    "flight_start_time": "2025-04-08T11:12:36",
+    "flight_end_time": "2025-04-08T18:44:15",
+    "callsign": "VPBTM",
+    "estdepartureairport": "LSGG",
+    "estarrivalairport": "KHPN"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2262,
+    "during_count": 0,
+    "after_count": 7259,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 48.96666666666667,
+    "before_boundary_speed_kts": 615.5838834905769,
+    "after_boundary_speed_kts": 489.92786678281897,
+    "max_internal_speed_kts": 539.8706229323124,
+    "median_internal_speed_kts": 527.5011200257791
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_43bea5_133049_141947/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_43bea5_133049_141947/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_43bea5_133049_141947/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_43bea5_133049_141947/stitched_minimal.parquet"
+  }
+}

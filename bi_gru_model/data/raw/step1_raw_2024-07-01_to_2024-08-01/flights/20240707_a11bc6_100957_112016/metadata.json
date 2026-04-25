@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240707_a11bc6_100957_112016",
+  "icao24": "a11bc6",
+  "segment_start_time": "2024-07-07T10:09:57",
+  "segment_end_time": "2024-07-07T11:20:16",
+  "gap_duration_minutes": 70.31666666666666,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "a11bc6",
+    "flight_start_time": "2024-07-07T06:46:44",
+    "flight_end_time": "2024-07-07T16:07:59",
+    "callsign": "UAL90",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": "OLBA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2972,
+    "during_count": 0,
+    "after_count": 9006,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 70.31666666666666,
+    "before_boundary_speed_kts": 588.8019238444247,
+    "after_boundary_speed_kts": 562.0901124434209,
+    "max_internal_speed_kts": 545.2625208558335,
+    "median_internal_speed_kts": 534.5098438056324
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240707_a11bc6_100957_112016/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240707_a11bc6_100957_112016/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240707_a11bc6_100957_112016/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240707_a11bc6_100957_112016/stitched_minimal.parquet"
+  }
+}

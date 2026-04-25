@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250304_4ba953_191906_215613",
+  "icao24": "4ba953",
+  "segment_start_time": "2025-03-04T19:19:06",
+  "segment_end_time": "2025-03-04T21:56:13",
+  "gap_duration_minutes": 157.11666666666667,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4ba953",
+    "flight_start_time": "2025-03-04T15:11:09",
+    "flight_end_time": "2025-03-05T01:22:24",
+    "callsign": "THY17W",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 10279,
+    "during_count": 0,
+    "after_count": 329,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 157.11666666666667,
+    "before_boundary_speed_kts": 705.3336250935852,
+    "after_boundary_speed_kts": 451.30571965419307,
+    "max_internal_speed_kts": 444.05860277051744,
+    "median_internal_speed_kts": 427.04690282146026
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250304_4ba953_191906_215613/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250304_4ba953_191906_215613/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250304_4ba953_191906_215613/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250304_4ba953_191906_215613/stitched_minimal.parquet"
+  }
+}

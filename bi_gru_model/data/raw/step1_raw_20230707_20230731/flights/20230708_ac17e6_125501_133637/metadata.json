@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230708_ac17e6_125501_133637",
+  "icao24": "ac17e6",
+  "segment_start_time": "2023-07-08T12:55:01",
+  "segment_end_time": "2023-07-08T13:36:37",
+  "gap_duration_minutes": 41.6,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "ac17e6",
+    "flight_start_time": "2023-07-08T11:41:13",
+    "flight_end_time": "2023-07-08T18:47:51",
+    "callsign": "AAL209",
+    "estdepartureairport": "EIDW",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1119,
+    "during_count": 0,
+    "after_count": 9575,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 41.6,
+    "before_boundary_speed_kts": 532.6458539286361,
+    "after_boundary_speed_kts": 474.32816811167163,
+    "max_internal_speed_kts": 526.92911282961,
+    "median_internal_speed_kts": 514.8076653878704
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_ac17e6_125501_133637/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_ac17e6_125501_133637/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_ac17e6_125501_133637/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_ac17e6_125501_133637/stitched_minimal.parquet"
+  }
+}

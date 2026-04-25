@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250313_aa2184_162016_182107",
+  "icao24": "aa2184",
+  "segment_start_time": "2025-03-13T16:20:16",
+  "segment_end_time": "2025-03-13T18:21:07",
+  "gap_duration_minutes": 120.85,
+  "adsc_point_count": 14,
+  "flight_match": {
+    "icao24": "aa2184",
+    "flight_start_time": "2025-03-13T14:22:30",
+    "flight_end_time": "2025-03-14T00:49:14",
+    "callsign": "AAL37",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": "KDFW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4994,
+    "during_count": 0,
+    "after_count": 2740,
+    "adsc_point_count": 14,
+    "gap_duration_minutes": 120.85,
+    "before_boundary_speed_kts": 558.8031170296161,
+    "after_boundary_speed_kts": 415.17699807284527,
+    "max_internal_speed_kts": 520.9285404415159,
+    "median_internal_speed_kts": 511.74201139875294
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_aa2184_162016_182107/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_aa2184_162016_182107/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_aa2184_162016_182107/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_aa2184_162016_182107/stitched_minimal.parquet"
+  }
+}

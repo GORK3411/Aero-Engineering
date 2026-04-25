@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250329_3c6570_142358_163846",
+  "icao24": "3c6570",
+  "segment_start_time": "2025-03-29T14:23:58",
+  "segment_end_time": "2025-03-29T16:38:46",
+  "gap_duration_minutes": 134.8,
+  "adsc_point_count": 14,
+  "flight_match": {
+    "icao24": "3c6570",
+    "flight_start_time": "2025-03-29T11:47:38",
+    "flight_end_time": "2025-03-29T20:57:58",
+    "callsign": "DLH408",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KRDU"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 644,
+    "during_count": 0,
+    "after_count": 4397,
+    "adsc_point_count": 14,
+    "gap_duration_minutes": 134.8,
+    "before_boundary_speed_kts": 463.396563801048,
+    "after_boundary_speed_kts": 438.1080139575978,
+    "max_internal_speed_kts": 447.3755867787988,
+    "median_internal_speed_kts": 423.89800825148683
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_3c6570_142358_163846/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_3c6570_142358_163846/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_3c6570_142358_163846/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_3c6570_142358_163846/stitched_minimal.parquet"
+  }
+}

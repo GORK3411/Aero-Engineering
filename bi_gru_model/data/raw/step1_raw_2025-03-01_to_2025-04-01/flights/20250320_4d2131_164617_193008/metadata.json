@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250320_4d2131_164617_193008",
+  "icao24": "4d2131",
+  "segment_start_time": "2025-03-20T16:46:17",
+  "segment_end_time": "2025-03-20T19:30:08",
+  "gap_duration_minutes": 163.85,
+  "adsc_point_count": 13,
+  "flight_match": {
+    "icao24": "4d2131",
+    "flight_start_time": "2025-03-20T14:44:12",
+    "flight_end_time": "2025-03-20T21:45:48",
+    "callsign": "VJT957",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2458,
+    "during_count": 0,
+    "after_count": 3878,
+    "adsc_point_count": 13,
+    "gap_duration_minutes": 163.85,
+    "before_boundary_speed_kts": 579.6990775539164,
+    "after_boundary_speed_kts": 437.46342802513334,
+    "max_internal_speed_kts": 470.37219849229064,
+    "median_internal_speed_kts": 441.5804239028678
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250320_4d2131_164617_193008/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250320_4d2131_164617_193008/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250320_4d2131_164617_193008/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250320_4d2131_164617_193008/stitched_minimal.parquet"
+  }
+}

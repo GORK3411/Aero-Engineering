@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240418_aa5428_152109_170938",
+  "icao24": "aa5428",
+  "segment_start_time": "2024-04-18T15:21:09",
+  "segment_end_time": "2024-04-18T17:09:38",
+  "gap_duration_minutes": 108.48333333333333,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "aa5428",
+    "flight_start_time": "2024-04-18T16:38:36",
+    "flight_end_time": "2024-04-19T01:12:00",
+    "callsign": "AAL57",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3998,
+    "during_count": 0,
+    "after_count": 2467,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 108.48333333333333,
+    "before_boundary_speed_kts": 537.9244170766544,
+    "after_boundary_speed_kts": 494.9980618352788,
+    "max_internal_speed_kts": 488.0074372108336,
+    "median_internal_speed_kts": 487.009307901786
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240418_aa5428_152109_170938/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240418_aa5428_152109_170938/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240418_aa5428_152109_170938/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240418_aa5428_152109_170938/stitched_minimal.parquet"
+  }
+}

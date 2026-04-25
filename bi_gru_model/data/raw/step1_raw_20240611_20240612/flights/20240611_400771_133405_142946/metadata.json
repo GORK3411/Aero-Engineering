@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_400771_133405_142946",
+  "icao24": "400771",
+  "segment_start_time": "2024-06-11T13:34:05",
+  "segment_end_time": "2024-06-11T14:29:46",
+  "gap_duration_minutes": 55.68333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "400771",
+    "flight_start_time": "2024-06-11T12:17:21",
+    "flight_end_time": "2024-06-11T20:12:04",
+    "callsign": "BAW2239",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2168,
+    "during_count": 0,
+    "after_count": 2074,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 55.68333333333333,
+    "before_boundary_speed_kts": 482.57074010196635,
+    "after_boundary_speed_kts": 498.9766888061871,
+    "max_internal_speed_kts": 459.72794084042187,
+    "median_internal_speed_kts": 459.72794084042187
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_400771_133405_142946/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_400771_133405_142946/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_400771_133405_142946/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_400771_133405_142946/stitched_minimal.parquet"
+  }
+}

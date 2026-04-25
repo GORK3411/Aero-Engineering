@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_48436a_130735_143319",
+  "icao24": "48436a",
+  "segment_start_time": "2025-04-08T13:07:35",
+  "segment_end_time": "2025-04-08T14:33:19",
+  "gap_duration_minutes": 85.73333333333333,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "48436a",
+    "flight_start_time": "2025-04-08T11:15:13",
+    "flight_end_time": "2025-04-08T21:40:28",
+    "callsign": "KLM132",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": "KSFO"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2458,
+    "during_count": 0,
+    "after_count": 9528,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 85.73333333333333,
+    "before_boundary_speed_kts": 442.9912124657275,
+    "after_boundary_speed_kts": 516.1336861932197,
+    "max_internal_speed_kts": 558.7435758413408,
+    "median_internal_speed_kts": 535.6073517387674
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_48436a_130735_143319/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_48436a_130735_143319/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_48436a_130735_143319/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_48436a_130735_143319/stitched_minimal.parquet"
+  }
+}

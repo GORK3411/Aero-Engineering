@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230710_89617e_103608_114219",
+  "icao24": "89617e",
+  "segment_start_time": "2023-07-10T10:36:08",
+  "segment_end_time": "2023-07-10T11:42:19",
+  "gap_duration_minutes": 66.18333333333334,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "89617e",
+    "flight_start_time": "2023-07-10T03:00:10",
+    "flight_end_time": "2023-07-10T17:34:39",
+    "callsign": "UAE7E",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2315,
+    "during_count": 0,
+    "after_count": 2275,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 66.18333333333334,
+    "before_boundary_speed_kts": 511.7665771552141,
+    "after_boundary_speed_kts": 497.90693749164365,
+    "max_internal_speed_kts": 540.091865359832,
+    "median_internal_speed_kts": 519.619499234145
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230710_89617e_103608_114219/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230710_89617e_103608_114219/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230710_89617e_103608_114219/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230710_89617e_103608_114219/stitched_minimal.parquet"
+  }
+}

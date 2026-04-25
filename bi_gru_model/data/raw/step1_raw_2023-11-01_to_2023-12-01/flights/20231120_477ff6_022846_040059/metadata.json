@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231120_477ff6_022846_040059",
+  "icao24": "477ff6",
+  "segment_start_time": "2023-11-20T02:28:46",
+  "segment_end_time": "2023-11-20T04:00:59",
+  "gap_duration_minutes": 92.21666666666667,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "477ff6",
+    "flight_start_time": "2023-11-20T00:17:19",
+    "flight_end_time": "2023-11-20T10:06:57",
+    "callsign": "HUAF691",
+    "estdepartureairport": "LHBP",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3797,
+    "during_count": 0,
+    "after_count": 3557,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 92.21666666666667,
+    "before_boundary_speed_kts": 423.77089354614213,
+    "after_boundary_speed_kts": 402.64055784304276,
+    "max_internal_speed_kts": 381.42268868755514,
+    "median_internal_speed_kts": 366.41040344118403
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231120_477ff6_022846_040059/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231120_477ff6_022846_040059/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231120_477ff6_022846_040059/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231120_477ff6_022846_040059/stitched_minimal.parquet"
+  }
+}

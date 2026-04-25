@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231104_ac291f_033438_044358",
+  "icao24": "ac291f",
+  "segment_start_time": "2023-11-04T03:34:38",
+  "segment_end_time": "2023-11-04T04:43:58",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "ac291f",
+    "flight_start_time": "2023-11-04T02:23:37",
+    "flight_end_time": "2023-11-04T08:36:54",
+    "callsign": "AAL754",
+    "estdepartureairport": "KPHL",
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2005,
+    "during_count": 0,
+    "after_count": 4978,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 615.3189108674876,
+    "after_boundary_speed_kts": 575.8135330565044,
+    "max_internal_speed_kts": 581.8981098360504,
+    "median_internal_speed_kts": 577.7575175588668
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231104_ac291f_033438_044358/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231104_ac291f_033438_044358/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231104_ac291f_033438_044358/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231104_ac291f_033438_044358/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230709_c02ee7_132741_140917",
+  "icao24": "c02ee7",
+  "segment_start_time": "2023-07-09T13:27:41",
+  "segment_end_time": "2023-07-09T14:09:17",
+  "gap_duration_minutes": 41.6,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "c02ee7",
+    "flight_start_time": "2023-07-09T12:01:48",
+    "flight_end_time": "2023-07-09T18:02:58",
+    "callsign": "ACA867",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 628,
+    "during_count": 0,
+    "after_count": 3792,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 41.6,
+    "before_boundary_speed_kts": 536.4864340737925,
+    "after_boundary_speed_kts": 500.93330131378343,
+    "max_internal_speed_kts": 540.9617920801313,
+    "median_internal_speed_kts": 537.0874443616394
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_c02ee7_132741_140917/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_c02ee7_132741_140917/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_c02ee7_132741_140917/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_c02ee7_132741_140917/stitched_minimal.parquet"
+  }
+}

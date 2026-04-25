@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_aa92f8_125749_135743",
+  "icao24": "aa92f8",
+  "segment_start_time": "2025-04-08T12:57:49",
+  "segment_end_time": "2025-04-08T13:57:43",
+  "gap_duration_minutes": 59.9,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "aa92f8",
+    "flight_start_time": "2025-04-08T10:56:55",
+    "flight_end_time": "2025-04-08T18:23:12",
+    "callsign": "UAL56",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1788,
+    "during_count": 0,
+    "after_count": 5106,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 59.9,
+    "before_boundary_speed_kts": 498.38033255887234,
+    "after_boundary_speed_kts": 459.28385987555447,
+    "max_internal_speed_kts": 542.4289305650863,
+    "median_internal_speed_kts": 528.4794705710075
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_aa92f8_125749_135743/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_aa92f8_125749_135743/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_aa92f8_125749_135743/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_aa92f8_125749_135743/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230907_06a0e6_085727_100654",
+  "icao24": "06a0e6",
+  "segment_start_time": "2023-09-07T08:57:27",
+  "segment_end_time": "2023-09-07T10:06:54",
+  "gap_duration_minutes": 69.45,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "06a0e6",
+    "flight_start_time": "2023-09-07T05:47:09",
+    "flight_end_time": "2023-09-07T17:59:57",
+    "callsign": "QTR15M",
+    "estdepartureairport": "KBOS",
+    "estarrivalairport": "OTHH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2742,
+    "during_count": 0,
+    "after_count": 9755,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.45,
+    "before_boundary_speed_kts": 532.4263458924073,
+    "after_boundary_speed_kts": 501.4693540310171,
+    "max_internal_speed_kts": 519.0745696815941,
+    "median_internal_speed_kts": 517.4566682871707
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230907_06a0e6_085727_100654/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230907_06a0e6_085727_100654/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230907_06a0e6_085727_100654/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230907_06a0e6_085727_100654/stitched_minimal.parquet"
+  }
+}

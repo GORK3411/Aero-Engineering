@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230708_01012a_100247_105842",
+  "icao24": "01012a",
+  "segment_start_time": "2023-07-08T10:02:47",
+  "segment_end_time": "2023-07-08T10:58:42",
+  "gap_duration_minutes": 55.916666666666664,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "01012a",
+    "flight_start_time": "2023-07-08T05:17:52",
+    "flight_end_time": "2023-07-08T15:19:23",
+    "callsign": "MSR985",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2276,
+    "during_count": 0,
+    "after_count": 6280,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 55.916666666666664,
+    "before_boundary_speed_kts": 536.6548307425215,
+    "after_boundary_speed_kts": 686.1565848749514,
+    "max_internal_speed_kts": 39.20000248413267,
+    "median_internal_speed_kts": 39.20000248413267
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_01012a_100247_105842/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_01012a_100247_105842/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_01012a_100247_105842/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_01012a_100247_105842/stitched_minimal.parquet"
+  }
+}

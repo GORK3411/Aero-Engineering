@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230713_a9cecf_094802_112841",
+  "icao24": "a9cecf",
+  "segment_start_time": "2023-07-13T09:48:02",
+  "segment_end_time": "2023-07-13T11:28:41",
+  "gap_duration_minutes": 100.65,
+  "adsc_point_count": 11,
+  "flight_match": {
+    "icao24": "a9cecf",
+    "flight_start_time": "2023-07-13T02:05:37",
+    "flight_end_time": "2023-07-13T15:04:46",
+    "callsign": "AAL121",
+    "estdepartureairport": "OTHH",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 922,
+    "during_count": 0,
+    "after_count": 3619,
+    "adsc_point_count": 11,
+    "gap_duration_minutes": 100.65,
+    "before_boundary_speed_kts": 439.3598332328769,
+    "after_boundary_speed_kts": 481.71951207772247,
+    "max_internal_speed_kts": 487.872691782205,
+    "median_internal_speed_kts": 473.6844287924794
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230713_a9cecf_094802_112841/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230713_a9cecf_094802_112841/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230713_a9cecf_094802_112841/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230713_a9cecf_094802_112841/stitched_minimal.parquet"
+  }
+}

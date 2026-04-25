@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_a68336_130238_135911",
+  "icao24": "a68336",
+  "segment_start_time": "2025-04-08T13:02:38",
+  "segment_end_time": "2025-04-08T13:59:11",
+  "gap_duration_minutes": 56.55,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "a68336",
+    "flight_start_time": "2025-04-08T10:58:48",
+    "flight_end_time": "2025-04-08T18:30:59",
+    "callsign": "DAL133",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": "KDTW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1913,
+    "during_count": 0,
+    "after_count": 5478,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 56.55,
+    "before_boundary_speed_kts": 474.548418135035,
+    "after_boundary_speed_kts": 497.78763065566204,
+    "max_internal_speed_kts": 576.3480691839208,
+    "median_internal_speed_kts": 557.6887349225934
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a68336_130238_135911/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a68336_130238_135911/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a68336_130238_135911/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a68336_130238_135911/stitched_minimal.parquet"
+  }
+}

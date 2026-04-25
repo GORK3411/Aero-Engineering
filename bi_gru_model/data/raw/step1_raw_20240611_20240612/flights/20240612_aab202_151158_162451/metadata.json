@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240612_aab202_151158_162451",
+  "icao24": "aab202",
+  "segment_start_time": "2024-06-12T15:11:58",
+  "segment_end_time": "2024-06-12T16:24:51",
+  "gap_duration_minutes": 72.88333333333334,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "aab202",
+    "flight_start_time": "2024-06-12T12:27:31",
+    "flight_end_time": "2024-06-12T20:38:14",
+    "callsign": "AAL199",
+    "estdepartureairport": "LIMC",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2470,
+    "during_count": 0,
+    "after_count": 5770,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 72.88333333333334,
+    "before_boundary_speed_kts": 455.4559935024601,
+    "after_boundary_speed_kts": 440.940502602627,
+    "max_internal_speed_kts": 467.09011114670756,
+    "median_internal_speed_kts": 467.09011114670756
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_aab202_151158_162451/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_aab202_151158_162451/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_aab202_151158_162451/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_aab202_151158_162451/stitched_minimal.parquet"
+  }
+}

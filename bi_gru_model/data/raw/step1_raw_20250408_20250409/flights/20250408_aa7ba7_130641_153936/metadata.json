@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_aa7ba7_130641_153936",
+  "icao24": "aa7ba7",
+  "segment_start_time": "2025-04-08T13:06:41",
+  "segment_end_time": "2025-04-08T15:39:36",
+  "gap_duration_minutes": 152.91666666666666,
+  "adsc_point_count": 11,
+  "flight_match": {
+    "icao24": "aa7ba7",
+    "flight_start_time": "2025-04-08T11:46:37",
+    "flight_end_time": "2025-04-08T19:30:54",
+    "callsign": "AAL95",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2265,
+    "during_count": 0,
+    "after_count": 4231,
+    "adsc_point_count": 11,
+    "gap_duration_minutes": 152.91666666666666,
+    "before_boundary_speed_kts": 485.81463259357645,
+    "after_boundary_speed_kts": 413.50321363599085,
+    "max_internal_speed_kts": 490.2806787252102,
+    "median_internal_speed_kts": 458.53123214743675
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_aa7ba7_130641_153936/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_aa7ba7_130641_153936/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_aa7ba7_130641_153936/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_aa7ba7_130641_153936/stitched_minimal.parquet"
+  }
+}

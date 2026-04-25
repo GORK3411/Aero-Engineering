@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241210_8963eb_203046_213507",
+  "icao24": "8963eb",
+  "segment_start_time": "2024-12-10T20:30:46",
+  "segment_end_time": "2024-12-10T21:35:07",
+  "gap_duration_minutes": 64.35,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "8963eb",
+    "flight_start_time": "2024-12-10T18:12:29",
+    "flight_end_time": "2024-12-11T06:33:58",
+    "callsign": "UAE232",
+    "estdepartureairport": "KIAD",
+    "estarrivalairport": "OMDB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1683,
+    "during_count": 0,
+    "after_count": 8743,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 64.35,
+    "before_boundary_speed_kts": 569.9218848184239,
+    "after_boundary_speed_kts": 498.18953654132514,
+    "max_internal_speed_kts": 496.3022542732921,
+    "median_internal_speed_kts": 484.4734705305949
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241210_8963eb_203046_213507/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241210_8963eb_203046_213507/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241210_8963eb_203046_213507/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241210_8963eb_203046_213507/stitched_minimal.parquet"
+  }
+}

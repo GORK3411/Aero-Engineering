@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240416_39cf0e_141041_151330",
+  "icao24": "39cf0e",
+  "segment_start_time": "2024-04-16T14:10:41",
+  "segment_end_time": "2024-04-16T15:13:30",
+  "gap_duration_minutes": 62.81666666666667,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "39cf0e",
+    "flight_start_time": "2024-04-16T15:08:30",
+    "flight_end_time": "2024-04-16T22:22:39",
+    "callsign": "AFR346J",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6391,
+    "during_count": 0,
+    "after_count": 1135,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 62.81666666666667,
+    "before_boundary_speed_kts": 579.5987327738145,
+    "after_boundary_speed_kts": 448.3873048861885,
+    "max_internal_speed_kts": 442.31522235975234,
+    "median_internal_speed_kts": 442.31522235975234
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_39cf0e_141041_151330/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_39cf0e_141041_151330/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_39cf0e_141041_151330/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240416_39cf0e_141041_151330/stitched_minimal.parquet"
+  }
+}
