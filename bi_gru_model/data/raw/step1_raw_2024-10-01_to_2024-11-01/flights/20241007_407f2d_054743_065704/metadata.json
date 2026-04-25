@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241007_407f2d_054743_065704",
+  "icao24": "407f2d",
+  "segment_start_time": "2024-10-07T05:47:43",
+  "segment_end_time": "2024-10-07T06:57:04",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "407f2d",
+    "flight_start_time": "2024-10-07T02:46:35",
+    "flight_end_time": "2024-10-07T11:43:42",
+    "callsign": "BAW19W",
+    "estdepartureairport": "KAUS",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3098,
+    "during_count": 0,
+    "after_count": 6094,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 585.1654785418554,
+    "after_boundary_speed_kts": 507.6247101422305,
+    "max_internal_speed_kts": 547.3682246545151,
+    "median_internal_speed_kts": 529.4166735063203
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241007_407f2d_054743_065704/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241007_407f2d_054743_065704/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241007_407f2d_054743_065704/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241007_407f2d_054743_065704/stitched_minimal.parquet"
+  }
+}

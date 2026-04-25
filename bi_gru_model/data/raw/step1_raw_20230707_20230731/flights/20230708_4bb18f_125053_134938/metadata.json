@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230708_4bb18f_125053_134938",
+  "icao24": "4bb18f",
+  "segment_start_time": "2023-07-08T12:50:53",
+  "segment_end_time": "2023-07-08T13:49:38",
+  "gap_duration_minutes": 58.75,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "4bb18f",
+    "flight_start_time": "2023-07-08T08:43:31",
+    "flight_end_time": "2023-07-08T18:46:08",
+    "callsign": "THY69W",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2493,
+    "during_count": 0,
+    "after_count": 7608,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 58.75,
+    "before_boundary_speed_kts": 554.1182737045384,
+    "after_boundary_speed_kts": 475.56490609085074,
+    "max_internal_speed_kts": 545.4622564505648,
+    "median_internal_speed_kts": 524.1090730653043
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_4bb18f_125053_134938/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_4bb18f_125053_134938/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_4bb18f_125053_134938/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_4bb18f_125053_134938/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250206_4007fb_191437_215046",
+  "icao24": "4007fb",
+  "segment_start_time": "2025-02-06T19:14:37",
+  "segment_end_time": "2025-02-06T21:50:46",
+  "gap_duration_minutes": 156.15,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "4007fb",
+    "flight_start_time": "2025-02-06T17:54:45",
+    "flight_end_time": "2025-02-07T03:51:58",
+    "callsign": "BAW97A",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3107,
+    "during_count": 0,
+    "after_count": 3726,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 156.15,
+    "before_boundary_speed_kts": 732.2750962065195,
+    "after_boundary_speed_kts": 400.7720486205104,
+    "max_internal_speed_kts": 430.4090827895623,
+    "median_internal_speed_kts": 423.14686798198284
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250206_4007fb_191437_215046/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250206_4007fb_191437_215046/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250206_4007fb_191437_215046/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250206_4007fb_191437_215046/stitched_minimal.parquet"
+  }
+}

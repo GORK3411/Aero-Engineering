@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241216_400685_185543_204150",
+  "icao24": "400685",
+  "segment_start_time": "2024-12-16T18:55:43",
+  "segment_end_time": "2024-12-16T20:41:50",
+  "gap_duration_minutes": 106.11666666666666,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "400685",
+    "flight_start_time": "2024-12-16T18:50:48",
+    "flight_end_time": "2024-12-17T02:03:52",
+    "callsign": "BAW189",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4588,
+    "during_count": 0,
+    "after_count": 3993,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 106.11666666666666,
+    "before_boundary_speed_kts": 495.6776635843003,
+    "after_boundary_speed_kts": 456.32185201651913,
+    "max_internal_speed_kts": 449.0196055820207,
+    "median_internal_speed_kts": 445.53299796494866
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241216_400685_185543_204150/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241216_400685_185543_204150/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241216_400685_185543_204150/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241216_400685_185543_204150/stitched_minimal.parquet"
+  }
+}

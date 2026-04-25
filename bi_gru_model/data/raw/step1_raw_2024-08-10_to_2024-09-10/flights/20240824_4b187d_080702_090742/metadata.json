@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240824_4b187d_080702_090742",
+  "icao24": "4b187d",
+  "segment_start_time": "2024-08-24T08:07:02",
+  "segment_end_time": "2024-08-24T09:07:42",
+  "gap_duration_minutes": 60.666666666666664,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4b187d",
+    "flight_start_time": "2024-08-24T03:59:18",
+    "flight_end_time": "2024-08-24T11:19:28",
+    "callsign": "SWR73N",
+    "estdepartureairport": "KIAD",
+    "estarrivalairport": "LSZH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2081,
+    "during_count": 0,
+    "after_count": 6865,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 60.666666666666664,
+    "before_boundary_speed_kts": 546.9738922976239,
+    "after_boundary_speed_kts": 515.227456649936,
+    "max_internal_speed_kts": 523.628561403314,
+    "median_internal_speed_kts": 517.3026122561794
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240824_4b187d_080702_090742/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240824_4b187d_080702_090742/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240824_4b187d_080702_090742/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240824_4b187d_080702_090742/stitched_minimal.parquet"
+  }
+}

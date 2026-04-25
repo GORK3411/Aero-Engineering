@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250725_aaa6dd_184234_210729",
+  "icao24": "aaa6dd",
+  "segment_start_time": "2025-07-25T18:42:34",
+  "segment_end_time": "2025-07-25T21:07:29",
+  "gap_duration_minutes": 144.91666666666666,
+  "adsc_point_count": 24,
+  "flight_match": {
+    "icao24": "aaa6dd",
+    "flight_start_time": "2025-07-25T17:43:03",
+    "flight_end_time": "2025-07-26T03:25:45",
+    "callsign": "AAL333",
+    "estdepartureairport": "LGAV",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9755,
+    "during_count": 0,
+    "after_count": 1590,
+    "adsc_point_count": 24,
+    "gap_duration_minutes": 144.91666666666666,
+    "before_boundary_speed_kts": 578.777091898464,
+    "after_boundary_speed_kts": 469.83212668957344,
+    "max_internal_speed_kts": 476.45780873260816,
+    "median_internal_speed_kts": 466.9599072536459
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250725_aaa6dd_184234_210729/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250725_aaa6dd_184234_210729/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250725_aaa6dd_184234_210729/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250725_aaa6dd_184234_210729/stitched_minimal.parquet"
+  }
+}

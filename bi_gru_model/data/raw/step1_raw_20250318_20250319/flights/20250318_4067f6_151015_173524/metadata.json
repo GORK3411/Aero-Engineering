@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_4067f6_151015_173524",
+  "icao24": "4067f6",
+  "segment_start_time": "2025-03-18T15:10:15",
+  "segment_end_time": "2025-03-18T17:35:24",
+  "gap_duration_minutes": 145.15,
+  "adsc_point_count": 20,
+  "flight_match": {
+    "icao24": "4067f6",
+    "flight_start_time": "2025-03-18T13:53:07",
+    "flight_end_time": "2025-03-19T08:35:21",
+    "callsign": "TOM724",
+    "estdepartureairport": "EGCC",
+    "estarrivalairport": "EGBB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3779,
+    "during_count": 0,
+    "after_count": 423,
+    "adsc_point_count": 20,
+    "gap_duration_minutes": 145.15,
+    "before_boundary_speed_kts": 704.3859061694441,
+    "after_boundary_speed_kts": 437.6129658660749,
+    "max_internal_speed_kts": 520.6209027247088,
+    "median_internal_speed_kts": 500.723752246068
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_4067f6_151015_173524/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_4067f6_151015_173524/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_4067f6_151015_173524/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_4067f6_151015_173524/stitched_minimal.parquet"
+  }
+}

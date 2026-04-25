@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231017_7380c7_040545_053558",
+  "icao24": "7380c7",
+  "segment_start_time": "2023-10-17T04:05:45",
+  "segment_end_time": "2023-10-17T05:35:58",
+  "gap_duration_minutes": 90.21666666666667,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "7380c7",
+    "flight_start_time": "2023-10-17T01:23:35",
+    "flight_end_time": "2023-10-17T12:53:58",
+    "callsign": "ELY025",
+    "estdepartureairport": "LLBG",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 10184,
+    "during_count": 0,
+    "after_count": 2805,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 90.21666666666667,
+    "before_boundary_speed_kts": 700.015647313059,
+    "after_boundary_speed_kts": 449.79593415502023,
+    "max_internal_speed_kts": 454.3846427419085,
+    "median_internal_speed_kts": 424.4286811681725
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231017_7380c7_040545_053558/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231017_7380c7_040545_053558/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231017_7380c7_040545_053558/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231017_7380c7_040545_053558/stitched_minimal.parquet"
+  }
+}

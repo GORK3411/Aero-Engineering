@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250329_4005c0_174848_200730",
+  "icao24": "4005c0",
+  "segment_start_time": "2025-03-29T17:48:48",
+  "segment_end_time": "2025-03-29T20:07:30",
+  "gap_duration_minutes": 138.7,
+  "adsc_point_count": 16,
+  "flight_match": {
+    "icao24": "4005c0",
+    "flight_start_time": "2025-03-29T16:11:33",
+    "flight_end_time": "2025-03-30T02:47:55",
+    "callsign": "BAW225Y",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "K1L0"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2364,
+    "during_count": 0,
+    "after_count": 2950,
+    "adsc_point_count": 16,
+    "gap_duration_minutes": 138.7,
+    "before_boundary_speed_kts": 531.0498525758641,
+    "after_boundary_speed_kts": 461.7685822649261,
+    "max_internal_speed_kts": 474.5628892105377,
+    "median_internal_speed_kts": 435.0663419867915
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_4005c0_174848_200730/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_4005c0_174848_200730/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_4005c0_174848_200730/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_4005c0_174848_200730/stitched_minimal.parquet"
+  }
+}

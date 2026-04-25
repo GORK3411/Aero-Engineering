@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240811_4d24fd_060651_072929",
+  "icao24": "4d24fd",
+  "segment_start_time": "2024-08-11T06:06:51",
+  "segment_end_time": "2024-08-11T07:29:29",
+  "gap_duration_minutes": 82.63333333333334,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4d24fd",
+    "flight_start_time": "2024-08-11T02:09:57",
+    "flight_end_time": "2024-08-11T11:29:46",
+    "callsign": "VCJ94C",
+    "estdepartureairport": "LGMK",
+    "estarrivalairport": "KFOK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 10233,
+    "during_count": 0,
+    "after_count": 2151,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 82.63333333333334,
+    "before_boundary_speed_kts": 759.6071669009781,
+    "after_boundary_speed_kts": 441.5631267446214,
+    "max_internal_speed_kts": 491.2156068462292,
+    "median_internal_speed_kts": 480.91418689898506
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_4d24fd_060651_072929/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_4d24fd_060651_072929/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_4d24fd_060651_072929/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_4d24fd_060651_072929/stitched_minimal.parquet"
+  }
+}

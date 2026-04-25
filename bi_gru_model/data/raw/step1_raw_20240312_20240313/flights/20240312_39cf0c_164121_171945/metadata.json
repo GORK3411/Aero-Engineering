@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_39cf0c_164121_171945",
+  "icao24": "39cf0c",
+  "segment_start_time": "2024-03-12T16:41:21",
+  "segment_end_time": "2024-03-12T17:19:45",
+  "gap_duration_minutes": 38.4,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "39cf0c",
+    "flight_start_time": "2024-03-12T14:47:34",
+    "flight_end_time": "2024-03-13T02:48:53",
+    "callsign": "AFR480",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "SPJC"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4601,
+    "during_count": 0,
+    "after_count": 1833,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 38.4,
+    "before_boundary_speed_kts": 454.8071975467722,
+    "after_boundary_speed_kts": 491.4243554015264,
+    "max_internal_speed_kts": 441.9041935435329,
+    "median_internal_speed_kts": 441.9041935435329
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_39cf0c_164121_171945/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_39cf0c_164121_171945/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_39cf0c_164121_171945/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_39cf0c_164121_171945/stitched_minimal.parquet"
+  }
+}

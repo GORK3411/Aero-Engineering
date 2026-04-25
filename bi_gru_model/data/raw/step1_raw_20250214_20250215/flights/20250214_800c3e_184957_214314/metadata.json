@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_800c3e_184957_214314",
+  "icao24": "800c3e",
+  "segment_start_time": "2025-02-14T18:49:57",
+  "segment_end_time": "2025-02-14T21:43:14",
+  "gap_duration_minutes": 173.28333333333333,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "800c3e",
+    "flight_start_time": "2025-02-14T13:13:53",
+    "flight_end_time": "2025-02-15T03:32:26",
+    "callsign": "AIC189",
+    "estdepartureairport": "VIDP",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3817,
+    "during_count": 0,
+    "after_count": 3532,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 173.28333333333333,
+    "before_boundary_speed_kts": 488.589912559271,
+    "after_boundary_speed_kts": 448.3180358032372,
+    "max_internal_speed_kts": 488.2680427896208,
+    "median_internal_speed_kts": 479.2748939502182
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_800c3e_184957_214314/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_800c3e_184957_214314/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_800c3e_184957_214314/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_800c3e_184957_214314/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250327_4007ee_143845_180649",
+  "icao24": "4007ee",
+  "segment_start_time": "2025-03-27T14:38:45",
+  "segment_end_time": "2025-03-27T18:06:49",
+  "gap_duration_minutes": 208.06666666666666,
+  "adsc_point_count": 23,
+  "flight_match": {
+    "icao24": "4007ee",
+    "flight_start_time": "2025-03-27T13:15:38",
+    "flight_end_time": "2025-03-27T22:42:17",
+    "callsign": "BAW2203",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2185,
+    "during_count": 0,
+    "after_count": 2605,
+    "adsc_point_count": 23,
+    "gap_duration_minutes": 208.06666666666666,
+    "before_boundary_speed_kts": 611.7098836444992,
+    "after_boundary_speed_kts": 412.26839604800807,
+    "max_internal_speed_kts": 497.5893507889586,
+    "median_internal_speed_kts": 477.6221243940853
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250327_4007ee_143845_180649/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250327_4007ee_143845_180649/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250327_4007ee_143845_180649/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250327_4007ee_143845_180649/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_4d0104_133501_144715",
+  "icao24": "4d0104",
+  "segment_start_time": "2025-04-08T13:35:01",
+  "segment_end_time": "2025-04-08T14:47:15",
+  "gap_duration_minutes": 72.23333333333333,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "4d0104",
+    "flight_start_time": "2025-04-08T11:29:19",
+    "flight_end_time": "2025-04-08T19:15:48",
+    "callsign": "CLX87E",
+    "estdepartureairport": "ELLX",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2581,
+    "during_count": 0,
+    "after_count": 4809,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 72.23333333333333,
+    "before_boundary_speed_kts": 484.25138955190505,
+    "after_boundary_speed_kts": 510.0414900288153,
+    "max_internal_speed_kts": 565.7220193672513,
+    "median_internal_speed_kts": 552.9967439828037
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4d0104_133501_144715/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4d0104_133501_144715/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4d0104_133501_144715/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4d0104_133501_144715/stitched_minimal.parquet"
+  }
+}

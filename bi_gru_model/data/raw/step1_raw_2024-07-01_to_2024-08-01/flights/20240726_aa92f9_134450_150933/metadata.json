@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240726_aa92f9_134450_150933",
+  "icao24": "aa92f9",
+  "segment_start_time": "2024-07-26T13:44:50",
+  "segment_end_time": "2024-07-26T15:09:33",
+  "gap_duration_minutes": 84.71666666666667,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "aa92f9",
+    "flight_start_time": "2024-07-26T11:00:01",
+    "flight_end_time": "2024-07-26T19:26:41",
+    "callsign": "UAL18",
+    "estdepartureairport": "LIMC",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9169,
+    "during_count": 0,
+    "after_count": 2241,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 84.71666666666667,
+    "before_boundary_speed_kts": 659.5519349930025,
+    "after_boundary_speed_kts": 428.27012462508475,
+    "max_internal_speed_kts": 462.52742271681655,
+    "median_internal_speed_kts": 454.046501052326
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_aa92f9_134450_150933/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_aa92f9_134450_150933/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_aa92f9_134450_150933/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_aa92f9_134450_150933/stitched_minimal.parquet"
+  }
+}

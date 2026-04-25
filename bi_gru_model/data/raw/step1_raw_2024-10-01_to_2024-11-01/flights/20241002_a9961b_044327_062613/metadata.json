@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241002_a9961b_044327_062613",
+  "icao24": "a9961b",
+  "segment_start_time": "2024-10-02T04:43:27",
+  "segment_end_time": "2024-10-02T06:26:13",
+  "gap_duration_minutes": 102.76666666666667,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "a9961b",
+    "flight_start_time": "2024-10-01T21:11:26",
+    "flight_end_time": "2024-10-02T12:45:12",
+    "callsign": "AAL293",
+    "estdepartureairport": "VIDP",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9515,
+    "during_count": 0,
+    "after_count": 3585,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 102.76666666666667,
+    "before_boundary_speed_kts": 561.8121396810624,
+    "after_boundary_speed_kts": 494.2196716188307,
+    "max_internal_speed_kts": 472.2227055448986,
+    "median_internal_speed_kts": 457.2834746050077
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_a9961b_044327_062613/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_a9961b_044327_062613/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_a9961b_044327_062613/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_a9961b_044327_062613/stitched_minimal.parquet"
+  }
+}

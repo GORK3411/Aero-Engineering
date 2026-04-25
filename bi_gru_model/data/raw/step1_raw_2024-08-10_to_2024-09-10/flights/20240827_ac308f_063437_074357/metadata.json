@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240827_ac308f_063437_074357",
+  "icao24": "ac308f",
+  "segment_start_time": "2024-08-27T06:34:37",
+  "segment_end_time": "2024-08-27T07:43:57",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "ac308f",
+    "flight_start_time": "2024-08-27T02:53:51",
+    "flight_end_time": "2024-08-27T10:47:09",
+    "callsign": "AAL718",
+    "estdepartureairport": "6NJ9",
+    "estarrivalairport": "LIRF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 577,
+    "during_count": 0,
+    "after_count": 8341,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 534.8221520499766,
+    "after_boundary_speed_kts": 552.8032682803965,
+    "max_internal_speed_kts": 534.7651892555076,
+    "median_internal_speed_kts": 518.5622412078077
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_ac308f_063437_074357/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_ac308f_063437_074357/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_ac308f_063437_074357/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240827_ac308f_063437_074357/stitched_minimal.parquet"
+  }
+}

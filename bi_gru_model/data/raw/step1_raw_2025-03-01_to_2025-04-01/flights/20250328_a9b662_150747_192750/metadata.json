@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250328_a9b662_150747_192750",
+  "icao24": "a9b662",
+  "segment_start_time": "2025-03-28T15:07:47",
+  "segment_end_time": "2025-03-28T19:27:50",
+  "gap_duration_minutes": 260.05,
+  "adsc_point_count": 15,
+  "flight_match": {
+    "icao24": "a9b662",
+    "flight_start_time": "2025-03-28T11:52:56",
+    "flight_end_time": "2025-03-28T20:19:23",
+    "callsign": "N725CS",
+    "estdepartureairport": "LMML",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2939,
+    "during_count": 0,
+    "after_count": 3744,
+    "adsc_point_count": 15,
+    "gap_duration_minutes": 260.05,
+    "before_boundary_speed_kts": 654.7512114512887,
+    "after_boundary_speed_kts": 460.15674220913553,
+    "max_internal_speed_kts": 458.76461285671303,
+    "median_internal_speed_kts": 430.20321067640475
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_a9b662_150747_192750/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_a9b662_150747_192750/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_a9b662_150747_192750/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_a9b662_150747_192750/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240524_39d2a2_112003_124316",
+  "icao24": "39d2a2",
+  "segment_start_time": "2024-05-24T11:20:03",
+  "segment_end_time": "2024-05-24T12:43:16",
+  "gap_duration_minutes": 83.21666666666667,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "39d2a2",
+    "flight_start_time": "2024-05-24T07:35:41",
+    "flight_end_time": "2024-05-24T17:41:54",
+    "callsign": "AFR173",
+    "estdepartureairport": "MMMX",
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2915,
+    "during_count": 0,
+    "after_count": 4822,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 83.21666666666667,
+    "before_boundary_speed_kts": 566.1919400410234,
+    "after_boundary_speed_kts": 481.5372238999874,
+    "max_internal_speed_kts": 521.4537054667074,
+    "median_internal_speed_kts": 508.187672011876
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240524_39d2a2_112003_124316/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240524_39d2a2_112003_124316/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240524_39d2a2_112003_124316/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240524_39d2a2_112003_124316/stitched_minimal.parquet"
+  }
+}

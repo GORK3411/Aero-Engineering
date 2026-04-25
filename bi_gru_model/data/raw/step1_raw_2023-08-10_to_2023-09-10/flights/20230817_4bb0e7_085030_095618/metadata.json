@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230817_4bb0e7_085030_095618",
+  "icao24": "4bb0e7",
+  "segment_start_time": "2023-08-17T08:50:30",
+  "segment_end_time": "2023-08-17T09:56:18",
+  "gap_duration_minutes": 65.8,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4bb0e7",
+    "flight_start_time": "2023-08-17T04:36:21",
+    "flight_end_time": "2023-08-17T14:21:28",
+    "callsign": "THY32G",
+    "estdepartureairport": "KATL",
+    "estarrivalairport": "LTFM"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 982,
+    "during_count": 0,
+    "after_count": 8810,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 65.8,
+    "before_boundary_speed_kts": 628.5093784862111,
+    "after_boundary_speed_kts": 495.2428476518431,
+    "max_internal_speed_kts": 545.842271890919,
+    "median_internal_speed_kts": 530.3056398036468
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230817_4bb0e7_085030_095618/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230817_4bb0e7_085030_095618/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230817_4bb0e7_085030_095618/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230817_4bb0e7_085030_095618/stitched_minimal.parquet"
+  }
+}

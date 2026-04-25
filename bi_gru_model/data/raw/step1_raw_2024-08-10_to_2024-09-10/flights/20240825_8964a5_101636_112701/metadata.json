@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240825_8964a5_101636_112701",
+  "icao24": "8964a5",
+  "segment_start_time": "2024-08-25T10:16:36",
+  "segment_end_time": "2024-08-25T11:27:01",
+  "gap_duration_minutes": 70.41666666666667,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "8964a5",
+    "flight_start_time": "2024-08-25T02:38:26",
+    "flight_end_time": "2024-08-25T17:30:09",
+    "callsign": "UAE2J",
+    "estdepartureairport": "OMDB",
+    "estarrivalairport": "KMCO"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9010,
+    "during_count": 0,
+    "after_count": 1472,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 70.41666666666667,
+    "before_boundary_speed_kts": 513.5886406540775,
+    "after_boundary_speed_kts": 470.3908755257644,
+    "max_internal_speed_kts": 447.30397943958405,
+    "median_internal_speed_kts": 443.26244070472524
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240825_8964a5_101636_112701/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240825_8964a5_101636_112701/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240825_8964a5_101636_112701/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240825_8964a5_101636_112701/stitched_minimal.parquet"
+  }
+}

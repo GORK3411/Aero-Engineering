@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241015_a1c132_224149_011537",
+  "icao24": "a1c132",
+  "segment_start_time": "2024-10-15T22:41:49",
+  "segment_end_time": "2024-10-16T01:15:37",
+  "gap_duration_minutes": 153.8,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "a1c132",
+    "flight_start_time": "2024-10-15T23:22:20",
+    "flight_end_time": "2024-10-16T06:01:24",
+    "callsign": "N212CR",
+    "estdepartureairport": "LFPB",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5866,
+    "during_count": 0,
+    "after_count": 1570,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 153.8,
+    "before_boundary_speed_kts": 468.64554562038336,
+    "after_boundary_speed_kts": 359.3614236474726,
+    "max_internal_speed_kts": 426.72109187148726,
+    "median_internal_speed_kts": 387.6043835174359
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241015_a1c132_224149_011537/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241015_a1c132_224149_011537/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241015_a1c132_224149_011537/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241015_a1c132_224149_011537/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240301_400774_180139_192258",
+  "icao24": "400774",
+  "segment_start_time": "2024-03-01T18:01:39",
+  "segment_end_time": "2024-03-01T19:22:58",
+  "gap_duration_minutes": 81.31666666666666,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "400774",
+    "flight_start_time": "2024-03-01T18:08:40",
+    "flight_end_time": "2024-03-02T02:40:21",
+    "callsign": "BAW7TG",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KATL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4655,
+    "during_count": 0,
+    "after_count": 3398,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 81.31666666666666,
+    "before_boundary_speed_kts": 499.1382273010582,
+    "after_boundary_speed_kts": 455.95039004850076,
+    "max_internal_speed_kts": 447.9430728459838,
+    "median_internal_speed_kts": 446.00764809905115
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240301_400774_180139_192258/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240301_400774_180139_192258/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240301_400774_180139_192258/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240301_400774_180139_192258/stitched_minimal.parquet"
+  }
+}

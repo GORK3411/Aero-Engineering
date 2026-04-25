@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250313_4b1887_151458_174410",
+  "icao24": "4b1887",
+  "segment_start_time": "2025-03-13T15:14:58",
+  "segment_end_time": "2025-03-13T17:44:10",
+  "gap_duration_minutes": 149.2,
+  "adsc_point_count": 18,
+  "flight_match": {
+    "icao24": "4b1887",
+    "flight_start_time": "2025-03-13T13:09:35",
+    "flight_end_time": "2025-03-13T21:31:12",
+    "callsign": "SWR22D",
+    "estdepartureairport": "LSGG",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5944,
+    "during_count": 0,
+    "after_count": 1505,
+    "adsc_point_count": 18,
+    "gap_duration_minutes": 149.2,
+    "before_boundary_speed_kts": 572.1577453620083,
+    "after_boundary_speed_kts": 407.9598709858633,
+    "max_internal_speed_kts": 488.76671240276886,
+    "median_internal_speed_kts": 464.89441956096516
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_4b1887_151458_174410/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_4b1887_151458_174410/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_4b1887_151458_174410/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_4b1887_151458_174410/stitched_minimal.parquet"
+  }
+}

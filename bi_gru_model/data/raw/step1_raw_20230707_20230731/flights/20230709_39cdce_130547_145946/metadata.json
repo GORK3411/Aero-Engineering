@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230709_39cdce_130547_145946",
+  "icao24": "39cdce",
+  "segment_start_time": "2023-07-09T13:05:47",
+  "segment_end_time": "2023-07-09T14:59:46",
+  "gap_duration_minutes": 113.98333333333333,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "39cdce",
+    "flight_start_time": "2023-07-09T11:36:11",
+    "flight_end_time": "2023-07-09T19:36:10",
+    "callsign": "FWI16E",
+    "estdepartureairport": "LFPO",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3144,
+    "during_count": 0,
+    "after_count": 380,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 113.98333333333333,
+    "before_boundary_speed_kts": 503.9220825535019,
+    "after_boundary_speed_kts": 483.8052554837151,
+    "max_internal_speed_kts": 480.4639684029572,
+    "median_internal_speed_kts": 461.89453224357766
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_39cdce_130547_145946/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_39cdce_130547_145946/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_39cdce_130547_145946/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_39cdce_130547_145946/stitched_minimal.parquet"
+  }
+}

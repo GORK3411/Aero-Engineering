@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241202_801666_192612_205320",
+  "icao24": "801666",
+  "segment_start_time": "2024-12-02T19:26:12",
+  "segment_end_time": "2024-12-02T20:53:20",
+  "gap_duration_minutes": 87.13333333333334,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "801666",
+    "flight_start_time": "2024-12-02T18:09:33",
+    "flight_end_time": "2024-12-03T07:07:59",
+    "callsign": "AIC102",
+    "estdepartureairport": "KJFK",
+    "estarrivalairport": "VIDP"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2786,
+    "during_count": 0,
+    "after_count": 4408,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 87.13333333333334,
+    "before_boundary_speed_kts": 593.3759539486704,
+    "after_boundary_speed_kts": 514.3062171158481,
+    "max_internal_speed_kts": 559.2764529206154,
+    "median_internal_speed_kts": 546.9588522636352
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241202_801666_192612_205320/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241202_801666_192612_205320/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241202_801666_192612_205320/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241202_801666_192612_205320/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250312_491267_153513_174328",
+  "icao24": "491267",
+  "segment_start_time": "2025-03-12T15:35:13",
+  "segment_end_time": "2025-03-12T17:43:28",
+  "gap_duration_minutes": 128.25,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "491267",
+    "flight_start_time": "2025-03-12T14:19:00",
+    "flight_end_time": "2025-03-12T21:13:16",
+    "callsign": "JME613G",
+    "estdepartureairport": "EGVN",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3914,
+    "during_count": 0,
+    "after_count": 3533,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 128.25,
+    "before_boundary_speed_kts": 733.4329322377889,
+    "after_boundary_speed_kts": 447.3383790521146,
+    "max_internal_speed_kts": 508.82028367385936,
+    "median_internal_speed_kts": 501.24845778538315
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250312_491267_153513_174328/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250312_491267_153513_174328/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250312_491267_153513_174328/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250312_491267_153513_174328/stitched_minimal.parquet"
+  }
+}

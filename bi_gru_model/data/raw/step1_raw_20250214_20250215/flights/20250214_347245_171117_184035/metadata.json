@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_347245_171117_184035",
+  "icao24": "347245",
+  "segment_start_time": "2025-02-14T17:11:17",
+  "segment_end_time": "2025-02-14T18:40:35",
+  "gap_duration_minutes": 89.3,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "347245",
+    "flight_start_time": "2025-02-14T15:21:03",
+    "flight_end_time": "2025-02-14T23:50:29",
+    "callsign": "CND599",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5725,
+    "during_count": 0,
+    "after_count": 1053,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 89.3,
+    "before_boundary_speed_kts": 459.74948698301847,
+    "after_boundary_speed_kts": 466.5482935456869,
+    "max_internal_speed_kts": 496.8252077248711,
+    "median_internal_speed_kts": 479.73933195050284
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_347245_171117_184035/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_347245_171117_184035/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_347245_171117_184035/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_347245_171117_184035/stitched_minimal.parquet"
+  }
+}

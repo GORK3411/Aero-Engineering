@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250314_4ba955_192021_213213",
+  "icao24": "4ba955",
+  "segment_start_time": "2025-03-14T19:20:21",
+  "segment_end_time": "2025-03-14T21:32:13",
+  "gap_duration_minutes": 131.86666666666667,
+  "adsc_point_count": 14,
+  "flight_match": {
+    "icao24": "4ba955",
+    "flight_start_time": "2025-03-14T14:35:30",
+    "flight_end_time": "2025-03-15T00:41:10",
+    "callsign": "THY1",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1828,
+    "during_count": 0,
+    "after_count": 3629,
+    "adsc_point_count": 14,
+    "gap_duration_minutes": 131.86666666666667,
+    "before_boundary_speed_kts": 544.6895140816099,
+    "after_boundary_speed_kts": 432.11946192423926,
+    "max_internal_speed_kts": 465.6279691804995,
+    "median_internal_speed_kts": 455.0661312417394
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_4ba955_192021_213213/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_4ba955_192021_213213/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_4ba955_192021_213213/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250314_4ba955_192021_213213/stitched_minimal.parquet"
+  }
+}

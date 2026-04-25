@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250329_39d2a7_152730_172858",
+  "icao24": "39d2a7",
+  "segment_start_time": "2025-03-29T15:27:30",
+  "segment_end_time": "2025-03-29T17:28:58",
+  "gap_duration_minutes": 121.46666666666667,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "39d2a7",
+    "flight_start_time": "2025-03-29T13:59:47",
+    "flight_end_time": "2025-03-29T21:41:27",
+    "callsign": "AFR062",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2684,
+    "during_count": 0,
+    "after_count": 2676,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 121.46666666666667,
+    "before_boundary_speed_kts": 588.3820135354775,
+    "after_boundary_speed_kts": 461.608940207856,
+    "max_internal_speed_kts": 440.64352592874536,
+    "median_internal_speed_kts": 435.1190944341345
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_39d2a7_152730_172858/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_39d2a7_152730_172858/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_39d2a7_152730_172858/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250329_39d2a7_152730_172858/stitched_minimal.parquet"
+  }
+}

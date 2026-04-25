@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_3965a6_143401_154142",
+  "icao24": "3965a6",
+  "segment_start_time": "2025-04-08T14:34:01",
+  "segment_end_time": "2025-04-08T15:41:42",
+  "gap_duration_minutes": 67.68333333333334,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "3965a6",
+    "flight_start_time": "2025-04-08T12:53:14",
+    "flight_end_time": "2025-04-08T20:53:48",
+    "callsign": "AFR842",
+    "estdepartureairport": "LFPO",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1460,
+    "during_count": 0,
+    "after_count": 106,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 67.68333333333334,
+    "before_boundary_speed_kts": 472.55441410763507,
+    "after_boundary_speed_kts": 471.26512875773386,
+    "max_internal_speed_kts": 458.8803306407791,
+    "median_internal_speed_kts": 442.03949212995565
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_3965a6_143401_154142/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_3965a6_143401_154142/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_3965a6_143401_154142/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_3965a6_143401_154142/stitched_minimal.parquet"
+  }
+}

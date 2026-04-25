@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250322_461f07_192000_214255",
+  "icao24": "461f07",
+  "segment_start_time": "2025-03-22T19:20:00",
+  "segment_end_time": "2025-03-22T21:42:55",
+  "gap_duration_minutes": 142.91666666666666,
+  "adsc_point_count": 18,
+  "flight_match": {
+    "icao24": "461f07",
+    "flight_start_time": "2025-03-22T17:15:31",
+    "flight_end_time": "2025-03-23T01:42:36",
+    "callsign": "FIN15",
+    "estdepartureairport": "EFHK",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2118,
+    "during_count": 0,
+    "after_count": 3027,
+    "adsc_point_count": 18,
+    "gap_duration_minutes": 142.91666666666666,
+    "before_boundary_speed_kts": 535.0597424629591,
+    "after_boundary_speed_kts": 445.7101767664245,
+    "max_internal_speed_kts": 448.2638802666057,
+    "median_internal_speed_kts": 415.0216314111594
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_461f07_192000_214255/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_461f07_192000_214255/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_461f07_192000_214255/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_461f07_192000_214255/stitched_minimal.parquet"
+  }
+}

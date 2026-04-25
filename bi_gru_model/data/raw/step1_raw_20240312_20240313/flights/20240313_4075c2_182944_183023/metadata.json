@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240313_4075c2_182944_183023",
+  "icao24": "4075c2",
+  "segment_start_time": "2024-03-13T18:29:44",
+  "segment_end_time": "2024-03-13T18:30:23",
+  "gap_duration_minutes": 0.65,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "4075c2",
+    "flight_start_time": "2024-03-13T16:16:40",
+    "flight_end_time": "2024-03-14T00:54:47",
+    "callsign": "UBT78G",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": "KMCO"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3847,
+    "during_count": 0,
+    "after_count": 9715,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 0.65,
+    "before_boundary_speed_kts": 443.0920985208941,
+    "after_boundary_speed_kts": 481.55044417970464,
+    "max_internal_speed_kts": 443.217208551698,
+    "median_internal_speed_kts": 443.217208551698
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4075c2_182944_183023/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4075c2_182944_183023/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4075c2_182944_183023/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_4075c2_182944_183023/stitched_minimal.parquet"
+  }
+}

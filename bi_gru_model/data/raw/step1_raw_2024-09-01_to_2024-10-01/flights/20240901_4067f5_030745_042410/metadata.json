@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240901_4067f5_030745_042410",
+  "icao24": "4067f5",
+  "segment_start_time": "2024-09-01T03:07:45",
+  "segment_end_time": "2024-09-01T04:24:10",
+  "gap_duration_minutes": 76.41666666666667,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4067f5",
+    "flight_start_time": "2024-09-01T00:05:58",
+    "flight_end_time": "2024-09-01T08:52:27",
+    "callsign": "TOM535",
+    "estdepartureairport": "MMUN",
+    "estarrivalairport": "EGBB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2061,
+    "during_count": 0,
+    "after_count": 4310,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 76.41666666666667,
+    "before_boundary_speed_kts": 587.4745832786664,
+    "after_boundary_speed_kts": 472.5328469618462,
+    "max_internal_speed_kts": 541.5713922832912,
+    "median_internal_speed_kts": 513.1406280069318
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240901_4067f5_030745_042410/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240901_4067f5_030745_042410/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240901_4067f5_030745_042410/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240901_4067f5_030745_042410/stitched_minimal.parquet"
+  }
+}

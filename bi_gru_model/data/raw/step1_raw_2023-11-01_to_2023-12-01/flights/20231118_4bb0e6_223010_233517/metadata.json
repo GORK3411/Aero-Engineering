@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231118_4bb0e6_223010_233517",
+  "icao24": "4bb0e6",
+  "segment_start_time": "2023-11-18T22:30:10",
+  "segment_end_time": "2023-11-18T23:35:17",
+  "gap_duration_minutes": 65.11666666666666,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "4bb0e6",
+    "flight_start_time": "2023-11-18T20:21:55",
+    "flight_end_time": "2023-11-19T05:46:56",
+    "callsign": "THY84U",
+    "estdepartureairport": "KORD",
+    "estarrivalairport": "LTFM"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2575,
+    "during_count": 0,
+    "after_count": 9472,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 65.11666666666666,
+    "before_boundary_speed_kts": 595.5692943329627,
+    "after_boundary_speed_kts": 509.33355762203325,
+    "max_internal_speed_kts": 512.5041598450929,
+    "median_internal_speed_kts": 506.85573362958036
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_4bb0e6_223010_233517/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_4bb0e6_223010_233517/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_4bb0e6_223010_233517/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231118_4bb0e6_223010_233517/stitched_minimal.parquet"
+  }
+}

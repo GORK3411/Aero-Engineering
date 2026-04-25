@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230709_06a1bb_160211_171344",
+  "icao24": "06a1bb",
+  "segment_start_time": "2023-07-09T16:02:11",
+  "segment_end_time": "2023-07-09T17:13:44",
+  "gap_duration_minutes": 71.55,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "06a1bb",
+    "flight_start_time": "2023-07-09T08:31:38",
+    "flight_end_time": "2023-07-09T22:59:27",
+    "callsign": "QTR74V",
+    "estdepartureairport": "OTHH",
+    "estarrivalairport": "KATL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2318,
+    "during_count": 0,
+    "after_count": 11980,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 71.55,
+    "before_boundary_speed_kts": 610.2373363809362,
+    "after_boundary_speed_kts": 481.2951832568263,
+    "max_internal_speed_kts": 534.2377924740097,
+    "median_internal_speed_kts": 530.3888716293364
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_06a1bb_160211_171344/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_06a1bb_160211_171344/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_06a1bb_160211_171344/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_06a1bb_160211_171344/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_47b1dc_204636_235957",
+  "icao24": "47b1dc",
+  "segment_start_time": "2025-03-19T20:46:36",
+  "segment_end_time": "2025-03-19T23:59:57",
+  "gap_duration_minutes": 193.35,
+  "adsc_point_count": 55,
+  "flight_match": {
+    "icao24": "47b1dc",
+    "flight_start_time": "2025-03-19T20:23:17",
+    "flight_end_time": "2025-03-20T04:29:07",
+    "callsign": "NOS347",
+    "estdepartureairport": "HKMO",
+    "estarrivalairport": "LIMC"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 440,
+    "during_count": 0,
+    "after_count": 8255,
+    "adsc_point_count": 55,
+    "gap_duration_minutes": 193.35,
+    "before_boundary_speed_kts": 449.9270559562561,
+    "after_boundary_speed_kts": 623.0018019287288,
+    "max_internal_speed_kts": 515.6065873303799,
+    "median_internal_speed_kts": 504.31660597802374
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_47b1dc_204636_235957/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_47b1dc_204636_235957/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_47b1dc_204636_235957/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_47b1dc_204636_235957/stitched_minimal.parquet"
+  }
+}

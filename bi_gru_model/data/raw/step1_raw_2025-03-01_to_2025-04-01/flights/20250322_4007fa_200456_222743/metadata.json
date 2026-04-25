@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250322_4007fa_200456_222743",
+  "icao24": "4007fa",
+  "segment_start_time": "2025-03-22T20:04:56",
+  "segment_end_time": "2025-03-22T22:27:43",
+  "gap_duration_minutes": 142.78333333333333,
+  "adsc_point_count": 20,
+  "flight_match": {
+    "icao24": "4007fa",
+    "flight_start_time": "2025-03-22T18:27:40",
+    "flight_end_time": "2025-03-23T04:17:06",
+    "callsign": "BAW97A",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KDWH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2472,
+    "during_count": 0,
+    "after_count": 1791,
+    "adsc_point_count": 20,
+    "gap_duration_minutes": 142.78333333333333,
+    "before_boundary_speed_kts": 536.0510133645815,
+    "after_boundary_speed_kts": 469.7563607909417,
+    "max_internal_speed_kts": 470.5452641861214,
+    "median_internal_speed_kts": 435.2396472096489
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_4007fa_200456_222743/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_4007fa_200456_222743/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_4007fa_200456_222743/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250322_4007fa_200456_222743/stitched_minimal.parquet"
+  }
+}

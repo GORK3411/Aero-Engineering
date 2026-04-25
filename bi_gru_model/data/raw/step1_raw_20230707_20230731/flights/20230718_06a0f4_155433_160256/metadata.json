@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230718_06a0f4_155433_160256",
+  "icao24": "06a0f4",
+  "segment_start_time": "2023-07-18T15:54:33",
+  "segment_end_time": "2023-07-18T16:02:56",
+  "gap_duration_minutes": 8.383333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "06a0f4",
+    "flight_start_time": "2023-07-18T11:06:10",
+    "flight_end_time": "2023-07-18T23:40:55",
+    "callsign": "QTR75X",
+    "estdepartureairport": NaN,
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 221,
+    "during_count": 0,
+    "after_count": 6092,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 8.383333333333333,
+    "before_boundary_speed_kts": 504.1503529491944,
+    "after_boundary_speed_kts": 497.8664437682166,
+    "max_internal_speed_kts": 507.51618342620714,
+    "median_internal_speed_kts": 507.51618342620714
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230718_06a0f4_155433_160256/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230718_06a0f4_155433_160256/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230718_06a0f4_155433_160256/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230718_06a0f4_155433_160256/stitched_minimal.parquet"
+  }
+}

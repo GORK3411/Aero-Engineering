@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231119_3c4b32_032015_042935",
+  "icao24": "3c4b32",
+  "segment_start_time": "2023-11-19T03:20:15",
+  "segment_end_time": "2023-11-19T04:29:35",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "3c4b32",
+    "flight_start_time": "2023-11-19T02:13:28",
+    "flight_end_time": "2023-11-19T08:41:54",
+    "callsign": "DLH403",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": "EDDF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2999,
+    "during_count": 0,
+    "after_count": 6613,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 599.5974608608362,
+    "after_boundary_speed_kts": 511.18874080166484,
+    "max_internal_speed_kts": 512.7775563727837,
+    "median_internal_speed_kts": 508.9980480223902
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_3c4b32_032015_042935/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_3c4b32_032015_042935/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_3c4b32_032015_042935/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_3c4b32_032015_042935/stitched_minimal.parquet"
+  }
+}

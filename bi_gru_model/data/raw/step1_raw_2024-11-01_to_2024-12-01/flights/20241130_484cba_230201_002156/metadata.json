@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241130_484cba_230201_002156",
+  "icao24": "484cba",
+  "segment_start_time": "2024-11-30T23:02:01",
+  "segment_end_time": "2024-12-01T00:21:56",
+  "gap_duration_minutes": 79.91666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "484cba",
+    "flight_start_time": "2024-11-30T23:20:13",
+    "flight_end_time": "2024-12-01T06:52:14",
+    "callsign": "KLM643",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4762,
+    "during_count": 0,
+    "after_count": 812,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 79.91666666666667,
+    "before_boundary_speed_kts": 575.7091758230323,
+    "after_boundary_speed_kts": 429.54888516807677,
+    "max_internal_speed_kts": 457.7739899993182,
+    "median_internal_speed_kts": 448.91358765814323
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241130_484cba_230201_002156/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241130_484cba_230201_002156/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241130_484cba_230201_002156/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241130_484cba_230201_002156/stitched_minimal.parquet"
+  }
+}

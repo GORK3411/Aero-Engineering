@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250604_06a07a_071041_094108",
+  "icao24": "06a07a",
+  "segment_start_time": "2025-06-04T07:10:41",
+  "segment_end_time": "2025-06-04T09:41:08",
+  "gap_duration_minutes": 150.45,
+  "adsc_point_count": 28,
+  "flight_match": {
+    "icao24": "06a07a",
+    "flight_start_time": "2025-06-04T02:51:19",
+    "flight_end_time": "2025-06-04T15:30:20",
+    "callsign": "QTR703",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9160,
+    "during_count": 0,
+    "after_count": 3185,
+    "adsc_point_count": 28,
+    "gap_duration_minutes": 150.45,
+    "before_boundary_speed_kts": 529.250619072855,
+    "after_boundary_speed_kts": 494.72758190819627,
+    "max_internal_speed_kts": 485.7380975440383,
+    "median_internal_speed_kts": 443.8310120501627
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250604_06a07a_071041_094108/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250604_06a07a_071041_094108/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250604_06a07a_071041_094108/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250604_06a07a_071041_094108/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_3c4b24_211954_230530",
+  "icao24": "3c4b24",
+  "segment_start_time": "2025-02-14T21:19:54",
+  "segment_end_time": "2025-02-14T23:05:30",
+  "gap_duration_minutes": 105.6,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "3c4b24",
+    "flight_start_time": "2025-02-14T19:49:24",
+    "flight_end_time": "2025-02-15T06:12:13",
+    "callsign": "DLH573",
+    "estdepartureairport": "FAOR",
+    "estarrivalairport": "EDDF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 701,
+    "during_count": 0,
+    "after_count": 2968,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 105.6,
+    "before_boundary_speed_kts": 498.50950037739983,
+    "after_boundary_speed_kts": 463.8308169415216,
+    "max_internal_speed_kts": 519.7171939213252,
+    "median_internal_speed_kts": 514.7540896947829
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3c4b24_211954_230530/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3c4b24_211954_230530/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3c4b24_211954_230530/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_3c4b24_211954_230530/stitched_minimal.parquet"
+  }
+}

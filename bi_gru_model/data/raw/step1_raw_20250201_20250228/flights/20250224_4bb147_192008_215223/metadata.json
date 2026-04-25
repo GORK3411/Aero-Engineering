@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250224_4bb147_192008_215223",
+  "icao24": "4bb147",
+  "segment_start_time": "2025-02-24T19:20:08",
+  "segment_end_time": "2025-02-24T21:52:23",
+  "gap_duration_minutes": 152.25,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4bb147",
+    "flight_start_time": "2025-02-24T14:57:26",
+    "flight_end_time": "2025-02-25T02:41:14",
+    "callsign": "THY31K",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": "KATL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1833,
+    "during_count": 0,
+    "after_count": 3672,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 152.25,
+    "before_boundary_speed_kts": 529.0744989722656,
+    "after_boundary_speed_kts": 441.8820299961813,
+    "max_internal_speed_kts": 436.73639016938694,
+    "median_internal_speed_kts": 433.27208404978137
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250224_4bb147_192008_215223/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250224_4bb147_192008_215223/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250224_4bb147_192008_215223/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250224_4bb147_192008_215223/stitched_minimal.parquet"
+  }
+}

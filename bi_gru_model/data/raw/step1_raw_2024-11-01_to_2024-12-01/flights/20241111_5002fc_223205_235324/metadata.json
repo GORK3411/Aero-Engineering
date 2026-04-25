@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241111_5002fc_223205_235324",
+  "icao24": "5002fc",
+  "segment_start_time": "2024-11-11T22:32:05",
+  "segment_end_time": "2024-11-11T23:53:24",
+  "gap_duration_minutes": 81.31666666666666,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "5002fc",
+    "flight_start_time": "2024-11-11T21:50:42",
+    "flight_end_time": "2024-11-12T04:30:08",
+    "callsign": "T7RIC",
+    "estdepartureairport": "EGGW",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5062,
+    "during_count": 0,
+    "after_count": 4314,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 81.31666666666666,
+    "before_boundary_speed_kts": 480.08134431968296,
+    "after_boundary_speed_kts": 438.8801479754562,
+    "max_internal_speed_kts": 440.41022979487593,
+    "median_internal_speed_kts": 431.0478894073615
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241111_5002fc_223205_235324/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241111_5002fc_223205_235324/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241111_5002fc_223205_235324/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-11-01_to_2024-12-01/flights/20241111_5002fc_223205_235324/stitched_minimal.parquet"
+  }
+}

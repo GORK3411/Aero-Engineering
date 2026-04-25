@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231011_347388_005129_024226",
+  "icao24": "347388",
+  "segment_start_time": "2023-10-11T00:51:29",
+  "segment_end_time": "2023-10-11T02:42:26",
+  "gap_duration_minutes": 110.95,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "347388",
+    "flight_start_time": "2023-10-11T00:42:04",
+    "flight_end_time": "2023-10-11T07:03:55",
+    "callsign": "IBE6166",
+    "estdepartureairport": "KBOS",
+    "estarrivalairport": "LEMD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3552,
+    "during_count": 0,
+    "after_count": 3846,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 110.95,
+    "before_boundary_speed_kts": 516.9394146146558,
+    "after_boundary_speed_kts": 494.97094858497735,
+    "max_internal_speed_kts": 491.7256514978612,
+    "median_internal_speed_kts": 472.8146153441751
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231011_347388_005129_024226/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231011_347388_005129_024226/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231011_347388_005129_024226/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231011_347388_005129_024226/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240405_39d2a5_135831_150458",
+  "icao24": "39d2a5",
+  "segment_start_time": "2024-04-05T13:58:31",
+  "segment_end_time": "2024-04-05T15:04:58",
+  "gap_duration_minutes": 66.45,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "39d2a5",
+    "flight_start_time": "2024-04-05T14:53:30",
+    "flight_end_time": "2024-04-05T21:45:27",
+    "callsign": "AFR334",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6509,
+    "during_count": 0,
+    "after_count": 1878,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 66.45,
+    "before_boundary_speed_kts": 609.856693492666,
+    "after_boundary_speed_kts": 458.3620584242897,
+    "max_internal_speed_kts": 479.5330378677228,
+    "median_internal_speed_kts": 478.34163978022224
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240405_39d2a5_135831_150458/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240405_39d2a5_135831_150458/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240405_39d2a5_135831_150458/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240405_39d2a5_135831_150458/stitched_minimal.parquet"
+  }
+}

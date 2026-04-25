@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240512_4006c2_134036_153134",
+  "icao24": "4006c2",
+  "segment_start_time": "2024-05-12T13:40:36",
+  "segment_end_time": "2024-05-12T15:31:34",
+  "gap_duration_minutes": 110.96666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "4006c2",
+    "flight_start_time": "2024-05-12T14:36:19",
+    "flight_end_time": "2024-05-12T23:35:07",
+    "callsign": "BAW12J",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": "KTPA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5019,
+    "during_count": 0,
+    "after_count": 1757,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 110.96666666666667,
+    "before_boundary_speed_kts": 505.6152596876354,
+    "after_boundary_speed_kts": 430.03002189622407,
+    "max_internal_speed_kts": 468.3024366213822,
+    "median_internal_speed_kts": 453.6908843128193
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240512_4006c2_134036_153134/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240512_4006c2_134036_153134/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240512_4006c2_134036_153134/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240512_4006c2_134036_153134/stitched_minimal.parquet"
+  }
+}

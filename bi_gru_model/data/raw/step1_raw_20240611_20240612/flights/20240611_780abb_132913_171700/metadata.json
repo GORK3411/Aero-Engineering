@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_780abb_132913_171700",
+  "icao24": "780abb",
+  "segment_start_time": "2024-06-11T13:29:13",
+  "segment_end_time": "2024-06-11T17:17:00",
+  "gap_duration_minutes": 227.78333333333333,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "780abb",
+    "flight_start_time": "2024-06-11T12:28:02",
+    "flight_end_time": "2024-06-12T01:09:00",
+    "callsign": "CPA748",
+    "estdepartureairport": "FAOR",
+    "estarrivalairport": "VHHH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 651,
+    "during_count": 0,
+    "after_count": 361,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 227.78333333333333,
+    "before_boundary_speed_kts": 511.5392412501386,
+    "after_boundary_speed_kts": 445.2614321372779,
+    "max_internal_speed_kts": 539.9650640650549,
+    "median_internal_speed_kts": 512.8568609719966
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_780abb_132913_171700/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_780abb_132913_171700/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_780abb_132913_171700/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_780abb_132913_171700/stitched_minimal.parquet"
+  }
+}

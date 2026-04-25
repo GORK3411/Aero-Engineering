@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250216_02013e_183243_203731",
+  "icao24": "02013e",
+  "segment_start_time": "2025-02-16T18:32:43",
+  "segment_end_time": "2025-02-16T20:37:31",
+  "gap_duration_minutes": 124.8,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "02013e",
+    "flight_start_time": "2025-02-16T17:44:33",
+    "flight_end_time": "2025-02-17T01:33:30",
+    "callsign": "RAM200N",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2422,
+    "during_count": 0,
+    "after_count": 1111,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 124.8,
+    "before_boundary_speed_kts": 690.8123271980218,
+    "after_boundary_speed_kts": 398.6825548749281,
+    "max_internal_speed_kts": 464.7207102656019,
+    "median_internal_speed_kts": 442.22652457709813
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250216_02013e_183243_203731/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250216_02013e_183243_203731/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250216_02013e_183243_203731/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250216_02013e_183243_203731/stitched_minimal.parquet"
+  }
+}

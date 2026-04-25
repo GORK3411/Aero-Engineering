@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230814_06a12c_094215_110529",
+  "icao24": "06a12c",
+  "segment_start_time": "2023-08-14T09:42:15",
+  "segment_end_time": "2023-08-14T11:05:29",
+  "gap_duration_minutes": 83.23333333333333,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "06a12c",
+    "flight_start_time": "2023-08-14T03:50:22",
+    "flight_end_time": "2023-08-14T18:14:25",
+    "callsign": "QTR17V",
+    "estdepartureairport": "KDFW",
+    "estarrivalairport": "OTHH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1799,
+    "during_count": 0,
+    "after_count": 10245,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 83.23333333333333,
+    "before_boundary_speed_kts": 556.8846749573751,
+    "after_boundary_speed_kts": 538.2813480210074,
+    "max_internal_speed_kts": 555.5730095365485,
+    "median_internal_speed_kts": 549.3846044104582
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230814_06a12c_094215_110529/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230814_06a12c_094215_110529/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230814_06a12c_094215_110529/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230814_06a12c_094215_110529/stitched_minimal.parquet"
+  }
+}

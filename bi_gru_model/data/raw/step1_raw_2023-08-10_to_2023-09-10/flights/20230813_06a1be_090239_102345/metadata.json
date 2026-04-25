@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230813_06a1be_090239_102345",
+  "icao24": "06a1be",
+  "segment_start_time": "2023-08-13T09:02:39",
+  "segment_end_time": "2023-08-13T10:23:45",
+  "gap_duration_minutes": 81.1,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "06a1be",
+    "flight_start_time": "2023-08-13T04:22:28",
+    "flight_end_time": "2023-08-13T17:28:13",
+    "callsign": "QTR45K",
+    "estdepartureairport": "KORD",
+    "estarrivalairport": "OTHH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1903,
+    "during_count": 0,
+    "after_count": 10156,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 81.1,
+    "before_boundary_speed_kts": 577.5996356836866,
+    "after_boundary_speed_kts": 538.0021545152366,
+    "max_internal_speed_kts": 553.6300078174263,
+    "median_internal_speed_kts": 535.3402479761521
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230813_06a1be_090239_102345/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230813_06a1be_090239_102345/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230813_06a1be_090239_102345/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230813_06a1be_090239_102345/stitched_minimal.parquet"
+  }
+}

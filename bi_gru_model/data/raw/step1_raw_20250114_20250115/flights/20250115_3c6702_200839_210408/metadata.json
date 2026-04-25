@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_3c6702_200839_210408",
+  "icao24": "3c6702",
+  "segment_start_time": "2025-01-15T20:08:39",
+  "segment_end_time": "2025-01-15T21:04:08",
+  "gap_duration_minutes": 55.483333333333334,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "3c6702",
+    "flight_start_time": "2025-01-15T17:33:10",
+    "flight_end_time": "2025-01-16T02:28:18",
+    "callsign": "DLH2C",
+    "estdepartureairport": "EDDM",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6177,
+    "during_count": 0,
+    "after_count": 6076,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 55.483333333333334,
+    "before_boundary_speed_kts": 453.04274564768957,
+    "after_boundary_speed_kts": 462.4917457463192,
+    "max_internal_speed_kts": 467.14763064482406,
+    "median_internal_speed_kts": 457.51812246989516
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_3c6702_200839_210408/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_3c6702_200839_210408/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_3c6702_200839_210408/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_3c6702_200839_210408/stitched_minimal.parquet"
+  }
+}

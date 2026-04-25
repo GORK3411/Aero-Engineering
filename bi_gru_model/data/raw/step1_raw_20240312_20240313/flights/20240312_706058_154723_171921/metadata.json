@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_706058_154723_171921",
+  "icao24": "706058",
+  "segment_start_time": "2024-03-12T15:47:23",
+  "segment_end_time": "2024-03-12T17:19:21",
+  "gap_duration_minutes": 91.96666666666667,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "706058",
+    "flight_start_time": "2024-03-12T08:40:39",
+    "flight_end_time": "2024-03-12T21:07:29",
+    "callsign": "KAC117",
+    "estdepartureairport": "OKBK",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5716,
+    "during_count": 0,
+    "after_count": 5572,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 91.96666666666667,
+    "before_boundary_speed_kts": 439.9477863236499,
+    "after_boundary_speed_kts": 474.0655066634765,
+    "max_internal_speed_kts": 485.77388059810164,
+    "median_internal_speed_kts": 479.8182889986679
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_706058_154723_171921/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_706058_154723_171921/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_706058_154723_171921/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_706058_154723_171921/stitched_minimal.parquet"
+  }
+}

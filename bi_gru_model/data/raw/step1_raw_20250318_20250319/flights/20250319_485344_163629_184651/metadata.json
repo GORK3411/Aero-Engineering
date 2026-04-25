@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_485344_163629_184651",
+  "icao24": "485344",
+  "segment_start_time": "2025-03-19T16:36:29",
+  "segment_end_time": "2025-03-19T18:46:51",
+  "gap_duration_minutes": 130.36666666666667,
+  "adsc_point_count": 19,
+  "flight_match": {
+    "icao24": "485344",
+    "flight_start_time": "2025-03-19T14:52:06",
+    "flight_end_time": "2025-03-19T23:37:26",
+    "callsign": "KLM759",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5586,
+    "during_count": 0,
+    "after_count": 539,
+    "adsc_point_count": 19,
+    "gap_duration_minutes": 130.36666666666667,
+    "before_boundary_speed_kts": 478.82581611542554,
+    "after_boundary_speed_kts": 453.1558693540036,
+    "max_internal_speed_kts": 514.037477594168,
+    "median_internal_speed_kts": 465.8492727875167
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_485344_163629_184651/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_485344_163629_184651/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_485344_163629_184651/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_485344_163629_184651/stitched_minimal.parquet"
+  }
+}

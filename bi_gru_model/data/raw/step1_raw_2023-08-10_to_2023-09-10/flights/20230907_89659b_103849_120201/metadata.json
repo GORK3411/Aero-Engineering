@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230907_89659b_103849_120201",
+  "icao24": "89659b",
+  "segment_start_time": "2023-09-07T10:38:49",
+  "segment_end_time": "2023-09-07T12:02:01",
+  "gap_duration_minutes": 83.2,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "89659b",
+    "flight_start_time": "2023-09-07T03:05:54",
+    "flight_end_time": "2023-09-07T16:07:27",
+    "callsign": "ETD103",
+    "estdepartureairport": "OMAA",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 10056,
+    "during_count": 0,
+    "after_count": 1567,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 83.2,
+    "before_boundary_speed_kts": 703.4495183932579,
+    "after_boundary_speed_kts": 461.754409602733,
+    "max_internal_speed_kts": 483.06334286550225,
+    "median_internal_speed_kts": 483.06334286550225
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230907_89659b_103849_120201/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230907_89659b_103849_120201/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230907_89659b_103849_120201/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230907_89659b_103849_120201/stitched_minimal.parquet"
+  }
+}

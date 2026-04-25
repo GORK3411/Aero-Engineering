@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250316_3c6562_150037_180154",
+  "icao24": "3c6562",
+  "segment_start_time": "2025-03-16T15:00:37",
+  "segment_end_time": "2025-03-16T18:01:54",
+  "gap_duration_minutes": 181.28333333333333,
+  "adsc_point_count": 16,
+  "flight_match": {
+    "icao24": "3c6562",
+    "flight_start_time": "2025-03-16T12:54:16",
+    "flight_end_time": "2025-03-16T22:10:09",
+    "callsign": "OCN2004",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2435,
+    "during_count": 0,
+    "after_count": 2123,
+    "adsc_point_count": 16,
+    "gap_duration_minutes": 181.28333333333333,
+    "before_boundary_speed_kts": 605.9486612710296,
+    "after_boundary_speed_kts": 479.2558057042642,
+    "max_internal_speed_kts": 504.5499217482733,
+    "median_internal_speed_kts": 440.5099615904499
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250316_3c6562_150037_180154/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250316_3c6562_150037_180154/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250316_3c6562_150037_180154/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250316_3c6562_150037_180154/stitched_minimal.parquet"
+  }
+}

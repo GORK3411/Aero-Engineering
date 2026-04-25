@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240811_06a121_081828_094449",
+  "icao24": "06a121",
+  "segment_start_time": "2024-08-11T08:18:28",
+  "segment_end_time": "2024-08-11T09:44:49",
+  "gap_duration_minutes": 86.35,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "06a121",
+    "flight_start_time": "2024-08-11T01:15:36",
+    "flight_end_time": "2024-08-11T23:50:19",
+    "callsign": "QTR742",
+    "estdepartureairport": "KLAX",
+    "estarrivalairport": "VOBL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2425,
+    "during_count": 0,
+    "after_count": 9185,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 86.35,
+    "before_boundary_speed_kts": 601.18372049168,
+    "after_boundary_speed_kts": 503.340314805417,
+    "max_internal_speed_kts": 546.9160868056499,
+    "median_internal_speed_kts": 534.6930898393222
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_06a121_081828_094449/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_06a121_081828_094449/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_06a121_081828_094449/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_06a121_081828_094449/stitched_minimal.parquet"
+  }
+}

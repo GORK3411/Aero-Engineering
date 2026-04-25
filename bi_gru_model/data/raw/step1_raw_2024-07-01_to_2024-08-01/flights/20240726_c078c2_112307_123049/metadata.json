@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240726_c078c2_112307_123049",
+  "icao24": "c078c2",
+  "segment_start_time": "2024-07-26T11:23:07",
+  "segment_end_time": "2024-07-26T12:30:49",
+  "gap_duration_minutes": 67.7,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "c078c2",
+    "flight_start_time": "2024-07-26T06:50:50",
+    "flight_end_time": "2024-07-26T13:25:06",
+    "callsign": "TSC764",
+    "estdepartureairport": "CYYZ",
+    "estarrivalairport": "LPPR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2441,
+    "during_count": 0,
+    "after_count": 2968,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 67.7,
+    "before_boundary_speed_kts": 550.0071139816326,
+    "after_boundary_speed_kts": 517.051629294332,
+    "max_internal_speed_kts": 545.060443639303,
+    "median_internal_speed_kts": 539.8111313805116
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_c078c2_112307_123049/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_c078c2_112307_123049/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_c078c2_112307_123049/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_c078c2_112307_123049/stitched_minimal.parquet"
+  }
+}

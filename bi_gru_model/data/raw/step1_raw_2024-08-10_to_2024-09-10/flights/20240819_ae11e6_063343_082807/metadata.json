@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240819_ae11e6_063343_082807",
+  "icao24": "ae11e6",
+  "segment_start_time": "2024-08-19T06:33:43",
+  "segment_end_time": "2024-08-19T08:28:07",
+  "gap_duration_minutes": 114.4,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "ae11e6",
+    "flight_start_time": "2024-08-18T23:54:55",
+    "flight_end_time": "2024-08-19T13:04:53",
+    "callsign": "SNTRY25",
+    "estdepartureairport": "KTIK",
+    "estarrivalairport": "LGSA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1671,
+    "during_count": 0,
+    "after_count": 7959,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 114.4,
+    "before_boundary_speed_kts": 491.97134748069914,
+    "after_boundary_speed_kts": 285.0144826638687,
+    "max_internal_speed_kts": 487.8203136571975,
+    "median_internal_speed_kts": 482.8461021751289
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240819_ae11e6_063343_082807/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240819_ae11e6_063343_082807/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240819_ae11e6_063343_082807/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240819_ae11e6_063343_082807/stitched_minimal.parquet"
+  }
+}

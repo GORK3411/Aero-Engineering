@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240725_ab7268_084401_094622",
+  "icao24": "ab7268",
+  "segment_start_time": "2024-07-25T08:44:01",
+  "segment_end_time": "2024-07-25T09:46:22",
+  "gap_duration_minutes": 62.35,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "ab7268",
+    "flight_start_time": "2024-07-25T05:04:58",
+    "flight_end_time": "2024-07-25T11:51:11",
+    "callsign": "AAL744",
+    "estdepartureairport": "KPHL",
+    "estarrivalairport": "EKCH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3234,
+    "during_count": 0,
+    "after_count": 5990,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 62.35,
+    "before_boundary_speed_kts": 548.5728902271038,
+    "after_boundary_speed_kts": 530.7449400666644,
+    "max_internal_speed_kts": 522.4777356670461,
+    "median_internal_speed_kts": 521.1854170111741
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240725_ab7268_084401_094622/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240725_ab7268_084401_094622/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240725_ab7268_084401_094622/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240725_ab7268_084401_094622/stitched_minimal.parquet"
+  }
+}

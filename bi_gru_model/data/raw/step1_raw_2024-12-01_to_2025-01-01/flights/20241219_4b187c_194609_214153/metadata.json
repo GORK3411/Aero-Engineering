@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241219_4b187c_194609_214153",
+  "icao24": "4b187c",
+  "segment_start_time": "2024-12-19T19:46:09",
+  "segment_end_time": "2024-12-19T21:41:53",
+  "gap_duration_minutes": 115.73333333333333,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "4b187c",
+    "flight_start_time": "2024-12-19T19:01:20",
+    "flight_end_time": "2024-12-20T03:31:58",
+    "callsign": "SWR52",
+    "estdepartureairport": "LSZH",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6380,
+    "during_count": 0,
+    "after_count": 1474,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 115.73333333333333,
+    "before_boundary_speed_kts": 468.1844931758004,
+    "after_boundary_speed_kts": 412.88851173228846,
+    "max_internal_speed_kts": 456.87369419512686,
+    "median_internal_speed_kts": 440.04543085267215
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241219_4b187c_194609_214153/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241219_4b187c_194609_214153/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241219_4b187c_194609_214153/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241219_4b187c_194609_214153/stitched_minimal.parquet"
+  }
+}

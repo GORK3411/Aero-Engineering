@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240313_394a14_174532_181649",
+  "icao24": "394a14",
+  "segment_start_time": "2024-03-13T17:45:32",
+  "segment_end_time": "2024-03-13T18:16:49",
+  "gap_duration_minutes": 31.283333333333335,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "394a14",
+    "flight_start_time": "2024-03-13T15:16:30",
+    "flight_end_time": "2024-03-13T22:54:31",
+    "callsign": "AFR54M",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3256,
+    "during_count": 0,
+    "after_count": 6102,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 31.283333333333335,
+    "before_boundary_speed_kts": 445.20247121275554,
+    "after_boundary_speed_kts": 484.5556524040185,
+    "max_internal_speed_kts": 458.4727238961948,
+    "median_internal_speed_kts": 450.9972279611699
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_394a14_174532_181649/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_394a14_174532_181649/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_394a14_174532_181649/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_394a14_174532_181649/stitched_minimal.parquet"
+  }
+}

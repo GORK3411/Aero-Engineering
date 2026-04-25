@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250310_4ca87d_191327_212126",
+  "icao24": "4ca87d",
+  "segment_start_time": "2025-03-10T19:13:27",
+  "segment_end_time": "2025-03-10T21:21:26",
+  "gap_duration_minutes": 127.98333333333333,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "4ca87d",
+    "flight_start_time": "2025-03-10T16:10:43",
+    "flight_end_time": "2025-03-11T00:37:44",
+    "callsign": "ITY610",
+    "estdepartureairport": "LIRF",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9657,
+    "during_count": 0,
+    "after_count": 4554,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 127.98333333333333,
+    "before_boundary_speed_kts": 617.122166555363,
+    "after_boundary_speed_kts": 468.0805377361954,
+    "max_internal_speed_kts": 493.1852231541252,
+    "median_internal_speed_kts": 485.92801910396804
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250310_4ca87d_191327_212126/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250310_4ca87d_191327_212126/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250310_4ca87d_191327_212126/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250310_4ca87d_191327_212126/stitched_minimal.parquet"
+  }
+}

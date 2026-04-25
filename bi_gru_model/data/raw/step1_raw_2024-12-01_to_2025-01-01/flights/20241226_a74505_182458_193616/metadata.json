@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241226_a74505_182458_193616",
+  "icao24": "a74505",
+  "segment_start_time": "2024-12-26T18:24:58",
+  "segment_end_time": "2024-12-26T19:36:16",
+  "gap_duration_minutes": 71.3,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "a74505",
+    "flight_start_time": "2024-12-26T17:07:23",
+    "flight_end_time": "2024-12-27T02:58:52",
+    "callsign": "DAL67",
+    "estdepartureairport": "LIRF",
+    "estarrivalairport": "KATL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7057,
+    "during_count": 0,
+    "after_count": 2258,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 71.3,
+    "before_boundary_speed_kts": 487.01495414555137,
+    "after_boundary_speed_kts": 454.20099454040485,
+    "max_internal_speed_kts": 468.0770520468873,
+    "median_internal_speed_kts": 458.47180150755764
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241226_a74505_182458_193616/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241226_a74505_182458_193616/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241226_a74505_182458_193616/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241226_a74505_182458_193616/stitched_minimal.parquet"
+  }
+}

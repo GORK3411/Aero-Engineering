@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240419_39cf11_124904_135213",
+  "icao24": "39cf11",
+  "segment_start_time": "2024-04-19T12:49:04",
+  "segment_end_time": "2024-04-19T13:52:13",
+  "gap_duration_minutes": 63.15,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "39cf11",
+    "flight_start_time": "2024-04-19T13:43:44",
+    "flight_end_time": "2024-04-20T00:49:49",
+    "callsign": "AFR178",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "MMMX"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5886,
+    "during_count": 0,
+    "after_count": 1506,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 63.15,
+    "before_boundary_speed_kts": 693.2028926910538,
+    "after_boundary_speed_kts": 480.8187962913288,
+    "max_internal_speed_kts": 472.3389932464203,
+    "median_internal_speed_kts": 460.9843624011362
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240419_39cf11_124904_135213/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240419_39cf11_124904_135213/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240419_39cf11_124904_135213/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240419_39cf11_124904_135213/stitched_minimal.parquet"
+  }
+}

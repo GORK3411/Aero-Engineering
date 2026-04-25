@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241207_4ba88f_202333_215141",
+  "icao24": "4ba88f",
+  "segment_start_time": "2024-12-07T20:23:33",
+  "segment_end_time": "2024-12-07T21:51:41",
+  "gap_duration_minutes": 88.13333333333334,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4ba88f",
+    "flight_start_time": "2024-12-07T18:57:10",
+    "flight_end_time": "2024-12-08T04:50:57",
+    "callsign": "THY6079",
+    "estdepartureairport": "CYYZ",
+    "estarrivalairport": "LTFM"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1440,
+    "during_count": 0,
+    "after_count": 5737,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 88.13333333333334,
+    "before_boundary_speed_kts": 540.0014605987305,
+    "after_boundary_speed_kts": 473.9304724425875,
+    "max_internal_speed_kts": 501.77654770281816,
+    "median_internal_speed_kts": 480.08963936380474
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241207_4ba88f_202333_215141/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241207_4ba88f_202333_215141/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241207_4ba88f_202333_215141/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241207_4ba88f_202333_215141/stitched_minimal.parquet"
+  }
+}

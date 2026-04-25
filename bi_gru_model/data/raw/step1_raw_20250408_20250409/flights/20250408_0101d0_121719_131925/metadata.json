@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_0101d0_121719_131925",
+  "icao24": "0101d0",
+  "segment_start_time": "2025-04-08T12:17:19",
+  "segment_end_time": "2025-04-08T13:19:25",
+  "gap_duration_minutes": 62.1,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "0101d0",
+    "flight_start_time": "2025-04-08T10:04:10",
+    "flight_end_time": "2025-04-08T17:54:06",
+    "callsign": "SUBTU",
+    "estdepartureairport": "LFPB",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2248,
+    "during_count": 0,
+    "after_count": 1476,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 62.1,
+    "before_boundary_speed_kts": 481.43406121912324,
+    "after_boundary_speed_kts": 506.5844579510986,
+    "max_internal_speed_kts": 511.8273364312471,
+    "median_internal_speed_kts": 503.15979953998954
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_0101d0_121719_131925/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_0101d0_121719_131925/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_0101d0_121719_131925/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_0101d0_121719_131925/stitched_minimal.parquet"
+  }
+}

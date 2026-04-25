@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_76cce3_203058_214018",
+  "icao24": "76cce3",
+  "segment_start_time": "2025-01-15T20:30:58",
+  "segment_end_time": "2025-01-15T21:40:18",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "76cce3",
+    "flight_start_time": "2025-01-15T17:02:50",
+    "flight_end_time": "2025-01-16T11:36:27",
+    "callsign": "SIA21",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": "WSSS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 212,
+    "during_count": 0,
+    "after_count": 17966,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 508.40218991381334,
+    "after_boundary_speed_kts": 496.1998207457666,
+    "max_internal_speed_kts": 520.3004310391353,
+    "median_internal_speed_kts": 515.9666209397869
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_76cce3_203058_214018/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_76cce3_203058_214018/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_76cce3_203058_214018/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_76cce3_203058_214018/stitched_minimal.parquet"
+  }
+}

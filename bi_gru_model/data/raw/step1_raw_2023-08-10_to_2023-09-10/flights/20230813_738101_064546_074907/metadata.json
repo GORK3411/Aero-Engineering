@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230813_738101_064546_074907",
+  "icao24": "738101",
+  "segment_start_time": "2023-08-13T06:45:46",
+  "segment_end_time": "2023-08-13T07:49:07",
+  "gap_duration_minutes": 63.35,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "738101",
+    "flight_start_time": "2023-08-13T01:24:04",
+    "flight_end_time": "2023-08-13T11:55:39",
+    "callsign": "ELY015",
+    "estdepartureairport": "LL59",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1377,
+    "during_count": 0,
+    "after_count": 2880,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 63.35,
+    "before_boundary_speed_kts": 601.2282618325708,
+    "after_boundary_speed_kts": 461.9843326026447,
+    "max_internal_speed_kts": 491.2137702305899,
+    "median_internal_speed_kts": 489.9055507469868
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230813_738101_064546_074907/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230813_738101_064546_074907/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230813_738101_064546_074907/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230813_738101_064546_074907/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231119_89639f_224350_235415",
+  "icao24": "89639f",
+  "segment_start_time": "2023-11-19T22:43:50",
+  "segment_end_time": "2023-11-19T23:54:15",
+  "gap_duration_minutes": 70.41666666666667,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "89639f",
+    "flight_start_time": "2023-11-19T21:23:59",
+    "flight_end_time": "2023-11-20T08:51:51",
+    "callsign": "UAE242",
+    "estdepartureairport": "CYYZ",
+    "estarrivalairport": "OMDB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3371,
+    "during_count": 0,
+    "after_count": 2021,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 70.41666666666667,
+    "before_boundary_speed_kts": 678.5037079521567,
+    "after_boundary_speed_kts": 526.6327921373547,
+    "max_internal_speed_kts": 578.9127188561562,
+    "median_internal_speed_kts": 553.5107343067758
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_89639f_224350_235415/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_89639f_224350_235415/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_89639f_224350_235415/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_89639f_224350_235415/stitched_minimal.parquet"
+  }
+}

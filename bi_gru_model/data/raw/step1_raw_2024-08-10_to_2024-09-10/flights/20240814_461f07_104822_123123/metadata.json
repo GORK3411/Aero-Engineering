@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240814_461f07_104822_123123",
+  "icao24": "461f07",
+  "segment_start_time": "2024-08-14T10:48:22",
+  "segment_end_time": "2024-08-14T12:31:23",
+  "gap_duration_minutes": 103.01666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "461f07",
+    "flight_start_time": "2024-08-14T05:55:06",
+    "flight_end_time": "2024-08-14T14:23:25",
+    "callsign": "FIN10",
+    "estdepartureairport": "KORD",
+    "estarrivalairport": "EFHK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2669,
+    "during_count": 0,
+    "after_count": 5451,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 103.01666666666667,
+    "before_boundary_speed_kts": 518.2763399081405,
+    "after_boundary_speed_kts": 499.3453767963489,
+    "max_internal_speed_kts": 513.5741877892585,
+    "median_internal_speed_kts": 509.5538903918137
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240814_461f07_104822_123123/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240814_461f07_104822_123123/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240814_461f07_104822_123123/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240814_461f07_104822_123123/stitched_minimal.parquet"
+  }
+}

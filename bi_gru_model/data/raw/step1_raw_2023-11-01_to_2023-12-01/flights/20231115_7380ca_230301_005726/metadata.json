@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231115_7380ca_230301_005726",
+  "icao24": "7380ca",
+  "segment_start_time": "2023-11-15T23:03:01",
+  "segment_end_time": "2023-11-16T00:57:26",
+  "gap_duration_minutes": 114.41666666666667,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "7380ca",
+    "flight_start_time": "2023-11-15T20:36:55",
+    "flight_end_time": "2023-11-16T07:02:11",
+    "callsign": "ELY018",
+    "estdepartureairport": "KMIA",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 844,
+    "during_count": 0,
+    "after_count": 10348,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 114.41666666666667,
+    "before_boundary_speed_kts": 578.7476706947552,
+    "after_boundary_speed_kts": 561.1389644009207,
+    "max_internal_speed_kts": 609.5504316963945,
+    "median_internal_speed_kts": 594.3644590669278
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231115_7380ca_230301_005726/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231115_7380ca_230301_005726/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231115_7380ca_230301_005726/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231115_7380ca_230301_005726/stitched_minimal.parquet"
+  }
+}

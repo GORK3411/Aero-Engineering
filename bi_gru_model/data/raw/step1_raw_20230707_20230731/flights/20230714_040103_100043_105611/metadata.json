@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230714_040103_100043_105611",
+  "icao24": "040103",
+  "segment_start_time": "2023-07-14T10:00:43",
+  "segment_end_time": "2023-07-14T10:56:11",
+  "gap_duration_minutes": 55.46666666666667,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "040103",
+    "flight_start_time": "2023-07-14T08:34:00",
+    "flight_end_time": "2023-07-14T15:48:29",
+    "callsign": "ETH574",
+    "estdepartureairport": "EIDW",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 999,
+    "during_count": 0,
+    "after_count": 6721,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 55.46666666666667,
+    "before_boundary_speed_kts": 495.5925522987908,
+    "after_boundary_speed_kts": 448.3575005228295,
+    "max_internal_speed_kts": 493.7858260428641,
+    "median_internal_speed_kts": 489.82611511209086
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230714_040103_100043_105611/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230714_040103_100043_105611/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230714_040103_100043_105611/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230714_040103_100043_105611/stitched_minimal.parquet"
+  }
+}

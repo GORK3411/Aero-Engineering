@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240821_a0f428_064339_075259",
+  "icao24": "a0f428",
+  "segment_start_time": "2024-08-21T06:43:39",
+  "segment_end_time": "2024-08-21T07:52:59",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a0f428",
+    "flight_start_time": "2024-08-21T03:11:10",
+    "flight_end_time": "2024-08-21T09:44:46",
+    "callsign": "UAL999",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": "EBBR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3057,
+    "during_count": 0,
+    "after_count": 4865,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 583.7161396104696,
+    "after_boundary_speed_kts": 478.0081046451518,
+    "max_internal_speed_kts": 482.32471017813333,
+    "median_internal_speed_kts": 482.32471017813333
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240821_a0f428_064339_075259/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240821_a0f428_064339_075259/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240821_a0f428_064339_075259/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240821_a0f428_064339_075259/stitched_minimal.parquet"
+  }
+}

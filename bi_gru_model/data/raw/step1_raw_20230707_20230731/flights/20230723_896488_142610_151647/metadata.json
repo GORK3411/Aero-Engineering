@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230723_896488_142610_151647",
+  "icao24": "896488",
+  "segment_start_time": "2023-07-23T14:26:10",
+  "segment_end_time": "2023-07-23T15:16:47",
+  "gap_duration_minutes": 50.61666666666667,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "896488",
+    "flight_start_time": "2023-07-23T10:54:30",
+    "flight_end_time": "2023-07-23T18:20:20",
+    "callsign": "ETD601",
+    "estdepartureairport": "FAOR",
+    "estarrivalairport": "OMAA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 648,
+    "during_count": 0,
+    "after_count": 1220,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 50.61666666666667,
+    "before_boundary_speed_kts": 498.8728490719438,
+    "after_boundary_speed_kts": 460.62794761646745,
+    "max_internal_speed_kts": 475.2168333910611,
+    "median_internal_speed_kts": 468.01784586464385
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230723_896488_142610_151647/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230723_896488_142610_151647/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230723_896488_142610_151647/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230723_896488_142610_151647/stitched_minimal.parquet"
+  }
+}

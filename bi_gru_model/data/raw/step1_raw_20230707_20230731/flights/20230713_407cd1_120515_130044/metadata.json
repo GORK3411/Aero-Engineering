@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230713_407cd1_120515_130044",
+  "icao24": "407cd1",
+  "segment_start_time": "2023-07-13T12:05:15",
+  "segment_end_time": "2023-07-13T13:00:44",
+  "gap_duration_minutes": 55.483333333333334,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "407cd1",
+    "flight_start_time": "2023-07-13T05:09:05",
+    "flight_end_time": "2023-07-13T14:41:52",
+    "callsign": "BAW72A",
+    "estdepartureairport": "KSAN",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3126,
+    "during_count": 0,
+    "after_count": 4627,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 55.483333333333334,
+    "before_boundary_speed_kts": 516.4401167861947,
+    "after_boundary_speed_kts": 521.8643391795829,
+    "max_internal_speed_kts": 519.0342027275153,
+    "median_internal_speed_kts": 515.5126922476356
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230713_407cd1_120515_130044/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230713_407cd1_120515_130044/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230713_407cd1_120515_130044/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230713_407cd1_120515_130044/stitched_minimal.parquet"
+  }
+}

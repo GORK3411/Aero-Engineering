@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_4005c0_152300_180926",
+  "icao24": "4005c0",
+  "segment_start_time": "2025-03-19T15:23:00",
+  "segment_end_time": "2025-03-19T18:09:26",
+  "gap_duration_minutes": 166.43333333333334,
+  "adsc_point_count": 24,
+  "flight_match": {
+    "icao24": "4005c0",
+    "flight_start_time": "2025-03-19T00:28:38",
+    "flight_end_time": "2025-03-19T21:11:55",
+    "callsign": "BAW173A",
+    "estdepartureairport": "OTHH",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2154,
+    "during_count": 0,
+    "after_count": 2096,
+    "adsc_point_count": 24,
+    "gap_duration_minutes": 166.43333333333334,
+    "before_boundary_speed_kts": 579.9038183193386,
+    "after_boundary_speed_kts": 411.6272125685677,
+    "max_internal_speed_kts": 487.53750714489496,
+    "median_internal_speed_kts": 429.0085070896566
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4005c0_152300_180926/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4005c0_152300_180926/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4005c0_152300_180926/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4005c0_152300_180926/stitched_minimal.parquet"
+  }
+}

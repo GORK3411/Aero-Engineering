@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250701_400775_183153_204812",
+  "icao24": "400775",
+  "segment_start_time": "2025-07-01T18:31:53",
+  "segment_end_time": "2025-07-01T20:48:12",
+  "gap_duration_minutes": 136.31666666666666,
+  "adsc_point_count": 23,
+  "flight_match": {
+    "icao24": "400775",
+    "flight_start_time": "2025-07-01T19:48:49",
+    "flight_end_time": "2025-07-02T02:54:56",
+    "callsign": "BAW2273",
+    "estdepartureairport": "EGKK",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4756,
+    "during_count": 0,
+    "after_count": 4323,
+    "adsc_point_count": 23,
+    "gap_duration_minutes": 136.31666666666666,
+    "before_boundary_speed_kts": 573.2511088237977,
+    "after_boundary_speed_kts": 454.50823726030256,
+    "max_internal_speed_kts": 467.49962169040214,
+    "median_internal_speed_kts": 432.89725869491633
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250701_400775_183153_204812/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250701_400775_183153_204812/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250701_400775_183153_204812/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250701_400775_183153_204812/stitched_minimal.parquet"
+  }
+}

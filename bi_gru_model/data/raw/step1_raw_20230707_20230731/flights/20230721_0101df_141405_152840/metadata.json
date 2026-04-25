@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230721_0101df_141405_152840",
+  "icao24": "0101df",
+  "segment_start_time": "2023-07-21T14:14:05",
+  "segment_end_time": "2023-07-21T15:28:40",
+  "gap_duration_minutes": 74.58333333333333,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "0101df",
+    "flight_start_time": "2023-07-21T09:33:53",
+    "flight_end_time": "2023-07-21T20:07:57",
+    "callsign": "MSR1995",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1978,
+    "during_count": 0,
+    "after_count": 6626,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 74.58333333333333,
+    "before_boundary_speed_kts": 469.0228361047237,
+    "after_boundary_speed_kts": 451.07510719155295,
+    "max_internal_speed_kts": 488.24391833109394,
+    "median_internal_speed_kts": 485.77052150999344
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230721_0101df_141405_152840/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230721_0101df_141405_152840/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230721_0101df_141405_152840/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230721_0101df_141405_152840/stitched_minimal.parquet"
+  }
+}

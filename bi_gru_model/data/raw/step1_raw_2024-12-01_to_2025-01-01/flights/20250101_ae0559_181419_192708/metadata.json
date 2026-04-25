@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250101_ae0559_181419_192708",
+  "icao24": "ae0559",
+  "segment_start_time": "2025-01-01T18:14:19",
+  "segment_end_time": "2025-01-01T19:27:08",
+  "gap_duration_minutes": 72.81666666666666,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "ae0559",
+    "flight_start_time": "2025-01-01T19:21:54",
+    "flight_end_time": "2025-01-02T03:09:04",
+    "callsign": "RCH4000",
+    "estdepartureairport": "EGPK",
+    "estarrivalairport": "NC47"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1657,
+    "during_count": 0,
+    "after_count": 38,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 72.81666666666666,
+    "before_boundary_speed_kts": 521.3381270931493,
+    "after_boundary_speed_kts": 410.3092533127116,
+    "max_internal_speed_kts": 477.86944263027266,
+    "median_internal_speed_kts": 463.52398449799796
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20250101_ae0559_181419_192708/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20250101_ae0559_181419_192708/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20250101_ae0559_181419_192708/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20250101_ae0559_181419_192708/stitched_minimal.parquet"
+  }
+}

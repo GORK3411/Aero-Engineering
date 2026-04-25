@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_76cd41_145854_185254",
+  "icao24": "76cd41",
+  "segment_start_time": "2025-03-19T14:58:54",
+  "segment_end_time": "2025-03-19T18:52:54",
+  "gap_duration_minutes": 234.0,
+  "adsc_point_count": 22,
+  "flight_match": {
+    "icao24": "76cd41",
+    "flight_start_time": "2025-03-19T14:04:10",
+    "flight_end_time": "2025-03-19T23:45:07",
+    "callsign": "SIA479",
+    "estdepartureairport": "FAOR",
+    "estarrivalairport": "WSSS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1261,
+    "during_count": 0,
+    "after_count": 2509,
+    "adsc_point_count": 22,
+    "gap_duration_minutes": 234.0,
+    "before_boundary_speed_kts": 619.5707456528772,
+    "after_boundary_speed_kts": 464.50258049559255,
+    "max_internal_speed_kts": 555.0861451567247,
+    "median_internal_speed_kts": 509.2577255870428
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_76cd41_145854_185254/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_76cd41_145854_185254/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_76cd41_145854_185254/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_76cd41_145854_185254/stitched_minimal.parquet"
+  }
+}

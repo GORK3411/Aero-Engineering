@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231111_ac0906_040829_051908",
+  "icao24": "ac0906",
+  "segment_start_time": "2023-11-11T04:08:29",
+  "segment_end_time": "2023-11-11T05:19:08",
+  "gap_duration_minutes": 70.65,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "ac0906",
+    "flight_start_time": "2023-11-11T02:49:39",
+    "flight_end_time": "2023-11-11T09:08:50",
+    "callsign": "AAL742",
+    "estdepartureairport": "KPHL",
+    "estarrivalairport": "LEBL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 721,
+    "during_count": 0,
+    "after_count": 5104,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 70.65,
+    "before_boundary_speed_kts": 592.8534178477418,
+    "after_boundary_speed_kts": 564.379670176252,
+    "max_internal_speed_kts": 592.6572971492012,
+    "median_internal_speed_kts": 580.1078049108442
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_ac0906_040829_051908/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_ac0906_040829_051908/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_ac0906_040829_051908/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_ac0906_040829_051908/stitched_minimal.parquet"
+  }
+}

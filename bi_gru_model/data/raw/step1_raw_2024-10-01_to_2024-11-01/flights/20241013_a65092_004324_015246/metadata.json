@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241013_a65092_004324_015246",
+  "icao24": "a65092",
+  "segment_start_time": "2024-10-13T00:43:24",
+  "segment_end_time": "2024-10-13T01:52:46",
+  "gap_duration_minutes": 69.36666666666666,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a65092",
+    "flight_start_time": "2024-10-12T23:57:17",
+    "flight_end_time": "2024-10-13T06:52:36",
+    "callsign": "DAL132",
+    "estdepartureairport": "KDTW",
+    "estarrivalairport": "EHAM"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1319,
+    "during_count": 0,
+    "after_count": 4994,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 69.36666666666666,
+    "before_boundary_speed_kts": 620.1277513716241,
+    "after_boundary_speed_kts": 524.9501281311908,
+    "max_internal_speed_kts": 594.8421998718557,
+    "median_internal_speed_kts": 594.8421998718557
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241013_a65092_004324_015246/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241013_a65092_004324_015246/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241013_a65092_004324_015246/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241013_a65092_004324_015246/stitched_minimal.parquet"
+  }
+}

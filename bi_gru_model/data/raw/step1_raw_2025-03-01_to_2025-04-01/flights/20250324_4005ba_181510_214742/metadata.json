@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250324_4005ba_181510_214742",
+  "icao24": "4005ba",
+  "segment_start_time": "2025-03-24T18:15:10",
+  "segment_end_time": "2025-03-24T21:47:42",
+  "gap_duration_minutes": 212.53333333333333,
+  "adsc_point_count": 21,
+  "flight_match": {
+    "icao24": "4005ba",
+    "flight_start_time": "2025-03-24T16:47:55",
+    "flight_end_time": "2025-03-24T23:58:52",
+    "callsign": "BAW19N",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "TXKF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2690,
+    "during_count": 0,
+    "after_count": 1870,
+    "adsc_point_count": 21,
+    "gap_duration_minutes": 212.53333333333333,
+    "before_boundary_speed_kts": 471.8051407533349,
+    "after_boundary_speed_kts": 424.32120294252724,
+    "max_internal_speed_kts": 459.19778827513386,
+    "median_internal_speed_kts": 431.2216885289786
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250324_4005ba_181510_214742/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250324_4005ba_181510_214742/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250324_4005ba_181510_214742/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250324_4005ba_181510_214742/stitched_minimal.parquet"
+  }
+}

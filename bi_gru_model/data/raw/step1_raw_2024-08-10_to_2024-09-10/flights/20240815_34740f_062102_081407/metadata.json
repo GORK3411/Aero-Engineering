@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240815_34740f_062102_081407",
+  "icao24": "34740f",
+  "segment_start_time": "2024-08-15T06:21:02",
+  "segment_end_time": "2024-08-15T08:14:07",
+  "gap_duration_minutes": 113.08333333333333,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "34740f",
+    "flight_start_time": "2024-08-15T04:58:06",
+    "flight_end_time": "2024-08-15T12:55:19",
+    "callsign": "AEA015",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4143,
+    "during_count": 0,
+    "after_count": 1572,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 113.08333333333333,
+    "before_boundary_speed_kts": 649.4914323418667,
+    "after_boundary_speed_kts": 464.35527349341663,
+    "max_internal_speed_kts": 488.3361245378385,
+    "median_internal_speed_kts": 473.64603192062117
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240815_34740f_062102_081407/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240815_34740f_062102_081407/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240815_34740f_062102_081407/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240815_34740f_062102_081407/stitched_minimal.parquet"
+  }
+}

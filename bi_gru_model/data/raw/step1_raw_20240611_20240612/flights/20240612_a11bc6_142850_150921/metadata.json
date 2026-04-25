@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240612_a11bc6_142850_150921",
+  "icao24": "a11bc6",
+  "segment_start_time": "2024-06-12T14:28:50",
+  "segment_end_time": "2024-06-12T15:09:21",
+  "gap_duration_minutes": 40.516666666666666,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "a11bc6",
+    "flight_start_time": "2024-06-12T12:26:44",
+    "flight_end_time": "2024-06-12T20:33:55",
+    "callsign": "UAL986",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1433,
+    "during_count": 0,
+    "after_count": 4597,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 40.516666666666666,
+    "before_boundary_speed_kts": 470.87627876824166,
+    "after_boundary_speed_kts": 470.0424672256292,
+    "max_internal_speed_kts": 490.0627570167653,
+    "median_internal_speed_kts": 487.52446677440196
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_a11bc6_142850_150921/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_a11bc6_142850_150921/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_a11bc6_142850_150921/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_a11bc6_142850_150921/stitched_minimal.parquet"
+  }
+}

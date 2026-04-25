@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230828_740822_091023_101305",
+  "icao24": "740822",
+  "segment_start_time": "2023-08-28T09:10:23",
+  "segment_end_time": "2023-08-28T10:13:05",
+  "gap_duration_minutes": 62.7,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "740822",
+    "flight_start_time": "2023-08-28T05:27:26",
+    "flight_end_time": "2023-08-28T15:07:47",
+    "callsign": "RJA262G",
+    "estdepartureairport": "KJFK",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1432,
+    "during_count": 0,
+    "after_count": 7711,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 62.7,
+    "before_boundary_speed_kts": 541.5622717088644,
+    "after_boundary_speed_kts": 544.1896506227351,
+    "max_internal_speed_kts": 540.1579038728777,
+    "median_internal_speed_kts": 527.3936579300992
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230828_740822_091023_101305/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230828_740822_091023_101305/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230828_740822_091023_101305/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230828_740822_091023_101305/stitched_minimal.parquet"
+  }
+}

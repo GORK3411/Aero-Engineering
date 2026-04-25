@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240811_8964b3_093420_104341",
+  "icao24": "8964b3",
+  "segment_start_time": "2024-08-11T09:34:20",
+  "segment_end_time": "2024-08-11T10:43:41",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "8964b3",
+    "flight_start_time": "2024-08-11T04:19:57",
+    "flight_end_time": "2024-08-11T18:03:13",
+    "callsign": "UAE69T",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "OMDB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1863,
+    "during_count": 0,
+    "after_count": 9681,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 590.5045182761763,
+    "after_boundary_speed_kts": 527.1397558352649,
+    "max_internal_speed_kts": 521.5670628266773,
+    "median_internal_speed_kts": 508.5543226797109
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_8964b3_093420_104341/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_8964b3_093420_104341/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_8964b3_093420_104341/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240811_8964b3_093420_104341/stitched_minimal.parquet"
+  }
+}

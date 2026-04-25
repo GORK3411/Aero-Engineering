@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_47b121_121055_131239",
+  "icao24": "47b121",
+  "segment_start_time": "2024-06-11T12:10:55",
+  "segment_end_time": "2024-06-11T13:12:39",
+  "gap_duration_minutes": 61.733333333333334,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "47b121",
+    "flight_start_time": "2024-06-11T07:56:57",
+    "flight_end_time": "2024-06-11T17:41:38",
+    "callsign": "NBT50K",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2462,
+    "during_count": 0,
+    "after_count": 6140,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 61.733333333333334,
+    "before_boundary_speed_kts": 458.2710685953901,
+    "after_boundary_speed_kts": 461.9869531645931,
+    "max_internal_speed_kts": 468.62857353513965,
+    "median_internal_speed_kts": 464.52920458737003
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_47b121_121055_131239/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_47b121_121055_131239/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_47b121_121055_131239/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_47b121_121055_131239/stitched_minimal.parquet"
+  }
+}

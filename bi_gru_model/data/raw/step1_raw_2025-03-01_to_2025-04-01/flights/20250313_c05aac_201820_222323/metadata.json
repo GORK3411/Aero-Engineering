@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250313_c05aac_201820_222323",
+  "icao24": "c05aac",
+  "segment_start_time": "2025-03-13T20:18:20",
+  "segment_end_time": "2025-03-13T22:23:23",
+  "gap_duration_minutes": 125.05,
+  "adsc_point_count": 13,
+  "flight_match": {
+    "icao24": "c05aac",
+    "flight_start_time": "2025-03-13T18:27:26",
+    "flight_end_time": "2025-03-14T01:15:55",
+    "callsign": "CGIIT",
+    "estdepartureairport": "LFPB",
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5898,
+    "during_count": 0,
+    "after_count": 2123,
+    "adsc_point_count": 13,
+    "gap_duration_minutes": 125.05,
+    "before_boundary_speed_kts": 667.4346634152047,
+    "after_boundary_speed_kts": 445.46687531123206,
+    "max_internal_speed_kts": 472.2224802042634,
+    "median_internal_speed_kts": 465.1865987054866
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_c05aac_201820_222323/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_c05aac_201820_222323/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_c05aac_201820_222323/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_c05aac_201820_222323/stitched_minimal.parquet"
+  }
+}

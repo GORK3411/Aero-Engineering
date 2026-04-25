@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_39cf0b_020910_032140",
+  "icao24": "39cf0b",
+  "segment_start_time": "2025-01-15T02:09:10",
+  "segment_end_time": "2025-01-15T03:21:40",
+  "gap_duration_minutes": 72.5,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "39cf0b",
+    "flight_start_time": "2025-01-14T23:37:14",
+    "flight_end_time": "2025-01-15T07:53:56",
+    "callsign": "AFR545",
+    "estdepartureairport": "SBFZ",
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 133,
+    "during_count": 0,
+    "after_count": 9879,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 72.5,
+    "before_boundary_speed_kts": 581.9180318863256,
+    "after_boundary_speed_kts": 468.26089035971376,
+    "max_internal_speed_kts": 536.5395863429944,
+    "median_internal_speed_kts": 504.00719565788347
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_39cf0b_020910_032140/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_39cf0b_020910_032140/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_39cf0b_020910_032140/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_39cf0b_020910_032140/stitched_minimal.parquet"
+  }
+}

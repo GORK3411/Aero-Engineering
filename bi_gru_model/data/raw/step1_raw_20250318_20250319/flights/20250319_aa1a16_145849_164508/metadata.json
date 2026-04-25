@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_aa1a16_145849_164508",
+  "icao24": "aa1a16",
+  "segment_start_time": "2025-03-19T14:58:49",
+  "segment_end_time": "2025-03-19T16:45:08",
+  "gap_duration_minutes": 106.31666666666666,
+  "adsc_point_count": 21,
+  "flight_match": {
+    "icao24": "aa1a16",
+    "flight_start_time": "2025-03-19T12:00:00",
+    "flight_end_time": "2025-03-19T21:10:50",
+    "callsign": "AAL717",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KCLT"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3674,
+    "during_count": 0,
+    "after_count": 3520,
+    "adsc_point_count": 21,
+    "gap_duration_minutes": 106.31666666666666,
+    "before_boundary_speed_kts": 487.57811989902115,
+    "after_boundary_speed_kts": 445.9251357065194,
+    "max_internal_speed_kts": 511.02063042430854,
+    "median_internal_speed_kts": 444.8302768902613
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_aa1a16_145849_164508/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_aa1a16_145849_164508/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_aa1a16_145849_164508/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_aa1a16_145849_164508/stitched_minimal.parquet"
+  }
+}

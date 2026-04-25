@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_39cf11_144206_180022",
+  "icao24": "39cf11",
+  "segment_start_time": "2025-03-19T14:42:06",
+  "segment_end_time": "2025-03-19T18:00:22",
+  "gap_duration_minutes": 198.26666666666668,
+  "adsc_point_count": 19,
+  "flight_match": {
+    "icao24": "39cf11",
+    "flight_start_time": "2025-03-19T11:58:22",
+    "flight_end_time": "2025-03-20T01:11:04",
+    "callsign": "AFR412",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "SAEZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2704,
+    "during_count": 0,
+    "after_count": 2425,
+    "adsc_point_count": 19,
+    "gap_duration_minutes": 198.26666666666668,
+    "before_boundary_speed_kts": 462.6400113090044,
+    "after_boundary_speed_kts": 486.2193714340059,
+    "max_internal_speed_kts": 510.7282134407702,
+    "median_internal_speed_kts": 487.3900866118513
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_39cf11_144206_180022/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_39cf11_144206_180022/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_39cf11_144206_180022/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_39cf11_144206_180022/stitched_minimal.parquet"
+  }
+}

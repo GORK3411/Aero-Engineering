@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250703_3c4591_203217_231609",
+  "icao24": "3c4591",
+  "segment_start_time": "2025-07-03T20:32:17",
+  "segment_end_time": "2025-07-03T23:16:09",
+  "gap_duration_minutes": 163.86666666666667,
+  "adsc_point_count": 23,
+  "flight_match": {
+    "icao24": "3c4591",
+    "flight_start_time": "2025-07-03T21:03:29",
+    "flight_end_time": "2025-07-04T04:53:24",
+    "callsign": "BOX450",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6635,
+    "during_count": 0,
+    "after_count": 1709,
+    "adsc_point_count": 23,
+    "gap_duration_minutes": 163.86666666666667,
+    "before_boundary_speed_kts": 578.1947476118456,
+    "after_boundary_speed_kts": 438.14889614233124,
+    "max_internal_speed_kts": 528.1617421347595,
+    "median_internal_speed_kts": 512.0448716868332
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_3c4591_203217_231609/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_3c4591_203217_231609/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_3c4591_203217_231609/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250703_3c4591_203217_231609/stitched_minimal.parquet"
+  }
+}

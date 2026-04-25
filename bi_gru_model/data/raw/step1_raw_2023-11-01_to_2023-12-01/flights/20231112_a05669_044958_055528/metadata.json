@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231112_a05669_044958_055528",
+  "icao24": "a05669",
+  "segment_start_time": "2023-11-12T04:49:58",
+  "segment_end_time": "2023-11-12T05:55:28",
+  "gap_duration_minutes": 65.5,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "a05669",
+    "flight_start_time": "2023-11-12T03:21:12",
+    "flight_end_time": "2023-11-12T10:15:17",
+    "callsign": "UAL960",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": "EDDF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2865,
+    "during_count": 0,
+    "after_count": 6591,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 65.5,
+    "before_boundary_speed_kts": 521.3734620871506,
+    "after_boundary_speed_kts": 473.1677313381767,
+    "max_internal_speed_kts": 505.0922114553504,
+    "median_internal_speed_kts": 497.9823559854284
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231112_a05669_044958_055528/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231112_a05669_044958_055528/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231112_a05669_044958_055528/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231112_a05669_044958_055528/stitched_minimal.parquet"
+  }
+}

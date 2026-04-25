@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240503_39c421_135730_150650",
+  "icao24": "39c421",
+  "segment_start_time": "2024-05-03T13:57:30",
+  "segment_end_time": "2024-05-03T15:06:50",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "39c421",
+    "flight_start_time": "2024-05-03T14:44:00",
+    "flight_end_time": "2024-05-03T22:12:54",
+    "callsign": "AFR692M",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KRDU"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4977,
+    "during_count": 0,
+    "after_count": 639,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 545.7752316905461,
+    "after_boundary_speed_kts": 493.1814022118389,
+    "max_internal_speed_kts": 504.1506796936011,
+    "median_internal_speed_kts": 502.7831594847923
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240503_39c421_135730_150650/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240503_39c421_135730_150650/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240503_39c421_135730_150650/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240503_39c421_135730_150650/stitched_minimal.parquet"
+  }
+}

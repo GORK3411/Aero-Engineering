@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250325_4d20d6_144554_174451",
+  "icao24": "4d20d6",
+  "segment_start_time": "2025-03-25T14:45:54",
+  "segment_end_time": "2025-03-25T17:44:51",
+  "gap_duration_minutes": 178.95,
+  "adsc_point_count": 13,
+  "flight_match": {
+    "icao24": "4d20d6",
+    "flight_start_time": "2025-03-25T12:29:08",
+    "flight_end_time": "2025-03-25T20:35:18",
+    "callsign": "VJT827",
+    "estdepartureairport": "LSZH",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3087,
+    "during_count": 0,
+    "after_count": 2965,
+    "adsc_point_count": 13,
+    "gap_duration_minutes": 178.95,
+    "before_boundary_speed_kts": 691.8344293110343,
+    "after_boundary_speed_kts": 442.16588066074104,
+    "max_internal_speed_kts": 474.8726642919049,
+    "median_internal_speed_kts": 462.3698209586688
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250325_4d20d6_144554_174451/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250325_4d20d6_144554_174451/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250325_4d20d6_144554_174451/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250325_4d20d6_144554_174451/stitched_minimal.parquet"
+  }
+}

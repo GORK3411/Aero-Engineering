@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_a1f2b1_145802_181910",
+  "icao24": "a1f2b1",
+  "segment_start_time": "2025-03-19T14:58:02",
+  "segment_end_time": "2025-03-19T18:19:10",
+  "gap_duration_minutes": 201.13333333333333,
+  "adsc_point_count": 19,
+  "flight_match": {
+    "icao24": "a1f2b1",
+    "flight_start_time": "2025-03-19T13:05:05",
+    "flight_end_time": "2025-03-19T21:33:11",
+    "callsign": "UAL988",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6556,
+    "during_count": 0,
+    "after_count": 5660,
+    "adsc_point_count": 19,
+    "gap_duration_minutes": 201.13333333333333,
+    "before_boundary_speed_kts": 480.4513192136289,
+    "after_boundary_speed_kts": 427.20147020911367,
+    "max_internal_speed_kts": 486.32747984683334,
+    "median_internal_speed_kts": 446.0737987021439
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_a1f2b1_145802_181910/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_a1f2b1_145802_181910/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_a1f2b1_145802_181910/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_a1f2b1_145802_181910/stitched_minimal.parquet"
+  }
+}

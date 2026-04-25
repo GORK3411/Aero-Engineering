@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250313_4bb148_191316_214426",
+  "icao24": "4bb148",
+  "segment_start_time": "2025-03-13T19:13:16",
+  "segment_end_time": "2025-03-13T21:44:26",
+  "gap_duration_minutes": 151.16666666666666,
+  "adsc_point_count": 14,
+  "flight_match": {
+    "icao24": "4bb148",
+    "flight_start_time": "2025-03-13T14:44:11",
+    "flight_end_time": "2025-03-14T03:02:43",
+    "callsign": "THY77J",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9669,
+    "during_count": 0,
+    "after_count": 3815,
+    "adsc_point_count": 14,
+    "gap_duration_minutes": 151.16666666666666,
+    "before_boundary_speed_kts": 597.0964833860623,
+    "after_boundary_speed_kts": 426.7398882061036,
+    "max_internal_speed_kts": 476.65580628975493,
+    "median_internal_speed_kts": 466.8197203035884
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_4bb148_191316_214426/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_4bb148_191316_214426/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_4bb148_191316_214426/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250313_4bb148_191316_214426/stitched_minimal.parquet"
+  }
+}

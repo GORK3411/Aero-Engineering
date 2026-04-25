@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241008_c07a14_022130_032822",
+  "icao24": "c07a14",
+  "segment_start_time": "2024-10-08T02:21:30",
+  "segment_end_time": "2024-10-08T03:28:22",
+  "gap_duration_minutes": 66.86666666666666,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "c07a14",
+    "flight_start_time": "2024-10-08T01:46:15",
+    "flight_end_time": "2024-10-08T07:53:55",
+    "callsign": "TSC602",
+    "estdepartureairport": "CYUL",
+    "estarrivalairport": "LFRS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2782,
+    "during_count": 0,
+    "after_count": 4539,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 66.86666666666666,
+    "before_boundary_speed_kts": 511.4080724156954,
+    "after_boundary_speed_kts": 512.2956913297774,
+    "max_internal_speed_kts": 536.2412421141981,
+    "median_internal_speed_kts": 528.4188378076711
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241008_c07a14_022130_032822/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241008_c07a14_022130_032822/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241008_c07a14_022130_032822/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241008_c07a14_022130_032822/stitched_minimal.parquet"
+  }
+}

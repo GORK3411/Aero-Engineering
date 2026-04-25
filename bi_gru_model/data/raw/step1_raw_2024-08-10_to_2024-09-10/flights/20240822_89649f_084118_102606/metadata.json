@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240822_89649f_084118_102606",
+  "icao24": "89649f",
+  "segment_start_time": "2024-08-22T08:41:18",
+  "segment_end_time": "2024-08-22T10:26:06",
+  "gap_duration_minutes": 104.8,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "89649f",
+    "flight_start_time": "2024-08-22T05:01:57",
+    "flight_end_time": "2024-08-22T17:47:56",
+    "callsign": "UAE5WR",
+    "estdepartureairport": "KORD",
+    "estarrivalairport": "OMDB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2428,
+    "during_count": 0,
+    "after_count": 10065,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 104.8,
+    "before_boundary_speed_kts": 598.4130745179682,
+    "after_boundary_speed_kts": 601.555921908554,
+    "max_internal_speed_kts": 630.7727051399181,
+    "median_internal_speed_kts": 615.4487023112456
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240822_89649f_084118_102606/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240822_89649f_084118_102606/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240822_89649f_084118_102606/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240822_89649f_084118_102606/stitched_minimal.parquet"
+  }
+}

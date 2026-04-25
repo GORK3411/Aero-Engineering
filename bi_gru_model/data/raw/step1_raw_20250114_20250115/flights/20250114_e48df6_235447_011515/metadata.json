@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250114_e48df6_235447_011515",
+  "icao24": "e48df6",
+  "segment_start_time": "2025-01-14T23:54:47",
+  "segment_end_time": "2025-01-15T01:15:15",
+  "gap_duration_minutes": 80.46666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "e48df6",
+    "flight_start_time": "2025-01-14T22:39:16",
+    "flight_end_time": "2025-01-15T09:42:46",
+    "callsign": "TAM8085",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "SBMT"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3510,
+    "during_count": 0,
+    "after_count": 2663,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 80.46666666666667,
+    "before_boundary_speed_kts": 599.3720674940677,
+    "after_boundary_speed_kts": 455.5654653869346,
+    "max_internal_speed_kts": 499.1498390409236,
+    "median_internal_speed_kts": 497.04252090294517
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250114_e48df6_235447_011515/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250114_e48df6_235447_011515/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250114_e48df6_235447_011515/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250114_e48df6_235447_011515/stitched_minimal.parquet"
+  }
+}

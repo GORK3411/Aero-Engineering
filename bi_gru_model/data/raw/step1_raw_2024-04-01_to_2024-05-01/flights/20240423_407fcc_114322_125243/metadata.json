@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240423_407fcc_114322_125243",
+  "icao24": "407fcc",
+  "segment_start_time": "2024-04-23T11:43:22",
+  "segment_end_time": "2024-04-23T12:52:43",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "407fcc",
+    "flight_start_time": "2024-04-23T08:14:24",
+    "flight_end_time": "2024-04-23T17:25:59",
+    "callsign": "BAW4LV",
+    "estdepartureairport": "KLAS",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 706,
+    "during_count": 0,
+    "after_count": 5090,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 587.2147710768212,
+    "after_boundary_speed_kts": 480.18681674331026,
+    "max_internal_speed_kts": 547.9884102170918,
+    "median_internal_speed_kts": 522.1129618927376
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240423_407fcc_114322_125243/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240423_407fcc_114322_125243/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240423_407fcc_114322_125243/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240423_407fcc_114322_125243/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241212_440b9b_223032_003214",
+  "icao24": "440b9b",
+  "segment_start_time": "2024-12-12T22:30:32",
+  "segment_end_time": "2024-12-13T00:32:14",
+  "gap_duration_minutes": 121.7,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "440b9b",
+    "flight_start_time": "2024-12-12T22:44:43",
+    "flight_end_time": "2024-12-13T07:39:58",
+    "callsign": "ABB278",
+    "estdepartureairport": "EBBR",
+    "estarrivalairport": "KCVG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5741,
+    "during_count": 0,
+    "after_count": 3770,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 121.7,
+    "before_boundary_speed_kts": 727.7065867803576,
+    "after_boundary_speed_kts": 422.6339956976101,
+    "max_internal_speed_kts": 470.42579886856396,
+    "median_internal_speed_kts": 465.9649026747472
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_440b9b_223032_003214/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_440b9b_223032_003214/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_440b9b_223032_003214/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_440b9b_223032_003214/stitched_minimal.parquet"
+  }
+}

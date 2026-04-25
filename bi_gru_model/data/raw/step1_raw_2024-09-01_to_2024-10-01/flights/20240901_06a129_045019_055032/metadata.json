@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240901_06a129_045019_055032",
+  "icao24": "06a129",
+  "segment_start_time": "2024-09-01T04:50:19",
+  "segment_end_time": "2024-09-01T05:50:32",
+  "gap_duration_minutes": 60.21666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "06a129",
+    "flight_start_time": "2024-09-01T03:14:52",
+    "flight_end_time": "2024-09-01T21:40:21",
+    "callsign": "QTR54C",
+    "estdepartureairport": "KATL",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1830,
+    "during_count": 0,
+    "after_count": 9707,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 60.21666666666667,
+    "before_boundary_speed_kts": 606.9270638052391,
+    "after_boundary_speed_kts": 490.83962869536737,
+    "max_internal_speed_kts": 540.5368517259814,
+    "median_internal_speed_kts": 526.6451345531248
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240901_06a129_045019_055032/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240901_06a129_045019_055032/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240901_06a129_045019_055032/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240901_06a129_045019_055032/stitched_minimal.parquet"
+  }
+}

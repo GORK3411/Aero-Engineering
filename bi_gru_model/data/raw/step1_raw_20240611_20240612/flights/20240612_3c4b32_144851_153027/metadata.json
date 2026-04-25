@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240612_3c4b32_144851_153027",
+  "icao24": "3c4b32",
+  "segment_start_time": "2024-06-12T14:48:51",
+  "segment_end_time": "2024-06-12T15:30:27",
+  "gap_duration_minutes": 41.6,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "3c4b32",
+    "flight_start_time": "2024-06-12T12:39:44",
+    "flight_end_time": "2024-06-12T22:27:12",
+    "callsign": "DLH440",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KDWH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2680,
+    "during_count": 0,
+    "after_count": 11541,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 41.6,
+    "before_boundary_speed_kts": 476.75256926381496,
+    "after_boundary_speed_kts": 481.48756897627203,
+    "max_internal_speed_kts": 479.61830807531754,
+    "median_internal_speed_kts": 476.31029252282707
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_3c4b32_144851_153027/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_3c4b32_144851_153027/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_3c4b32_144851_153027/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_3c4b32_144851_153027/stitched_minimal.parquet"
+  }
+}

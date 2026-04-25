@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_a67bd3_130719_141834",
+  "icao24": "a67bd3",
+  "segment_start_time": "2025-04-08T13:07:19",
+  "segment_end_time": "2025-04-08T14:18:34",
+  "gap_duration_minutes": 71.25,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "a67bd3",
+    "flight_start_time": "2025-04-08T11:16:47",
+    "flight_end_time": "2025-04-08T19:12:40",
+    "callsign": "DAL161",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": "KMSP"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2798,
+    "during_count": 0,
+    "after_count": 5576,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 71.25,
+    "before_boundary_speed_kts": 462.70544305962295,
+    "after_boundary_speed_kts": 487.0110456724624,
+    "max_internal_speed_kts": 558.2077766834345,
+    "median_internal_speed_kts": 545.840897455432
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a67bd3_130719_141834/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a67bd3_130719_141834/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a67bd3_130719_141834/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a67bd3_130719_141834/stitched_minimal.parquet"
+  }
+}

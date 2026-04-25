@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231108_abc5b8_022009_032502",
+  "icao24": "abc5b8",
+  "segment_start_time": "2023-11-08T02:20:09",
+  "segment_end_time": "2023-11-08T03:25:02",
+  "gap_duration_minutes": 64.88333333333334,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "abc5b8",
+    "flight_start_time": "2023-11-07T21:45:48",
+    "flight_end_time": "2023-11-08T07:46:41",
+    "callsign": "PAC097",
+    "estdepartureairport": "KLAX",
+    "estarrivalairport": "EDDP"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2681,
+    "during_count": 0,
+    "after_count": 7596,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 64.88333333333334,
+    "before_boundary_speed_kts": 595.0555900797574,
+    "after_boundary_speed_kts": 569.8351654748575,
+    "max_internal_speed_kts": 585.1020249084091,
+    "median_internal_speed_kts": 576.2896048228466
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231108_abc5b8_022009_032502/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231108_abc5b8_022009_032502/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231108_abc5b8_022009_032502/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231108_abc5b8_022009_032502/stitched_minimal.parquet"
+  }
+}

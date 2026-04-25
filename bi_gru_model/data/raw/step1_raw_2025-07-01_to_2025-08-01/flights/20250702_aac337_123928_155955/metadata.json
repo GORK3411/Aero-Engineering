@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250702_aac337_123928_155955",
+  "icao24": "aac337",
+  "segment_start_time": "2025-07-02T12:39:28",
+  "segment_end_time": "2025-07-02T15:59:55",
+  "gap_duration_minutes": 200.45,
+  "adsc_point_count": 29,
+  "flight_match": {
+    "icao24": "aac337",
+    "flight_start_time": "2025-07-02T13:46:42",
+    "flight_end_time": "2025-07-03T00:03:51",
+    "callsign": "AAL193",
+    "estdepartureairport": "LEBL",
+    "estarrivalairport": "KDFW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5625,
+    "during_count": 0,
+    "after_count": 1573,
+    "adsc_point_count": 29,
+    "gap_duration_minutes": 200.45,
+    "before_boundary_speed_kts": 593.1337840769509,
+    "after_boundary_speed_kts": 854.8246852154008,
+    "max_internal_speed_kts": 496.05097075052515,
+    "median_internal_speed_kts": 467.62615814403085
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250702_aac337_123928_155955/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250702_aac337_123928_155955/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250702_aac337_123928_155955/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250702_aac337_123928_155955/stitched_minimal.parquet"
+  }
+}

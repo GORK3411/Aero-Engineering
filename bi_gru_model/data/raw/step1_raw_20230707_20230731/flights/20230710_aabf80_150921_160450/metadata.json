@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230710_aabf80_150921_160450",
+  "icao24": "aabf80",
+  "segment_start_time": "2023-07-10T15:09:21",
+  "segment_end_time": "2023-07-10T16:04:50",
+  "gap_duration_minutes": 55.483333333333334,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "aabf80",
+    "flight_start_time": "2023-07-10T13:07:08",
+    "flight_end_time": "2023-07-10T20:55:10",
+    "callsign": "AAL725",
+    "estdepartureairport": "EIDW",
+    "estarrivalairport": "KCLT"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 629,
+    "during_count": 0,
+    "after_count": 9608,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 55.483333333333334,
+    "before_boundary_speed_kts": 495.38543057087503,
+    "after_boundary_speed_kts": 493.1074017131831,
+    "max_internal_speed_kts": 514.5677536886258,
+    "median_internal_speed_kts": 499.54372228699197
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230710_aabf80_150921_160450/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230710_aabf80_150921_160450/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230710_aabf80_150921_160450/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230710_aabf80_150921_160450/stitched_minimal.parquet"
+  }
+}

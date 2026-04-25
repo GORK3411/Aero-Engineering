@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241205_0101db_213144_223924",
+  "icao24": "0101db",
+  "segment_start_time": "2024-12-05T21:31:44",
+  "segment_end_time": "2024-12-05T22:39:24",
+  "gap_duration_minutes": 67.66666666666667,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "0101db",
+    "flight_start_time": "2024-12-05T20:00:47",
+    "flight_end_time": "2024-12-06T05:19:49",
+    "callsign": "MSR982",
+    "estdepartureairport": "KIAD",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 736,
+    "during_count": 0,
+    "after_count": 7948,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 67.66666666666667,
+    "before_boundary_speed_kts": 585.7323299782516,
+    "after_boundary_speed_kts": 585.3934443177999,
+    "max_internal_speed_kts": 580.5457943657422,
+    "median_internal_speed_kts": 577.8121429091004
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241205_0101db_213144_223924/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241205_0101db_213144_223924/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241205_0101db_213144_223924/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241205_0101db_213144_223924/stitched_minimal.parquet"
+  }
+}

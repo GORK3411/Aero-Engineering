@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231114_399043_233048_003443",
+  "icao24": "399043",
+  "segment_start_time": "2023-11-14T23:30:48",
+  "segment_end_time": "2023-11-15T00:34:43",
+  "gap_duration_minutes": 63.916666666666664,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "399043",
+    "flight_start_time": "2023-11-14T22:21:26",
+    "flight_end_time": "2023-11-15T04:12:08",
+    "callsign": "LEA337D",
+    "estdepartureairport": "TXKF",
+    "estarrivalairport": "LFPB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 39,
+    "during_count": 0,
+    "after_count": 4393,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 63.916666666666664,
+    "before_boundary_speed_kts": 569.4740187374316,
+    "after_boundary_speed_kts": 567.2817546570583,
+    "max_internal_speed_kts": 581.2446678771155,
+    "median_internal_speed_kts": 574.3302563741013
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231114_399043_233048_003443/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231114_399043_233048_003443/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231114_399043_233048_003443/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231114_399043_233048_003443/stitched_minimal.parquet"
+  }
+}

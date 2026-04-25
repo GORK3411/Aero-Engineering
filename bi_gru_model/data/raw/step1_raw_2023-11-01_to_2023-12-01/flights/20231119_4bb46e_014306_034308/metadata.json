@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231119_4bb46e_014306_034308",
+  "icao24": "4bb46e",
+  "segment_start_time": "2023-11-19T01:43:06",
+  "segment_end_time": "2023-11-19T03:43:08",
+  "gap_duration_minutes": 120.03333333333333,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "4bb46e",
+    "flight_start_time": "2023-11-19T01:58:04",
+    "flight_end_time": "2023-11-19T10:21:05",
+    "callsign": "MNB2547",
+    "estdepartureairport": "LEZG",
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5279,
+    "during_count": 0,
+    "after_count": 1435,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 120.03333333333333,
+    "before_boundary_speed_kts": 487.41400291972553,
+    "after_boundary_speed_kts": 391.93677155290266,
+    "max_internal_speed_kts": 442.6090419380233,
+    "median_internal_speed_kts": 429.56557693092924
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_4bb46e_014306_034308/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_4bb46e_014306_034308/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_4bb46e_014306_034308/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231119_4bb46e_014306_034308/stitched_minimal.parquet"
+  }
+}

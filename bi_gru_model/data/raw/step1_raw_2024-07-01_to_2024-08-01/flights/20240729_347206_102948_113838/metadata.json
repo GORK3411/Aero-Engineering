@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240729_347206_102948_113838",
+  "icao24": "347206",
+  "segment_start_time": "2024-07-29T10:29:48",
+  "segment_end_time": "2024-07-29T11:38:38",
+  "gap_duration_minutes": 68.83333333333333,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "347206",
+    "flight_start_time": "2024-07-29T05:43:28",
+    "flight_end_time": "2024-07-29T13:12:48",
+    "callsign": "IBE2801",
+    "estdepartureairport": "KORD",
+    "estarrivalairport": "LEMD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2873,
+    "during_count": 0,
+    "after_count": 4318,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 68.83333333333333,
+    "before_boundary_speed_kts": 547.4536144838743,
+    "after_boundary_speed_kts": 511.35636618017315,
+    "max_internal_speed_kts": 526.665896263952,
+    "median_internal_speed_kts": 522.5052178277639
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240729_347206_102948_113838/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240729_347206_102948_113838/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240729_347206_102948_113838/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240729_347206_102948_113838/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231105_a05628_035717_050637",
+  "icao24": "a05628",
+  "segment_start_time": "2023-11-05T03:57:17",
+  "segment_end_time": "2023-11-05T05:06:37",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "a05628",
+    "flight_start_time": "2023-11-05T02:28:40",
+    "flight_end_time": "2023-11-05T08:58:11",
+    "callsign": "UAL946",
+    "estdepartureairport": "KIAD",
+    "estarrivalairport": "EHAM"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2768,
+    "during_count": 0,
+    "after_count": 5484,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 597.7125464382252,
+    "after_boundary_speed_kts": 519.3653076308021,
+    "max_internal_speed_kts": 548.570277279901,
+    "median_internal_speed_kts": 537.5055705845907
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231105_a05628_035717_050637/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231105_a05628_035717_050637/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231105_a05628_035717_050637/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231105_a05628_035717_050637/stitched_minimal.parquet"
+  }
+}

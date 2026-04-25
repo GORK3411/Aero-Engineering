@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241007_c0173a_022647_034259",
+  "icao24": "c0173a",
+  "segment_start_time": "2024-10-07T02:26:47",
+  "segment_end_time": "2024-10-07T03:42:59",
+  "gap_duration_minutes": 76.2,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "c0173a",
+    "flight_start_time": "2024-10-07T01:28:44",
+    "flight_end_time": "2024-10-07T08:35:42",
+    "callsign": "ACA854",
+    "estdepartureairport": "CYYZ",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1826,
+    "during_count": 0,
+    "after_count": 5597,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 76.2,
+    "before_boundary_speed_kts": 526.0931005602542,
+    "after_boundary_speed_kts": 487.41762218327233,
+    "max_internal_speed_kts": 496.9277255492043,
+    "median_internal_speed_kts": 492.47607202581474
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241007_c0173a_022647_034259/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241007_c0173a_022647_034259/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241007_c0173a_022647_034259/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241007_c0173a_022647_034259/stitched_minimal.parquet"
+  }
+}

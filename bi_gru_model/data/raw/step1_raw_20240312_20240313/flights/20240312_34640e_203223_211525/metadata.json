@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_34640e_203223_211525",
+  "icao24": "34640e",
+  "segment_start_time": "2024-03-12T20:32:23",
+  "segment_end_time": "2024-03-12T21:15:25",
+  "gap_duration_minutes": 43.03333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "34640e",
+    "flight_start_time": "2024-03-12T18:37:43",
+    "flight_end_time": "2024-03-13T03:43:44",
+    "callsign": "IBE6117",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3138,
+    "during_count": 0,
+    "after_count": 9293,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 43.03333333333333,
+    "before_boundary_speed_kts": 461.74694085826064,
+    "after_boundary_speed_kts": 476.25371001838244,
+    "max_internal_speed_kts": 423.55326696465653,
+    "median_internal_speed_kts": 423.55326696465653
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_34640e_203223_211525/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_34640e_203223_211525/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_34640e_203223_211525/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_34640e_203223_211525/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240512_4b1881_102015_114750",
+  "icao24": "4b1881",
+  "segment_start_time": "2024-05-12T10:20:15",
+  "segment_end_time": "2024-05-12T11:47:50",
+  "gap_duration_minutes": 87.58333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "4b1881",
+    "flight_start_time": "2024-05-12T10:43:48",
+    "flight_end_time": "2024-05-12T21:01:49",
+    "callsign": "SWR66",
+    "estdepartureairport": "LSZH",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 8264,
+    "during_count": 0,
+    "after_count": 2019,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 87.58333333333333,
+    "before_boundary_speed_kts": 737.185073723642,
+    "after_boundary_speed_kts": 416.7308416031827,
+    "max_internal_speed_kts": 450.98496258304783,
+    "median_internal_speed_kts": 450.98496258304783
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240512_4b1881_102015_114750/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240512_4b1881_102015_114750/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240512_4b1881_102015_114750/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240512_4b1881_102015_114750/stitched_minimal.parquet"
+  }
+}

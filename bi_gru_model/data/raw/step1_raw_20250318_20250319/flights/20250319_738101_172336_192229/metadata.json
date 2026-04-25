@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_738101_172336_192229",
+  "icao24": "738101",
+  "segment_start_time": "2025-03-19T17:23:36",
+  "segment_end_time": "2025-03-19T19:22:29",
+  "gap_duration_minutes": 118.88333333333334,
+  "adsc_point_count": 56,
+  "flight_match": {
+    "icao24": "738101",
+    "flight_start_time": "2025-03-19T12:04:32",
+    "flight_end_time": "2025-03-19T22:48:57",
+    "callsign": "ELY084",
+    "estdepartureairport": "VTBS",
+    "estarrivalairport": "LLBG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 49,
+    "during_count": 0,
+    "after_count": 1745,
+    "adsc_point_count": 56,
+    "gap_duration_minutes": 118.88333333333334,
+    "before_boundary_speed_kts": 479.01185888662235,
+    "after_boundary_speed_kts": 439.5794321227385,
+    "max_internal_speed_kts": 476.5783106423144,
+    "median_internal_speed_kts": 465.67923180095255
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_738101_172336_192229/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_738101_172336_192229/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_738101_172336_192229/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_738101_172336_192229/stitched_minimal.parquet"
+  }
+}

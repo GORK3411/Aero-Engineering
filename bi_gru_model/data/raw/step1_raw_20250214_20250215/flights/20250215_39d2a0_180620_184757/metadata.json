@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250215_39d2a0_180620_184757",
+  "icao24": "39d2a0",
+  "segment_start_time": "2025-02-15T18:06:20",
+  "segment_end_time": "2025-02-15T18:47:57",
+  "gap_duration_minutes": 41.61666666666667,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "39d2a0",
+    "flight_start_time": "2025-02-15T16:16:32",
+    "flight_end_time": "2025-02-16T01:29:16",
+    "callsign": "AFR92K",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5325,
+    "during_count": 0,
+    "after_count": 2456,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 41.61666666666667,
+    "before_boundary_speed_kts": 484.3273025211329,
+    "after_boundary_speed_kts": 478.7376150043703,
+    "max_internal_speed_kts": 467.82749447264274,
+    "median_internal_speed_kts": 461.44475489337236
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_39d2a0_180620_184757/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_39d2a0_180620_184757/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_39d2a0_180620_184757/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_39d2a0_180620_184757/stitched_minimal.parquet"
+  }
+}

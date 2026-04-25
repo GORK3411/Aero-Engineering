@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231002_40797a_024254_035214",
+  "icao24": "40797a",
+  "segment_start_time": "2023-10-02T02:42:54",
+  "segment_end_time": "2023-10-02T03:52:14",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "40797a",
+    "flight_start_time": "2023-10-02T02:38:03",
+    "flight_end_time": "2023-10-02T08:26:59",
+    "callsign": "BAW2CM",
+    "estdepartureairport": "KBOS",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3013,
+    "during_count": 0,
+    "after_count": 4927,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 562.940878115004,
+    "after_boundary_speed_kts": 541.8466324787046,
+    "max_internal_speed_kts": 530.7135565082812,
+    "median_internal_speed_kts": 522.7030015633524
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231002_40797a_024254_035214/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231002_40797a_024254_035214/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231002_40797a_024254_035214/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231002_40797a_024254_035214/stitched_minimal.parquet"
+  }
+}

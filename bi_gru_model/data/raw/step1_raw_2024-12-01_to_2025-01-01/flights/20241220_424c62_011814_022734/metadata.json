@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241220_424c62_011814_022734",
+  "icao24": "424c62",
+  "segment_start_time": "2024-12-20T01:18:14",
+  "segment_end_time": "2024-12-20T02:27:34",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "424c62",
+    "flight_start_time": "2024-12-20T00:08:34",
+    "flight_end_time": "2024-12-20T05:42:59",
+    "callsign": "MBIZZ",
+    "estdepartureairport": "TXKF",
+    "estarrivalairport": "EIDW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 140,
+    "during_count": 0,
+    "after_count": 2902,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 535.2043383821764,
+    "after_boundary_speed_kts": 529.9120207819686,
+    "max_internal_speed_kts": 527.9736315833527,
+    "median_internal_speed_kts": 524.5906548289508
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241220_424c62_011814_022734/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241220_424c62_011814_022734/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241220_424c62_011814_022734/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241220_424c62_011814_022734/stitched_minimal.parquet"
+  }
+}

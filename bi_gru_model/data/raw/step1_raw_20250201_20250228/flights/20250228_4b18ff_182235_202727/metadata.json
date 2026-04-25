@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250228_4b18ff_182235_202727",
+  "icao24": "4b18ff",
+  "segment_start_time": "2025-02-28T18:22:35",
+  "segment_end_time": "2025-02-28T20:27:27",
+  "gap_duration_minutes": 124.86666666666666,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4b18ff",
+    "flight_start_time": "2025-02-28T15:04:29",
+    "flight_end_time": "2025-03-01T01:52:21",
+    "callsign": "EDW4K",
+    "estdepartureairport": "LSZH",
+    "estarrivalairport": "KTPA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 386,
+    "during_count": 0,
+    "after_count": 3848,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 124.86666666666666,
+    "before_boundary_speed_kts": 480.81050673695165,
+    "after_boundary_speed_kts": 375.53944500017,
+    "max_internal_speed_kts": 419.2707168561386,
+    "median_internal_speed_kts": 397.9022760718255
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250228_4b18ff_182235_202727/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250228_4b18ff_182235_202727/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250228_4b18ff_182235_202727/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250228_4b18ff_182235_202727/stitched_minimal.parquet"
+  }
+}

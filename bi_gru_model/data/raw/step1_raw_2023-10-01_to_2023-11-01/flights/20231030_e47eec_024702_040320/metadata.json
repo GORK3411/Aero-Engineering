@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231030_e47eec_024702_040320",
+  "icao24": "e47eec",
+  "segment_start_time": "2023-10-30T02:47:02",
+  "segment_end_time": "2023-10-30T04:03:20",
+  "gap_duration_minutes": 76.3,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "e47eec",
+    "flight_start_time": "2023-10-30T01:27:10",
+    "flight_end_time": "2023-10-30T08:23:15",
+    "callsign": "PRBBS",
+    "estdepartureairport": "KHPN",
+    "estarrivalairport": "LSGG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2924,
+    "during_count": 0,
+    "after_count": 6900,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 76.3,
+    "before_boundary_speed_kts": 557.1149317382874,
+    "after_boundary_speed_kts": 462.85610570267295,
+    "max_internal_speed_kts": 487.9679724038712,
+    "median_internal_speed_kts": 479.5019260508993
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_e47eec_024702_040320/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_e47eec_024702_040320/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_e47eec_024702_040320/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_e47eec_024702_040320/stitched_minimal.parquet"
+  }
+}

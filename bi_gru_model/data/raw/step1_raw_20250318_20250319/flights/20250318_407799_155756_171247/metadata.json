@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_407799_155756_171247",
+  "icao24": "407799",
+  "segment_start_time": "2025-03-18T15:57:56",
+  "segment_end_time": "2025-03-18T17:12:47",
+  "gap_duration_minutes": 74.85,
+  "adsc_point_count": 16,
+  "flight_match": {
+    "icao24": "407799",
+    "flight_start_time": "2025-03-18T14:37:51",
+    "flight_end_time": "2025-03-19T00:13:17",
+    "callsign": "BAW91C",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KAUS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4050,
+    "during_count": 0,
+    "after_count": 6205,
+    "adsc_point_count": 16,
+    "gap_duration_minutes": 74.85,
+    "before_boundary_speed_kts": 540.2214275684084,
+    "after_boundary_speed_kts": 455.4875634276881,
+    "max_internal_speed_kts": 523.8137615303333,
+    "median_internal_speed_kts": 495.6900086162031
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_407799_155756_171247/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_407799_155756_171247/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_407799_155756_171247/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_407799_155756_171247/stitched_minimal.parquet"
+  }
+}

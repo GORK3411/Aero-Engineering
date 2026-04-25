@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_4007fb_235939_010900",
+  "icao24": "4007fb",
+  "segment_start_time": "2025-01-15T23:59:39",
+  "segment_end_time": "2025-01-16T01:09:00",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4007fb",
+    "flight_start_time": "2025-01-15T16:49:30",
+    "flight_end_time": "2025-01-16T01:48:04",
+    "callsign": "BAW119",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "VOYK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1310,
+    "during_count": 0,
+    "after_count": 779,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 558.8186160292421,
+    "after_boundary_speed_kts": 475.34843155335875,
+    "max_internal_speed_kts": 526.1191935246485,
+    "median_internal_speed_kts": 504.0780115981609
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4007fb_235939_010900/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4007fb_235939_010900/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4007fb_235939_010900/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_4007fb_235939_010900/stitched_minimal.parquet"
+  }
+}

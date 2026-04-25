@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250726_a05669_020243_041248",
+  "icao24": "a05669",
+  "segment_start_time": "2025-07-26T02:02:43",
+  "segment_end_time": "2025-07-26T04:12:48",
+  "gap_duration_minutes": 130.08333333333334,
+  "adsc_point_count": 23,
+  "flight_match": {
+    "icao24": "a05669",
+    "flight_start_time": "2025-07-26T00:10:35",
+    "flight_end_time": "2025-07-26T11:13:38",
+    "callsign": "UAL91",
+    "estdepartureairport": "LLBG",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 10339,
+    "during_count": 0,
+    "after_count": 1065,
+    "adsc_point_count": 23,
+    "gap_duration_minutes": 130.08333333333334,
+    "before_boundary_speed_kts": 506.05399211119925,
+    "after_boundary_speed_kts": 469.54486675269624,
+    "max_internal_speed_kts": 489.63141198678437,
+    "median_internal_speed_kts": 482.1567426963644
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250726_a05669_020243_041248/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250726_a05669_020243_041248/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250726_a05669_020243_041248/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250726_a05669_020243_041248/stitched_minimal.parquet"
+  }
+}

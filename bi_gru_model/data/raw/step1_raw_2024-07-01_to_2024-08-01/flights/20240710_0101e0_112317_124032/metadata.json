@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240710_0101e0_112317_124032",
+  "icao24": "0101e0",
+  "segment_start_time": "2024-07-10T11:23:17",
+  "segment_end_time": "2024-07-10T12:40:32",
+  "gap_duration_minutes": 77.25,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "0101e0",
+    "flight_start_time": "2024-07-10T06:03:08",
+    "flight_end_time": "2024-07-10T16:56:50",
+    "callsign": "MSR987",
+    "estdepartureairport": "HECA",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9328,
+    "during_count": 0,
+    "after_count": 1438,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 77.25,
+    "before_boundary_speed_kts": 587.3382754953651,
+    "after_boundary_speed_kts": 459.6063089974691,
+    "max_internal_speed_kts": 496.11238480406615,
+    "median_internal_speed_kts": 489.96557592403224
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240710_0101e0_112317_124032/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240710_0101e0_112317_124032/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240710_0101e0_112317_124032/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240710_0101e0_112317_124032/stitched_minimal.parquet"
+  }
+}

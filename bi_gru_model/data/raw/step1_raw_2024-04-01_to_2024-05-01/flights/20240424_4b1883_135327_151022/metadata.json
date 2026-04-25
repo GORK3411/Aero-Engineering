@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240424_4b1883_135327_151022",
+  "icao24": "4b1883",
+  "segment_start_time": "2024-04-24T13:53:27",
+  "segment_end_time": "2024-04-24T15:10:22",
+  "gap_duration_minutes": 76.91666666666667,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4b1883",
+    "flight_start_time": "2024-04-24T13:58:31",
+    "flight_end_time": "2024-04-24T22:02:55",
+    "callsign": "SWR86",
+    "estdepartureairport": "LSZH",
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 8821,
+    "during_count": 0,
+    "after_count": 1607,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 76.91666666666667,
+    "before_boundary_speed_kts": 579.7090669589666,
+    "after_boundary_speed_kts": 410.15381060985067,
+    "max_internal_speed_kts": 454.4951239661445,
+    "median_internal_speed_kts": 449.2092906583628
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240424_4b1883_135327_151022/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240424_4b1883_135327_151022/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240424_4b1883_135327_151022/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240424_4b1883_135327_151022/stitched_minimal.parquet"
+  }
+}

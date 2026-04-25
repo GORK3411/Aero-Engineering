@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241212_4d2136_195516_213143",
+  "icao24": "4d2136",
+  "segment_start_time": "2024-12-12T19:55:16",
+  "segment_end_time": "2024-12-12T21:31:43",
+  "gap_duration_minutes": 96.45,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4d2136",
+    "flight_start_time": "2024-12-12T19:14:38",
+    "flight_end_time": "2024-12-13T03:23:12",
+    "callsign": "ULC66",
+    "estdepartureairport": "LIMF",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7427,
+    "during_count": 0,
+    "after_count": 4513,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 96.45,
+    "before_boundary_speed_kts": 563.0714344105174,
+    "after_boundary_speed_kts": 436.2704359650336,
+    "max_internal_speed_kts": 491.2989306720816,
+    "median_internal_speed_kts": 483.75080827919294
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_4d2136_195516_213143/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_4d2136_195516_213143/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_4d2136_195516_213143/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_4d2136_195516_213143/stitched_minimal.parquet"
+  }
+}

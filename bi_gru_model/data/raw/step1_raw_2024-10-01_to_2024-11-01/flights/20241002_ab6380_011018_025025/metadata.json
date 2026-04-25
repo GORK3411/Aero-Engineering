@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241002_ab6380_011018_025025",
+  "icao24": "ab6380",
+  "segment_start_time": "2024-10-02T01:10:18",
+  "segment_end_time": "2024-10-02T02:50:25",
+  "gap_duration_minutes": 100.11666666666666,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "ab6380",
+    "flight_start_time": "2024-10-01T23:36:48",
+    "flight_end_time": "2024-10-02T09:05:59",
+    "callsign": "AAL160",
+    "estdepartureairport": "KORD",
+    "estarrivalairport": "LGAV"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 869,
+    "during_count": 0,
+    "after_count": 10729,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 100.11666666666666,
+    "before_boundary_speed_kts": 562.2927493539801,
+    "after_boundary_speed_kts": 557.4671722269462,
+    "max_internal_speed_kts": 576.028666097699,
+    "median_internal_speed_kts": 568.2042074113034
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_ab6380_011018_025025/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_ab6380_011018_025025/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_ab6380_011018_025025/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_ab6380_011018_025025/stitched_minimal.parquet"
+  }
+}

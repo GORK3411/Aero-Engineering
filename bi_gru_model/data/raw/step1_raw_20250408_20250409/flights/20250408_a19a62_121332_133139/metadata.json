@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_a19a62_121332_133139",
+  "icao24": "a19a62",
+  "segment_start_time": "2025-04-08T12:13:32",
+  "segment_end_time": "2025-04-08T13:31:39",
+  "gap_duration_minutes": 78.11666666666666,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "a19a62",
+    "flight_start_time": "2025-04-08T11:07:11",
+    "flight_end_time": "2025-04-08T18:52:27",
+    "callsign": "N202KR",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3098,
+    "during_count": 0,
+    "after_count": 8745,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 78.11666666666666,
+    "before_boundary_speed_kts": 566.5377964527387,
+    "after_boundary_speed_kts": 457.66867143477964,
+    "max_internal_speed_kts": 524.6997016262997,
+    "median_internal_speed_kts": 514.4240467616884
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a19a62_121332_133139/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a19a62_121332_133139/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a19a62_121332_133139/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_a19a62_121332_133139/stitched_minimal.parquet"
+  }
+}

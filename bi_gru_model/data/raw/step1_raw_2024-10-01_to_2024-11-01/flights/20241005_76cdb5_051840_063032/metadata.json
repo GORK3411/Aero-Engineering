@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241005_76cdb5_051840_063032",
+  "icao24": "76cdb5",
+  "segment_start_time": "2024-10-05T05:18:40",
+  "segment_end_time": "2024-10-05T06:30:32",
+  "gap_duration_minutes": 71.86666666666666,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "76cdb5",
+    "flight_start_time": "2024-10-05T02:54:50",
+    "flight_end_time": "2024-10-05T10:54:56",
+    "callsign": "SIA51",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "EGCC"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2469,
+    "during_count": 0,
+    "after_count": 4016,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 71.86666666666666,
+    "before_boundary_speed_kts": 551.8605315142663,
+    "after_boundary_speed_kts": 518.9202567838105,
+    "max_internal_speed_kts": 527.6716052478328,
+    "median_internal_speed_kts": 524.4722175497529
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_76cdb5_051840_063032/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_76cdb5_051840_063032/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_76cdb5_051840_063032/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241005_76cdb5_051840_063032/stitched_minimal.parquet"
+  }
+}

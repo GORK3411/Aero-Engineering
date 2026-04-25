@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231111_4bb184_034738_045702",
+  "icao24": "4bb184",
+  "segment_start_time": "2023-11-11T03:47:38",
+  "segment_end_time": "2023-11-11T04:57:02",
+  "gap_duration_minutes": 69.4,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "4bb184",
+    "flight_start_time": "2023-11-11T01:32:23",
+    "flight_end_time": "2023-11-11T13:51:34",
+    "callsign": "THY4JD",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 7939,
+    "during_count": 0,
+    "after_count": 2241,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.4,
+    "before_boundary_speed_kts": 501.3395152438905,
+    "after_boundary_speed_kts": 472.2129083289783,
+    "max_internal_speed_kts": 454.245665848127,
+    "median_internal_speed_kts": 445.17470290665966
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_4bb184_034738_045702/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_4bb184_034738_045702/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_4bb184_034738_045702/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231111_4bb184_034738_045702/stitched_minimal.parquet"
+  }
+}

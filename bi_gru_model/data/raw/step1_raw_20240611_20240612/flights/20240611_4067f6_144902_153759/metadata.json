@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_4067f6_144902_153759",
+  "icao24": "4067f6",
+  "segment_start_time": "2024-06-11T14:49:02",
+  "segment_end_time": "2024-06-11T15:37:59",
+  "gap_duration_minutes": 48.95,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "4067f6",
+    "flight_start_time": "2024-06-11T13:36:18",
+    "flight_end_time": "2024-06-11T22:06:58",
+    "callsign": "TOM102",
+    "estdepartureairport": "EGCC",
+    "estarrivalairport": "KMLB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2703,
+    "during_count": 0,
+    "after_count": 12561,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 48.95,
+    "before_boundary_speed_kts": 467.117251819117,
+    "after_boundary_speed_kts": 456.1878573061821,
+    "max_internal_speed_kts": 462.36137127093923,
+    "median_internal_speed_kts": 460.73161888450676
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_4067f6_144902_153759/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_4067f6_144902_153759/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_4067f6_144902_153759/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_4067f6_144902_153759/stitched_minimal.parquet"
+  }
+}

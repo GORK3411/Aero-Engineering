@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240408_4850e6_132431_143920",
+  "icao24": "4850e6",
+  "segment_start_time": "2024-04-08T13:24:31",
+  "segment_end_time": "2024-04-08T14:39:20",
+  "gap_duration_minutes": 74.81666666666666,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4850e6",
+    "flight_start_time": "2024-04-08T14:32:33",
+    "flight_end_time": "2024-04-08T22:26:48",
+    "callsign": "KLM233",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5588,
+    "during_count": 0,
+    "after_count": 1196,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 74.81666666666666,
+    "before_boundary_speed_kts": 650.304717561201,
+    "after_boundary_speed_kts": 446.36070992680305,
+    "max_internal_speed_kts": 449.91283632327924,
+    "median_internal_speed_kts": 448.2350337854725
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_4850e6_132431_143920/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_4850e6_132431_143920/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_4850e6_132431_143920/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240408_4850e6_132431_143920/stitched_minimal.parquet"
+  }
+}

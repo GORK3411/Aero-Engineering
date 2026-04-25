@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240720_4007ee_082749_095102",
+  "icao24": "4007ee",
+  "segment_start_time": "2024-07-20T08:27:49",
+  "segment_end_time": "2024-07-20T09:51:02",
+  "gap_duration_minutes": 83.21666666666667,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "4007ee",
+    "flight_start_time": "2024-07-20T01:59:13",
+    "flight_end_time": "2024-07-20T11:30:23",
+    "callsign": "BAW22KC",
+    "estdepartureairport": "KLAS",
+    "estarrivalairport": "EGKK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1716,
+    "during_count": 0,
+    "after_count": 5217,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 83.21666666666667,
+    "before_boundary_speed_kts": 581.9705577667811,
+    "after_boundary_speed_kts": 525.1690239479741,
+    "max_internal_speed_kts": 569.9957379635825,
+    "median_internal_speed_kts": 562.2891870141775
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240720_4007ee_082749_095102/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240720_4007ee_082749_095102/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240720_4007ee_082749_095102/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240720_4007ee_082749_095102/stitched_minimal.parquet"
+  }
+}

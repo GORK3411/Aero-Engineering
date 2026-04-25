@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240813_a66935_080559_090751",
+  "icao24": "a66935",
+  "segment_start_time": "2024-08-13T08:05:59",
+  "segment_end_time": "2024-08-13T09:07:51",
+  "gap_duration_minutes": 61.86666666666667,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "a66935",
+    "flight_start_time": "2024-08-13T03:49:04",
+    "flight_end_time": "2024-08-13T10:57:38",
+    "callsign": "DAL74",
+    "estdepartureairport": "KATL",
+    "estarrivalairport": "EHAM"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3042,
+    "during_count": 0,
+    "after_count": 5823,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 61.86666666666667,
+    "before_boundary_speed_kts": 639.1295696758286,
+    "after_boundary_speed_kts": 543.688110459887,
+    "max_internal_speed_kts": 600.1926908460226,
+    "median_internal_speed_kts": 595.2851528222664
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240813_a66935_080559_090751/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240813_a66935_080559_090751/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240813_a66935_080559_090751/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240813_a66935_080559_090751/stitched_minimal.parquet"
+  }
+}

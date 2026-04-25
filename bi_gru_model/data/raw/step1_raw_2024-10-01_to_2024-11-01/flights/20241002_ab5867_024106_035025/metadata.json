@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241002_ab5867_024106_035025",
+  "icao24": "ab5867",
+  "segment_start_time": "2024-10-02T02:41:06",
+  "segment_end_time": "2024-10-02T03:50:25",
+  "gap_duration_minutes": 69.31666666666666,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "ab5867",
+    "flight_start_time": "2024-10-02T02:01:49",
+    "flight_end_time": "2024-10-02T07:55:07",
+    "callsign": "AAL722",
+    "estdepartureairport": "KPHL",
+    "estarrivalairport": "EIDW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3672,
+    "during_count": 0,
+    "after_count": 3107,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.31666666666666,
+    "before_boundary_speed_kts": 519.9578867396511,
+    "after_boundary_speed_kts": 497.08495795281215,
+    "max_internal_speed_kts": 520.5158992043043,
+    "median_internal_speed_kts": 516.2291139957596
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_ab5867_024106_035025/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_ab5867_024106_035025/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_ab5867_024106_035025/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241002_ab5867_024106_035025/stitched_minimal.parquet"
+  }
+}

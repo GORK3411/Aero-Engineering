@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_4bb142_194506_220812",
+  "icao24": "4bb142",
+  "segment_start_time": "2025-03-19T19:45:06",
+  "segment_end_time": "2025-03-19T22:08:12",
+  "gap_duration_minutes": 143.1,
+  "adsc_point_count": 15,
+  "flight_match": {
+    "icao24": "4bb142",
+    "flight_start_time": "2025-03-19T15:31:27",
+    "flight_end_time": "2025-03-20T01:59:57",
+    "callsign": "THY7",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5828,
+    "during_count": 0,
+    "after_count": 7822,
+    "adsc_point_count": 15,
+    "gap_duration_minutes": 143.1,
+    "before_boundary_speed_kts": 442.5809205276836,
+    "after_boundary_speed_kts": 435.5215133157037,
+    "max_internal_speed_kts": 443.27186715834216,
+    "median_internal_speed_kts": 433.839924583599
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_4bb142_194506_220812/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_4bb142_194506_220812/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_4bb142_194506_220812/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_4bb142_194506_220812/stitched_minimal.parquet"
+  }
+}

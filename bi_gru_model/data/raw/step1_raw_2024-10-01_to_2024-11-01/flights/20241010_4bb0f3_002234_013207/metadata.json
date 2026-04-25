@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241010_4bb0f3_002234_013207",
+  "icao24": "4bb0f3",
+  "segment_start_time": "2024-10-10T00:22:34",
+  "segment_end_time": "2024-10-10T01:32:07",
+  "gap_duration_minutes": 69.55,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "4bb0f3",
+    "flight_start_time": "2024-10-09T23:52:03",
+    "flight_end_time": "2024-10-10T08:35:53",
+    "callsign": "THY9LC",
+    "estdepartureairport": "KIAD",
+    "estarrivalairport": "LTFM"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1219,
+    "during_count": 0,
+    "after_count": 8124,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 69.55,
+    "before_boundary_speed_kts": 578.2435027656497,
+    "after_boundary_speed_kts": 534.9578129029932,
+    "max_internal_speed_kts": 535.8040046515882,
+    "median_internal_speed_kts": 535.8040046515882
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241010_4bb0f3_002234_013207/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241010_4bb0f3_002234_013207/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241010_4bb0f3_002234_013207/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241010_4bb0f3_002234_013207/stitched_minimal.parquet"
+  }
+}

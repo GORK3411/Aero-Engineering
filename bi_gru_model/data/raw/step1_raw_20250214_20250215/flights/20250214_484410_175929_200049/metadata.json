@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250214_484410_175929_200049",
+  "icao24": "484410",
+  "segment_start_time": "2025-02-14T17:59:29",
+  "segment_end_time": "2025-02-14T20:00:49",
+  "gap_duration_minutes": 121.33333333333333,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "484410",
+    "flight_start_time": "2025-02-14T16:43:12",
+    "flight_end_time": "2025-02-14T23:48:50",
+    "callsign": "KLM671",
+    "estdepartureairport": "EHAM",
+    "estarrivalairport": "CYUL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4482,
+    "during_count": 0,
+    "after_count": 3157,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 121.33333333333333,
+    "before_boundary_speed_kts": 529.1466281187727,
+    "after_boundary_speed_kts": 432.749270715767,
+    "max_internal_speed_kts": 480.27082192191835,
+    "median_internal_speed_kts": 479.7278635949858
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_484410_175929_200049/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_484410_175929_200049/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_484410_175929_200049/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250214_484410_175929_200049/stitched_minimal.parquet"
+  }
+}

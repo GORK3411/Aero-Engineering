@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250215_406a04_185857_203140",
+  "icao24": "406a04",
+  "segment_start_time": "2025-02-15T18:58:57",
+  "segment_end_time": "2025-02-15T20:31:40",
+  "gap_duration_minutes": 92.71666666666667,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "406a04",
+    "flight_start_time": "2025-02-15T17:15:51",
+    "flight_end_time": "2025-02-16T02:18:09",
+    "callsign": "BAW5E",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KMIA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4381,
+    "during_count": 0,
+    "after_count": 1976,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 92.71666666666667,
+    "before_boundary_speed_kts": 481.85450433837354,
+    "after_boundary_speed_kts": 443.1252728221474,
+    "max_internal_speed_kts": 515.7104506204881,
+    "median_internal_speed_kts": 474.45143373699074
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_406a04_185857_203140/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_406a04_185857_203140/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_406a04_185857_203140/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250214_20250215/flights/20250215_406a04_185857_203140/stitched_minimal.parquet"
+  }
+}

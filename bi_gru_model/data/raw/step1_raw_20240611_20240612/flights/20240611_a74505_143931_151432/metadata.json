@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240611_a74505_143931_151432",
+  "icao24": "a74505",
+  "segment_start_time": "2024-06-11T14:39:31",
+  "segment_end_time": "2024-06-11T15:14:32",
+  "gap_duration_minutes": 35.016666666666666,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "a74505",
+    "flight_start_time": "2024-06-11T13:17:09",
+    "flight_end_time": "2024-06-11T20:58:15",
+    "callsign": "DAL177",
+    "estdepartureairport": "EIDW",
+    "estarrivalairport": "KATL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1302,
+    "during_count": 0,
+    "after_count": 9468,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 35.016666666666666,
+    "before_boundary_speed_kts": 468.0887260055765,
+    "after_boundary_speed_kts": 467.9073585677175,
+    "max_internal_speed_kts": 471.3536569737961,
+    "median_internal_speed_kts": 469.9109144273365
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_a74505_143931_151432/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_a74505_143931_151432/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_a74505_143931_151432/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240611_a74505_143931_151432/stitched_minimal.parquet"
+  }
+}

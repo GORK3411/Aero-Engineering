@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240227_4bb0ea_164203_181529",
+  "icao24": "4bb0ea",
+  "segment_start_time": "2024-02-27T16:42:03",
+  "segment_end_time": "2024-02-27T18:15:29",
+  "gap_duration_minutes": 93.43333333333334,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "4bb0ea",
+    "flight_start_time": "2024-02-27T14:54:21",
+    "flight_end_time": "2024-02-28T02:25:47",
+    "callsign": "THY31K",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KATL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 9272,
+    "during_count": 0,
+    "after_count": 13,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 93.43333333333334,
+    "before_boundary_speed_kts": 532.0519073136522,
+    "after_boundary_speed_kts": 448.3819074279156,
+    "max_internal_speed_kts": 429.7879758110886,
+    "median_internal_speed_kts": 423.2881237208865
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240227_4bb0ea_164203_181529/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240227_4bb0ea_164203_181529/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240227_4bb0ea_164203_181529/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-02-01_to_2024-03-01/flights/20240227_4bb0ea_164203_181529/stitched_minimal.parquet"
+  }
+}

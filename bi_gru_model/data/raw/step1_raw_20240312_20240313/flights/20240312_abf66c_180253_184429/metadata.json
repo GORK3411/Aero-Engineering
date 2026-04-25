@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240312_abf66c_180253_184429",
+  "icao24": "abf66c",
+  "segment_start_time": "2024-03-12T18:02:53",
+  "segment_end_time": "2024-03-12T18:44:29",
+  "gap_duration_minutes": 41.6,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "abf66c",
+    "flight_start_time": "2024-03-12T16:40:13",
+    "flight_end_time": "2024-03-13T01:14:22",
+    "callsign": "AAL133",
+    "estdepartureairport": "EIDW",
+    "estarrivalairport": "KDFW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2544,
+    "during_count": 0,
+    "after_count": 11832,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 41.6,
+    "before_boundary_speed_kts": 450.49573712084884,
+    "after_boundary_speed_kts": 488.79957912932304,
+    "max_internal_speed_kts": 469.1730633402868,
+    "median_internal_speed_kts": 468.7125699357174
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_abf66c_180253_184429/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_abf66c_180253_184429/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_abf66c_180253_184429/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240312_abf66c_180253_184429/stitched_minimal.parquet"
+  }
+}

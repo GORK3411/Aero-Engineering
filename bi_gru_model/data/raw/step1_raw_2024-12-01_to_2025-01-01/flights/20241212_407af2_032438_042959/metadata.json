@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241212_407af2_032438_042959",
+  "icao24": "407af2",
+  "segment_start_time": "2024-12-12T03:24:38",
+  "segment_end_time": "2024-12-12T04:29:59",
+  "gap_duration_minutes": 65.35,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "407af2",
+    "flight_start_time": "2024-12-12T02:10:22",
+    "flight_end_time": "2024-12-12T08:26:44",
+    "callsign": "BAW11J",
+    "estdepartureairport": "KJFK",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2717,
+    "during_count": 0,
+    "after_count": 6053,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 65.35,
+    "before_boundary_speed_kts": 575.3745106343927,
+    "after_boundary_speed_kts": 472.21936031962616,
+    "max_internal_speed_kts": 527.7294331107754,
+    "median_internal_speed_kts": 515.7817745050575
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_407af2_032438_042959/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_407af2_032438_042959/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_407af2_032438_042959/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241212_407af2_032438_042959/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250328_3c6562_150027_173036",
+  "icao24": "3c6562",
+  "segment_start_time": "2025-03-28T15:00:27",
+  "segment_end_time": "2025-03-28T17:30:36",
+  "gap_duration_minutes": 150.15,
+  "adsc_point_count": 14,
+  "flight_match": {
+    "icao24": "3c6562",
+    "flight_start_time": "2025-03-28T13:22:20",
+    "flight_end_time": "2025-03-28T23:19:35",
+    "callsign": "OCN64",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KTPA"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3572,
+    "during_count": 0,
+    "after_count": 961,
+    "adsc_point_count": 14,
+    "gap_duration_minutes": 150.15,
+    "before_boundary_speed_kts": 683.056184053526,
+    "after_boundary_speed_kts": 451.7884654265297,
+    "max_internal_speed_kts": 431.90178404912035,
+    "median_internal_speed_kts": 420.58653360431265
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_3c6562_150027_173036/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_3c6562_150027_173036/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_3c6562_150027_173036/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250328_3c6562_150027_173036/stitched_minimal.parquet"
+  }
+}

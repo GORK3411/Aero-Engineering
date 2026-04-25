@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230708_8963e9_112435_121941",
+  "icao24": "8963e9",
+  "segment_start_time": "2023-07-08T11:24:35",
+  "segment_end_time": "2023-07-08T12:19:41",
+  "gap_duration_minutes": 55.1,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "8963e9",
+    "flight_start_time": "2023-07-08T03:37:16",
+    "flight_end_time": "2023-07-08T16:53:18",
+    "callsign": "UAE30Y",
+    "estdepartureairport": "OMSJ",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1992,
+    "during_count": 0,
+    "after_count": 5667,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 55.1,
+    "before_boundary_speed_kts": 545.63559083809,
+    "after_boundary_speed_kts": 476.3706727463932,
+    "max_internal_speed_kts": 536.0358831373721,
+    "median_internal_speed_kts": 524.1723404341645
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_8963e9_112435_121941/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_8963e9_112435_121941/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_8963e9_112435_121941/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_8963e9_112435_121941/stitched_minimal.parquet"
+  }
+}

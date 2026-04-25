@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250602_4d20f6_115256_154550",
+  "icao24": "4d20f6",
+  "segment_start_time": "2025-06-02T11:52:56",
+  "segment_end_time": "2025-06-02T15:45:50",
+  "gap_duration_minutes": 232.9,
+  "adsc_point_count": 20,
+  "flight_match": {
+    "icao24": "4d20f6",
+    "flight_start_time": "2025-06-02T12:11:29",
+    "flight_end_time": "2025-06-02T22:35:25",
+    "callsign": "VJT861",
+    "estdepartureairport": "LIML",
+    "estarrivalairport": "05FL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 8399,
+    "during_count": 0,
+    "after_count": 4476,
+    "adsc_point_count": 20,
+    "gap_duration_minutes": 232.9,
+    "before_boundary_speed_kts": 539.4131792472182,
+    "after_boundary_speed_kts": 433.9788716608314,
+    "max_internal_speed_kts": 502.2498770979354,
+    "median_internal_speed_kts": 458.8286951753155
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250602_4d20f6_115256_154550/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250602_4d20f6_115256_154550/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250602_4d20f6_115256_154550/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-06-01_to_2025-07-01/flights/20250602_4d20f6_115256_154550/stitched_minimal.parquet"
+  }
+}

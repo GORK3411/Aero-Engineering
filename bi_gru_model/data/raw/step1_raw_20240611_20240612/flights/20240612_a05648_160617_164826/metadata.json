@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240612_a05648_160617_164826",
+  "icao24": "a05648",
+  "segment_start_time": "2024-06-12T16:06:17",
+  "segment_end_time": "2024-06-12T16:48:26",
+  "gap_duration_minutes": 42.15,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "a05648",
+    "flight_start_time": "2024-06-12T13:16:14",
+    "flight_end_time": "2024-06-12T21:57:49",
+    "callsign": "UAL952",
+    "estdepartureairport": "EDDM",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 663,
+    "during_count": 0,
+    "after_count": 5184,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 42.15,
+    "before_boundary_speed_kts": 466.9366669503076,
+    "after_boundary_speed_kts": 464.34815888959514,
+    "max_internal_speed_kts": 488.7303238740893,
+    "median_internal_speed_kts": 486.816210563099
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_a05648_160617_164826/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_a05648_160617_164826/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_a05648_160617_164826/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240611_20240612/flights/20240612_a05648_160617_164826/stitched_minimal.parquet"
+  }
+}

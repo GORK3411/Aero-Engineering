@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240711_406890_134708_145845",
+  "icao24": "406890",
+  "segment_start_time": "2024-07-11T13:47:08",
+  "segment_end_time": "2024-07-11T14:58:45",
+  "gap_duration_minutes": 71.61666666666666,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "406890",
+    "flight_start_time": "2024-07-11T06:53:30",
+    "flight_end_time": "2024-07-11T16:36:57",
+    "callsign": "BAW9SW",
+    "estdepartureairport": "KSAN",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1958,
+    "during_count": 0,
+    "after_count": 5162,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 71.61666666666666,
+    "before_boundary_speed_kts": 578.9973039689348,
+    "after_boundary_speed_kts": 492.0367601202784,
+    "max_internal_speed_kts": 512.141162482026,
+    "median_internal_speed_kts": 506.12502172296206
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240711_406890_134708_145845/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240711_406890_134708_145845/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240711_406890_134708_145845/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240711_406890_134708_145845/stitched_minimal.parquet"
+  }
+}

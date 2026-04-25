@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250318_40808c_151720_170008",
+  "icao24": "40808c",
+  "segment_start_time": "2025-03-18T15:17:20",
+  "segment_end_time": "2025-03-18T17:00:08",
+  "gap_duration_minutes": 102.8,
+  "adsc_point_count": 15,
+  "flight_match": {
+    "icao24": "40808c",
+    "flight_start_time": "2025-03-18T13:37:07",
+    "flight_end_time": "2025-03-18T21:29:30",
+    "callsign": "VIR671",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "TBPB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4127,
+    "during_count": 0,
+    "after_count": 973,
+    "adsc_point_count": 15,
+    "gap_duration_minutes": 102.8,
+    "before_boundary_speed_kts": 489.66148649738,
+    "after_boundary_speed_kts": 472.91342814728284,
+    "max_internal_speed_kts": 531.1569262499878,
+    "median_internal_speed_kts": 511.40139630531354
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_40808c_151720_170008/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_40808c_151720_170008/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_40808c_151720_170008/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250318_40808c_151720_170008/stitched_minimal.parquet"
+  }
+}

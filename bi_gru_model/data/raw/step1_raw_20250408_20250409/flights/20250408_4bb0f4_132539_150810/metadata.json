@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_4bb0f4_132539_150810",
+  "icao24": "4bb0f4",
+  "segment_start_time": "2025-04-08T13:25:39",
+  "segment_end_time": "2025-04-08T15:08:10",
+  "gap_duration_minutes": 102.51666666666667,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "4bb0f4",
+    "flight_start_time": "2025-04-08T10:25:04",
+    "flight_end_time": "2025-04-08T22:47:59",
+    "callsign": "THY15",
+    "estdepartureairport": "LTFM",
+    "estarrivalairport": NaN
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 415,
+    "during_count": 0,
+    "after_count": 1251,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 102.51666666666667,
+    "before_boundary_speed_kts": 482.1053119225562,
+    "after_boundary_speed_kts": 465.11739915731755,
+    "max_internal_speed_kts": 475.6398523941727,
+    "median_internal_speed_kts": 451.1410740073365
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4bb0f4_132539_150810/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4bb0f4_132539_150810/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4bb0f4_132539_150810/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_4bb0f4_132539_150810/stitched_minimal.parquet"
+  }
+}

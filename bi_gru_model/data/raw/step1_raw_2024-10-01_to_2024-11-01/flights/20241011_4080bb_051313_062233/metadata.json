@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241011_4080bb_051313_062233",
+  "icao24": "4080bb",
+  "segment_start_time": "2024-10-11T05:13:13",
+  "segment_end_time": "2024-10-11T06:22:33",
+  "gap_duration_minutes": 69.33333333333333,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "4080bb",
+    "flight_start_time": "2024-10-11T04:58:49",
+    "flight_end_time": "2024-10-11T11:10:59",
+    "callsign": "BAW49N",
+    "estdepartureairport": "KEWR",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3669,
+    "during_count": 0,
+    "after_count": 5232,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 69.33333333333333,
+    "before_boundary_speed_kts": 591.3577350848656,
+    "after_boundary_speed_kts": 489.8436237596508,
+    "max_internal_speed_kts": 501.22386927319997,
+    "median_internal_speed_kts": 493.58555686409227
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241011_4080bb_051313_062233/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241011_4080bb_051313_062233/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241011_4080bb_051313_062233/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241011_4080bb_051313_062233/stitched_minimal.parquet"
+  }
+}

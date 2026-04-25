@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_3c70c8_183205_193256",
+  "icao24": "3c70c8",
+  "segment_start_time": "2025-01-15T18:32:05",
+  "segment_end_time": "2025-01-15T19:32:56",
+  "gap_duration_minutes": 60.85,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "3c70c8",
+    "flight_start_time": "2025-01-15T16:17:28",
+    "flight_end_time": "2025-01-16T03:48:09",
+    "callsign": "GEC8224",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "MMJC"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5960,
+    "during_count": 0,
+    "after_count": 9848,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 60.85,
+    "before_boundary_speed_kts": 573.0967639299843,
+    "after_boundary_speed_kts": 469.55104168764456,
+    "max_internal_speed_kts": 444.7182922536365,
+    "median_internal_speed_kts": 444.4194200802526
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_3c70c8_183205_193256/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_3c70c8_183205_193256/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_3c70c8_183205_193256/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_3c70c8_183205_193256/stitched_minimal.parquet"
+  }
+}

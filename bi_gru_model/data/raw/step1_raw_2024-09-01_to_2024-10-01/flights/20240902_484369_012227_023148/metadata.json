@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240902_484369_012227_023148",
+  "icao24": "484369",
+  "segment_start_time": "2024-09-02T01:22:27",
+  "segment_end_time": "2024-09-02T02:31:48",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "484369",
+    "flight_start_time": "2024-09-02T00:55:39",
+    "flight_end_time": "2024-09-02T07:25:37",
+    "callsign": "KLM642",
+    "estdepartureairport": "KJFK",
+    "estarrivalairport": "EHAM"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2544,
+    "during_count": 0,
+    "after_count": 5876,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 563.6185398955398,
+    "after_boundary_speed_kts": 497.1826978606083,
+    "max_internal_speed_kts": 543.0033464853938,
+    "median_internal_speed_kts": 538.258595728485
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240902_484369_012227_023148/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240902_484369_012227_023148/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240902_484369_012227_023148/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-09-01_to_2024-10-01/flights/20240902_484369_012227_023148/stitched_minimal.parquet"
+  }
+}

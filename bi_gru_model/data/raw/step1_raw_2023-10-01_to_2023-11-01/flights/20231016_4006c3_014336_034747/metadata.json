@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231016_4006c3_014336_034747",
+  "icao24": "4006c3",
+  "segment_start_time": "2023-10-16T01:43:36",
+  "segment_end_time": "2023-10-16T03:47:47",
+  "gap_duration_minutes": 124.18333333333334,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "4006c3",
+    "flight_start_time": "2023-10-16T00:33:20",
+    "flight_end_time": "2023-10-16T08:04:23",
+    "callsign": "BAW63H",
+    "estdepartureairport": "KMCO",
+    "estarrivalairport": "EGKK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2633,
+    "during_count": 0,
+    "after_count": 4493,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 124.18333333333334,
+    "before_boundary_speed_kts": 569.6651881957823,
+    "after_boundary_speed_kts": 550.645089746144,
+    "max_internal_speed_kts": 567.3233477450235,
+    "median_internal_speed_kts": 545.7780681907321
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231016_4006c3_014336_034747/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231016_4006c3_014336_034747/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231016_4006c3_014336_034747/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231016_4006c3_014336_034747/stitched_minimal.parquet"
+  }
+}

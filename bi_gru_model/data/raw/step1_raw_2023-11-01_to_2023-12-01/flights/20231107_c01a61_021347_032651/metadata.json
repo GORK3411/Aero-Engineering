@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231107_c01a61_021347_032651",
+  "icao24": "c01a61",
+  "segment_start_time": "2023-11-07T02:13:47",
+  "segment_end_time": "2023-11-07T03:26:51",
+  "gap_duration_minutes": 73.06666666666666,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "c01a61",
+    "flight_start_time": "2023-11-07T01:38:10",
+    "flight_end_time": "2023-11-07T07:58:15",
+    "callsign": "ACA844",
+    "estdepartureairport": "CYUL",
+    "estarrivalairport": "EDDF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2639,
+    "during_count": 0,
+    "after_count": 6495,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 73.06666666666666,
+    "before_boundary_speed_kts": 596.7826368756986,
+    "after_boundary_speed_kts": 523.8093042001587,
+    "max_internal_speed_kts": 545.9978494018027,
+    "median_internal_speed_kts": 528.5689384123565
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231107_c01a61_021347_032651/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231107_c01a61_021347_032651/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231107_c01a61_021347_032651/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-11-01_to_2023-12-01/flights/20231107_c01a61_021347_032651/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230709_aa8315_113707_123143",
+  "icao24": "aa8315",
+  "segment_start_time": "2023-07-09T11:37:07",
+  "segment_end_time": "2023-07-09T12:31:43",
+  "gap_duration_minutes": 54.6,
+  "adsc_point_count": 8,
+  "flight_match": {
+    "icao24": "aa8315",
+    "flight_start_time": "2023-07-09T09:58:04",
+    "flight_end_time": "2023-07-09T16:03:15",
+    "callsign": "AAL109",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KBOS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1826,
+    "during_count": 0,
+    "after_count": 3752,
+    "adsc_point_count": 8,
+    "gap_duration_minutes": 54.6,
+    "before_boundary_speed_kts": 521.9073719116119,
+    "after_boundary_speed_kts": 496.8722707328584,
+    "max_internal_speed_kts": 530.9027850333495,
+    "median_internal_speed_kts": 527.177866513125
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_aa8315_113707_123143/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_aa8315_113707_123143/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_aa8315_113707_123143/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230709_aa8315_113707_123143/stitched_minimal.parquet"
+  }
+}

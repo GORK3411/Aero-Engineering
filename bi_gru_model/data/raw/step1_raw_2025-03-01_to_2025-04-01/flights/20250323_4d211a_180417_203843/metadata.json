@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250323_4d211a_180417_203843",
+  "icao24": "4d211a",
+  "segment_start_time": "2025-03-23T18:04:17",
+  "segment_end_time": "2025-03-23T20:38:43",
+  "gap_duration_minutes": 154.43333333333334,
+  "adsc_point_count": 13,
+  "flight_match": {
+    "icao24": "4d211a",
+    "flight_start_time": "2025-03-23T15:54:28",
+    "flight_end_time": "2025-03-24T00:24:37",
+    "callsign": "VJT915",
+    "estdepartureairport": "LEIB",
+    "estarrivalairport": "KDTW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1333,
+    "during_count": 0,
+    "after_count": 2806,
+    "adsc_point_count": 13,
+    "gap_duration_minutes": 154.43333333333334,
+    "before_boundary_speed_kts": 498.79432399937525,
+    "after_boundary_speed_kts": 450.4019067277534,
+    "max_internal_speed_kts": 556.3467274359493,
+    "median_internal_speed_kts": 462.04110788758646
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250323_4d211a_180417_203843/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250323_4d211a_180417_203843/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250323_4d211a_180417_203843/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250323_4d211a_180417_203843/stitched_minimal.parquet"
+  }
+}

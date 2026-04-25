@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_4007fa_194610_220711",
+  "icao24": "4007fa",
+  "segment_start_time": "2025-03-19T19:46:10",
+  "segment_end_time": "2025-03-19T22:07:11",
+  "gap_duration_minutes": 141.01666666666668,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "4007fa",
+    "flight_start_time": "2025-03-19T17:51:00",
+    "flight_end_time": "2025-03-20T01:45:23",
+    "callsign": "BAW22B",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KBWI"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1196,
+    "during_count": 0,
+    "after_count": 3091,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 141.01666666666668,
+    "before_boundary_speed_kts": 524.7256534212681,
+    "after_boundary_speed_kts": 398.26298330299136,
+    "max_internal_speed_kts": 481.98451583786965,
+    "median_internal_speed_kts": 428.41984214658663
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4007fa_194610_220711/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4007fa_194610_220711/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4007fa_194610_220711/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250319_4007fa_194610_220711/stitched_minimal.parquet"
+  }
+}

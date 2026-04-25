@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240814_346146_113158_124119",
+  "icao24": "346146",
+  "segment_start_time": "2024-08-14T11:31:58",
+  "segment_end_time": "2024-08-14T12:41:19",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "346146",
+    "flight_start_time": "2024-08-14T04:15:28",
+    "flight_end_time": "2024-08-14T14:21:45",
+    "callsign": "IBE6170",
+    "estdepartureairport": "KLAX",
+    "estarrivalairport": "LEMD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3483,
+    "during_count": 0,
+    "after_count": 4291,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 578.5015237289439,
+    "after_boundary_speed_kts": 535.1505253434167,
+    "max_internal_speed_kts": 566.7411668270064,
+    "median_internal_speed_kts": 562.283723567107
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240814_346146_113158_124119/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240814_346146_113158_124119/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240814_346146_113158_124119/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240814_346146_113158_124119/stitched_minimal.parquet"
+  }
+}

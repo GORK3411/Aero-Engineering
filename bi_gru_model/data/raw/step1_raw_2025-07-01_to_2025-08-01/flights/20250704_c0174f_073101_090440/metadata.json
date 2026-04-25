@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250704_c0174f_073101_090440",
+  "icao24": "c0174f",
+  "segment_start_time": "2025-07-04T07:31:01",
+  "segment_end_time": "2025-07-04T09:04:40",
+  "gap_duration_minutes": 93.65,
+  "adsc_point_count": 28,
+  "flight_match": {
+    "icao24": "c0174f",
+    "flight_start_time": "2025-07-04T06:12:51",
+    "flight_end_time": "2025-07-04T13:03:53",
+    "callsign": "ACA810",
+    "estdepartureairport": "CYYZ",
+    "estarrivalairport": "LPAR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1739,
+    "during_count": 0,
+    "after_count": 2567,
+    "adsc_point_count": 28,
+    "gap_duration_minutes": 93.65,
+    "before_boundary_speed_kts": 527.6368363786305,
+    "after_boundary_speed_kts": 504.30225235076716,
+    "max_internal_speed_kts": 507.8384655124122,
+    "median_internal_speed_kts": 485.4002747700148
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250704_c0174f_073101_090440/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250704_c0174f_073101_090440/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250704_c0174f_073101_090440/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025-07-01_to_2025-08-01/flights/20250704_c0174f_073101_090440/stitched_minimal.parquet"
+  }
+}

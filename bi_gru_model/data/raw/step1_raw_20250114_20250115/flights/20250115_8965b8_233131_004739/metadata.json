@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_8965b8_233131_004739",
+  "icao24": "8965b8",
+  "segment_start_time": "2025-01-15T23:31:31",
+  "segment_end_time": "2025-01-16T00:47:39",
+  "gap_duration_minutes": 76.13333333333334,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "8965b8",
+    "flight_start_time": "2025-01-15T21:37:07",
+    "flight_end_time": "2025-01-16T05:51:28",
+    "callsign": "UAE9393",
+    "estdepartureairport": "EBMB",
+    "estarrivalairport": "KORD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5444,
+    "during_count": 0,
+    "after_count": 7043,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 76.13333333333334,
+    "before_boundary_speed_kts": 433.1713803115275,
+    "after_boundary_speed_kts": 464.8689787773919,
+    "max_internal_speed_kts": 468.5289065869755,
+    "median_internal_speed_kts": 462.08391473119696
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_8965b8_233131_004739/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_8965b8_233131_004739/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_8965b8_233131_004739/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_8965b8_233131_004739/stitched_minimal.parquet"
+  }
+}

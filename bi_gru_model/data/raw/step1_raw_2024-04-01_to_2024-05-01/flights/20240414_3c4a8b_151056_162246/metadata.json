@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240414_3c4a8b_151056_162246",
+  "icao24": "3c4a8b",
+  "segment_start_time": "2024-04-14T15:10:56",
+  "segment_end_time": "2024-04-14T16:22:46",
+  "gap_duration_minutes": 71.83333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "3c4a8b",
+    "flight_start_time": "2024-04-14T15:32:40",
+    "flight_end_time": "2024-04-14T23:49:59",
+    "callsign": "DLH470",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 8302,
+    "during_count": 0,
+    "after_count": 1838,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 71.83333333333333,
+    "before_boundary_speed_kts": 521.2370131852779,
+    "after_boundary_speed_kts": 449.118415452689,
+    "max_internal_speed_kts": 445.2192071250936,
+    "median_internal_speed_kts": 435.03244581217496
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240414_3c4a8b_151056_162246/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240414_3c4a8b_151056_162246/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240414_3c4a8b_151056_162246/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240414_3c4a8b_151056_162246/stitched_minimal.parquet"
+  }
+}

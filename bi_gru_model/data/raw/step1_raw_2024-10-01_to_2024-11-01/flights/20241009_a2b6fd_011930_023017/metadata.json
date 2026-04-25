@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241009_a2b6fd_011930_023017",
+  "icao24": "a2b6fd",
+  "segment_start_time": "2024-10-09T01:19:30",
+  "segment_end_time": "2024-10-09T02:30:17",
+  "gap_duration_minutes": 70.78333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a2b6fd",
+    "flight_start_time": "2024-10-08T23:58:42",
+    "flight_end_time": "2024-10-09T06:11:17",
+    "callsign": "N274SW",
+    "estdepartureairport": "49OH",
+    "estarrivalairport": "EINN"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2430,
+    "during_count": 0,
+    "after_count": 5000,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 70.78333333333333,
+    "before_boundary_speed_kts": 487.91185184472977,
+    "after_boundary_speed_kts": 483.23064005495706,
+    "max_internal_speed_kts": 478.13040729636236,
+    "median_internal_speed_kts": 478.13040729636236
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241009_a2b6fd_011930_023017/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241009_a2b6fd_011930_023017/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241009_a2b6fd_011930_023017/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-10-01_to_2024-11-01/flights/20241009_a2b6fd_011930_023017/stitched_minimal.parquet"
+  }
+}

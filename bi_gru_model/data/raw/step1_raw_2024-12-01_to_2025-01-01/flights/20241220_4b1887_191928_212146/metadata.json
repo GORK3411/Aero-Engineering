@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241220_4b1887_191928_212146",
+  "icao24": "4b1887",
+  "segment_start_time": "2024-12-20T19:19:28",
+  "segment_end_time": "2024-12-20T21:21:46",
+  "gap_duration_minutes": 122.3,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "4b1887",
+    "flight_start_time": "2024-12-20T18:35:10",
+    "flight_end_time": "2024-12-21T03:41:28",
+    "callsign": "SWR18P",
+    "estdepartureairport": "LSZH",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6712,
+    "during_count": 0,
+    "after_count": 2177,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 122.3,
+    "before_boundary_speed_kts": 510.2366132287108,
+    "after_boundary_speed_kts": 408.9955218119027,
+    "max_internal_speed_kts": 429.2808523073119,
+    "median_internal_speed_kts": 421.75830287517533
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241220_4b1887_191928_212146/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241220_4b1887_191928_212146/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241220_4b1887_191928_212146/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241220_4b1887_191928_212146/stitched_minimal.parquet"
+  }
+}

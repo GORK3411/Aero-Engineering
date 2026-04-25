@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240720_406890_084819_095733",
+  "icao24": "406890",
+  "segment_start_time": "2024-07-20T08:48:19",
+  "segment_end_time": "2024-07-20T09:57:33",
+  "gap_duration_minutes": 69.23333333333333,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "406890",
+    "flight_start_time": "2024-07-20T06:04:31",
+    "flight_end_time": "2024-07-20T11:58:42",
+    "callsign": "BAW9EW",
+    "estdepartureairport": "CYUL",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2285,
+    "during_count": 0,
+    "after_count": 5817,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 69.23333333333333,
+    "before_boundary_speed_kts": 588.7574365891198,
+    "after_boundary_speed_kts": 543.8562698616023,
+    "max_internal_speed_kts": 571.3954234615096,
+    "median_internal_speed_kts": 566.2507740791809
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240720_406890_084819_095733/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240720_406890_084819_095733/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240720_406890_084819_095733/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240720_406890_084819_095733/stitched_minimal.parquet"
+  }
+}

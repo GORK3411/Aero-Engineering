@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250319_a92d6d_140801_165355",
+  "icao24": "a92d6d",
+  "segment_start_time": "2025-03-19T14:08:01",
+  "segment_end_time": "2025-03-19T16:53:55",
+  "gap_duration_minutes": 165.9,
+  "adsc_point_count": 17,
+  "flight_match": {
+    "icao24": "a92d6d",
+    "flight_start_time": "2025-03-19T12:20:37",
+    "flight_end_time": "2025-03-19T20:47:50",
+    "callsign": "UAL121",
+    "estdepartureairport": "LEBL",
+    "estarrivalairport": "KEWR"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5256,
+    "during_count": 0,
+    "after_count": 3274,
+    "adsc_point_count": 17,
+    "gap_duration_minutes": 165.9,
+    "before_boundary_speed_kts": 495.0768542002117,
+    "after_boundary_speed_kts": 425.10933357511664,
+    "max_internal_speed_kts": 495.1650300051927,
+    "median_internal_speed_kts": 437.35545791122377
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_a92d6d_140801_165355/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_a92d6d_140801_165355/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_a92d6d_140801_165355/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250318_20250319/flights/20250319_a92d6d_140801_165355/stitched_minimal.parquet"
+  }
+}

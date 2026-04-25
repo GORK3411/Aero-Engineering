@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240517_a68009_125924_135956",
+  "icao24": "a68009",
+  "segment_start_time": "2024-05-17T12:59:24",
+  "segment_end_time": "2024-05-17T13:59:56",
+  "gap_duration_minutes": 60.53333333333333,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "a68009",
+    "flight_start_time": "2024-05-17T13:23:08",
+    "flight_end_time": "2024-05-17T20:18:05",
+    "callsign": "N518KA",
+    "estdepartureairport": "LFPB",
+    "estarrivalairport": "KTEB"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5410,
+    "during_count": 0,
+    "after_count": 2997,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 60.53333333333333,
+    "before_boundary_speed_kts": 84.79423213386661,
+    "after_boundary_speed_kts": 806.3453042660445,
+    "max_internal_speed_kts": 485.3946122015612,
+    "median_internal_speed_kts": 485.3946122015612
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240517_a68009_125924_135956/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240517_a68009_125924_135956/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240517_a68009_125924_135956/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-05-01_to_2024-06-01/flights/20240517_a68009_125924_135956/stitched_minimal.parquet"
+  }
+}

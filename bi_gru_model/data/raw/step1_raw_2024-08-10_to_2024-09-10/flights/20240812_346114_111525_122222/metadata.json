@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240812_346114_111525_122222",
+  "icao24": "346114",
+  "segment_start_time": "2024-08-12T11:15:25",
+  "segment_end_time": "2024-08-12T12:22:22",
+  "gap_duration_minutes": 66.95,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "346114",
+    "flight_start_time": "2024-08-12T05:01:36",
+    "flight_end_time": "2024-08-12T13:37:21",
+    "callsign": "EVE814",
+    "estdepartureairport": "MMUN",
+    "estarrivalairport": "LEMD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 717,
+    "during_count": 0,
+    "after_count": 3703,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 66.95,
+    "before_boundary_speed_kts": 597.8994680958239,
+    "after_boundary_speed_kts": 505.10635618999396,
+    "max_internal_speed_kts": 590.074546208652,
+    "median_internal_speed_kts": 566.44665012971
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240812_346114_111525_122222/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240812_346114_111525_122222/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240812_346114_111525_122222/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240812_346114_111525_122222/stitched_minimal.parquet"
+  }
+}

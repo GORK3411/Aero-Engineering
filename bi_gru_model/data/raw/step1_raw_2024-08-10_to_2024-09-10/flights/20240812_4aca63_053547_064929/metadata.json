@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240812_4aca63_053547_064929",
+  "icao24": "4aca63",
+  "segment_start_time": "2024-08-12T05:35:47",
+  "segment_end_time": "2024-08-12T06:49:29",
+  "gap_duration_minutes": 73.7,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "4aca63",
+    "flight_start_time": "2024-08-12T02:28:21",
+    "flight_end_time": "2024-08-12T08:43:22",
+    "callsign": "SAS928",
+    "estdepartureairport": "KBOS",
+    "estarrivalairport": "EKCH"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1813,
+    "during_count": 0,
+    "after_count": 4564,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 73.7,
+    "before_boundary_speed_kts": 581.9262426015899,
+    "after_boundary_speed_kts": 497.7505470885296,
+    "max_internal_speed_kts": 529.1956413847709,
+    "median_internal_speed_kts": 521.3894503626314
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240812_4aca63_053547_064929/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240812_4aca63_053547_064929/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240812_4aca63_053547_064929/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-08-10_to_2024-09-10/flights/20240812_4aca63_053547_064929/stitched_minimal.parquet"
+  }
+}

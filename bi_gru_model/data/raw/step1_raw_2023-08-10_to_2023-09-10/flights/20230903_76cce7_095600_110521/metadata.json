@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230903_76cce7_095600_110521",
+  "icao24": "76cce7",
+  "segment_start_time": "2023-09-03T09:56:00",
+  "segment_end_time": "2023-09-03T11:05:21",
+  "gap_duration_minutes": 69.35,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "76cce7",
+    "flight_start_time": "2023-09-03T06:27:56",
+    "flight_end_time": "2023-09-04T00:38:23",
+    "callsign": "SIA23",
+    "estdepartureairport": "KJFK",
+    "estarrivalairport": "WSSS"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2995,
+    "during_count": 0,
+    "after_count": 10490,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 69.35,
+    "before_boundary_speed_kts": 561.9724416767746,
+    "after_boundary_speed_kts": 518.5399625865628,
+    "max_internal_speed_kts": 577.6299022218511,
+    "median_internal_speed_kts": 571.9131703693658
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230903_76cce7_095600_110521/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230903_76cce7_095600_110521/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230903_76cce7_095600_110521/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2023-08-10_to_2023-09-10/flights/20230903_76cce7_095600_110521/stitched_minimal.parquet"
+  }
+}

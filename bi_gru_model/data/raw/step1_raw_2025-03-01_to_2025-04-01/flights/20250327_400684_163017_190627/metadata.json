@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250327_400684_163017_190627",
+  "icao24": "400684",
+  "segment_start_time": "2025-03-27T16:30:17",
+  "segment_end_time": "2025-03-27T19:06:27",
+  "gap_duration_minutes": 156.16666666666666,
+  "adsc_point_count": 14,
+  "flight_match": {
+    "icao24": "400684",
+    "flight_start_time": "2025-03-27T14:53:03",
+    "flight_end_time": "2025-03-27T22:40:29",
+    "callsign": "BAW7W",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2713,
+    "during_count": 0,
+    "after_count": 2715,
+    "adsc_point_count": 14,
+    "gap_duration_minutes": 156.16666666666666,
+    "before_boundary_speed_kts": 673.8717057679256,
+    "after_boundary_speed_kts": 425.60291259082044,
+    "max_internal_speed_kts": 450.57602876880156,
+    "median_internal_speed_kts": 446.59180411941344
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250327_400684_163017_190627/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250327_400684_163017_190627/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250327_400684_163017_190627/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2025_01_2025_03/flights/20250327_400684_163017_190627/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231017_ac1df7_022001_035601",
+  "icao24": "ac1df7",
+  "segment_start_time": "2023-10-17T02:20:01",
+  "segment_end_time": "2023-10-17T03:56:01",
+  "gap_duration_minutes": 96.0,
+  "adsc_point_count": 9,
+  "flight_match": {
+    "icao24": "ac1df7",
+    "flight_start_time": "2023-10-17T02:13:08",
+    "flight_end_time": "2023-10-17T08:16:52",
+    "callsign": "AAL740",
+    "estdepartureairport": "KPHL",
+    "estarrivalairport": "LEMD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 753,
+    "during_count": 0,
+    "after_count": 3648,
+    "adsc_point_count": 9,
+    "gap_duration_minutes": 96.0,
+    "before_boundary_speed_kts": 626.969799269326,
+    "after_boundary_speed_kts": 503.33403757196504,
+    "max_internal_speed_kts": 563.6226469489126,
+    "median_internal_speed_kts": 538.8087730043555
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231017_ac1df7_022001_035601/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231017_ac1df7_022001_035601/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231017_ac1df7_022001_035601/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231017_ac1df7_022001_035601/stitched_minimal.parquet"
+  }
+}

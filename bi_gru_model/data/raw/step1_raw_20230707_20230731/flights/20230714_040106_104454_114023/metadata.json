@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230714_040106_104454_114023",
+  "icao24": "040106",
+  "segment_start_time": "2023-07-14T10:44:54",
+  "segment_end_time": "2023-07-14T11:40:23",
+  "gap_duration_minutes": 55.483333333333334,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "040106",
+    "flight_start_time": "2023-07-14T09:16:45",
+    "flight_end_time": "2023-07-14T16:16:09",
+    "callsign": "ETH500",
+    "estdepartureairport": "EIDW",
+    "estarrivalairport": "KIAD"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 641,
+    "during_count": 0,
+    "after_count": 7558,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 55.483333333333334,
+    "before_boundary_speed_kts": 488.998634861266,
+    "after_boundary_speed_kts": 457.427734594109,
+    "max_internal_speed_kts": 470.4992357540553,
+    "median_internal_speed_kts": 470.4992357540553
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230714_040106_104454_114023/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230714_040106_104454_114023/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230714_040106_104454_114023/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230714_040106_104454_114023/stitched_minimal.parquet"
+  }
+}

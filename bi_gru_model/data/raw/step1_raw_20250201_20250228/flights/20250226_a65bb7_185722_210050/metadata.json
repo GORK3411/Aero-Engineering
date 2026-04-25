@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250226_a65bb7_185722_210050",
+  "icao24": "a65bb7",
+  "segment_start_time": "2025-02-26T18:57:22",
+  "segment_end_time": "2025-02-26T21:00:50",
+  "gap_duration_minutes": 123.46666666666667,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "a65bb7",
+    "flight_start_time": "2025-02-26T17:23:36",
+    "flight_end_time": "2025-02-27T02:46:09",
+    "callsign": "DAL85",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KATL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2834,
+    "during_count": 0,
+    "after_count": 230,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 123.46666666666667,
+    "before_boundary_speed_kts": 611.8322624627958,
+    "after_boundary_speed_kts": 402.8402641259941,
+    "max_internal_speed_kts": 458.2262881693541,
+    "median_internal_speed_kts": 444.8750148800223
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250226_a65bb7_185722_210050/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250226_a65bb7_185722_210050/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250226_a65bb7_185722_210050/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_20250201_20250228/flights/20250226_a65bb7_185722_210050/stitched_minimal.parquet"
+  }
+}

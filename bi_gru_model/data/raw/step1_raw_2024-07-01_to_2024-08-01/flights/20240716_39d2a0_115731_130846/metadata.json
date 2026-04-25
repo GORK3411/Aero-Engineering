@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240716_39d2a0_115731_130846",
+  "icao24": "39d2a0",
+  "segment_start_time": "2024-07-16T11:57:31",
+  "segment_end_time": "2024-07-16T13:08:46",
+  "gap_duration_minutes": 71.25,
+  "adsc_point_count": 3,
+  "flight_match": {
+    "icao24": "39d2a0",
+    "flight_start_time": "2024-07-16T08:31:07",
+    "flight_end_time": "2024-07-16T14:52:13",
+    "callsign": "AFR011",
+    "estdepartureairport": "KJFK",
+    "estarrivalairport": "LFPG"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2848,
+    "during_count": 0,
+    "after_count": 4958,
+    "adsc_point_count": 3,
+    "gap_duration_minutes": 71.25,
+    "before_boundary_speed_kts": 547.1723203751849,
+    "after_boundary_speed_kts": 535.6168689925968,
+    "max_internal_speed_kts": 548.8420579842449,
+    "median_internal_speed_kts": 548.650951418806
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240716_39d2a0_115731_130846/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240716_39d2a0_115731_130846/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240716_39d2a0_115731_130846/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240716_39d2a0_115731_130846/stitched_minimal.parquet"
+  }
+}

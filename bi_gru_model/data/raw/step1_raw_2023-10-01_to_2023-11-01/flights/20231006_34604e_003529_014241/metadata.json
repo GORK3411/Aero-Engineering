@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231006_34604e_003529_014241",
+  "icao24": "34604e",
+  "segment_start_time": "2023-10-06T00:35:29",
+  "segment_end_time": "2023-10-06T01:42:41",
+  "gap_duration_minutes": 67.2,
+  "adsc_point_count": 10,
+  "flight_match": {
+    "icao24": "34604e",
+    "flight_start_time": "2023-10-06T01:27:11",
+    "flight_end_time": "2023-10-06T12:19:27",
+    "callsign": "IBE6409",
+    "estdepartureairport": "LEMD",
+    "estarrivalairport": "MMMX"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4187,
+    "during_count": 0,
+    "after_count": 1486,
+    "adsc_point_count": 10,
+    "gap_duration_minutes": 67.2,
+    "before_boundary_speed_kts": 535.5673611113141,
+    "after_boundary_speed_kts": 458.30379677688757,
+    "max_internal_speed_kts": 503.30873913259643,
+    "median_internal_speed_kts": 481.4919379510338
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231006_34604e_003529_014241/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231006_34604e_003529_014241/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231006_34604e_003529_014241/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231006_34604e_003529_014241/stitched_minimal.parquet"
+  }
+}

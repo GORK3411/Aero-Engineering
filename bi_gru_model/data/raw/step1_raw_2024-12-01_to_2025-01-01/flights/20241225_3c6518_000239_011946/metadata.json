@@ -1,0 +1,35 @@
+{
+  "segment_id": "20241225_3c6518_000239_011946",
+  "icao24": "3c6518",
+  "segment_start_time": "2024-12-25T00:02:39",
+  "segment_end_time": "2024-12-25T01:19:46",
+  "gap_duration_minutes": 77.11666666666666,
+  "adsc_point_count": 5,
+  "flight_match": {
+    "icao24": "3c6518",
+    "flight_start_time": "2024-12-24T23:29:26",
+    "flight_end_time": "2024-12-25T06:27:35",
+    "callsign": "DLH401",
+    "estdepartureairport": "KJFK",
+    "estarrivalairport": "EDDF"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3576,
+    "during_count": 0,
+    "after_count": 7172,
+    "adsc_point_count": 5,
+    "gap_duration_minutes": 77.11666666666666,
+    "before_boundary_speed_kts": 548.6905867187039,
+    "after_boundary_speed_kts": 527.8772057021388,
+    "max_internal_speed_kts": 561.8146096498679,
+    "median_internal_speed_kts": 541.4158849456107
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_3c6518_000239_011946/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_3c6518_000239_011946/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_3c6518_000239_011946/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-12-01_to_2025-01-01/flights/20241225_3c6518_000239_011946/stitched_minimal.parquet"
+  }
+}

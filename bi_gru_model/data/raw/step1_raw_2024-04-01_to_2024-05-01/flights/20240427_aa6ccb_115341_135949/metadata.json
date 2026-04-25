@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240427_aa6ccb_115341_135949",
+  "icao24": "aa6ccb",
+  "segment_start_time": "2024-04-27T11:53:41",
+  "segment_end_time": "2024-04-27T13:59:49",
+  "gap_duration_minutes": 126.13333333333334,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "aa6ccb",
+    "flight_start_time": "2024-04-27T13:03:09",
+    "flight_end_time": "2024-04-27T22:46:14",
+    "callsign": "AAL49",
+    "estdepartureairport": "LFPG",
+    "estarrivalairport": "KDFW"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 6153,
+    "during_count": 0,
+    "after_count": 1702,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 126.13333333333334,
+    "before_boundary_speed_kts": 729.7734853610169,
+    "after_boundary_speed_kts": 726.7287860502959,
+    "max_internal_speed_kts": 437.77404178458784,
+    "median_internal_speed_kts": 426.1773347383708
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240427_aa6ccb_115341_135949/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240427_aa6ccb_115341_135949/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240427_aa6ccb_115341_135949/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2024-04-01_to_2024-05-01/flights/20240427_aa6ccb_115341_135949/stitched_minimal.parquet"
+  }
+}

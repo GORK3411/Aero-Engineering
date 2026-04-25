@@ -1,0 +1,35 @@
+{
+  "segment_id": "20230708_8964e3_110039_113843",
+  "icao24": "8964e3",
+  "segment_start_time": "2023-07-08T11:00:39",
+  "segment_end_time": "2023-07-08T11:38:43",
+  "gap_duration_minutes": 38.06666666666667,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "8964e3",
+    "flight_start_time": "2023-07-08T05:18:54",
+    "flight_end_time": "2023-07-08T15:47:23",
+    "callsign": "UAE8ER",
+    "estdepartureairport": NaN,
+    "estarrivalairport": "KJFK"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 1154,
+    "during_count": 0,
+    "after_count": 4660,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 38.06666666666667,
+    "before_boundary_speed_kts": 525.4739120005136,
+    "after_boundary_speed_kts": 474.88767407479094,
+    "max_internal_speed_kts": 509.6439345149293,
+    "median_internal_speed_kts": 504.8498632724123
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_8964e3_110039_113843/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_8964e3_110039_113843/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_8964e3_110039_113843/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20230707_20230731/flights/20230708_8964e3_110039_113843/stitched_minimal.parquet"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250115_04022a_185352_200801",
+  "icao24": "04022a",
+  "segment_start_time": "2025-01-15T18:53:52",
+  "segment_end_time": "2025-01-15T20:08:01",
+  "gap_duration_minutes": 74.15,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "04022a",
+    "flight_start_time": "2025-01-15T17:25:51",
+    "flight_end_time": "2025-01-16T04:45:33",
+    "callsign": "ETH3516",
+    "estdepartureairport": "LEZG",
+    "estarrivalairport": "MMJC"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3679,
+    "during_count": 0,
+    "after_count": 10639,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 74.15,
+    "before_boundary_speed_kts": 490.3343668830696,
+    "after_boundary_speed_kts": 465.238660832737,
+    "max_internal_speed_kts": 468.6998336850553,
+    "median_internal_speed_kts": 464.90675331609793
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_04022a_185352_200801/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_04022a_185352_200801/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_04022a_185352_200801/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250114_20250115/flights/20250115_04022a_185352_200801/stitched_minimal.parquet"
+  }
+}

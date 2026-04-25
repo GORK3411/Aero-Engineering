@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240726_a8397c_072658_085005",
+  "icao24": "a8397c",
+  "segment_start_time": "2024-07-26T07:26:58",
+  "segment_end_time": "2024-07-26T08:50:05",
+  "gap_duration_minutes": 83.11666666666666,
+  "adsc_point_count": 4,
+  "flight_match": {
+    "icao24": "a8397c",
+    "flight_start_time": "2024-07-26T05:41:43",
+    "flight_end_time": "2024-07-26T13:32:49",
+    "callsign": "UPS204",
+    "estdepartureairport": "EDDK",
+    "estarrivalairport": "KPHL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 5940,
+    "during_count": 0,
+    "after_count": 559,
+    "adsc_point_count": 4,
+    "gap_duration_minutes": 83.11666666666666,
+    "before_boundary_speed_kts": 798.182554315855,
+    "after_boundary_speed_kts": 446.4132405513743,
+    "max_internal_speed_kts": 477.98101888237437,
+    "median_internal_speed_kts": 475.30539867482054
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_a8397c_072658_085005/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_a8397c_072658_085005/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_a8397c_072658_085005/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/step1_raw_2024-07-01_to_2024-08-01/flights/20240726_a8397c_072658_085005/stitched_minimal.parquet"
+  }
+}

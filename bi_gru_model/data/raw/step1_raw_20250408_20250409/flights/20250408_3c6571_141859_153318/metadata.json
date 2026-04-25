@@ -1,0 +1,35 @@
+{
+  "segment_id": "20250408_3c6571_141859_153318",
+  "icao24": "3c6571",
+  "segment_start_time": "2025-04-08T14:18:59",
+  "segment_end_time": "2025-04-08T15:33:18",
+  "gap_duration_minutes": 74.31666666666666,
+  "adsc_point_count": 7,
+  "flight_match": {
+    "icao24": "3c6571",
+    "flight_start_time": "2025-04-08T11:52:01",
+    "flight_end_time": "2025-04-08T21:10:29",
+    "callsign": "DLH444",
+    "estdepartureairport": "EDDF",
+    "estarrivalairport": "KATL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 2484,
+    "during_count": 0,
+    "after_count": 8522,
+    "adsc_point_count": 7,
+    "gap_duration_minutes": 74.31666666666666,
+    "before_boundary_speed_kts": 432.47305017266683,
+    "after_boundary_speed_kts": 479.1363781880003,
+    "max_internal_speed_kts": 521.8083402947334,
+    "median_internal_speed_kts": 502.9354763497347
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_3c6571_141859_153318/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_3c6571_141859_153318/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_3c6571_141859_153318/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20250408_20250409/flights/20250408_3c6571_141859_153318/stitched_minimal.parquet"
+  }
+}

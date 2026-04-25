@@ -1,0 +1,35 @@
+{
+  "segment_id": "20231030_406f79_040158_051117",
+  "icao24": "406f79",
+  "segment_start_time": "2023-10-30T04:01:58",
+  "segment_end_time": "2023-10-30T05:11:17",
+  "gap_duration_minutes": 69.31666666666666,
+  "adsc_point_count": 6,
+  "flight_match": {
+    "icao24": "406f79",
+    "flight_start_time": "2023-10-30T00:51:37",
+    "flight_end_time": "2023-10-30T09:12:11",
+    "callsign": "BAW9GN",
+    "estdepartureairport": "KIAH",
+    "estarrivalairport": "EGLL"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 3113,
+    "during_count": 0,
+    "after_count": 6162,
+    "adsc_point_count": 6,
+    "gap_duration_minutes": 69.31666666666666,
+    "before_boundary_speed_kts": 592.2357861255496,
+    "after_boundary_speed_kts": 501.6052355639538,
+    "max_internal_speed_kts": 522.4798414951482,
+    "median_internal_speed_kts": 510.95713143667217
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_406f79_040158_051117/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_406f79_040158_051117/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_406f79_040158_051117/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/try/artifacts/new/step1_raw_2023-10-01_to_2023-11-01/flights/20231030_406f79_040158_051117/stitched_minimal.parquet"
+  }
+}

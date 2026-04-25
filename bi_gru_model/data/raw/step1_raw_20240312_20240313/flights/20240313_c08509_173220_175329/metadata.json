@@ -1,0 +1,35 @@
+{
+  "segment_id": "20240313_c08509_173220_175329",
+  "icao24": "c08509",
+  "segment_start_time": "2024-03-13T17:32:20",
+  "segment_end_time": "2024-03-13T17:53:29",
+  "gap_duration_minutes": 21.15,
+  "adsc_point_count": 2,
+  "flight_match": {
+    "icao24": "c08509",
+    "flight_start_time": "2024-03-13T15:20:44",
+    "flight_end_time": "2024-03-13T22:18:45",
+    "callsign": "ACA853",
+    "estdepartureairport": "EGLL",
+    "estarrivalairport": "CYYZ"
+  },
+  "validation": {
+    "is_valid": true,
+    "reasons": [],
+    "before_count": 4150,
+    "during_count": 0,
+    "after_count": 5384,
+    "adsc_point_count": 2,
+    "gap_duration_minutes": 21.15,
+    "before_boundary_speed_kts": 440.71700678007,
+    "after_boundary_speed_kts": 478.84492194595276,
+    "max_internal_speed_kts": 463.22712224507285,
+    "median_internal_speed_kts": 463.22712224507285
+  },
+  "files": {
+    "adsc": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_c08509_173220_175329/adsc.parquet",
+    "adsb_before": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_c08509_173220_175329/adsb_before.parquet",
+    "adsb_after": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_c08509_173220_175329/adsb_after.parquet",
+    "stitched_minimal": "C:/Users/ANTOINE/OneDrive/Desktop/aero_project/artifacts/step1_raw_20240312_20240313/flights/20240313_c08509_173220_175329/stitched_minimal.parquet"
+  }
+}
