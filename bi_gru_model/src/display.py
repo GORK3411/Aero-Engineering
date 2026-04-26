@@ -36,11 +36,30 @@ def main():
     df_ads_c        = pd.read_parquet(os.path.join(cleaned_data_folder, step, selected_flight, "adsc.parquet"))
     df_ads_b_after  = pd.read_parquet(os.path.join(cleaned_data_folder, step, selected_flight, "adsb_after.parquet"))
     df_final        = pd.read_parquet(os.path.join(reconstructed_path, step, selected_flight, "full_reconstruction.parquet"))
+    df_interpolated   = pd.concat([df_ads_b_before, df_ads_c, df_ads_b_after]).drop_duplicates().sort_values("timestamp")
+    df_interpolated   = Flight(df_interpolated).resample("15S").data
+
+    gap_start  = df_ads_b_before["timestamp"].max()
+    gap_end    = df_ads_b_after["timestamp"].min()
+    adsc_start = df_ads_c["timestamp"].min()
+    adsc_end   = df_ads_c["timestamp"].max()
+
+    df_interpolated_before = df_interpolated[
+        (df_interpolated["timestamp"] > gap_start) &
+        (df_interpolated["timestamp"] < adsc_start)
+    ]
+
+    df_interpolated_after = df_interpolated[
+        (df_interpolated["timestamp"] > adsc_end) &
+        (df_interpolated["timestamp"] < gap_end)
+    ]
 
     flight_ads_b_before = Flight(df_ads_b_before)
     flight_ads_c        = Flight(df_ads_c)
     flight_ads_b_after  = Flight(df_ads_b_after)
     final_flight        = Flight(df_final)
+    flight_interpolated_before = Flight(df_interpolated_before)
+    flight_interpolated_after = Flight(df_interpolated_after)
 
     output_folder = os.path.join(reconstructed_path, step, selected_flight)
 
@@ -50,6 +69,8 @@ def main():
         "ADS-B Before":   (flight_ads_b_before,   "blue"),
         "ADS-C":          (flight_ads_c,           "green"),
         "ADS-B After":    (flight_ads_b_after,     "red"),
+        "Interpolated Before":   (flight_interpolated_before,   "purple"),
+        "Interpolated After":   (flight_interpolated_after,   "purple"),
     },
     save_path=os.path.join(output_folder, "combined_map.html")
 )

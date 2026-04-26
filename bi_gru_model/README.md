@@ -58,6 +58,16 @@ python cli_GRU.py display --range step1_raw_2023-08-10_to_2023-09-10 --flight 20
 
 > The flight must be reconstructed before it can be displayed.
 
+#### Map legend
+
+| Color     | Track                       |
+| --------- | --------------------------- |
+| 🟠 Orange | Reconstruction              |
+| 🔵 Blue   | ADS-B Before                |
+| 🟢 Green  | ADS-C                       |
+| 🔴 Red    | ADS-B After                 |
+| 🟣 Purple | Interpolated Before & After |
+
 ---
 
 ## Environments

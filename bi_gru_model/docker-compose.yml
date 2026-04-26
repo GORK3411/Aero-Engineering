@@ -1,8 +1,6 @@
 services:
   core:
-    build:
-      context: .
-      dockerfile: env_core/Dockerfile
+    image: gork3411/ads-b-core:latest
     volumes:
       - ./data:/app/data
       - ./outputs:/app/outputs
@@ -10,9 +8,7 @@ services:
     working_dir: /app
 
   torch:
-    build:
-      context: .
-      dockerfile: env_torch/Dockerfile
+    image: gork3411/ads-b-torch:latest
     volumes:
       - ./data:/app/data
       - ./outputs:/app/outputs
