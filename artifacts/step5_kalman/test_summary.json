@@ -1,0 +1,43 @@
+{
+  "config": {
+    "clean_root": "c:\\Users\\marko\\Desktop\\AeroML3\\noel_part\\cleaned_data_final",
+    "step4_dataset_root": "c:\\Users\\marko\\Desktop\\AeroML3\\artifacts\\step4_ml_dataset\\dataset",
+    "output_root": "c:\\Users\\marko\\Desktop\\AeroML3\\artifacts\\step5_kalman",
+    "resample_seconds": 60,
+    "tuning_grid": "compact"
+  },
+  "prepared_counts": {
+    "train": 1540,
+    "val": 315,
+    "test": 291
+  },
+  "selected_params": {
+    "measurement_std_m": 200000.0,
+    "accel_std_along_mps2": 0.005,
+    "accel_std_cross_mps2": 4.0
+  },
+  "validation_summary": {
+    "split": "validation final",
+    "n_flights": 315,
+    "kalman_mean_error_km": 106.735218868414,
+    "kalman_median_error_km": 86.434109375,
+    "kalman_p90_error_km": 202.40815937500014,
+    "baseline_mean_error_km": 139.2554584821775,
+    "baseline_median_error_km": 112.0029140625,
+    "baseline_p90_error_km": 262.44128750000004,
+    "improvement_mean_pct": 23.352937090021197,
+    "improvement_median_pct": 22.8286959330648
+  },
+  "test_summary": {
+    "split": "test final",
+    "n_flights": 291,
+    "kalman_mean_error_km": 111.2718053147913,
+    "kalman_median_error_km": 88.226859375,
+    "kalman_p90_error_km": 215.86721875,
+    "baseline_mean_error_km": 140.27279665385277,
+    "baseline_median_error_km": 109.7854921875,
+    "baseline_p90_error_km": 259.029515625,
+    "improvement_mean_pct": 20.67470816214381,
+    "improvement_median_pct": 19.63705074590414
+  }
+}
