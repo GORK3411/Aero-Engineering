@@ -1,9 +1,0 @@
-{
-  "total_flights": 2146,
-  "mean_gap_min": 242.9,
-  "max_gap_min": 604.2,
-  "flights_over_4h": 933,
-  "baseline_mean_km": 19.9,
-  "kalman_mean_km": 19.3,
-  "bigru_mean_km": 19.7
-}
