@@ -1,0 +1,20 @@
+{
+  "best_epoch": 33,
+  "best_val_loss": 90590.095703125,
+  "test_flights": 291,
+  "gru_mean_error_km": 90.33771514892578,
+  "gru_median_error_km": 67.69132995605469,
+  "gru_p90_error_km": 155.3229522705078,
+  "baseline_mean_error_km": 140.00682067871094,
+  "baseline_median_error_km": 115.0807113647461,
+  "improvement_mean_pct": 35.4762077331543,
+  "improvement_median_pct": 41.179256439208984,
+  "model_params": 693826,
+  "hyperparameters": {
+    "hidden_size": 128,
+    "num_layers": 2,
+    "dropout": 0.2,
+    "batch_size": 32,
+    "lr": 0.001
+  }
+}

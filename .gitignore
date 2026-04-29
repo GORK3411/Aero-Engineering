@@ -1,0 +1,6 @@
+raw_data/
+noel_part/cleaned_data_final/
+__pycache__/
+*.pyc
+.claude/
+notebook.zip
